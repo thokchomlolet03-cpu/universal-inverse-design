@@ -1,0 +1,2499 @@
+[
+  {
+    "pmid": "32975399",
+    "title": "Generation and Characterization of Anti-Glucosepane Antibodies Enabling Direct Detection of Glucosepane in Retinal Tissue.",
+    "abstract": "Although there is ample evidence that the advanced glycation end-product (AGE) glucosepane contributes to age-related morbidities and diabetic complications, the impact of glucosepane modifications on proteins has not been extensively explored due to the lack of sufficient analytical tools. Here, we report the development of the first polyclonal anti-glucosepane antibodies using a synthetic immunogen that contains the core bicyclic ring structure of glucosepane. We investigate the recognition properties of these antibodies through ELISAs involving an array of synthetic AGE derivatives and determine them to be both high-affinity and selective in binding glucosepane. We then employ these antibodies to image glucosepane in aging mouse retinae via immunohistochemistry. Our studies demonstrate for the first time accumulation of glucosepane within the retinal pigment epithelium, Bruch's membrane, and choroid: all regions of the eye impacted by age-related macular degeneration. Co-localization studies further suggest that glucosepane colocalizes with lipofuscin, which has previously been associated with lysosomal dysfunction and has been implicated in the development of age-related macular degeneration, among other diseases. We believe that the anti-glucosepane antibodies described in this study will prove highly useful for examining the role of glycation in human health and disease.",
+    "authors": [
+      "Streeter Matthew D",
+      "Rowan Sheldon",
+      "Ray Jason",
+      "McDonald David M",
+      "Volkin Jonathan",
+      "Clark Jonathan",
+      "Taylor Allen",
+      "Spiegel David A"
+    ],
+    "journal": "ACS chemical biology",
+    "year": "2020",
+    "doi": "10.1021/acschembio.0c00093",
+    "mesh_terms": [
+      "Aging",
+      "Animals",
+      "Antibodies",
+      "Bruch Membrane",
+      "Female",
+      "Glycation End Products, Advanced",
+      "Immunohistochemistry",
+      "Mice, Inbred C57BL",
+      "Pigment Epithelium of Eye",
+      "Rabbits",
+      "Retina"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "23787467",
+    "title": "Glucosepane: a poorly understood advanced glycation end product of growing importance for diabetes and its complications.",
+    "abstract": "Advanced glycation end products (AGEs) represent a family of protein, peptide, amino acid, nucleic acid and lipid adducts formed by the reaction of carbonyl compounds derived directly or indirectly from glucose, ascorbic acid and other metabolites such as methylglyoxal. AGE formation in diabetes is of growing importance for their role as markers and potential culprits of diabetic complications, in particular retinopathy, nephropathy and neuropathy. Development of sensitive and specific assays utilizing liquid chromatography mass spectrometry with isotope dilution method has made it possible to detect and quantitate non-UV active AGEs such as carboxymethyl-lysine and glucosepane, the most prevalent AGE and protein crosslink of the extracellular matrix. Below we review studies on AGE formation in two skin biopsies obtained near the closeout of the Diabetes Control and Complications Trial (DCCT), one of which was processed in 2011 for assay of novel AGEs. The results of these analyses show that while several AGEs are associated and predict complication progression, the glucose/fructose-lysine/glucosepane AGE axis is one of the most robust markers for microvascular disease, especially retinopathy, in spite of adjustment for past or future average glycemia. Yet overall little biological and clinical information is available on glucosepane, making this review a call for data in a field of growing importance for diabetes and chronic metabolic diseases of aging.",
+    "authors": [
+      "Monnier Vincent M",
+      "Sun Wanjie",
+      "Sell David R",
+      "Fan Xingjun",
+      "Nemet Ina",
+      "Genuth Saul"
+    ],
+    "journal": "Clinical chemistry and laboratory medicine",
+    "year": "2014",
+    "doi": "10.1515/cclm-2013-0174",
+    "mesh_terms": [
+      "Animals",
+      "Collagen Type I",
+      "Diabetes Complications",
+      "Diabetes Mellitus, Type 2",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Risk Factors",
+      "Skin",
+      "Vascular Diseases"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "19415980",
+    "title": "Characteristics, formation, and pathophysiology of glucosepane: a major protein cross-link.",
+    "abstract": "Advanced glycation end products are the results of a series of chemical reactions collectively known as the Maillard reaction, or nonenzymatic glycation, and sometimes cross-link proteins, thereby impairing their normal function. Glucosepane is the most abundant protein cross-link found in vivo so far and mainly has been shown to accumulate in the extracellular matrix, where it cross-links collagen. Levels of glucosepane increase with aging. By increasing collagen stiffness, glucosepane cross-links may have significant implications in several age-related diseases, such as cardiovascular disease, diabetes, and osteoporosis. Although the formation pathways for glucosepane are relatively well researched, much is still unknown about the accumulation and pathophysiology of glucosepane.",
+    "authors": [
+      "Sjöberg Johan Svantesson",
+      "Bulterijs Sven"
+    ],
+    "journal": "Rejuvenation research",
+    "year": "2009",
+    "doi": "10.1089/rej.2009.0846",
+    "mesh_terms": [
+      "Aging",
+      "Animals",
+      "Collagen",
+      "Cross-Linking Reagents",
+      "Disease",
+      "Glucose",
+      "Glycation End Products, Advanced",
+      "Humans"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "26472902",
+    "title": "Concise total synthesis of glucosepane.",
+    "abstract": "Glucosepane is a structurally complex protein posttranslational modification that is believed to exist in all living organisms. Research in humans suggests that glucosepane plays a critical role in the pathophysiology of both diabetes and human aging, yet comprehensive biological investigations of this metabolite have been hindered by a scarcity of chemically homogeneous material available for study. Here we report the total synthesis of glucosepane, enabled by the development of a one-pot method for preparation of the nonaromatic 4H-imidazole tautomer in the core. Our synthesis is concise (eight steps starting from commercial materials), convergent, high-yielding (12% overall), and enantioselective. We expect that these results will prove useful in the art and practice of heterocyclic chemistry and beneficial for the study of glucosepane and its role in human health and disease.",
+    "authors": [
+      "Draghici Cristian",
+      "Wang Tina",
+      "Spiegel David A"
+    ],
+    "journal": "Science (New York, N.Y.)",
+    "year": "2015",
+    "doi": "10.1126/science.aac9655",
+    "mesh_terms": [
+      "Amino Acids",
+      "Glucose",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Imidazoles",
+      "Protein Processing, Post-Translational",
+      "Proteins"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "15677467",
+    "title": "Glucosepane is a major protein cross-link of the senescent human extracellular matrix. Relationship with diabetes.",
+    "abstract": "The extracellular matrix in most tissues is characterized by progressive age-related stiffening and loss of proteolytic digestibility that are accelerated in diabetes and can be duplicated by the nonenzymatic reaction of reducing sugars and extracellular matrix proteins. However, most cross-links of the Maillard reaction described so far are present in quantities too low to account for these changes. Here we have determined in human skin and glomerular basement membrane (GBM) collagen the levels of the recently discovered lysine-arginine cross-links derived from glucose, methylglyoxal, glyoxal, and 3-deoxyglucosone, i.e. glucosepane, MODIC, GODIC, and DOGDIC, respectively. Insoluble preparations of skin collagen (n = 110) and glomerular basement membrane (GBM, n = 28) were enzymatically digested, and levels were measured by isotope dilution technique using liquid chromatography/mass spectrometry. In skin, all cross-links increased with age (p < 0.0001) except DOGDIC (p = 0.34). In nondiabetic controls, levels at 90 years were 2000, 30, and 15 pmol/mg for glucosepane, MODIC, and GODIC, respectively. Diabetes, but not renal failure, increased glucosepane to 5000 pmol/mg (p < 0.0001), and for all others, increased it to <60 pmol/mg (p < 0.01). In GBMs, glucosepane reached up to 500 pmol/mg of collagen and was increased in diabetes (p < 0.0001) but not old age. In conclusion, glucosepane is the single major cross-link of the senescent extracellular matrix discovered so far, accounting for up to >120 mole% of triple helical collagen modification in diabetes. Its presence in high quantities may contribute to a number of structural and cell matrix dysfunctions observed in aging and diabetes.",
+    "authors": [
+      "Sell David R",
+      "Biemel Klaus M",
+      "Reihl Oliver",
+      "Lederer Markus O",
+      "Strauch Christopher M",
+      "Monnier Vincent M"
+    ],
+    "journal": "The Journal of biological chemistry",
+    "year": "2005",
+    "doi": "10.1074/jbc.M500733200",
+    "mesh_terms": [
+      "Adolescent",
+      "Adult",
+      "Age Factors",
+      "Aged",
+      "Aged, 80 and over",
+      "Arginine",
+      "Azepines",
+      "Basement Membrane",
+      "Cellular Senescence",
+      "Chromatography, High Pressure Liquid",
+      "Collagen",
+      "Cross-Linking Reagents",
+      "Diabetes Mellitus, Type 2",
+      "Extracellular Matrix",
+      "Female",
+      "Humans",
+      "Imidazoles",
+      "Kidney Failure, Chronic",
+      "Kidney Glomerulus",
+      "Lysine",
+      "Male",
+      "Middle Aged",
+      "Models, Chemical",
+      "Protein Binding",
+      "Regression Analysis",
+      "Renal Insufficiency",
+      "Skin",
+      "Time Factors"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "40944124",
+    "title": "Menaquinone-7 Supplementation Increases Multiple Advanced Glycation End-Products and Oxidation Markers in Zucker Diabetic Fatty Rats.",
+    "abstract": "<b>Background:</b> Dicarbonyls and advanced glycation end-products (AGEs) contribute to oxidative stress, inflammation, and complications in type 2 diabetes mellitus (T2DM). Menaquinone-7 (MK-7), a vitamin K2 subtype, has shown benefits for glucose tolerance and vascular health in some studies. We evaluated the impact of MK-7 on dicarbonyls, free AGEs, and protein nitration/oxidation adducts in a rat model of T2DM. <b>Methods:</b> Male heterozygous (fa/+, control) and homozygous (fa/fa, diabetic) Zucker Diabetic Fatty rats were fed a diabetogenic diet without or with MK-7 for 12 weeks. After sacrifice, plasma dicarbonyls as well as plasma and urinary levels of free AGEs and protein nitration/oxidation adducts were quantified by isotope dilution tandem mass spectrometry. <b>Results:</b> Diabetic rats showed significantly increased plasma glyoxal, 3-deoxyglucosone, and fructosyl-lysine with non-significant trends toward increased methylglyoxal-derived hydroimidazolone and methionine sulfoxide, as well as reductions in methylglyoxal and dityrosine. Urinary carboxyethyl-lysine, carboxymethyl-lysine, fructosyl-lysine (all significant), and dityrosine (non-significant) were elevated in diabetic rats; glucosepane (non-significant) was reduced. MK-7 supplementation reduced no measured parameter but was associated with non-significant further increases in plasma glyoxal-derived hydroimidazolone, carboxyethyl-lysine, carboxymethyl-lysine, fructosyl-lysine, 3-nitrotyrosine, and methionine sulfoxide, as well as in urinary glyoxal-derived hydroimidazolone, carboxyethyl-lysine, fructosyl-lysine, and 3-nitrotyrosine, in diabetic rats. Correlation analysis revealed significant associations between glucose, dicarbonyls, AGEs, and oxidative markers. <b>Conclusions</b>: High-dose MK-7 supplementation did not improve dicarbonyl stress, AGE burden, or protein nitration/oxidation. With respect to available scientific evidence and our observations, the combination of glycemia-driven amplification of glycation and oxidative stress, as well as MK-7-induced glutathione depletion, were likely causative.",
+    "authors": [
+      "Mrosewski Ingo",
+      "Fleming Thomas",
+      "Schulze-Tanzil Gundula",
+      "Werner Christian",
+      "Gögele Clemens",
+      "Mantel Valeriya",
+      "Kokozidou Maria",
+      "Bertsch Thomas"
+    ],
+    "journal": "Nutrients",
+    "year": "2025",
+    "doi": "10.3390/nu17172733",
+    "mesh_terms": [
+      "Animals",
+      "Glycation End Products, Advanced",
+      "Rats, Zucker",
+      "Male",
+      "Vitamin K 2",
+      "Biomarkers",
+      "Oxidative Stress",
+      "Diabetes Mellitus, Type 2",
+      "Dietary Supplements",
+      "Oxidation-Reduction",
+      "Rats",
+      "Blood Glucose",
+      "Diabetes Mellitus, Experimental"
+    ],
+    "keywords": [
+      "Zucker diabetic fatty (ZDF) rat",
+      "advanced glycation end-products",
+      "dicarbonyls",
+      "menaquinone-7 (MK-7)",
+      "nitration adducts",
+      "oxidation adducts",
+      "type 2 diabetes mellitus"
+    ]
+  },
+  {
+    "pmid": "27092586",
+    "title": "Computational study of glucosepane-water and hydrogen bond formation: an electron topology and orbital analysis.",
+    "abstract": "The collagen protein provides tensile strength to the extracellular matrix in addition to localising cells, proteins and protein cofactors. Collagen is susceptible to a build up of glycation modifications as a result of an exceptionally long half-life. Glucosepane is a collagen cross-linking advanced glycation end product; the structural and mechanical effects of glucosepane are still the subjects of much debate. With the prospect of an ageing population, the management and treatment of age-related diseases is becoming a pressing concern. One area of interest is the isolation of hydrated glucosepane, which has yet to be reported at an atomistic level. This study presents a series of glucosepane-water complexes within an implicit aqueous environment. Electronic structure calculations were performed using density functional theory and a high level basis set. Hydrogen bonds between glucosepane and explicit water were identified by monitoring changes to covalent bonds, calculating levels of electron donation from Natural Bonding Orbital analysis and the detection of bond critical points. Hydrogen bond strength was calculated using second-order perturbation calculations. The combined results suggest that glucosepane is very hydrophilic, with the imidazole feature being energetically more attractive to water than either hydroxyl group, although all hydrogen bonds, regardless of bond strength, were electrostatic in nature. Our results are in growing support of an earlier hypothesis that cross-links may result in an increase in interstitial water retention, which would permit the collagen fibril to swell, thereby potentially affecting the tensile and compression properties and biological function of connective tissues.",
+    "authors": [
+      "Nash Anthony",
+      "Saßmannshausen Jörg",
+      "Bozec Laurent",
+      "Birch Helen L",
+      "de Leeuw Nora H"
+    ],
+    "journal": "Journal of biomolecular structure & dynamics",
+    "year": "2017",
+    "doi": "10.1080/07391102.2016.1172026",
+    "mesh_terms": [
+      "Glycation End Products, Advanced",
+      "Hydrogen Bonding",
+      "Models, Chemical",
+      "Models, Molecular",
+      "Molecular Conformation",
+      "Water"
+    ],
+    "keywords": [
+      "advanced glycation end products",
+      "glucosepane",
+      "hydration",
+      "hydrogen bonding"
+    ]
+  },
+  {
+    "pmid": "29929535",
+    "title": "Glycation marker glucosepane increases with the progression of osteoarthritis and correlates with morphological and functional changes of cartilage in vivo.",
+    "abstract": "Changes of serum concentrations of glycated, oxidized, and nitrated amino acids and hydroxyproline and anticyclic citrullinated peptide antibody status combined by machine learning techniques in algorithms have recently been found to provide improved diagnosis and typing of early-stage arthritis of the knee, including osteoarthritis (OA), in patients. The association of glycated, oxidized, and nitrated amino acids released from the joint with development and progression of knee OA is unknown. We studied this in an OA animal model as well as interleukin-1β-activated human chondrocytes in vitro and translated key findings to patients with OA. Sixty male 3-week-old Dunkin-Hartley guinea pigs were studied. Separate groups of 12 animals were killed at age 4, 12, 20, 28 and 36 weeks, and histological severity of knee OA was evaluated, and cartilage rheological properties were assessed. Human chondrocytes cultured in multilayers were treated for 10 days with interleukin-1β. Human patients with early and advanced OA and healthy controls were recruited, blood samples were collected, and serum or plasma was prepared. Serum, plasma, and culture medium were analyzed for glycated, oxidized, and nitrated amino acids. Severity of OA increased progressively in guinea pigs with age. Glycated, oxidized, and nitrated amino acids were increased markedly at week 36, with glucosepane and dityrosine increasing progressively from weeks 20 and 28, respectively. Glucosepane correlated positively with OA histological severity (r = 0.58, p < 0.0001) and instantaneous modulus (r = 0.52-0.56; p < 0.0001), oxidation free adducts correlated positively with OA severity (p < 0.0009-0.0062), and hydroxyproline correlated positively with cartilage thickness (p < 0.0003-0.003). Interleukin-1β increased the release of glycated and nitrated amino acids from chondrocytes in vitro. In clinical translation, plasma glucosepane was increased 38% in early-stage OA (p < 0.05) and sixfold in patients with advanced OA (p < 0.001) compared with healthy controls. These studies further advance the prospective role of glycated, oxidized, and nitrated amino acids as serum biomarkers in diagnostic algorithms for early-stage detection of OA and other arthritic disease. Plasma glucosepane, reported here for the first time to our knowledge, may improve early-stage diagnosis and progression of clinical OA.",
+    "authors": [
+      "Legrand Catherine",
+      "Ahmed Usman",
+      "Anwar Attia",
+      "Rajpoot Kashif",
+      "Pasha Sabah",
+      "Lambert Cécile",
+      "Davidson Rose K",
+      "Clark Ian M",
+      "Thornalley Paul J",
+      "Henrotin Yves",
+      "Rabbani Naila"
+    ],
+    "journal": "Arthritis research & therapy",
+    "year": "2018",
+    "doi": "10.1186/s13075-018-1636-6",
+    "mesh_terms": [
+      "Aged",
+      "Aged, 80 and over",
+      "Amino Acids",
+      "Animals",
+      "Biomarkers",
+      "Cartilage, Articular",
+      "Cells, Cultured",
+      "Chondrocytes",
+      "Disease Progression",
+      "Female",
+      "Glycation End Products, Advanced",
+      "Glycosylation",
+      "Guinea Pigs",
+      "Humans",
+      "Interleukin-1beta",
+      "Male",
+      "Middle Aged",
+      "Osteoarthritis, Knee"
+    ],
+    "keywords": [
+      "Citrullination",
+      "Glycation",
+      "Inflammation",
+      "Machine learning",
+      "Oxidative stress"
+    ]
+  },
+  {
+    "pmid": "33543010",
+    "title": "Glucosepane is associated with changes to structural and physical properties of collagen fibrils.",
+    "abstract": "Collagen glycation, and in particular the formation of advanced glycation end-product (AGE) crosslinks, plays a central role in the ageing process and in many of the long-term complications of diabetes. Glucosepane, the most abundant and relevant AGE crosslink, has been suggested to increase the stiffness of tissue and reduce its solubility, although no evidence is available concerning the mechanisms. We have used a combination of computational and experimental techniques to study a collagen-rich tissue with a relatively simple organisation to further our understanding of the impact of glucosepane on the structural and physical properties of collagen fibrils. Our work shows that glucosepane levels increase dramatically in aged tendon tissue and are associated with the reduced density of collagen packing and increased porosity to water molecules. Our studies provide the basis to understand many of the tissue dysfunctions associated with ageing and diabetes across a range of different tissues types.",
+    "authors": [
+      "Nash Anthony",
+      "Notou Maria",
+      "Lopez-Clavijo Andrea F",
+      "Bozec Laurent",
+      "de Leeuw Nora H",
+      "Birch Helen L"
+    ],
+    "journal": "Matrix biology plus",
+    "year": "2019",
+    "doi": "10.1016/j.mbplus.2019.100013",
+    "mesh_terms": [],
+    "keywords": [
+      "AGE, advanced glycation end-product",
+      "AT, Achilles tendon",
+      "ATT, anterior tibialis tendon",
+      "Ageing",
+      "Collagen",
+      "Collagen fibril",
+      "DSC, differential scanning calorimetry",
+      "Glucosepane",
+      "Glycation",
+      "Hydration",
+      "LC, liquid chromatography",
+      "MD, molecular dynamics",
+      "SASA, solvent-accessible surface area"
+    ]
+  },
+  {
+    "pmid": "29477239",
+    "title": "Advanced glycation end products in the pathogenesis of chronic kidney disease.",
+    "abstract": "Advanced glycation end products (AGEs) are stable posttranslational modifications of proteins formed by the spontaneous reaction with glucose and related metabolites. Important AGEs quantitatively are methylglyoxal (MG)-derived hydroimidazolone MG-H1, N<sub>ε</sub>-carboxymethyl-lysine (CML), and glucosepane. They contribute to the development of chronic kidney disease (CKD). Cellular proteolysis of AGE-modified proteins forms AGE free adducts, glycated amino acids, which are cleared by the kidneys and excreted in urine. Dietary AGEs mainly supplement the endogenous flux of AGE free adduct formation. AGE free adducts accumulate markedly in plasma with decline in glomerular filtration rate. A key precursor of AGEs is the dicarbonyl metabolite MG, which is metabolized by glyoxalase 1 (Glo1) of the cytoplasmic glyoxalase system. Proteins susceptible to MG modification are collectively called the dicarbonyl proteome. Abnormal increase of MG dicarbonyl stress is a characteristic of CKD, driven by down-regulation of renal Glo1, increasing flux of MG-H1 formation. Protein inactivation and dysfunction linked to the dicarbonyl proteome contributes to CKD development. The receptor for AGEs, RAGE, is important in development of CKD, but its interaction with AGEs in vivo remains enigmatic; other ligands and ternary complexation may be influential. Prevention of diabetic kidney disease (DKD) by overexpression of Glo1 in transgenic animal models has stimulated the development of small-molecule inducers of Glo1 expression, Glo1 inducers, to prevent AGE formation. trans-Resveratrol-hesperetin combination therapy is a Glo1 inducer. In clinical trial it demonstrated a profound improvement in insulin resistance and vascular inflammation. It may find future therapeutic application for treatment of DKD.",
+    "authors": [
+      "Rabbani Naila",
+      "Thornalley Paul J"
+    ],
+    "journal": "Kidney international",
+    "year": "2018",
+    "doi": "10.1016/j.kint.2017.11.034",
+    "mesh_terms": [
+      "Animals",
+      "Diabetic Nephropathies",
+      "Disease Progression",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Kidney",
+      "Lactoylglutathione Lyase",
+      "Prognosis",
+      "Protein Carbonylation",
+      "Receptor for Advanced Glycation End Products",
+      "Renal Elimination",
+      "Renal Insufficiency, Chronic",
+      "Risk Factors"
+    ],
+    "keywords": [
+      "advanced glycation end product",
+      "hemodialysis",
+      "inflammation",
+      "insulin resistance",
+      "peritoneal dialysis"
+    ]
+  },
+  {
+    "pmid": "27535267",
+    "title": "Influence of Ageing on Tendon Homeostasis.",
+    "abstract": "Tendon functional competence and structural integrity rely on homeostasis of tendon cell metabolism and extracellular matrix macromolecules. The clear link between tendinopathies and increasing age suggests a slow change to tendon homeostasis, which increases susceptibility to damage. Despite this well evidenced association between increasing age and tendon damage, changes to tendon mechanical properties with ageing are not clear with different studies reporting conflicting results. More recent research suggests that age-related changes occur at specific sub-structure locations and may be overlooked by measuring properties of the whole tendon. In this chapter we review changes to tendon mechanical properties, structure and composition. Mechanisms speculated to contribute to tendon change with age such as cellular senescence, ageing stem cell population, reactive oxygen species and formation of advanced glycation end-product crosslinks are discussed. Understanding age-related changes to tendon homeostasis are key to understanding increased incidence of tendon injuries in the ageing population.",
+    "authors": [
+      "Birch Helen L",
+      "Peffers Mandy J",
+      "Clegg Peter D"
+    ],
+    "journal": "Advances in experimental medicine and biology",
+    "year": "2016",
+    "doi": "10.1007/978-3-319-33943-6_24",
+    "mesh_terms": [
+      "Aging",
+      "Animals",
+      "Cellular Senescence",
+      "Homeostasis",
+      "Humans",
+      "Tendon Injuries",
+      "Tendons"
+    ],
+    "keywords": [
+      "Advanced glycation end-product crosslink",
+      "Ageing",
+      "Cellular senescence",
+      "Collagen",
+      "Extracellular matrix",
+      "Gene expression",
+      "Inflammageing",
+      "Mechanical properties",
+      "Stem cell",
+      "Tendon"
+    ]
+  },
+  {
+    "pmid": "26049074",
+    "title": "Preferential sites for intramolecular glucosepane cross-link formation in type I collagen: A thermodynamic study.",
+    "abstract": "The extracellular matrix (ECM) undergoes progressive age-related stiffening and loss of proteolytic digestibility due to an increase in concentration of advanced glycation end products (AGEs). The most abundant AGE, glucosepane, accumulates in collagen with concentrations over 100 times greater than all other AGEs. Detrimental collagen stiffening properties are believed to play a significant role in several age-related diseases such as osteoporosis and cardiovascular disease. Currently little is known of the potential location of covalently cross-linked glucosepane formation within collagen molecules; neither are there reports on how the respective cross-link sites affect the physical and biochemical properties of collagen. Using fully atomistic molecular dynamics simulations (MD) we have identified six sites where the formation of a covalent intra-molecular glucosepane cross-link within a single collagen molecule in a fibrillar environment is energetically favourable. Identification of these favourable sites enables us to align collagen cross-linking with experimentally observed changes to the ECM. For example, formation of glucosepane was found to be energetically favourable within close proximity of the Matrix Metalloproteinase-1 (MMP1) binding site, which could potentially disrupt collagen degradation.",
+    "authors": [
+      "Collier Thomas A",
+      "Nash Anthony",
+      "Birch Helen L",
+      "de Leeuw Nora H"
+    ],
+    "journal": "Matrix biology : journal of the International Society for Matrix Biology",
+    "year": "2015",
+    "doi": "10.1016/j.matbio.2015.06.001",
+    "mesh_terms": [
+      "Animals",
+      "Binding Sites",
+      "Collagen Type I",
+      "Cross-Linking Reagents",
+      "Extracellular Matrix",
+      "Glycation End Products, Advanced",
+      "Matrix Metalloproteinase 1",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Rats",
+      "Thermodynamics"
+    ],
+    "keywords": [
+      "Advanced glycation end products",
+      "Collagen",
+      "Glucosepane",
+      "Glycation",
+      "Molecular dynamics",
+      "Protein cross-linking"
+    ]
+  },
+  {
+    "pmid": "16706655",
+    "title": "Extracellular glycation crosslinks: prospects for removal.",
+    "abstract": "Extracellular aging--accumulating molecular damage by glycation, oxidation, and crosslinking of long-lived extracellular proteins, mainly collagen and elastin--is a major cause of several important human aging pathologies. Crosslinking increases mechanical stiffness of blood vessels and urinary bladder. Crosslinking impairs the functioning of the kidney, heart, retina, and other tissues and organs. Glycation adducts trigger inflammatory signaling, provoking tissue damage and cancers. Crosslinking tightens up the extracellular matrix (ECM), hardening it against natural turnover processes. Known crosslink breakers (e.g., alagebrium, of the thiazolium halide family) are only partly effective because they break only a subset of AGE crosslink structures (sugar-derived alpha-diketone bridges). So far, no agent has been found that breaks the prevalent glucosepane and K2P crosslink structures. Enzymes that would be able to recognize and disassemble glycation products may be too big to migrate into the ECM and repair collagen or elastin in vivo. Two approaches to therapy development are presented here. ECM turnover enhancement would enhance natural processes to digest old ECM and replace it with new. It will be important to tune the collagen degradation to a rate slow enough to prevent dire side-effects, such as hemorrhage from leaky blood vessels as collagen molecules are removed and replaced. Glycation breaker discovery would use high-throughput screening and rational drug design to find molecules that are able to break glucosepane crosslinks and K2P crosslinks of extracellular proteins. Candidates would be further screened for selectivity and toxicity in order to avoid damage to other molecules.",
+    "authors": [
+      "Furber John D"
+    ],
+    "journal": "Rejuvenation research",
+    "year": "2006",
+    "doi": "10.1089/rej.2006.9.274",
+    "mesh_terms": [
+      "Aging",
+      "Cross-Linking Reagents",
+      "Extracellular Matrix",
+      "Glycation End Products, Advanced",
+      "Humans"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "25600701",
+    "title": "Glucosepane and oxidative markers in skin collagen correlate with intima media thickness and arterial stiffness in long-term type 1 diabetes.",
+    "abstract": "To study intima media thickness (cIMT) and arterial stiffness in type 1 diabetes of long duration, and their associations with the collagen cross-linker glucosepane and inflammatory and oxidative markers. Twenty-seven individuals with type 1 diabetes mellitus of 40 years duration from the Oslo Study cohort and 24 age-matched controls were included. cIMT measurements of the carotid artery were performed longitudinally. Pulse wave velocity (PWV), augmentation index (AIx) and augmentation pressure (AP) were assessed cross-sectionally. Glucosepane and the oxidative product methionine sulfoxide (MetSO) were determined in skin collagen by liquid chromatography-mass spectrometry. Circulating inflammatory markers were determined by ELISAs. The diabetes patients had significantly increased cIMT and arterial stiffness compared to controls. Significant correlations were noted for skin glucosepane with cIMT (r=0.41) and PWV (r=0.44). Skin MetSO and monocyte chemoattractant protein-1 (MCP-1) correlated significantly with AIx and AP. After correcting for age and mean arterial pressure in multiple linear regression analysis, MetSO and MCP-1 were both independently associated with AIx and AP. These results suggest more premature atherosclerosis and arterial pathology in individuals with diabetes compared to age-matched controls. They also suggest an association between the arterial pathology and markers of collagen crosslinking, oxidative damage and inflammation in type 1 diabetes patients of forty years disease duration.",
+    "authors": [
+      "Sveen Kari Anne",
+      "Dahl-Jørgensen Knut",
+      "Stensaeth Knut Haakon",
+      "Angel Kristin",
+      "Seljeflot Ingebjørg",
+      "Sell David R",
+      "Monnier Vincent M",
+      "Hanssen Kristian F"
+    ],
+    "journal": "Journal of diabetes and its complications",
+    "year": "2015",
+    "doi": "10.1016/j.jdiacomp.2014.12.011",
+    "mesh_terms": [
+      "Adolescent",
+      "Adult",
+      "Biomarkers",
+      "Carotid Intima-Media Thickness",
+      "Case-Control Studies",
+      "Collagen",
+      "Diabetes Mellitus, Type 1",
+      "Diabetic Angiopathies",
+      "Female",
+      "Follow-Up Studies",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Male",
+      "Middle Aged",
+      "Oxidative Stress",
+      "Skin",
+      "Vascular Stiffness",
+      "Young Adult"
+    ],
+    "keywords": [
+      "Arterial stiffness",
+      "Diabetes mellitus",
+      "Glucosepane",
+      "Methionine sulfoxide",
+      "Type 1"
+    ]
+  },
+  {
+    "pmid": "21820400",
+    "title": "Determination of dideoxyosone precursors of AGEs in human lens proteins.",
+    "abstract": "Dideoxyosones (DDOs) are intermediates in the synthesis of advanced glycation endproducts (AGEs), such as pentosidine and glucosepane. Although the formation of pentosidine and glucosepane in the human lens has been firmly established, the formation of DDOs has not been demonstrated. The aim of this study was to develop a reliable method to detect DDOs in lens proteins. A specific DDO trapping agent, biotinyl-diaminobenzene (3,4-diamino-N-(3-[5-(2-oxohexahydro-1H-thieno[3,4-d]imidazol-4-yl)pentanoyl]aminopropyl)benzamide) (BDAB) was added during in vitro protein glycation or during protein extraction from human lenses. In vitro glycated human lens protein showed strong reaction in monomeric and polymeric crosslinked proteins by Western blot and ELISA. Glycation of BSA in the presence of BDAB resulted in covalent binding of BDAB to the protein and inhibited pentosidine formation. Mass spectrometric analysis of lysozyme glycated in the presence of BDAB showed the presence of quinoxalines at lysine residues at positions K1, K33, K96, and K116. The ELISA results indicated that cataractous lens proteins contain significantly higher levels of DDO than non-cataractous lenses (101.9±67.8 vs. 31.7±19.5AU/mg protein, p<0.0001). This study provides first direct evidence of DDO presence in human tissue proteins and establishes that AGE crosslink synthesis in the human lens occurs via DDO intermediates.",
+    "authors": [
+      "Linetsky Mikhail",
+      "Kaid Johar S R",
+      "Meltretter Jasmin",
+      "Padmanabha Smitha",
+      "Parmar Trilok",
+      "Vasavada Abhay R",
+      "Pischetsrieder Monika",
+      "Nagaraj Ram H"
+    ],
+    "journal": "Archives of biochemistry and biophysics",
+    "year": "2011",
+    "doi": "10.1016/j.abb.2011.07.012",
+    "mesh_terms": [
+      "Adult",
+      "Amino Acid Sequence",
+      "Animals",
+      "Blotting, Western",
+      "Cataract",
+      "Cattle",
+      "Crystallins",
+      "Enzyme-Linked Immunosorbent Assay",
+      "Glycation End Products, Advanced",
+      "Glycosylation",
+      "Humans",
+      "Lens, Crystalline",
+      "Lysine",
+      "Mass Spectrometry",
+      "Molecular Sequence Data",
+      "Reproducibility of Results",
+      "Young Adult"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "14977384",
+    "title": "Advanced glycation endproduct crosslinking in the cardiovascular system: potential therapeutic target for cardiovascular disease.",
+    "abstract": "Advanced glycation endproducts (AGEs) are formed by a reaction between reducing sugars and biological amines. Because of their marked stability, glycated proteins accumulate slowly over a person's lifespan, and can contribute to age-associated structural and physiological changes in the cardiovascular system such as increased vascular and myocardial stiffness, endothelial dysfunction, altered vascular injury responses and atherosclerotic plaque formation. The mechanisms by which AGEs affect the cardiovascular system include collagen crosslinking, alteration of low-density lipoprotein molecules and impairment of cellular nitric oxide signalling through their interaction with AGE receptors (RAGEs). Thus, the accumulation of AGEs may help to explain the increased cardiac risk associated with aging as well as diabetes mellitus and hypertension, two conditions that accelerate and enhance AGE formation. A variety of new pharmacological approaches are being developed to reduce the pathophysiological impact of AGEs. These agents can prevent AGE and AGE crosslink formation, break pre-existing AGE crosslinks, and block the interaction between AGEs and RAGEs. Such agents have been shown to reduce vascular and myocardial stiffness, inhibit atherosclerotic plaque formation and improve endothelial function in animal models. Improvement in vascular compliance has also been demonstrated with AGE crosslink breakers in clinical trials. These studies offer promise to reduce the cardiac risk associated with isolated systolic hypertension, diastolic dysfunction and diabetes.",
+    "authors": [
+      "Zieman Susan J",
+      "Kass David A"
+    ],
+    "journal": "Drugs",
+    "year": "2004",
+    "doi": "10.2165/00003495-200464050-00001",
+    "mesh_terms": [
+      "Cardiovascular Diseases",
+      "Cardiovascular System",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Models, Chemical",
+      "Models, Molecular"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "34302851",
+    "title": "Advanced glycation end products in human diabetic lens capsules.",
+    "abstract": "Advanced glycation end products (AGEs) accumulate with age in human lens capsules. AGEs in lens capsules potentiate the transforming growth factor beta-2-mediated mesenchymal transition of lens epithelial cells, which suggests that they play a role in posterior capsule opacification after cataract surgery. We measured AGEs by liquid chromatography-mass spectrometry in capsulorhexis specimens obtained during cataract surgery from nondiabetic and diabetic patients with and without established retinopathy. Our data showed that the levels of most AGEs (12 out of 13 measured) were unaltered in diabetic patients and diabetic patients with retinopathy compared to nondiabetic patients. There was one exception: glucosepane, which was significantly higher in diabetic patients, both with (6.85 pmol/μmol OH-proline) and without retinopathy (8.32 pmol/μmol OH-proline), than in nondiabetic patients (4.01 pmol/μmol OH-proline). Our study provides an explanation for the similar incidence of posterior capsule opacification between nondiabetic and diabetic cataract patients observed in several studies.",
+    "authors": [
+      "Rankenberg Johanna",
+      "Rakete Stefan",
+      "Wagner Brandie D",
+      "Patnaik Jennifer L",
+      "Henning Christian",
+      "Lynch Anne",
+      "Glomb Marcus A",
+      "Nagaraj Ram H"
+    ],
+    "journal": "Experimental eye research",
+    "year": "2021",
+    "doi": "10.1016/j.exer.2021.108704",
+    "mesh_terms": [
+      "Aged",
+      "Blood Glucose",
+      "Capsulorhexis",
+      "Cataract",
+      "Chromatography, Liquid",
+      "Diabetes Mellitus",
+      "Diabetic Retinopathy",
+      "Female",
+      "Glycated Hemoglobin",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Lens Capsule, Crystalline",
+      "Male",
+      "Middle Aged",
+      "Tandem Mass Spectrometry"
+    ],
+    "keywords": [
+      "Lens capsule",
+      "advanced glycation endproducts",
+      "cataracts",
+      "diabetes",
+      "mass spectrometry",
+      "retinopathy"
+    ]
+  },
+  {
+    "pmid": "36410375",
+    "title": "Pentosinane, a Post-Translational Modification of Human Proteins with Underappreciated Stability.",
+    "abstract": "Pentosinane is a structurally complex nonenzymatic post-translational modification of proteins believed to be present in all living things. It falls into the category of advanced glycation end products (AGEs) and is structurally related to the other AGEs pentosidine and glucosepane. Although pentosidine and glucosepane have been widely studied for their role in wide-ranging conditions (e.g., diabetes mellitus, Alzheimer's disease, and human aging), relatively little is known about pentosinane. Interestingly, previous reports have suggested that pentosidine may derive from pentosinane. The (patho)physiological significance of pentosinane in humans is largely unexplored. As a first step to address this knowledge gap, we report herein the first total synthesis of pentosinane. Our synthesis is high yielding (1.7% over seven steps), concise, and enantioselective, and it leverages a strategy for synthesizing 2,5-diaminoimidazoles previously developed by our lab. Access to synthetic pentosinane has allowed us to perform additional studies showing that its oxidation to pentosidine is both pH and oxygen dependent and is substantially slower under physiological conditions than previously believed. Additionally, pentosinane rapidly decomposes under harshly acidic conditions typically employed for pentosidine isolation. Taken together, these results suggest that pentosinane is likely to be more abundant <i>in vivo</i> than previously appreciated. We believe these results represent a critical step toward illuminating the role(s) of pentosinane in human biology.",
+    "authors": [
+      "deRamon Edward A",
+      "Sabbasani Venkata R",
+      "Streeter Matthew D",
+      "Liu Yannan",
+      "Newhouse Timothy R",
+      "McDonald David M",
+      "Spiegel David A"
+    ],
+    "journal": "Journal of the American Chemical Society",
+    "year": "2022",
+    "doi": "10.1021/jacs.2c09626",
+    "mesh_terms": [
+      "Humans",
+      "Protein Processing, Post-Translational"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "25187362",
+    "title": "Skin advanced glycation end products glucosepane and methylglyoxal hydroimidazolone are independently associated with long-term microvascular complication progression of type 1 diabetes.",
+    "abstract": "Six skin collagen advanced glycation end products (AGEs) originally measured near to the time of the Diabetes Control and Complications Trial (DCCT) closeout in 1993 may contribute to the \"metabolic memory\" phenomenon reported in the follow-up Epidemiology of Diabetes Interventions and Complications (EDIC) study. We have now investigated whether the addition of four originally unavailable AGEs (i.e., glucosepane [GSPNE], hydroimidazolones of methylglyoxal [MG-H1] and glyoxal, and carboxyethyl-lysine) improves associations with incident retinopathy, nephropathy, and neuropathy events during 13-17 years after DCCT. The complete 10-AGE panel is associated with three-step Early Treatment of Diabetic Retinopathy Study scale worsening of retinopathy (P ≤ 0.002), independent of either mean DCCT or EDIC study A1C level. GSPNE and fructose-lysine (furosine [FUR]) correlate with retinopathy progression, independently of A1C level. The complete panel also correlates with microalbuminuria (P = 0.008) and FUR with nephropathy independently of A1C level (P ≤ 0.02). Neuropathy correlates with the complete panel despite adjustment for A1C level (P ≤ 0.005). MG-H1 and FUR are dominant, independent of A1C level (P < 0.0001), whereas A1C loses significance after adjustment for the AGEs. Overall, the added set of four AGEs enhances the association of the original panel with progression risk of retinopathy and neuropathy (P < 0.04) but not nephropathy, while GSPNE and MG-H1 emerge as the principal new risk factors. Skin AGEs are robust long-term markers of microvascular disease progression, emphasizing the importance of early and sustained implementation of intensive therapy.",
+    "authors": [
+      "Genuth Saul",
+      "Sun Wanjie",
+      "Cleary Patricia",
+      "Gao Xiaoyu",
+      "Sell David R",
+      "Lachin John",
+      "Monnier Vincent M"
+    ],
+    "journal": "Diabetes",
+    "year": "2015",
+    "doi": "10.2337/db14-0215",
+    "mesh_terms": [
+      "Adult",
+      "Diabetes Mellitus, Type 1",
+      "Diabetic Angiopathies",
+      "Diabetic Nephropathies",
+      "Diabetic Retinopathy",
+      "Disease Progression",
+      "Female",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Imidazoles",
+      "Logistic Models",
+      "Male",
+      "Microvessels",
+      "Multivariate Analysis",
+      "Pyruvaldehyde",
+      "Skin",
+      "Young Adult"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "16706654",
+    "title": "Prevention and repair of protein damage by the Maillard reaction in vivo.",
+    "abstract": "The aging human extracellular matrix (ECM) and tissues rich in long-lived proteins undergo extensive changes with age that include increased stiffening, loss of elasticity, insolubilization, and decreased proteolytic digestibility. Most if not all these changes can be duplicated by the Maillard reaction in vitro, that is, the incubation of the proteins with reducing sugars and oxoaldehydes. These carbonyls eventually form advanced glycation end products (AGEs) and crosslinks that impair proteolytic digestibility and alter protein conformation. To date, close to 20 AGEs have been found in the human skin, of which ornithine is the single major result of damage to arginine residues, and glucosepane the single major crosslink. Although redox active metals and oxoaldehydes appear to play an important role in protein damage in experimental diabetes, their role in diabetic humans is still poorly understood. Evidence for the existence of deglycating enzymes has been found in vertebrates, bacteria, and fungi. However, only the vertebrate enzymes can deglycate larger, intracellular proteins via an ATP-dependent mechanism. Protein engineering will thus be needed to adapt Amadoriase enzymes toward deglycation of ECM proteins for purpose of probing the role of advanced glycation in animal models of diabetes and age-related diseases. The blocking of the reactivity of the glucosepane precursor using potent nucleophiles may be useful in preventing age-related changes in ECM proteins. However, there currently is no evidence in support of the proposed ability of so-called \"AGE breakers\" to cleave existing crosslinks of the Maillard reaction in vivo, and other mechanisms of action should be sought for this class of compounds.",
+    "authors": [
+      "Monnier Vincent M",
+      "Sell David R"
+    ],
+    "journal": "Rejuvenation research",
+    "year": "2006",
+    "doi": "10.1089/rej.2006.9.264",
+    "mesh_terms": [
+      "Arginine",
+      "Cross-Linking Reagents",
+      "Extracellular Matrix",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Lysine",
+      "Maillard Reaction",
+      "Protein Conformation"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "40813757",
+    "title": "FluMag-SELEX derived specific individual aptamers can fluorescently label the ageing immanent protein-crosslinker glucosepane in diabetic mouse tissues.",
+    "abstract": "Nowadays, aptamers have transitioned into valuable antibody alternatives. We present the first anti-glucosepane aptamer targeting a key glycation product linked to aging and diabetes. Glu3, with high specificity and affinity, enabled the first-ever direct, fluorescence-based histological staining of glucosepane in murine tissue, distinguishing diabetic samples from wild-type samples without secondary reagents.",
+    "authors": [
+      "Li Runliu",
+      "Draphoen Bastian",
+      "Lindén Mika",
+      "Singh Karmveer",
+      "Scharffetter-Kochanek Karin",
+      "Stürmer Andreas",
+      "Rosenau Frank",
+      "Kissmann Ann-Kathrin"
+    ],
+    "journal": "Nanoscale horizons",
+    "year": "2025",
+    "doi": "10.1039/d5nh00263j",
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "Aptamers, Nucleotide",
+      "SELEX Aptamer Technique",
+      "Diabetes Mellitus, Experimental",
+      "Fluorescent Dyes"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "17278974",
+    "title": "Advanced glycation endproduct crosslink breaker (alagebrium) improves endothelial function in patients with isolated systolic hypertension.",
+    "abstract": "Arterial stiffening and endothelial dysfunction are hallmarks of aging, and advanced glycation endproducts (AGE) may contribute to these changes. We tested the hypothesis that AGE crosslink breakers enhance endothelial flow-mediated dilation (FMD) in humans and examined the potential mechanisms for this effect. Thirteen adults (nine men, aged 65 +/- 2 years) with isolated systolic hypertension (systolic blood pressure > 140 mmHg, diastolic blood pressure < 90 mmHg or pulse pressure > 60 mmHg) on stable antihypertensive therapy were studied. Subjects received placebo (2 weeks) then oral alagebrium (ALT-711; 210 mg twice a day for 8 weeks). Subjects and data analyses were blinded to treatment. Arterial stiffness was assessed by carotid augmentation index (AI) and brachial artery distensibility (ArtD) using applanation tonometry and Doppler echo, and endothelial function by brachial FMD. Serum markers of collagen metabolism and vascular inflammation were assessed. Alagebrium reduced carotid AI by 37% (P = 0.007) and augmented pressure (16.4 +/- 10 to 9.6 +/- 9 mmHg; P < 0.001). Heart rate, arterial pressures, and ArtD, were unchanged. FMD increased from 4.6 +/- 1.1 to 7.1 +/- 1.1% with alagebrium (P < 0.05), and was unrelated to altered shear stress or regional arterial distensibility. However, FMD change was inversely related to markers of collagen synthesis, p-selectin and intracellular cell adhesion molecule (all P < 0.05). Alagebrium-associated changes in plasma nitrite plus nitrate was inversely correlated with plasma matrix metalloproteinase 9 and type I collagen (P = 0.007). Alagebrium enhances peripheral artery endothelial function and improves overall impedance matching. Improved endothelial function correlates better with reduced vascular fibrosis and inflammation markers than with vessel distensibility. AGE-crosslink breakers may reduce cardiovascular risk in older adults by reduced central arterial stiffness and vascular remodeling.",
+    "authors": [
+      "Zieman Susan J",
+      "Melenovsky Vojtech",
+      "Clattenburg Lia",
+      "Corretti Mary C",
+      "Capriotti Anne",
+      "Gerstenblith Gary",
+      "Kass David A"
+    ],
+    "journal": "Journal of hypertension",
+    "year": "2007",
+    "doi": "10.1097/HJH.0b013e328013e7dd",
+    "mesh_terms": [
+      "Aged",
+      "Aging",
+      "Blood Pressure",
+      "Carotid Arteries",
+      "Collagen",
+      "Elasticity",
+      "Endothelium, Vascular",
+      "Female",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Hypertension",
+      "Intercellular Adhesion Molecule-1",
+      "Male",
+      "Manometry",
+      "Matrix Metalloproteinase 9",
+      "Middle Aged",
+      "Peripheral Vascular Diseases",
+      "Single-Blind Method",
+      "Thiazoles",
+      "Transforming Growth Factor beta1",
+      "Vascular Cell Adhesion Molecule-1",
+      "Vasodilation"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "27535261",
+    "title": "How High Glucose Levels Affect Tendon Homeostasis.",
+    "abstract": "Among the many factors playing a role in tendon disease, unregulated biochemical reactions between glucose and the collagen extracellular matrix are coming increasingly into focus. We have shown that formation of advanced glycation end-products that cross-link the collagen extracellular matrix can drastically affect cellular level mechanical properties of the matrix, and in turn affect cell-level biomechanical stimuli during physiological loading of the tissue. We suggest that these may adversely affect tendon cell response to matrix damage, as well as the quality of the consequent repair. If such mechanical feedback loops are altered, the ability of tendon cells to maintain tissue in a functional, healthy state may be compromised. Although key foundational elements of biochemical, biomechanical, and biological understanding are now in place, the full extent of how these aspects interact, including the precise mechanisms by which advanced glycation end-products pathologically disrupt connective tissue homeostasis and damage repair, are only beginning to be adequately appreciated.",
+    "authors": [
+      "Snedeker Jess G"
+    ],
+    "journal": "Advances in experimental medicine and biology",
+    "year": "2016",
+    "doi": "10.1007/978-3-319-33943-6_18",
+    "mesh_terms": [
+      "Animals",
+      "Connective Tissue",
+      "Glucose",
+      "Homeostasis",
+      "Humans",
+      "Tendons"
+    ],
+    "keywords": [
+      "Advanced glycation endproduct",
+      "Aging",
+      "Biomechanics",
+      "Diabetes",
+      "Mechanobiology"
+    ]
+  },
+  {
+    "pmid": "29873266",
+    "title": "Multiscale mechanical effects of native collagen cross-linking in tendon.",
+    "abstract": "The hierarchical structure of tendon allows for attenuation of mechanical strain down decreasing length scales. While reorganization of collagen fibers accounts for microscale strain attenuation, cross-linking between collagen molecules contributes to deformation mechanisms at the fibrillar and molecular scales. Divalent and trivalent enzymatic cross-links form during the development of collagen fibrils through the enzymatic activity of lysyl oxidase (LOX). By establishing connections between telopeptidyl and triple-helical domains of adjacent molecules within collagen fibrils, these cross-links stiffen the fibrils by resisting intermolecular sliding. Ultimately, greater enzymatic cross-linking leads to less compliant and stronger tendon as a result of stiffer fibrils. In contrast, nonenzymatic cross-links such as glucosepane and pentosidine are not produced during development but slowly accumulate through glycation of collagen. Therefore, these cross-links are only expected to be present in significant quantities in advanced age, where there has been sufficient time for glycation to occur, and in diabetes, where the presence of more free sugar in the extracellular matrix increases the rate of glycation. Unlike enzymatic cross-links, current evidence suggests that nonenzymatic cross-links are at least partially isolated to the surface of collagen fibers. As a result, glycation has been proposed to primarily impact tendon mechanics by altering molecular interactions at the fiber interface, thereby diminishing sliding between fibers. Thus, increased nonenzymatic cross-linking decreases microscale strain attenuation and the viscous response of tendon. In conclusion, enzymatic and nonenzymatic collagen cross-links have demonstrable and distinct effects on the mechanical properties of tendon across different length scales.",
+    "authors": [
+      "Eekhoff Jeremy D",
+      "Fang Fei",
+      "Lake Spencer P"
+    ],
+    "journal": "Connective tissue research",
+    "year": "2018",
+    "doi": "10.1080/03008207.2018.1449837",
+    "mesh_terms": [
+      "Animals",
+      "Biomechanical Phenomena",
+      "Collagen",
+      "Cross-Linking Reagents",
+      "Glycosylation",
+      "Humans",
+      "Protein-Lysine 6-Oxidase",
+      "Tendons"
+    ],
+    "keywords": [
+      "AGEs",
+      "collagen cross-linking",
+      "glycation",
+      "lysyl oxidase",
+      "tendon biomechanics"
+    ]
+  },
+  {
+    "pmid": "20607325",
+    "title": "Favored and disfavored pathways of protein crosslinking by glucose: glucose lysine dimer (GLUCOLD) and crossline versus glucosepane.",
+    "abstract": "We describe the isolation and molecular characterization of a novel glucose-lysine dimer crosslink 1,3-bis-(5-amino-5-carboxypentyl)-4-(1',2',3',4'-tetrahydroxybutyl)-3H-imidazolium salt, named GLUCOLD. GLUCOLD was easily formed from the Amadori product (fructose-lysine). However, when BSA was incubated with 100 mM glucose for 25 days, the levels of the lysine-lysine glucose crosslinks GLUCOLD and CROSSLINE were only 21 and <1 pmol/mg, respectively, compared to 611 pmol/mg protein for the lysine-arginine GLUCOSEPANE crosslink, in spite of more than 20 potential lysine-lysine crosslinking sites in the protein. Mechanistic investigation revealed that metal-free phosphate ions catalyzed formation of fructose-lysine and all three crosslinks from amino acids, while cationic MOPS buffer had an opposite effect. This together with the rapid formation of N (6)-1,4-dideoxy-5,6-dioxoglucosone derivatives by dicarbonyl trapping agents, such as 1,2-diaminobenzene or γ-guanidinobutyric acid, strongly suggests that enolization of the Amadori product and trapping of the 5,6-dioxo derivative by arginine residues constitutes the major pathway for glucose-mediated crosslinking in proteins.",
+    "authors": [
+      "Nemet Ina",
+      "Strauch Christopher M",
+      "Monnier Vincent M"
+    ],
+    "journal": "Amino acids",
+    "year": "2011",
+    "doi": "10.1007/s00726-010-0631-2",
+    "mesh_terms": [
+      "Cross-Linking Reagents",
+      "Glucose",
+      "Glycation End Products, Advanced",
+      "Lysine",
+      "Maillard Reaction",
+      "Proteins"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "42035904",
+    "title": "Sites of non-enzymatic crosslinks pentosidine and glucosepane in collagen I of human cortical bone.",
+    "abstract": "Structural alterations of bone extracellular matrix (ECM) may affect bone quality, which, along with bone mass, affects the ability of bone to resist fracture. In particular, an increase in advanced glycation end-product (AGE) crosslinking of type I collagen has been implicated in contributing to increased bone fragility in diabetes and ageing. However, the location of these crosslinks and their relative abundance is unknown, thus hindering our understanding of how AGE crosslinks impact bone quality. We analyzed physiological crosslinks, glucosepane (GN) and pentosidine (PE), in collagen I from cortical bone of 12 male and 12 female cadaveric femurs using liquid chromatography-tandem mass spectrometry. The analysis identified 11 distinct crosslinks at 8 different sites within the collagen I triple helix. Crosslinks at two sites formed only within the same collagen chain, while the remaining crosslinks formed within the same triple helical molecule and/or between different molecules of the neighboring microfibrils. Most of the GN and PE crosslinks were located to the D-periodic overlap zone of the microfibril. The relative crosslink levels varied significantly at different sites: 0.005% to 2.1% for PE and 0.06% to 24.9% for GN. Female donors had fewer crosslink sites compared to male donors. While total PE and total fAGE levels did not correlate with bone mechanical properties in the present sample size, the level of GN at one site positively correlated with ultimate stress, while the level of PE at another site negatively correlated with post-yield toughness. However, these correlations were weak, and several other correlations between site-specific GN and PE levels and these mechanical properties were not consistent between the sexes. ln conclusion, this study identified the native locations of GN and PE within collagen I of bone, an innovation essential for addressing the question of how the specific structural features of bone ECM affect bone quality.",
+    "authors": [
+      "Voziyan Paul",
+      "Brown Kyle L",
+      "Uppuganti Sasidhar",
+      "Berestesky Emily D",
+      "Leser Micheal",
+      "Rose Kristie Lindsey",
+      "Nyman Jeffry S"
+    ],
+    "journal": "Bone",
+    "year": "2026",
+    "doi": "10.1016/j.bone.2026.117908",
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "Male",
+      "Arginine",
+      "Cortical Bone",
+      "Lysine",
+      "Collagen Type I",
+      "Aged",
+      "Cross-Linking Reagents",
+      "Aged, 80 and over",
+      "Glycation End Products, Advanced"
+    ],
+    "keywords": [
+      "Advanced glycation end-product",
+      "Bone fragility",
+      "Collagen type I",
+      "Mass spectrometry",
+      "Non-enzymatic crosslinking",
+      "Post-translational modification"
+    ]
+  },
+  {
+    "pmid": "32540391",
+    "title": "Stochastic non-enzymatic modification of long-lived macromolecules - A missing hallmark of aging.",
+    "abstract": "Damage accumulation in long-living macromolecules (especially extracellular matrix (ECM) proteins, nuclear pore complex (NPC) proteins, and histones) is a missing hallmark of aging. Stochastic non-enzymatic modifications of ECM trigger cellular senescence as well as many other hallmarks of aging affect organ barriers integrity and drive tissue fibrosis. The importance of it for aging makes it a key target for interventions. The most promising of them can be AGE inhibitors (chelators, O-acetyl group or transglycating activity compounds, amadorins and amadoriases), glucosepane breakers, stimulators of elastogenesis, and RAGE antagonists.",
+    "authors": [
+      "Fedintsev Alexander",
+      "Moskalev Alexey"
+    ],
+    "journal": "Ageing research reviews",
+    "year": "2020",
+    "doi": "10.1016/j.arr.2020.101097",
+    "mesh_terms": [
+      "Aging",
+      "Extracellular Matrix",
+      "Extracellular Matrix Proteins",
+      "Fibrosis",
+      "Histones",
+      "Humans"
+    ],
+    "keywords": [
+      "AGE inhibitors",
+      "Aging",
+      "Extracellular matrix",
+      "Glucosepane breakers",
+      "MRTF",
+      "ROCK",
+      "YAP/TAZ"
+    ]
+  },
+  {
+    "pmid": "14641061",
+    "title": "Enzymatic deglycation with amadoriase enzymes from Aspergillus sp. as a potential strategy against the complications of diabetes and aging.",
+    "abstract": "The Amadori compound is the major single modification of the extracellular matrix by the Maillard reaction in vivo. It is also a source of biologically active glycoxidation products and the formation of glucosepane, the major protein cross-link found in biological tissues so far. For this reason, introduction of deglycating enzymes as anti-aging strategy would be desirable. This article provides an update on amadoriase enzymes from fungi which, one day, will hopefully help prevent the in vivo consequences of glycation.",
+    "authors": [
+      "Monnier V M",
+      "Wu X"
+    ],
+    "journal": "Biochemical Society transactions",
+    "year": "2003",
+    "doi": "10.1042/bst0311349",
+    "mesh_terms": [
+      "Aging",
+      "Amino Acid Oxidoreductases",
+      "Aspergillus",
+      "Diabetes Complications",
+      "Glucose",
+      "Protein Conformation",
+      "Soil Microbiology"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "16037276",
+    "title": "Cross-linking of the extracellular matrix by the maillard reaction in aging and diabetes: an update on \"a puzzle nearing resolution\".",
+    "abstract": "The aging extracellular matrix is characterized by an age-related increase in insolubilization, yellowing, and stiffening, all of which can be mimicked by the Maillard reaction in vitro. These phenomena are accelerated in metabolic diseases such as diabetes and end-stage renal disease, which have in common with physiological aging the accumulation of various glycation products and cross-links. Eight years ago we concluded that the evidence favored oxidative cross-linking in experimental diabetes [Monnier, V.M. et al. 1996. The mechanism of collagen cross-linking in diabetes: a puzzle nearing completion. Diabetes 45(Suppl. 3): 67-72] and proposed a major role for a putative non-UV active cross-link derived from glucose. Below, we provide an update of the field that leads to the conclusion that, while oxidation might be important for Maillard reaction-mediated cross-linking via Strecker degradation and allysine formation, the single most important collagen cross-link known to date in diabetes and aging is glucosepane, a lysyl-arginine cross-link that forms under nonoxidative conditions.",
+    "authors": [
+      "Monnier Vincent M",
+      "Mustata Georgian T",
+      "Biemel Klaus L",
+      "Reihl Oliver",
+      "Lederer Marcus O",
+      "Zhenyu Dai",
+      "Sell David R"
+    ],
+    "journal": "Annals of the New York Academy of Sciences",
+    "year": "2005",
+    "doi": "10.1196/annals.1333.061",
+    "mesh_terms": [
+      "Aging",
+      "Animals",
+      "Cross-Linking Reagents",
+      "Diabetes Mellitus",
+      "Disease Models, Animal",
+      "Extracellular Matrix",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Maillard Reaction"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "23153673",
+    "title": "The association between skin collagen glucosepane and past progression of microvascular and neuropathic complications in type 1 diabetes.",
+    "abstract": "We determined the association between novel and acid-labile skin collagen-linked advanced glycation endproducts (AGEs) and the progression of microvascular and neuropathic complications from baseline to near study closeout in the Diabetes Control and Complications Trial (DCCT). From a skin biopsy obtained near the close of the DCCT, proteolytic collagen digests were analyzed by liquid chromatography/mass spectrometry (LC/MS/MS) for glucosepane (GSPNE), glyoxal and methylglyoxal hydroimidazolones (G-H1 and MG-H1) and the glycation product fructose-lysine (FL) using isotope dilution method. GSPNE and MG-H1 correlated with age and diabetes duration (P<0.02), while GSPNE and FL correlated with the history of glycemia expressed as mean A1c (P≤0.003). Age and duration-adjusted GSPNE and FL levels were lower in intensive (INT) vs. conventional (CONV) treatment subjects in the primary prevention DCCT cohort (P<0.0001), and FL was lower in INT in the secondary intervention cohort (P<0.0001). GSPNE was associated with increased incidence of retinopathy progression (odds ratio (OR) / unit increase in GSPNE: 2.5 for 3 step progression on the ETDRS scale, P=0.003) and sustained≥3 microaneurysms (MA) (OR=4.8, P<0.0001) from DCCT baseline up to the time of the biopsy, and prevalence of microalbuminuria or AER>40mg/24h (OR=5.3, P<0.0001), and confirmed clinical neuropathy (OR=3.4, P=0.015) at the time of the biopsy. GSPNE adjusted for mean A1c remained significant for ≥3 MA (P=0.0252) and AER (P=0.0006). The strong association of complications with A1c was reduced or eliminated when adjusted for GSPNE. Glucosepane is a novel AGE marker of diabetic complications that is robustly associated with nephropathic, retinopathic and neuropathic outcomes despite adjustment for A1c, suggesting that it could be one mediator of these complications with possible diagnostic implications.",
+    "authors": [
+      "Monnier Vincent M",
+      "Sell David R",
+      "Strauch Christopher",
+      "Sun Wanjie",
+      "Lachin John M",
+      "Cleary Patricia A",
+      "Genuth Saul"
+    ],
+    "journal": "Journal of diabetes and its complications",
+    "year": "2013",
+    "doi": "10.1016/j.jdiacomp.2012.10.004",
+    "mesh_terms": [
+      "Adult",
+      "Biomarkers",
+      "Cohort Studies",
+      "Collagen",
+      "Cross-Sectional Studies",
+      "Diabetes Mellitus, Type 1",
+      "Diabetic Angiopathies",
+      "Diabetic Neuropathies",
+      "Diabetic Retinopathy",
+      "Disease Progression",
+      "Follow-Up Studies",
+      "Glycated Hemoglobin",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Hyperglycemia",
+      "Lysine",
+      "Microvessels",
+      "Severity of Illness Index",
+      "Skin",
+      "Young Adult"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "10706607",
+    "title": "An advanced glycation endproduct cross-link breaker can reverse age-related increases in myocardial stiffness.",
+    "abstract": "Decreased elasticity of the cardiovascular system is one of the hallmarks of the normal aging process of mammals. A potential explanation for this decreased elasticity is that glucose can react nonenzymatically with long-lived proteins, such as collagen and lens crystallin, and link them together, producing advanced glycation endproducts (AGEs). Previous studies have shown that aminoguanidine, an AGE inhibitor, can prevent glucose cross-linking of proteins and the loss of elasticity associated with aging and diabetes. Recently, an AGE cross-link breaker (ALT-711) has been described, which we have evaluated in aged dogs. After 1 month of administration of ALT-711, a significant reduction ( approximately 40%) in age-related left ventricular stiffness was observed [(57.1 +/- 6.8 mmHg x m(2)/ml pretreatment and 33.1 +/- 4.6 mmHg x m(2)/ml posttreatment (1 mmHg = 133 Pa)]. This decrease was accompanied by improvement in cardiac function.",
+    "authors": [
+      "Asif M",
+      "Egan J",
+      "Vasan S",
+      "Jyothirmayi G N",
+      "Masurekar M R",
+      "Lopez S",
+      "Williams C",
+      "Torres R L",
+      "Wagle D",
+      "Ulrich P",
+      "Cerami A",
+      "Brines M",
+      "Regan T J"
+    ],
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "year": "2000",
+    "doi": "10.1073/pnas.040558497",
+    "mesh_terms": [
+      "Aging",
+      "Animals",
+      "Diastole",
+      "Dogs",
+      "Elasticity",
+      "Glycation End Products, Advanced",
+      "Heart Rate",
+      "Hemodynamics",
+      "Male",
+      "Myocardium",
+      "Stroke Volume",
+      "Systole",
+      "Thiazoles",
+      "Ventricular Function"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "11978796",
+    "title": "Identification and quantification of major maillard cross-links in human serum albumin and lens protein. Evidence for glucosepane as the dominant compound.",
+    "abstract": "Glycation reactions leading to protein modifications (advanced glycation end products) contribute to various pathologies associated with the general aging process and long term complications of diabetes. However, only few relevant compounds have so far been detected in vivo. We now report on the first unequivocal identification of the lysine-arginine cross-links glucosepane 5, DOGDIC 6, MODIC 7, and GODIC 8 in human material. For their accurate quantification by coupled liquid chromatography-electrospray ionization mass spectrometry, (13)C-labeled reference compounds were synthesized independently. Compounds 5-8 are formed via the alpha-dicarbonyl compounds N(6)-(2,3-dihydroxy-5,6-dioxohexyl)-l-lysinate (1a,b), 3-deoxyglucosone (), methylglyoxal (), and glyoxal (), respectively. The protein-bound dideoxyosone 1a,b seems to be of prime significance for cross-linking because it presumably is not detoxified by mammalian enzymes as readily as 2-4. Hence, the follow-up product glucosepane 5 was found to be the dominant compound. Up to 42.3 pmol of 5/mg of protein was identified in human serum albumin of diabetics; the level of 5 correlates markedly with the glycated hemoglobin HbA(1c). In the water-insoluble fraction of lens proteins from normoglycemics, concentration of 5 ranges between 132.3 and 241.7 pmol/mg. The advanced glycoxidation end product GODIC 8 is elevated significantly in brunescent lenses, indicating enhanced oxidative stress in this material. Compounds 5-8 thus appear predestined as markers for pathophysiological processes.",
+    "authors": [
+      "Biemel Klaus M",
+      "Friedl D Alexander",
+      "Lederer Markus O"
+    ],
+    "journal": "The Journal of biological chemistry",
+    "year": "2002",
+    "doi": "10.1074/jbc.M202681200",
+    "mesh_terms": [
+      "Azepines",
+      "Chromatography, Liquid",
+      "Crystallins",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Kinetics",
+      "Lens, Crystalline",
+      "Lysine",
+      "Maillard Reaction",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "Serum Albumin",
+      "Spectrometry, Mass, Electrospray Ionization"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "17584071",
+    "title": "The road to advanced glycation end products: a mechanistic perspective.",
+    "abstract": "Protein glycation is a slow natural process involving the chemical modification of the reactive amino and guanidine functions in amino acids by sugars and carbohydrates-derived reactive carbonyls. Its deleterious consequences are obvious in the case of long-lived proteins in aged people and are exacerbated by the high blood concentration of sugars in diabetic patients. The non-enzymatic glycation of proteins occurs through a wide range of concurrent processes comprising condensation, rearrangement, fragmentation, and oxidation reactions. Using a few well established intermediates such as Schiff base, Amadori product and reactive a-dicarbonyls as milestones and the results of in vitro glycation investigations, an overall detailed mechanistic analysis of protein glycation is presented for the first time. The pathways leading to several advanced glycation end products (AGEs) such as (carboxymethyl)lysine, pentosidine, and glucosepane are outlined, whereas other AGEs useful as potential biomarkers of glycation are only briefly mentioned. The current stage of the development of glycation inhibitors has been reviewed with an emphasis on their mechanism of action.",
+    "authors": [
+      "Cho S-J",
+      "Roman G",
+      "Yeboah F",
+      "Konishi Y"
+    ],
+    "journal": "Current medicinal chemistry",
+    "year": "2007",
+    "doi": "10.2174/092986707780830989",
+    "mesh_terms": [
+      "Animals",
+      "Arabinose",
+      "Glucose",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Oxidative Stress",
+      "Proteins"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "33320391",
+    "title": "Lysine-arginine advanced glycation end-product cross-links and the effect on collagen structure: A molecular dynamics study.",
+    "abstract": "The accumulation of advanced glycation end-products is a fundamental process that is central to age-related decline in musculoskeletal tissues and locomotor system function and other collagen-rich tissues. However, although computational studies of advanced glycation end-product cross-links could be immensely valuable, this area remains largely unexplored given the limited availability of structural parameters for the derivation of force fields for Molecular Dynamics simulations. In this article, we present the bonded force constants, atomic partial charges and geometry of the arginine-lysine cross-links DOGDIC, GODIC, and MODIC. We have performed in vacuo Molecular Dynamics simulations to validate their implementation against quantum mechanical frequency calculations. A DOGDIC advanced glycation end-product cross-link was then inserted into a model collagen fibril to explore structural changes of collagen and dynamics in interstitial water. Unlike our previous studies of glucosepane, our findings suggest that intra-collagen DOGDIC cross-links furthers intra-collagen peptide hydrogen-bonding and does not promote the diffusion of water through the collagen triple helices.",
+    "authors": [
+      "Nash Anthony",
+      "Noh Sang Young",
+      "Birch Helen L",
+      "de Leeuw Nora H"
+    ],
+    "journal": "Proteins",
+    "year": "2021",
+    "doi": "10.1002/prot.26036",
+    "mesh_terms": [
+      "Arginine",
+      "Binding Sites",
+      "Collagen",
+      "Cross-Linking Reagents",
+      "Dipeptides",
+      "Glycation End Products, Advanced",
+      "Hydrogen Bonding",
+      "Imidazoles",
+      "Lysine",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Protein Conformation",
+      "Static Electricity",
+      "Water"
+    ],
+    "keywords": [
+      "DOGDIC",
+      "advanced glycation end-products",
+      "aging",
+      "collagen",
+      "cross-linking",
+      "glucosepane",
+      "matrix biology"
+    ]
+  },
+  {
+    "pmid": "23279611",
+    "title": "Current therapeutic interventions in the glycation pathway: evidence from clinical studies.",
+    "abstract": "The increased formation of advanced glycation endproducts (AGEs) constitutes a potential mechanism of hyperglycaemia-induced micro- and macrovascular disease in diabetes. In vitro and animal experiments have shown that various interventions can inhibit formation and/or actions of AGEs, in particular the specific AGE inhibitor aminoguanidine and the AGEs crosslink breaker alagebrium, and the B vitamins pyridoxamine and thiamine, and the latter's synthetic derivative, benfotiamine. The potential clinical value of these interventions, however, remains to be established. The present review provides, from the clinical point of view, an overview of current evidence on interventions in the glycation pathway relating to (i) the clinical benefits of specific AGE inhibitors and AGE breakers and (ii) the potential AGE-inhibiting effects of therapies developed for purposes unrelated to the glycation pathway. We found that safety and/or efficacy in clinical studies with the specific AGE inhibitor, aminoguanidine and the AGE breaker, alagebrium, appeared to be a concern. The clinical evidence on the potential AGE-inhibiting effects of B vitamins is still limited. Finally, current evidence for AGE inhibition by therapies developed for purposes unrelated to glycation is limited due to a large heterogeneity in study designs and/or measurement techniques, which have often been sub-optimal. We conclude that, clinical evidence on interventions to inhibit formation and/or action of AGEs is currently weak and unconvincing.",
+    "authors": [
+      "Engelen L",
+      "Stehouwer C D A",
+      "Schalkwijk C G"
+    ],
+    "journal": "Diabetes, obesity & metabolism",
+    "year": "2013",
+    "doi": "10.1111/dom.12058",
+    "mesh_terms": [
+      "Animals",
+      "Atherosclerosis",
+      "Diabetes Mellitus, Type 1",
+      "Diabetes Mellitus, Type 2",
+      "Diabetic Angiopathies",
+      "Enzyme Inhibitors",
+      "Evidence-Based Medicine",
+      "Female",
+      "Glycation End Products, Advanced",
+      "Guanidines",
+      "Humans",
+      "Hyperglycemia",
+      "Male",
+      "Pyridoxamine",
+      "Thiamine",
+      "Thiazoles",
+      "Treatment Outcome"
+    ],
+    "keywords": [
+      "advanced glycation endproducts",
+      "cardiovascular disease",
+      "diabetes mellitus",
+      "therapy"
+    ]
+  },
+  {
+    "pmid": "33472415",
+    "title": "Resveratrol and Curcumin Attenuate <i>Ex Vivo</i> Sugar-Induced Cartilage Glycation, Stiffening, Senescence, and Degeneration.",
+    "abstract": "Advanced glycation end-product (AGE) accumulation is implicated in osteoarthritis (OA) pathogenesis in aging and diabetic populations. Here, we develop a representative nonenzymatic glycation-induced OA cartilage explant culture model and investigate the effectiveness of resveratrol, curcumin, and eugenol in inhibiting AGEs and the structural and biological hallmarks of cartilage degeneration. Bovine cartilage explants were treated with AGE-bovine serum albumin, threose, and ribose to determine the optimal conditions that induce physiological levels of AGEs while maintaining chondrocyte viability. AGE crosslinks, tissue stiffness, cell viability, metabolism and senescence, nitrite release and loss of glycosaminoglycans were assessed. Explants were cotreated with resveratrol, curcumin, or eugenol to evaluate their anti-AGE properties. Blind docking analysis was conducted to estimate binding energies of drugs with collagen II. Treatment with 100 mM ribose significantly increased AGE crosslink formation and tissue stiffness, resulting in reduced chondrocyte metabolism and enhanced senescence. Blind docking analysis revealed stronger binding energies of both resveratrol and curcumin than ribose, with glycation sites along a human collagen II fragment, indicating their increased likelihood of competitively inhibiting ribose activity. Resveratrol and curcumin, but not eugenol, successfully inhibited AGE crosslink formation and its associated downstream biological response. We establish a cartilage explant model of OA that recapitulates several aspects of aged human cartilage. We find that resveratrol and curcumin are effective anti-AGE therapeutics with the potential to decelerate age-related and diabetes-induced OA. This <i>in vitro</i> nonenzymatic glycation-induced model provides a tool for screening OA drugs, to simultaneously evaluate AGE-induced biological and mechanical changes.",
+    "authors": [
+      "Mehta Shikhar",
+      "Young Cameron C",
+      "Warren Matthew R",
+      "Akhtar Sumayyah",
+      "Shefelbine Sandra J",
+      "Crane Justin D",
+      "Bajpayee Ambika G"
+    ],
+    "journal": "Cartilage",
+    "year": "2021",
+    "doi": "10.1177/1947603520988768",
+    "mesh_terms": [
+      "Aged",
+      "Cartilage",
+      "Curcumin",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Resveratrol",
+      "Sugars"
+    ],
+    "keywords": [
+      "advanced glycation end-product (AGE)",
+      "cartilage",
+      "curcumin",
+      "eugenol",
+      "osteoarthritis",
+      "resveratrol"
+    ]
+  },
+  {
+    "pmid": "36976186",
+    "title": "Morphological and Physiological Aspects of Mutable Collagenous Tissue at the Autotomy Plane of the Starfish <i>Asterias rubens</i> L. (Echinodermata, Asteroidea): An Echinoderm Paradigm.",
+    "abstract": "The mutable collagenous tissue (MCT) of echinoderms has the capacity to undergo changes in its tensile properties within a timescale of seconds under the control of the nervous system. All echinoderm autotomy (defensive self-detachment) mechanisms depend on the extreme destabilisation of mutable collagenous structures at the plane of separation. This review illustrates the role of MCT in autotomy by bringing together previously published and new information on the basal arm autotomy plane of the starfish <i>Asterias rubens</i> L. It focuses on the MCT components of breakage zones in the dorsolateral and ambulacral regions of the body wall, and details data on their structural organisation and physiology. Information is also provided on the extrinsic stomach retractor apparatus whose involvement in autotomy has not been previously recognised. We show that the arm autotomy plane of <i>A. rubens</i> is a tractable model system for addressing outstanding problems in MCT biology. It is amenable to in vitro pharmacological investigations using isolated preparations and provides an opportunity for the application of comparative proteomic analysis and other \"-omics\" methods which are aimed at the molecular profiling of different mechanical states and characterising effector cell functions.",
+    "authors": [
+      "Wilkie Iain C",
+      "Candia Carnevali M Daniela"
+    ],
+    "journal": "Marine drugs",
+    "year": "2023",
+    "doi": "10.3390/md21030138",
+    "mesh_terms": [
+      "Animals",
+      "Echinodermata",
+      "Starfish",
+      "Asterias",
+      "Proteomics",
+      "Models, Biological"
+    ],
+    "keywords": [
+      "advanced glycation end-product",
+      "connective tissue",
+      "extracellular matrix",
+      "interfibrillar crosslink",
+      "juxtaligamental cell",
+      "ligament",
+      "proteoglycan",
+      "tendon"
+    ]
+  },
+  {
+    "pmid": "32532588",
+    "title": "Urinary cathepsin L is predictive of changes in albuminuria and correlates with glucosepane in patients with type 2 diabetes in a closed-cohort study.",
+    "abstract": "Cathepsin D (CTSD) and L (CTSL) are lysosomal proteases which degrade and detoxify advanced glycation end product (AGE)-modified proteins which are predictive of the development of diabetic nephropathy. We aimed to quantify cathepsin levels in urine from patients with type 2 diabetes and to relate these to the amount of urinary free AGEs at baseline and with kidney function after four years of follow-up in this closed cohort study. We established and validated a LC MS/MS method for the quantification of CTSD and CTSL in urine. Patients with type 2 diabetes were screened for diabetic kidney disease and 141 patients were seen at baseline and after four years. CTSD and CTSL and free AGEs were quantified in urine by LC MS/MS at baseline in these patients. The detection limit of CTSD and CTSL in urine was 2.4 ng/l and 19.1 ng/l, respectively. CTSD (p < 0.0001, r = 0.555) and CTSL (p < 0.0001, r = 0.608) correlated positively with albuminuria at time of recruitment. In addition levels of the proteases but not albuminuria correlated with urinary levels of the major cross-linking AGE glucosepane (CTSD: p = 0.012, r = 0.225; CTSL: p < 0.001, r = 0.376). A strong non-linear association between CTSD (r = 0.568), CTSL (r = 0.588) and change in albuminuria over four years was present. High levels of CTSL (p = 0.007, beta = -0.366) were associated with an improvement of albuminuria after four years. A sensitive LC MS/MS assay for the quantification of CTSD and CTSL in urine was established. High CTSL baseline levels were associated with an improvement in albuminuria at follow-up. An increased excretion and thus detoxification of the free form of the pathogenic cross-linking AGE glucosepane could explain the positive predictive value of high CTSL levels on albuminuria.",
+    "authors": [
+      "Brings Sebastian",
+      "Fleming Thomas",
+      "Herzig Stephan",
+      "Nawroth Peter P",
+      "Kopf Stefan"
+    ],
+    "journal": "Journal of diabetes and its complications",
+    "year": "2020",
+    "doi": "10.1016/j.jdiacomp.2020.107648",
+    "mesh_terms": [
+      "Albuminuria",
+      "Cathepsin D",
+      "Cathepsin L",
+      "Cohort Studies",
+      "Diabetes Mellitus, Type 2",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Tandem Mass Spectrometry"
+    ],
+    "keywords": [
+      "Advanced glycation end-products",
+      "Cathepsin D",
+      "Cathepsin L",
+      "Diabetic nephropathy",
+      "Kidney function",
+      "Lysosomal proteases"
+    ]
+  },
+  {
+    "pmid": "37871726",
+    "title": "Effects of aging and diabetes on the deformation mechanisms and molecular structural characteristics of collagen fibrils under daily activity.",
+    "abstract": "Crosslinking plays an important role in collagen-based tissues since it affects mechanical behavior and tissue metabolism. Aging and diabetes affect the type and density of crosslinking, effectively altering tissue properties. However, most studies focus on these effects under large stress rather than daily activities. We focus on the deformation mechanisms and structural change at the binding sites for integrins, proteoglycans, and collagenase in collagen fibrils using a fully atomistic model. We show that high-connectivity enzymatic crosslinking (our \"HC\" model, representing normal tissues) and advanced-glycation end-products (our \"Glucosepane\" model, which increase in diabetes) result in uniform deformation under daily activity, but low-connectivity enzymatic crosslinking (our \"LC\" model, representing aging tissues) does not. In particular, the HC model displays more sliding, which may explain the ability of healthy tissues to absorb more strain energy. In contrast, AGEs induce instability in the structures near the binding sites, which would affect the tissue metabolism of the collagen molecule. Our results provide important insights into the molecular mechanisms of collagen and a possible explanation for the role of crosslinking in tissues undergoing daily activity.",
+    "authors": [
+      "Hui Wei-Han",
+      "Chen Yen-Lin",
+      "Chang Shu-Wei"
+    ],
+    "journal": "International journal of biological macromolecules",
+    "year": "2024",
+    "doi": "10.1016/j.ijbiomac.2023.127603",
+    "mesh_terms": [
+      "Humans",
+      "Diabetes Mellitus",
+      "Glycation End Products, Advanced",
+      "Extracellular Matrix",
+      "Collagen",
+      "Collagenases"
+    ],
+    "keywords": [
+      "Advanced glycation end-products (AGEs)",
+      "Collagen",
+      "Crosslink",
+      "Daily activity",
+      "Molecular dynamics simulation"
+    ]
+  },
+  {
+    "pmid": "29718545",
+    "title": "Studies of advanced glycation end products and oxidation biomarkers for type 2 diabetes.",
+    "abstract": "Advanced glycation end products (AGEs) are formed upon nonenzymatic reactions of sugars or their metabolites with proteins and other cellular constituents. Many AGEs are long lived. Recent findings suggest that AGEs may predict diabetes and its complications and thus may warrant further study. The objective of this study was to assess the validity of our experimental procedures for measuring AGEs in stored blood sample and to conduct a pilot study for developing AGE biomarkers for diabetes and/or age-related changes of glucose metabolism. We conducted a reliability study of the samples and methods using liquid chromatography-tandem mass spectrometry (LC-MS)/MS assays for 10 AGEs (including methylglyoxal-derived hydroimidazolone (MG-H1), glucosepane (GSP) and two oxidation measures, in stored repository blood samples from the Nurses' Health Study and the Health Professionals Follow-up Study. We also analyzed data relating blood GSP levels to type 2 diabetes status in a case-control study (25 cases and 15 controls). Among the AGEs, GSP, and MG-H1 showed the highest reliability across the various measures: reliability in duplicate samples and stability with delayed processing and storage over 1-2 year period. Furthermore, plasma GSP was associated with older age (P = 0.04) and type 2 diabetes status (age-adjusted P = 0.0475). Our findings suggest that analysis of these AGEs may be developed as biomarkers for diabetes and/or age-related changes of glucose metabolism. © 2018 BioFactors, 44(3):281-288, 2018.",
+    "authors": [
+      "Chiu Chung-Jung",
+      "Rabbani Naila",
+      "Rowan Sheldon",
+      "Chang Min-Lee",
+      "Sawyer Sherilyn",
+      "Hu Frank B",
+      "Willett Walter",
+      "Thornalley Paul J",
+      "Anwar Attia",
+      "Bar Liliana",
+      "Kang Jae H",
+      "Taylor Allen"
+    ],
+    "journal": "BioFactors (Oxford, England)",
+    "year": "2018",
+    "doi": "10.1002/biof.1423",
+    "mesh_terms": [
+      "Age Factors",
+      "Aging",
+      "Biomarkers",
+      "Blood Banks",
+      "Blood Glucose",
+      "Case-Control Studies",
+      "Diabetes Mellitus, Type 2",
+      "Female",
+      "Follow-Up Studies",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Imidazoles",
+      "Middle Aged",
+      "Ornithine",
+      "Oxidation-Reduction",
+      "Pilot Projects"
+    ],
+    "keywords": [
+      "advanced glycation end products",
+      "biomarkers",
+      "diabetes",
+      "glycemic index",
+      "hyperglycemia"
+    ]
+  },
+  {
+    "pmid": "22156473",
+    "title": "Advanced glycation end-products as markers of aging and longevity in the long-lived Ansell's mole-rat (Fukomys anselli).",
+    "abstract": "Mole-rat of the genus Fukomys are mammals whose life span is strongly influenced by reproductive status with breeders far outliving nonbreeders. This raises the important question of whether increased longevity of the breeders is reflected in atypical expression of biochemical markers of aging. Here, we measured markers of glycation and advanced glycation end-products formed in insoluble skin collagen of Ansell's mole-rat Fukomys anselli as a function of age and breeding status. Glucosepane, pentosidine, and total advanced glycation end-product content significantly increased with age after correction for breeder status and sex. Unexpectedly, total advanced glycation end-products, glucosepane, and carboxymethyl-lysine (CML) were significantly higher in breeders versus nonbreeders suggesting that breeders have evolved powerful defenses against combined oxidant and carbonyl stress compared with nonbreeders. Most interestingly, when compared with other mammals, pentosidine formation rate was lower in mole-rat compared with other short-lived rodents confirming previous observations of an inverse relationship between longevity and pentosidine formation rates in skin collagen.",
+    "authors": [
+      "Dammann Philip",
+      "Sell David R",
+      "Begall Sabine",
+      "Strauch Christopher",
+      "Monnier Vincent M"
+    ],
+    "journal": "The journals of gerontology. Series A, Biological sciences and medical sciences",
+    "year": "2012",
+    "doi": "10.1093/gerona/glr208",
+    "mesh_terms": [
+      "Aging",
+      "Animals",
+      "Arginine",
+      "Biomarkers",
+      "Collagen",
+      "Female",
+      "Glycation End Products, Advanced",
+      "Longevity",
+      "Lysine",
+      "Male",
+      "Mole Rats",
+      "Skin"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "35798196",
+    "title": "Causative or associative: A critical review of the role of advanced glycation end-products in bone fragility.",
+    "abstract": "The accumulation of advanced glycation end-products (AGEs) in the organic matrix of bone with aging and chronic disease such as diabetes is thought to increase fracture risk independently of bone mass. However, to date, there has not been a clinical trial to determine whether inhibiting the accumulation of AGEs is effective in preventing low-energy, fragility fractures. Moreover, unlike with cardiovascular or kidney disease, there are also no pre-clinical studies demonstrating that AGE inhibitors or breakers can prevent the age- or diabetes-related decrease in the ability of bone to resist fracture. In this review, we critically examine the case for a long-standing hypothesis that AGE accumulation in bone tissue degrades the toughening mechanisms by which bone resists fracture. Prior research into the role of AGEs in bone has primarily measured pentosidine, an AGE crosslink, or bulk fluorescence of hydrolysates of bone. While significant correlations exist between these measurements and mechanical properties of bone, multiple AGEs are both non-fluorescent and non-crosslinking. Since clinical studies are equivocal on whether circulating pentosidine is an indicator of elevated fracture risk, there needs to be a more complete understanding of the different types of AGEs including non-crosslinking adducts and multiple non-enzymatic crosslinks in bone extracellular matrix and their specific contributions to hindering fracture resistance (biophysical and biological). By doing so, effective strategies to target AGE accumulation in bone with minimal side effects could be investigated in pre-clinical and clinical studies that aim to prevent fragility fractures in conditions that bone mass is not the underlying culprit.",
+    "authors": [
+      "Willett Thomas L",
+      "Voziyan Paul",
+      "Nyman Jeffry S"
+    ],
+    "journal": "Bone",
+    "year": "2022",
+    "doi": "10.1016/j.bone.2022.116485",
+    "mesh_terms": [
+      "Bone Density",
+      "Bone and Bones",
+      "Diabetes Mellitus",
+      "Fractures, Bone",
+      "Glycation End Products, Advanced",
+      "Humans"
+    ],
+    "keywords": [
+      "Advanced glycation end-product",
+      "Aging",
+      "Biomarkers",
+      "Bone quality",
+      "Collagen type I",
+      "Crosslinking",
+      "Diabetes",
+      "Mass spectrometry",
+      "Toughness"
+    ]
+  },
+  {
+    "pmid": "29620898",
+    "title": "Analysis of Advanced Glycation Endproducts in Rat Tail Collagen and Correlation to Tendon Stiffening.",
+    "abstract": "Methylglyoxal is a major 1,2-dicarbonyl compound in vivo and leads to nonenzymatic protein modifications, known as advanced glycation endproducts. Especially long-lived proteins like collagen are prone to changes of the mechanical or biological function, respectively, by accumulation of Maillard-derived modifications. Specifically, the resulting nonenzymatic cross-link structures in parallel to the natural maturation process of collagen fibrils lead to complications with age or during disease. A novel lysine-lysine amide cross-link derived from methylglyoxal, 2,15-diamino-8-methyl-9-oxo-7,10-diaza-1,16-hexadecanedioic acid, named MOLA, was synthesized and identified in vitro and in vivo. Tail tendons of young, adult, and old rats (3, 12, and 22 months) were enzymatically digested prior to analysis of acid-labile glycation products via liquid chromatography-tandem mass spectrometry (LC-MS/MS). As a result, nine monovalent amino acid modifications, mostly originating from methylglyoxal (36 μmol/mol leucine-equivalents in total), and four glycation cross-links (0.72 μmol/mol glucosepane, 0.24 μmol/mol DODIC (3-deoxyglucosone-derived imidazoline cross-link), 0.04 μmol/mol MODIC (methylglyoxal-derived imidazoline cross-link), 0.34 μmol/mol MOLA) were quantitated in senescent tendon collagen. The results correlated with increased tail tendon breaking time from 10 to 190 min and indicate that methylglyoxal is a major player in the aging process of connective tissue.",
+    "authors": [
+      "Jost Tobias",
+      "Zipprich Alexander",
+      "Glomb Marcus A"
+    ],
+    "journal": "Journal of agricultural and food chemistry",
+    "year": "2018",
+    "doi": "10.1021/acs.jafc.8b00937",
+    "mesh_terms": [
+      "Aging",
+      "Animals",
+      "Collagen",
+      "Glycation End Products, Advanced",
+      "Male",
+      "Mass Spectrometry",
+      "Pyruvaldehyde",
+      "Rats",
+      "Rats, Wistar",
+      "Tail",
+      "Tendons"
+    ],
+    "keywords": [
+      "Maillard reaction",
+      "advanced glycation endproducts",
+      "collagen",
+      "connective tissue stiffening",
+      "glycation cross-links",
+      "methylglyoxal"
+    ]
+  },
+  {
+    "pmid": "18448799",
+    "title": "The role of the amadori product in the complications of diabetes.",
+    "abstract": "Strong evidence has emerged in recent years in support of an association between advanced glycation and the complications of diabetes, whereby both glycoxidation products and oxoaldehydes have been implicated. In contrast, except for the fact that skin collagen-linked fructosamine (Amadori product) is a strong predictor of the risk of progression of microvascular disease in humans, Amadori products have not been associated with complications in most animal experiments. Below we develop the hypothesis that glucose-derived advanced glycation end products (AGEs), such as glucosepane, may inflict sustained damage to the extracellular matrix in diabetes and contribute to tissue stiffening and accelerated sclerosis in arteries, kidneys, and other organs as supported by immunochemical studies using a glucosepane antibody. We also hypothesize that many more structures derived from Amadori products with nucleophiles, such as primary amines and thiols, are expected. The selective prevention of Amadori-derived AGEs using deglycating enzymes would be desirable. However, x-ray diffraction studies of Amadoriase I crystals show that the active site of the enzyme is deeply embedded, explaining why this approach is unlikely to succeed in vivo. Preliminary experiments with nucleophiles show that aminoguanidine and other compounds block glucosepane in vitro.",
+    "authors": [
+      "Monnier Vincent M",
+      "Sell David R",
+      "Dai Zhenyu",
+      "Nemet Ina",
+      "Collard Francois",
+      "Zhang Jianye"
+    ],
+    "journal": "Annals of the New York Academy of Sciences",
+    "year": "2008",
+    "doi": "10.1196/annals.1433.052",
+    "mesh_terms": [
+      "Amino Acid Oxidoreductases",
+      "Diabetes Complications",
+      "Extracellular Matrix",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Isoenzymes",
+      "Ketoses",
+      "Kinetics",
+      "Maillard Reaction"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "24060753",
+    "title": "Age- and diabetes-related nonenzymatic crosslinks in collagen fibrils: candidate amino acids involved in Advanced Glycation End-products.",
+    "abstract": "Ageing and diabetes share a common deleterious phenomenon, the formation of Advanced Glycation Endproducts (AGEs), which accumulate predominantly in collagen due to its low turnover. Though the general picture of glycation has been identified, the detailed knowledge of which collagen amino acids are involved in AGEs is still missing. In this work we use an atomistic model of a collagen fibril to pinpoint, for the first time, the precise location of amino acids involved in the most relevant AGE, glucosepane. The results show that there are 14 specific lysine-arginine pairs that, due to their relative position and configuration, are likely to form glucosepane. We find that several residues involved in AGE crosslinks are within key collagen domains, such as binding sites for integrins, proteoglycans and collagenase, hence providing molecular-level explanations of previous experimental results showing decreased collagen affinity for key molecules. Altogether, these findings reveal the molecular mechanism by which glycation affects the biological properties of collagen tissues, which in turn contribute to age- and diabetes-related pathological states.",
+    "authors": [
+      "Gautieri Alfonso",
+      "Redaelli Alberto",
+      "Buehler Markus J",
+      "Vesentini Simone"
+    ],
+    "journal": "Matrix biology : journal of the International Society for Matrix Biology",
+    "year": "2014",
+    "doi": "10.1016/j.matbio.2013.09.004",
+    "mesh_terms": [
+      "Aging",
+      "Amino Acids",
+      "Collagen",
+      "Collagenases",
+      "Crystallography, X-Ray",
+      "Diabetes Mellitus",
+      "Extracellular Matrix",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Models, Molecular"
+    ],
+    "keywords": [
+      "Advanced glycation end-products",
+      "Ageing",
+      "Atomistic simulations",
+      "Collagen",
+      "Crosslinks",
+      "Diabetes"
+    ]
+  },
+  {
+    "pmid": "16297344",
+    "title": "C16, a novel advanced glycation endproduct breaker, restores cardiovascular dysfunction in experimental diabetic rats.",
+    "abstract": "Advanced glycation endproducts (AGE) have been implicated in the pathogenesis of diabetic complications, including diabetic cardiovascular dysfunction. 3-[2-(4-Bromo-phenyl)-1-methyl-2-oxo-ethyl]-4,5,6,7-tetrahydro-benzothiazol-3-ium bromide (C16), a novel AGE breaker, was investigated for its effects on the development of cardiovascular disease in diabetic rats. Rats that had streptozotocin-induced diabetes for 12 weeks were divided into groups receiving C16 or vehicle by gavage. In hemodynamic studies of the left ventricle, C16 treatment (25 or 50 mg/kg) for 4 weeks resulted in a significant increase in left ventricular systolic pressure, +dp/dt(max), and -dp/dt(max) as compared with vehicle-treated diabetic rats. Furthermore, in hemodynamic studies of the cardiovascular system, C16 (12.5, 25, or 50 mg/kg) treatment for 4 weeks resulted in a dose-dependent and significant increase in cardiac output, a reduction of total peripheral resistance, and an increase in systemic arterial compliance when compared with vehicle-treated diabetic rats. Biochemical studies showed that C16 treatment also resulted in a significant decrease in immunoglobulin G-red blood cell surface crosslink content and an increase in collagen solubility. Morphological and immunohistochemical examinations indicated that C16 was able to prevent increases of the collagen type III/I ratio in the aorta and decrease the accumulation of AGE in the aorta. C16 has the ability to reduce AGE accumulation in tissues in vivo, and can restore diabetes-associated cardiovascular disorders in rats. This provides a potential therapeutic approach for cardiovascular disease associated with diabetes and aging in humans.",
+    "authors": [
+      "Cheng Gang",
+      "Wang Li-Li",
+      "Qu Wen-Sheng",
+      "Long Long",
+      "Cui Hao",
+      "Liu Hong-Ying",
+      "Cao Ying-Lin",
+      "Li Song"
+    ],
+    "journal": "Acta pharmacologica Sinica",
+    "year": "2005",
+    "doi": "10.1111/j.1745-7254.2005.00240.x",
+    "mesh_terms": [
+      "Animals",
+      "Aorta",
+      "Benzothiazoles",
+      "Blood Pressure",
+      "Cardiac Output",
+      "Cardiovascular Diseases",
+      "Collagen Type I",
+      "Collagen Type III",
+      "Diabetes Mellitus, Experimental",
+      "Dose-Response Relationship, Drug",
+      "Glycation End Products, Advanced",
+      "Heart Ventricles",
+      "Male",
+      "Rats",
+      "Rats, Wistar",
+      "Vascular Resistance"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "35058313",
+    "title": "Plasma advanced glycation end products and the subsequent risk of microvascular complications in type 1 diabetes in the DCCT/EDIC.",
+    "abstract": "To assess impact of glycemic control on plasma protein-bound advanced glycation end products (pAGEs) and their association with subsequent microvascular disease. Eleven pAGEs were measured by liquid chromatography-mass spectrometry in banked plasma from 466 participants in the Diabetes Control and Complications Trial/Epidemiology of Diabetes Interventions and Complications (DCCT/EDIC) study at three time points (TPs): DCCT year 4 (TP1) and year 8 (TP2) and EDIC year 5/6 (TP3). Correlation coefficients assessed cross-sectional associations, and Cox proportional hazards models assessed associations with subsequent risk of microvascular complications through EDIC year 24. Glucose-derived glycation products fructose-lysine (FL), glucosepane (GSPN) and carboxymethyl-lysine (CML) decreased with intensive glycemic control at both TP1 and TP2 (p<0.0001) but were similar at TP3, and correlated with hemoglobin A1c (HbA1c). At TP1, the markers were associated with the subsequent risk of several microvascular outcomes. These associations did not remain significant after adjustment for HbA1c, except methionine sulfoxide (MetSOX), which remained associated with diabetic kidney disease. In unadjusted models using all 3 TPs, glucose-derived pAGEs were associated with subsequent risk of proliferative diabetic retinopathy (PDR, p<0.003), clinically significant macular edema (CSME, p<0.015) and confirmed clinical neuropathy (CCN, p<0.018, except CML, not significant (NS)). Adjusted for age, sex, body mass index, diabetes duration and mean updated HbA1c, the associations remained significant for PDR (FL: p<0.002, GSPN: p≤0.02, CML: p<0.003, pentosidine: p<0.02), CMSE (CML: p<0.03), albuminuria (FL: p<0.02, CML: p<0.03) and CCN (FL: p<0.005, GSPN : p<0.003). pAGEs at TP1 are not superior to HbA1c for risk prediction, but glucose-derived pAGEs at three TPs and MetSOX remain robustly associated with progression of microvascular complications in type 1 diabetes even after adjustment for HbA1c and other factors.",
+    "authors": [
+      "Monnier Vincent M",
+      "Sell David R",
+      "Gao Xiaoyu",
+      "Genuth Saul M",
+      "Lachin John M",
+      "Bebu Ionut"
+    ],
+    "journal": "BMJ open diabetes research & care",
+    "year": "2022",
+    "doi": "10.1136/bmjdrc-2021-002667",
+    "mesh_terms": [
+      "Cross-Sectional Studies",
+      "Diabetes Mellitus, Type 1",
+      "Diabetic Retinopathy",
+      "Glycated Hemoglobin",
+      "Glycation End Products, Advanced",
+      "Humans"
+    ],
+    "keywords": [
+      "diabetic neuropathies",
+      "glycated hemoglobin A",
+      "kidney",
+      "oxidative stress"
+    ]
+  },
+  {
+    "pmid": "29575566",
+    "title": "Assessing glycation-mediated changes in human cortical bone with Raman spectroscopy.",
+    "abstract": "Establishing a non-destructive method for spatially assessing advanced glycation end-products (AGEs) is a potentially useful step toward investigating the mechanistic role of AGEs in bone quality. To test the hypothesis that the shape of the amide I in the Raman spectroscopy (RS) analysis of bone matrix changes upon AGE accumulation, we incubated paired cadaveric cortical bone in ribose or glucose solutions and in control solutions for 4 and 16 weeks, respectively, at 37°C. Acquiring 10 spectra per bone with a 20X objective and a 830 nm laser, RS was sensitive to AGE accumulation (confirmed by biochemical measurements of pentosidine and fluorescent AGEs). Hyp/Pro ratio increased upon glycation using either 0.1 M ribose, 0.5 M ribose or 0.5 M glucose. Glycation also decreased the amide I sub-peak ratios (cm<sup>-1</sup> ) 1668/1638 and 1668/1610 when directly calculated using either second derivative spectrum or local maxima of difference spectrum, though the processing method (eg, averaged spectrum vs individual spectra) to minimize noise influenced detection of differences for the ribose-incubated bones. Glycation however did not affect these sub-peak ratios including the matrix maturity ratio (1668/1690) when calculated using indirect sub-band fitting. The amide I sub-peak ratios likely reflected changes in the collagen I structure.",
+    "authors": [
+      "Unal Mustafa",
+      "Uppuganti Sasidhar",
+      "Leverant Calen J",
+      "Creecy Amy",
+      "Granke Mathilde",
+      "Voziyan Paul",
+      "Nyman Jeffry S"
+    ],
+    "journal": "Journal of biophotonics",
+    "year": "2018",
+    "doi": "10.1002/jbio.201700352",
+    "mesh_terms": [
+      "Amides",
+      "Arginine",
+      "Cortical Bone",
+      "Female",
+      "Glycation End Products, Advanced",
+      "Glycosylation",
+      "Humans",
+      "Kinetics",
+      "Lysine",
+      "Male",
+      "Middle Aged",
+      "Spectrum Analysis, Raman"
+    ],
+    "keywords": [
+      "Raman spectroscopy",
+      "advanced glycation end-product",
+      "bone quality",
+      "deconvolution",
+      "glucosepane",
+      "pentosidine",
+      "post-translation modifications",
+      "spectral processing",
+      "type 1 collagen"
+    ]
+  },
+  {
+    "pmid": "25791570",
+    "title": "Effects of Collagen Crosslinking on Bone Material Properties in Health and Disease.",
+    "abstract": "Data have accumulated to show that various types of collagen crosslinking are implicated in the health of individuals, as well as in a number of disease states, such as osteoporosis, diabetes mellitus, chronic kidney disease, inflammatory bowel disease, or in conditions of mild hyperhomocysteinemia, or when glucocorticoid use is indicated. Collagen crosslinking is a posttranslational modification of collagen molecules and plays important roles in tissue differentiation and in the mechanical properties of collagenous tissue. The crosslinking of collagen in the body can form via two mechanisms: one is enzymatic crosslinking and the other is nonenzymatic crosslinking. Lysyl hydroxylases and lysyl oxidases regulate tissue-specific crosslinking patterns and quantities. Enzymatic crosslinks initially form via immature divalent crosslinking, and a portion of them convert into mature trivalent forms such as pyridinoline and pyrrole crosslinks. Nonenzymatic crosslinks form as a result of reactions which create advanced glycation end products (AGEs), such as pentosidine and glucosepane. These types of crosslinks differ in terms of their mechanisms of formation and function. Impaired enzymatic crosslinking and/or an increase of AGEs have been proposed as a major cause of bone fragility associated with aging and numerous disease states. This review focuses on the effects of collagen crosslinking on bone material properties in health and disease.",
+    "authors": [
+      "Saito Mitsuru",
+      "Marumo Keishi"
+    ],
+    "journal": "Calcified tissue international",
+    "year": "2015",
+    "doi": "10.1007/s00223-015-9985-5",
+    "mesh_terms": [
+      "Aging",
+      "Animals",
+      "Bone Density",
+      "Bone and Bones",
+      "Collagen",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Osteoporosis"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "41503150",
+    "title": "Advanced glycation end-product adducts alter the bone collagen network and human cortical bone fracture resistance.",
+    "abstract": "Elevated levels of AGEs have been implicated in the increased fracture risk of type 2 diabetes (T2D) and CKD patients. AGEs are widely thought to \"over-crosslink\" bone collagen, making it stiff and less ductile, leading to reduced cortical bone fracture resistance. This idea is primarily based on in vitro studies where predominately pentosidine, an AGE crosslink, has been used as a biomarker for AGEs. However, more recent studies have found that non-crosslinking AGE adducts to be roughly 40-200 times more abundant than pentosidine in human specimens. In addition, ex vivo studies have shown a denatured and less connected collagen network is associated with reduced fracture resistance. This highlights a disconnect in understanding regarding how AGEs impact cortical bone fragility. Specifically, the relationships between AGEs, bone collagen network properties, and cortical bone fracture toughness are poorly understood. Three AGE adducts (carboxy-methyl-lysine, carboxy-ethyl-lysine, 5-hydro-5-methyl-4-imidazolon-2-yl-ornithine 1), pentosidine, collagen network measures, and the fracture toughness of cortical bone specimens from a large heterogenous group of 80 human donors with and without a history of T2D and/or CKD were measured ex vivo. The AGE adducts contents were 57%-63% higher in the T2D/CKD group compared to the controls and were 70-830 times more abundant than pentosidine. The AGE adducts also correlated negatively and strongly with hydroxylysinonorleucine (HLNL), an immature lysyl oxidase-mediated crosslink (<i>r</i> = -0.62 to -0.71, <i>p</i> < .001). From multiple linear regression (MLR) models, interactions between HLNL and collagen network connectivity and cortical bone porosity best explained 2 fracture toughness measures: J-int and Wfx<sub>n</sub> (adj-<i>R</i> <sup>2</sup> = 47.6% and 40.9%, respectively). From these results, AGE adducts are proposed to disrupt immature crosslink formation during bone remodeling, ultimately leading to a reduction in the cortical bone fracture resistance over time.",
+    "authors": [
+      "Dapaah Daniel Y",
+      "Arakawa Shoutaro",
+      "Carroll Gwennyth A",
+      "Wang Yiran",
+      "McLachlin Stewart",
+      "Saito Mitsuru",
+      "Willett Thomas L"
+    ],
+    "journal": "JBMR plus",
+    "year": "2026",
+    "doi": "10.1093/jbmrpl/ziaf172",
+    "mesh_terms": [],
+    "keywords": [
+      "CKD",
+      "advanced glycation end-product adducts",
+      "collagen network connectivity",
+      "cortical bone fracture toughness",
+      "lysyl oxidase enzymatic crosslinks",
+      "type 2 diabetes"
+    ]
+  },
+  {
+    "pmid": "27342131",
+    "title": "The pecking order of skin Advanced Glycation Endproducts (AGEs) as long-term markers of glycemic damage and risk factors for micro- and subclinical macrovascular disease progression in Type 1 diabetes.",
+    "abstract": "To date more than 20 glycation products were identified, of which ~15 in the insoluble human skin collagen fraction. The goal of this review is to streamline 30 years of research and ask a set of important questions: in Type 1 diabetes which glycation products correlate best with 1) past mean glycemia 2) reversibility with improved glycemic control, 2) cross-sectional severity of retinopathy, nephropathy and neuropathy and 3) the future long-term risk of progression of micro- and subclinical macrovascular disease. The trio of glycemia related glycation markers furosine (FUR)/fructose-lysine (FL), glucosepane and methylglyoxal hydroimidazolone (MG-H1) emerges as extraordinarily strong predictors of existing and future microvascular disease progression risk despite adjustment for both past and prospective A1c levels. X(2) values are up to 25.1, p values generally less than 0.0001, and significance remains after adjustment for various factors such as A1c, former treatment group, log albumin excretion rate, abnormal autonomic nerve function and LDL levels at baseline. In contrast, subclinical cardiovascular progression is more weakly correlated with AGEs/glycemia with X(2) values < 5.0 and p values generally < 0.05 after all adjustments. Except for future carotid intima-media thickness, which correlates with total AGE burden (MG-H1, pentosidine, fluorophore LW-1 and decreased collagen solubility), adjusted FUR and Collagen Fluorescence (CLF) are the strongest markers for future coronary artery calcium deposition, while cardiac hypertrophy is associated with LW-1 and CLF adjusted for A1c. We conclude that a robust clinical skin biopsy AGE risk panel for microvascular disease should include at least FUR/FL, glucosepane and MG-H1, while a macrovascular disease risk panel should include at least FL/FUR, MG-H1, LW-1 and CLF.",
+    "authors": [
+      "Monnier Vincent M",
+      "Genuth Saul",
+      "Sell David R"
+    ],
+    "journal": "Glycoconjugate journal",
+    "year": "2016",
+    "doi": "10.1007/s10719-016-9702-2",
+    "mesh_terms": [
+      "Biomarkers",
+      "Diabetes Mellitus, Type 1",
+      "Diabetic Angiopathies",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Skin"
+    ],
+    "keywords": [
+      "Coronary artery calcium",
+      "Glycation",
+      "Intima media thickness",
+      "Left ventricular mass",
+      "Methylglyoxal",
+      "Nephropathy",
+      "Neuropathy",
+      "Oxidation",
+      "Retinopathy"
+    ]
+  },
+  {
+    "pmid": "27648753",
+    "title": "Intra-molecular lysine-arginine derived advanced glycation end-product cross-linking in Type I collagen: A molecular dynamics simulation study.",
+    "abstract": "Covalently cross-linked advanced glycation end products (AGE) are among the major post-translational modifications to proteins as a result of non-enzymatic glycation. The formation of AGEs has been shown to have adverse effects on the properties of the collagenous tissue; they are even linked to a number of age related disorders. Little is known about the sites at which these AGEs form or why certain sites within the collagen are energetically more favourable than others. In this study we have used a proven fully atomistic molecular dynamics approach to identify six sites where the formation of the intra-molecular 3-deoxyglucosone-derived imidazolium cross-link (DOGDIC) is energetically favourable. We have also conducted a comparison of these positions with those of the more abundant glucosepane cross-link, to determine any site preference. We show that when we consider both lysine and arginine AGEs, they exhibit a prevalence to form within the gap region of the collagen fibril.",
+    "authors": [
+      "Collier Thomas A",
+      "Nash Anthony",
+      "Birch Helen L",
+      "de Leeuw Nora H"
+    ],
+    "journal": "Biophysical chemistry",
+    "year": "2016",
+    "doi": "10.1016/j.bpc.2016.09.003",
+    "mesh_terms": [
+      "Animals",
+      "Arginine",
+      "Binding Sites",
+      "Collagen Type I",
+      "Cross-Linking Reagents",
+      "Deoxyglucose",
+      "Glycation End Products, Advanced",
+      "Imidazoles",
+      "Lysine",
+      "Models, Molecular",
+      "Molecular Dynamics Simulation",
+      "Rats"
+    ],
+    "keywords": [
+      "Advanced glycation end products",
+      "Collagen",
+      "DOGDIC",
+      "Glucosepane",
+      "Glycation",
+      "Molecular dynamics",
+      "Protein cross-linking"
+    ]
+  },
+  {
+    "pmid": "31229674",
+    "title": "Organic matrix quality discriminates between age- and BMD-matched fracturing versus non-fracturing post-menopausal women: A pilot study.",
+    "abstract": "Women with similar areal Bone Mineral Densities (BMD) may show divergent fracture incidence due to differences in bone quality. The hypothesis tested in the present pilot study is that postmenopausal (PM) women who have sustained osteoporotic fractures have altered organic matrix quality compared to those who have not. We used Raman microspectroscopy to analyze transiliac biopsies collected from fracturing (n = 6, mean age 62.5 ± 7.4 yrs; Cases) and non-fracturing PM women (n = 6, age- and BMD-matched; mean age 62.2 ± 7.3 yrs; Controls). Previous results show differences in intrinsic material properties by nanoindentation that are more homogenously distributed and could facilitate microcrack propagation in Cases, along with lower mineral carbonate/phosphate ratio by Fourier transform infrared spectroscopic imaging, and no differences in bone tissue mineralization by digitized microradiography. No differences between groups were seen by conventional histomorphometry. Spectra were acquired 2 μm away from previously performed nanoindents, in cortical and cancellous compartments. The determined parameters were: mineral to matrix ratio (MM), and nanoporosity (a surrogate for tissue water (TW)), glycosaminoglycan (GAG), pyridinoline (Pyd; trivalent enzymatic collagen cross-link), N(6)-carboxymethyllysine (CML; advanced glycation endproduct), and pentosidine (PEN; advanced glycation endproduct) content. ANCOVA indicated no differences in any of the spectroscopic outcomes between cancellous and cortical compartments. On the other hand, Cases had lower nanoporosity (TW) and GAG, and elevated Pyd, and CML content compared to Controls. In conclusion, the results of the present study indicate significant differences in organic matrix quality in PM women that sustain fragility fractures versus age- and BMD-matched controls, highlighting its importance as a potential independent determinant of fracture incidence.",
+    "authors": [
+      "Rokidi S",
+      "Paschalis E P",
+      "Klaushofer K",
+      "Vennin S",
+      "Desyatova A",
+      "Turner J A",
+      "Watson P",
+      "Lappe J",
+      "Akhter M P",
+      "Recker R R"
+    ],
+    "journal": "Bone",
+    "year": "2019",
+    "doi": "10.1016/j.bone.2019.06.017",
+    "mesh_terms": [
+      "Age Factors",
+      "Biopsy",
+      "Bone Density",
+      "Bone Matrix",
+      "Female",
+      "Fractures, Bone",
+      "Humans",
+      "Middle Aged",
+      "Pilot Projects",
+      "Postmenopause",
+      "Spectrum Analysis, Raman"
+    ],
+    "keywords": [
+      "Advanced glycation endproducts",
+      "Fragility fracture",
+      "Glycosaminoglycans",
+      "Postmenopause",
+      "Pyridinoline",
+      "Raman spectroscopy"
+    ]
+  },
+  {
+    "pmid": "34314247",
+    "title": "A Hypothesis: Fructosamine-3-Kinase-Related-Protein (FN3KRP) Catalyzes Deglycation of Maillard Intermediates Directly Downstream from Fructosamines.",
+    "abstract": "Non-enzymatic glycation (a.k.a. Maillard reaction) is a series of random spontaneous reactions between reducing sugars and amines, resulting in the formation of irreversible advanced glycation endproducts (AGE's). In food chemistry, this process is beneficial by contributing to the flavor, aroma, texture, and appearance of cooked foods. <i>In vivo</i>, however, Maillard reaction is deleterious because uncontrolled modification and crosslinking of biological macromolecules impairs their function. Consequently, chronic hyperglycemia of diabetes mellitus, for instance, leads to increased non-enzymatic glycation and diverse, multi-organ pathologies of diabetic complications. Based on the fact that toxic compounds, such as free radicals, are detoxified <i>in vivo</i> by specific defense mechanisms, one would expect to find mechanisms to control glucose toxicity as well. Thus far, only one such enzyme, fructosamine-3-kinase (FN3K), has been characterized. It operates intracellularly by catalyzing ATP-dependent removal of Maillard adducts, D-fructoselysines, from proteins, thereby reducing the Maillard reaction flux from glucose to AGE's. When FN3K was isolated, a closely related but distinct protein copurified with it. Unlike FN3K, however, this enzyme, fructosamine-3-kinase-related protein (FN3KRP), does not phosphorylate D-fructoselysines but it does phosphorylate several other (non-physiological) substrates. Interestingly, the distribution of FN3KRP in nature appears to be nearly universal whereas that of FN3K is limited to endotherms. In this article, it is suggested that the function of FN3KRP is deglycation of Maillard adducts downstream from fructoselysines. Such a mechanism, if proven correct, would be valuable given reports on apparent correlations between FN3KRP and some chronic conditions and/or diseases, such as a recent publication which proposes that the FN3KRP gene may be a longevity gene.",
+    "authors": [
+      "Szwergold Benjamin"
+    ],
+    "journal": "Rejuvenation research",
+    "year": "2021",
+    "doi": "10.1089/rej.2021.0009",
+    "mesh_terms": [
+      "Fructosamine",
+      "Glucose",
+      "Glycation End Products, Advanced",
+      "Glycosylation",
+      "Maillard Reaction",
+      "Phosphotransferases (Alcohol Group Acceptor)"
+    ],
+    "keywords": [
+      "Maillard reaction",
+      "deglycation",
+      "fructosamine-3-kinase",
+      "fructosamine-3-kinase related protein",
+      "glucosepane",
+      "glycation"
+    ]
+  },
+  {
+    "pmid": "11279247",
+    "title": "Formation pathways for lysine-arginine cross-links derived from hexoses and pentoses by Maillard processes: unraveling the structure of a pentosidine precursor.",
+    "abstract": "Covalently cross-linked proteins are among the major modifications caused by the advanced Maillard reaction. So far, the chemical nature of these aggregates and their formation pathways are largely unknown. Synthesis and unequivocal structural characterization are reported for the lysine-arginine cross-links N(6)-(2-([(4S)-4-ammonio-5-oxido-5-oxopentyl]amino)-5-[(2S,3R)-2,3,4- trihydroxybutyl]-3,5-dihydro-4H-imidazol-4-ylidene)-l-lysinate (DOGDIC 12), N(6)-(2-([(4S)-4-ammonio-5-oxido-5-oxopentyl]amino)-5-[(2S)-2,3-dihydroxypropyl]-3,5-dihydro-4H-imidazol-4-ylidene)-l-lysinate (DOPDIC 13), and 6-((6S)-2-([(4S)-4-ammonio-5-oxido-5-oxopentyl] amino)-6-hydroxy-5,6,7,7a-tetrahydro-4H-imidazo[4,5-b] pyridin-4-yl)-l-norleucinate (pentosinane 10). For these compounds, as well as for glucosepane 9 and pentosidine 11, the formation pathways could be established by starting from native carbohydrates, Amadori products, and 3-deoxyosones, respectively. Pentosinane 10 was unequivocally proven to be an important precursor of pentosidine 11, which is a well established fluorescent indicator for advanced glycation processes in vivo. The Amadori products are shown to be the pivots in the formation of the various cross-links 9-13. The bicyclic structures 9-11 are directly derived from aminoketoses, whereas 12 and 13 stem from reaction with the 3-deoxyosones. All products 9-13 were identified and quantified from incubations of bovine serum albumin with the respective 3-deoxyosone or carbohydrate. From these results it seems fully justified to expect both glucosepane 9 and DOGDIC 12 to constitute important in vivo cross-links.",
+    "authors": [
+      "Biemel K M",
+      "Reihl O",
+      "Conrad J",
+      "Lederer M O"
+    ],
+    "journal": "The Journal of biological chemistry",
+    "year": "2001",
+    "doi": "10.1074/jbc.M102035200",
+    "mesh_terms": [
+      "Arginine",
+      "Azepines",
+      "Hexoses",
+      "Imidazoles",
+      "Kinetics",
+      "Lysine",
+      "Maillard Reaction",
+      "Models, Chemical",
+      "Ornithine",
+      "Pentoses",
+      "Serum Albumin, Bovine"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "18500835",
+    "title": "Identification of glucose-derived cross-linking sites in ribonuclease A.",
+    "abstract": "The accumulation of glycation derived cross-links has been widely implicated in extracellular matrix damage in aging and diabetes, yet little information is available on the cross-linking sites in proteins and the intra- versus intermolecular character of cross-linking. Recently, glucosepane, a 7-membered heterocycle formed between lysine and arginine residues, has been found to be the single major cross-link known so far to accumulate during aging. As an approach toward identification of glucose derived cross-linking sites, we have preglycated ribonuclease A first for for 14 days with 500 mM glucose, followed by a 4-week incubation in absence of glucose. MALDI-TOF analysis of tryptic digests revealed the presence of Amadori products (Delta m/ z = 162) at K1, K7, K37 and K41, in accordance with previous studies. In addition, K66, K98 and K104 were also modified by Amadori products. Intramolecular glucosepane cross-links were observed at K41-R39 and K98-R85. Surprisingly, the only intermolecular cross-link observed was the 3-deoxyglucosone-derived DODIC at K1-R39. The identity of cross-linked peptides was confirmed by sequencing with tandem mass spectrometry. Recombinant ribonuclease A mutants R39A, R85A, and K91A were produced, purified, and glycated to further confirm the importance of these sites on protein cross-linking. These data provide the first documentation that both intramolecular and intermolecular cross-links form in glucose-incubated proteins.",
+    "authors": [
+      "Dai Zhenyu",
+      "Wang Benlian",
+      "Sun Gang",
+      "Fan Xingjun",
+      "Anderson Vernon E",
+      "Monnier Vincent M"
+    ],
+    "journal": "Journal of proteome research",
+    "year": "2008",
+    "doi": "10.1021/pr700874a",
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Glucose",
+      "Molecular Sequence Data",
+      "Peptide Mapping",
+      "Ribonuclease, Pancreatic",
+      "Spectrometry, Mass, Matrix-Assisted Laser Desorption-Ionization"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "9628264",
+    "title": "Inhibition of angiogenesis on glycated collagen lattices.",
+    "abstract": "Advanced glycation endproduct (AGE) accumulation in extracellular matrix proteins has been demonstrated in diabetic patients with a significant correlation with the severity of diabetic complications. AGE accumulation induces matrix protein cross-link formation, resulting in an increased stiffness of matrix fibres and the reduction of the susceptibility of matrix proteins to proteolytic degradation. We examined whether glycation-induced collagen cross-linking may affect vascular endothelial cell behaviours such as invasion, proliferation and differentiation, using the in vitro angiogenesis model of capillary-like structure formation in three-dimensional matrices of collagen type I. Endothelial cells cultured on collagen gel with angiogenic factors (the combination of fibroblast growth factor-2 and vascular endothelial growth factor) invaded the underlying collagen matrix, and organized capillary-like cord structures in the gel. We found that endothelial cell invasion into glycated collagen gel was significantly attenuated without any effect on proteinase activity including cell-associated plasminogen activator and matrix metalloproteinase in the conditioned medium. In addition, subsequent capillary-like cord formation was also inhibited in glycated collagen gel. In contrast, endothelial cell proliferation was enhanced on glycated collagen gel with or without angiogenic factors compared with control collagen gel. These results suggest that the structural alterations of extracellular matrix proteins through the glycation-induced cross-link formation affect the interaction between endothelial cell and extracellular matrix, resulting in the impairment of an adequate neovascularization in diabetic patients.",
+    "authors": [
+      "Kuzuya M",
+      "Satake S",
+      "Ai S",
+      "Asai T",
+      "Kanda S",
+      "Ramos M A",
+      "Miura H",
+      "Ueda M",
+      "Iguchi A"
+    ],
+    "journal": "Diabetologia",
+    "year": "1998",
+    "doi": "10.1007/s001250050937",
+    "mesh_terms": [
+      "Angiogenesis Inducing Agents",
+      "Animals",
+      "Cell Division",
+      "Cell Movement",
+      "Cells, Cultured",
+      "Collagen",
+      "Endopeptidases",
+      "Endothelium, Vascular",
+      "Gels",
+      "Glycation End Products, Advanced",
+      "Glycosylation",
+      "Humans",
+      "Infant",
+      "Neovascularization, Physiologic"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "26341632",
+    "title": "Skin collagen advanced glycation endproducts (AGEs) and the long-term progression of sub-clinical cardiovascular disease in type 1 diabetes.",
+    "abstract": "We recently reported strong associations between eight skin collagen AGEs and two solubility markers from skin biopsies obtained at DCCT study closeout and the long-term progression of microvascular disease in EDIC, despite adjustment for mean glycemia. Herein we investigated the hypothesis that some of these AGEs (fluorescence to be reported elsewhere) correlate with long-term subclinical cardiovascular disease (CVD) measurements, i.e. coronary artery calcium score (CAC) at EDIC year 7-9 (n = 187), change of carotid intima-media thickness (IMT) from EDIC year 1 to year 6 and 12 (n = 127), and cardiac MRI outcomes at EDIC year 15-16 (n = 142). Skin collagen AGE measurements obtained from stored specimens were related to clinical data from the DCCT/EDIC using Spearman correlations and multivariable logistic regression analyses. Spearman correlations showed furosine (early glycation) was associated with future mean CAC (p < 0.05) and CAC >0 (p = 0.039), [corrected] but not with CAC score <100 vs. >100. Glucosepane and pentosidine crosslinks, methylglyoxal hydroimidazolones (MG-H1) and pepsin solubility (inversely) correlated with IMT change from year 1 to 6(all P < 0.05). Left ventricular (LV) mass (cMRI) correlated with MG-H1, and inversely with pepsin solubility (both p < 0.05), while the ratio LV mass/end diastolic volume correlated with furosine and MG-H1 (both p < 0.05), and highly with CML (p < 0.01). In multivariate analysis only furosine (p = 0.01) was associated with CAC. In contrast IMT was inversely associated with lower collagen pepsin solubility and positively with glucosepane, In type 1 diabetes, multiple AGEs are associated with IMT progression in spite of adjustment for A1c implying a likely participatory role of glycation and AGE mediated crosslinking on matrix accumulation in coronary arteries. This may also apply to functional cardiac MRI outcomes, especially left ventricular mass. In contrast, early glycation measured by furosine, but not AGEs, was associated with CAC score, implying hyperglycemia as a risk factor in calcium deposition perhaps via processes independent of glycation. Registered at Clinical trial reg. nos. NCT00360815 and NCT00360893, http://www.clinicaltrials.gov.",
+    "authors": [
+      "Monnier Vincent M",
+      "Sun Wanjie",
+      "Gao Xiaoyu",
+      "Sell David R",
+      "Cleary Patricia A",
+      "Lachin John M",
+      "Genuth Saul"
+    ],
+    "journal": "Cardiovascular diabetology",
+    "year": "2015",
+    "doi": "10.1186/s12933-015-0266-4",
+    "mesh_terms": [
+      "Adult",
+      "Arginine",
+      "Asymptomatic Diseases",
+      "Biomarkers",
+      "Biopsy",
+      "Cardiovascular Diseases",
+      "Carotid Artery Diseases",
+      "Carotid Intima-Media Thickness",
+      "Chi-Square Distribution",
+      "Collagen",
+      "Coronary Artery Disease",
+      "Diabetes Mellitus, Type 1",
+      "Disease Progression",
+      "Female",
+      "Glycation End Products, Advanced",
+      "Glycosylation",
+      "Heart Diseases",
+      "Humans",
+      "Logistic Models",
+      "Lysine",
+      "Magnetic Resonance Imaging",
+      "Male",
+      "Multivariate Analysis",
+      "Odds Ratio",
+      "Pepsin A",
+      "Pyruvaldehyde",
+      "Risk Factors",
+      "Skin",
+      "Time Factors",
+      "Vascular Calcification",
+      "Young Adult"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "42334941",
+    "title": "Introducing non-enzymatic crosslinks into atomistic simulations of collagen fibrils.",
+    "abstract": "Collagen fibrils are the primary load-bearing units of connective tissues. However, generating atomistic, simulation-ready models remains challenging due to collagen's hierarchical organization and the diversity of its crosslinking network across tissues, ages, and metabolic states. Notably, non-enzymatic advanced glycation end-product (AGE) crosslinks-central to aging and diabetic complications-are largely absent from current atomistic fibril modelling workflows. Here, we present an extension of the ColBuilder framework to generate atomistic collagen fibril models that incorporate three representative AGE-derived crosslinks (glucosepane, pentosidine, and MOLD) alongside enzymatic crosslinks. Amber99-compatible parameters are provided and assessed against QM-optimized reference geometries using all-atom molecular dynamics (MD) simulations. As proof-of-concept, we examine the mechanical response of single D-period collagen microfibrils featuring enzymatic-only, AGE-only, and mixed crosslink patterns in molecular dynamics simulations under force, and observe that AGE crosslinks differently impact the fibril structure compared to enzymatic crosslinks. The extension to ColBuilder can aid future structure-based research on collagen aging. ColBuilder is available as an open-source Python command-line package at https://github.com/graeter-group/colbuilder.",
+    "authors": [
+      "Giannetti Guido",
+      "Pils Justin",
+      "Gräter Frauke",
+      "Monego Debora",
+      "Dellago Christoph"
+    ],
+    "journal": "Bioinformatics (Oxford, England)",
+    "year": "2026",
+    "doi": "10.1093/bioinformatics/btag409",
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "Collagen",
+      "Glycation End Products, Advanced",
+      "Arginine",
+      "Lysine"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "41154455",
+    "title": "Plasma Glycated and Oxidized Amino Acid-Based Screening Test for Clinical Early-Stage Osteoarthritis.",
+    "abstract": "The diagnosis of early-stage osteoarthritis (eOA) is important in disease management and outcomes. Herein we report the clinical validation of a blood test for the diagnosis of eOA in a large patient cohort using trace-level glycated and oxidized amino acid analytes. Subjects were recruited and enrolled in two study groups: subjects with eOA of the hip (n = 110) and asymptomatic controls (n = 120). Their plasma was analyzed for glycated and oxidized amino acids by quantitative liquid chromatography-tandem mass spectrometry. Algorithms were developed using plasma hydroxyproline and 12 glycated and oxidized amino acid analyte features to classify the subjects with eOA and asymptomatic controls. The accuracy was defined as the percentage of the subjects correctly classified in the test set validation. The minimum number of analyte features required for the optimum accuracy was five glycated amino acid analytes: N<sub>ω</sub>-carboxymethyl-arginine, hydroimidazolones derived from glyoxal, methylglyoxal and 3-deoxyglucosone, and glucosepane. The classification performance metrics included an accuracy of 95%, sensitivity of 96%, specificity of 94%, area under the curve of the receiver operating characteristic curve of 99%, and positive and negative predictive values of 94% and 97%. We concluded that an assay of five trace-level glycated amino acids present in plasma can provide a simple blood test for the screening of eOA. This is predicted to improve the case identification for expert referral 9-fold.",
+    "authors": [
+      "Al-Saei Aisha Nasser J M",
+      "Ahmed Usman",
+      "Dickenson Edward J",
+      "Rajpoot Kashif",
+      "Xue Mingzhan",
+      "Abdelalim Essam M",
+      "Arredouani Abdelilah",
+      "Albagha Omar M E",
+      "Griffin Damian R",
+      "Thornalley Paul J",
+      "Rabbani Naila"
+    ],
+    "journal": "Antioxidants (Basel, Switzerland)",
+    "year": "2025",
+    "doi": "10.3390/antiox14101146",
+    "mesh_terms": [],
+    "keywords": [
+      "glycation",
+      "machine learning",
+      "osteoarthritis",
+      "oxidative stress"
+    ]
+  },
+  {
+    "pmid": "33095927",
+    "title": "In vivo confocal Raman spectroscopic imaging of the human skin extracellular matrix degradation due to accumulated intrinsic and extrinsic aging.",
+    "abstract": "Skin aging is a dynamic process that affects the entire body, marked by molecular and structural changes. Type I collagen is the most abundant structural component and accounts 80% of total collagen in human skin. The amount of proline and hydroxyproline reflect the quantity and quality of the collagen fiber in the extracellular matrix of skin, which is alerted due to accumulated effects of intrinsic and extrinsic aging. Extrinsic aging is driven by ultraviolet radiation-induced reactive oxygen species production that activates the matrix metalloproteinase and disrupts the extracellular matrix of skin dermis, while intrinsic aging is the non-enzymatic process resulting in advanced glycation end products (AGEs). In the presence of pentosidine-AGEs, aging process is accelerated. In vivo Raman spectra of human dermis were collected from forearms of 30 volunteers and were divided into three groups: 10 young adult 25 ± 5 years, 10 old adult 65 ± 10 years and 10 diabetic old adult 65 ± 10 years old male participants. Density functional theory was performed to compute the vibration modes of AGEs, pentosidine, and glucosepane. In vivo confocal Raman spectroscopy detects the specific changes in the proline and hydroxyproline conformation, collagen fiber degradation of type I collagen and AGE protein contribution to specific Raman bands in the aged dermis because of Intrinsic and Extrinsic aging. Statistical t test marked significant differences (P < .01) in Raman peaks of proline and hydroxyproline among young adult, old adult, and diabetic old adult participants at wavenumbers 855, 875, 922, and 938 cm<sup>-1</sup> . In vivo confocal Raman spectroscopy is a useful tool to detect the AGE markers in the old adult and diabetic old adult male participants, which interacts with the ultraviolet radiations and accelerates the aging process resulting in the extracellular matrix degradation.",
+    "authors": [
+      "Ali Syed Mehmood"
+    ],
+    "journal": "Photodermatology, photoimmunology & photomedicine",
+    "year": "2021",
+    "doi": "10.1111/phpp.12623",
+    "mesh_terms": [
+      "Adolescent",
+      "Adult",
+      "Aged",
+      "Child",
+      "Collagen",
+      "Diabetes Mellitus",
+      "Extracellular Matrix",
+      "Female",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Hydroxyproline",
+      "Male",
+      "Proline",
+      "Skin Aging",
+      "Spectrum Analysis, Raman"
+    ],
+    "keywords": [
+      "UV-induced ROS production",
+      "extracellular matrix degradation",
+      "in vivo confocal Raman spectroscopy",
+      "non-enzymatic glycation",
+      "photosensitizer-AGE"
+    ]
+  },
+  {
+    "pmid": "34279786",
+    "title": "Evaluation of the Relationship Between Bioactive Components in Seaweeds and Advanced Glycation End-Products Inhibitory Activities Using Principal Component Analysis.",
+    "abstract": "This study comprehensively presents the relationship between the bioactive substance of 70% (v/v) aqueous ethanol extract of 38 species of seaweeds (SWEs), and anti-glycation activities. The contents of bioactive substance of SWEs, such as total phenolic, total flavonoid and condensed tannins, were determined through a colorimetric analysis. Among the tested species, Ecklonia bicyclis, Ishige foliacea, and Cladophora urightiana var. minor had the highest amount of total phenolic (255.75 mg GAE/g DW), total condensed tannins (63.36 mg CE/g DW), and total flavonoid content (85.26 mg CE/g DW), respectively. Anti-glycation properties of SWEs were evaluated through advanced glycation end-products (AGEs) formation, AGEs-collagen cross-link formation, and AGEs-collagen cross-link breaking assay. Brown algae species exhibited a more prominent inhibitory activity on AGEs formation and AGEs-collagen cross-links, and the breaking of AGEs-collagen cross-links compared to that exhibited by aminoguanidine and ALT-711 (positive controls). Using principal component analysis, we confirmed that the AGEs formation inhibitory property and AGEs-collagen cross-links breaking activity were closely correlated with total phenolic and the condensed tannin contents contained in SWEs. Therefore, the bioactive substances such as phenolics and condensed tannins in seaweeds can be used as predictive indices in selecting compounds for the development of a therapeutic agent that prevents diabetic complications related to the AGEs. In addition, our results suggest that brown algae species, which contains more bioactive substances than green and red algae species, can be utilized as a promising natural resource for the prevention and alleviation of AGEs-related diabetic complications as AGE inhibitor and cross-links breaker.",
+    "authors": [
+      "Cho Chi Heung",
+      "Youm Ga Hee",
+      "Kim Mingyeong",
+      "Kim Sera",
+      "Song Eun-Ji",
+      "Nam Young-Do",
+      "Lee Sang-Hoon"
+    ],
+    "journal": "Plant foods for human nutrition (Dordrecht, Netherlands)",
+    "year": "2021",
+    "doi": "10.1007/s11130-021-00908-5",
+    "mesh_terms": [
+      "Glycation End Products, Advanced",
+      "Phenols",
+      "Plant Extracts",
+      "Principal Component Analysis",
+      "Seaweed"
+    ],
+    "keywords": [
+      "Advanced glycation end-product",
+      "Anti-diabetic power",
+      "Cross-link breaking",
+      "Principal component analysis",
+      "Seaweed"
+    ]
+  },
+  {
+    "pmid": "19760059",
+    "title": "Collagen cross-links as a determinant of bone quality: a possible explanation for bone fragility in aging, osteoporosis, and diabetes mellitus.",
+    "abstract": "Collagen cross-linking, a major post-translational modification of collagen, plays important roles in the biological and biomechanical features of bone. Collagen cross-links can be divided into lysyl hydroxylase and lysyloxidase-mediated enzymatic immature divalent cross-links,mature trivalent pyridinoline and pyrrole cross-links, and glycation- or oxidation-induced non-enzymatic cross-links(advanced glycation end products) such as glucosepane and pentosidine. These types of cross-links differ in the mechanism of formation and in function. Material properties of newly synthesized collagen matrix may differ in tissue maturity and senescence from older matrix in terms of crosslink formation. Additionally, newly synthesized matrix in osteoporotic patients or diabetic patients may not necessarily be as well-made as age-matched healthy subjects. Data have accumulated that collagen cross-link formation affects not only the mineralization process but also microdamage formation. Consequently, collagen cross-linking is thought to affect the mechanical properties of bone. Furthermore,recent basic and clinical investigations of collagen cross-links seem to face a new era. For instance, serum or urine pentosidine levels are now being used to estimate future fracture risk in osteoporosis and diabetes. In this review, we describe age-related changes in collagen cross-links in bone and abnormalities of cross-links in osteoporosis and diabetes that have been reported in the literature.",
+    "authors": [
+      "Saito M",
+      "Marumo K"
+    ],
+    "journal": "Osteoporosis international : a journal established as result of cooperation between the European Foundation for Osteoporosis and the National Osteoporosis Foundation of the USA",
+    "year": "2010",
+    "doi": "10.1007/s00198-009-1066-z",
+    "mesh_terms": [
+      "Aging",
+      "Bone Density",
+      "Bone and Bones",
+      "Collagen",
+      "Diabetes Mellitus, Type 2",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Osteoporosis"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "21897744",
+    "title": "Topical application of L-arginine blocks advanced glycation by ascorbic acid in the lens of hSVCT2 transgenic mice.",
+    "abstract": "Previous experiments from our laboratory showed that the oral intake of selected guanidino compounds could block the formation of crystallin-bound advanced ascorbylation products. Here we tested whether these were also active when applied as eye drops. Two month old hSVCT2 transgenic mice (n=10) were treated twice daily with one drop of 0.1% L-arginine, γ-guanidinobutyric acid (GBA), penicillamine (PA) or N-acetylcysteine (NAC) in one eye and vehicle only in the other eye. After seven months, lens crystallins were isolated, dialyzed, and proteolytically digested to determine the protein-bound fluorescence at 335/385 and 370/440 nm excitation/emission and the advanced glycation/ascorbylation endproducts carboxymethyl-lysine (CML), carboxyethyl-lysine (CEL), glucosepane, glyoxal, and methylglyoxal hydroimidazolones G-H1 and MG-H1. The topical uptake of L-arginine and NAC was also evaluated in vitro and in vivo in rabbit lens. In hSVCT2 mice, L-arginine decreased 335/385 and 370/440 nm fluorescence by 40% (p<0.001), CML, CEL, and glucosepane crystallin crosslinks by 35% (p<0.05), 30% (p<0.05), and 37% (p<0.05), respectively, without affecting MG-H1 and G-H1. NAC decreased 335/385 nm fluorescence by 50% (p<0.001) but, like PA and GBA, had no effect on other modifications. L-Arginine uptake into rabbit eyes treated topically reached identical lenticular plateau levels (~400 nmol/g wet weight) at 0.5% and 2.0% but levels remained three times higher at 5 h at 2% versus 0.5% concentration, respectively. In vitro studies showed a 100 fold higher L-arginine level than NAC levels, implicating high affinity uptake of the former. L-Arginine when applied both orally and topically is a potent and broad suppressor of advanced ascorbylation in the lens. Its uptake in rabbit lens upon topical application suggests transcorneal uptake into the human lens should be feasible for testing its potential anticataract properties in clinical trials.",
+    "authors": [
+      "Fan Xingjun",
+      "Xiaoqin Liu",
+      "Potts Breshey",
+      "Strauch Christopher M",
+      "Nemet Ina",
+      "Monnier Vincent M"
+    ],
+    "journal": "Molecular vision",
+    "year": "2011",
+    "doi": "",
+    "mesh_terms": [
+      "Acetylcysteine",
+      "Administration, Topical",
+      "Aging",
+      "Animals",
+      "Arginine",
+      "Ascorbic Acid",
+      "Biological Transport, Active",
+      "Cataract",
+      "Crystallins",
+      "Gene Knock-In Techniques",
+      "Glycation End Products, Advanced",
+      "Guanidines",
+      "Humans",
+      "Lens, Crystalline",
+      "Mass Spectrometry",
+      "Mice",
+      "Mice, Transgenic",
+      "Ophthalmic Solutions",
+      "Penicillamine",
+      "Rabbits",
+      "Sodium-Coupled Vitamin C Transporters",
+      "Spectrometry, Fluorescence"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "31827677",
+    "title": "Urinary Metabolomic Markers of Protein Glycation, Oxidation, and Nitration in Early-Stage Decline in Metabolic, Vascular, and Renal Health.",
+    "abstract": "Glycation, oxidation, nitration, and crosslinking of proteins are implicated in the pathogenic mechanisms of type 2 diabetes, cardiovascular disease, and chronic kidney disease. Related modified amino acids formed by proteolysis are excreted in urine. We quantified urinary levels of these metabolites and branched-chain amino acids (BCAAs) in healthy subjects and assessed changes in early-stage decline in metabolic, vascular, and renal health and explored their diagnostic utility for a noninvasive health screen. We recruited 200 human subjects with early-stage health decline and healthy controls. Urinary amino acid metabolites were determined by stable isotopic dilution analysis liquid chromatography-tandem mass spectrometry. Machine learning was applied to optimise and validate algorithms to discriminate between study groups for potential diagnostic utility. Urinary analyte changes were as follows: impaired metabolic health-increased N <sub><i>ε</i></sub> -carboxymethyl-lysine, glucosepane, glutamic semialdehyde, and pyrraline; impaired vascular health-increased glucosepane; and impaired renal health-increased BCAAs and decreased N <sub><i>ε</i></sub> -(<i>γ</i>-glutamyl)lysine. Algorithms combining subject age, BMI, and BCAAs discriminated between healthy controls and impaired metabolic, vascular, and renal health study groups with accuracy of 84%, 72%, and 90%, respectively. In 2-step analysis, algorithms combining subject age, BMI, and urinary N <sub><i>ε</i></sub> -fructosyl-lysine and valine discriminated between healthy controls and impaired health (any type), accuracy of 78%, and then between types of health impairment with accuracy of 69%-78% (<i>cf.</i> random selection 33%). From likelihood ratios, this provided small, moderate, and conclusive evidence of early-stage cardiovascular, metabolic, and renal disease with diagnostic odds ratios of 6 - 7, 26 - 28, and 34 - 79, respectively. We conclude that measurement of urinary glycated, oxidized, crosslinked, and branched-chain amino acids provides the basis for a noninvasive health screen for early-stage health decline in metabolic, vascular, and renal health.",
+    "authors": [
+      "Masania Jinit",
+      "Faustmann Gernot",
+      "Anwar Attia",
+      "Hafner-Giessauf Hildegard",
+      "Rajpoot Nasir",
+      "Grabher Johanna",
+      "Rajpoot Kashif",
+      "Tiran Beate",
+      "Obermayer-Pietsch Barbara",
+      "Winklhofer-Roob Brigitte M",
+      "Roob Johannes M",
+      "Rabbani Naila",
+      "Thornalley Paul J"
+    ],
+    "journal": "Oxidative medicine and cellular longevity",
+    "year": "2019",
+    "doi": "10.1155/2019/4851323",
+    "mesh_terms": [
+      "Adult",
+      "Algorithms",
+      "Amino Acids, Branched-Chain",
+      "Biomarkers",
+      "Body Mass Index",
+      "Case-Control Studies",
+      "Chromatography, High Pressure Liquid",
+      "Female",
+      "Glycation End Products, Advanced",
+      "Glycosylation",
+      "Humans",
+      "Kidney",
+      "Lysine",
+      "Male",
+      "Metabolic Diseases",
+      "Oxidation-Reduction",
+      "Severity of Illness Index",
+      "Tandem Mass Spectrometry",
+      "Tyrosine",
+      "Vascular Diseases"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "29254633",
+    "title": "Effect on the mechanical properties of type I collagen of intra-molecular lysine-arginine derived advanced glycation end-product cross-linking.",
+    "abstract": "Non-enzymatic advanced glycation end product (AGE) cross-linking of collagen molecules has been hypothesised to result in significant changes to the mechanical properties of the connective tissues within the body, potentially resulting in a number of age related diseases. We have investigated the effect of two of these cross-links, glucosepane and DOGDIC, on the tensile and lateral moduli of the collagen molecule through the use of a steered molecular dynamics approach, using previously identified preferential formation sites for intra-molecular cross-links. Our results show that the presence of intra-molecular AGE cross-links increases the tensile and lateral Young's moduli in the low strain domain by between 3.0-8.5% and 2.9-60.3% respectively, with little effect exhibited at higher strains.",
+    "authors": [
+      "Collier T A",
+      "Nash A",
+      "Birch H L",
+      "de Leeuw N H"
+    ],
+    "journal": "Journal of biomechanics",
+    "year": "2018",
+    "doi": "10.1016/j.jbiomech.2017.11.021",
+    "mesh_terms": [
+      "Arginine",
+      "Collagen",
+      "Collagen Type I",
+      "Connective Tissue",
+      "Cross-Linking Reagents",
+      "Dipeptides",
+      "Elasticity",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Hydrogen Bonding",
+      "Imidazoles",
+      "Lysine",
+      "Molecular Dynamics Simulation",
+      "Peptides",
+      "Protein Domains",
+      "Tensile Strength"
+    ],
+    "keywords": [
+      "Ageing",
+      "Collagen",
+      "Glycation",
+      "Molecular biomechanics",
+      "Molecular dynamics",
+      "Protein cross-linking"
+    ]
+  },
+  {
+    "pmid": "20541005",
+    "title": "Anaerobic vs aerobic pathways of carbonyl and oxidant stress in human lens and skin during aging and in diabetes: A comparative analysis.",
+    "abstract": "The effects of anaerobic (lens) vs aerobic (skin) environment on carbonyl and oxidant stress are compared using de novo and existing data on advanced glycation and oxidation products in human crystallins and collagen. Almost all modifications increase with age. Methylglyoxal hydroimidazolones, carboxymethyllysine, and carboxyethyllysine are severalfold higher in lens than in skin and markedly increase upon incubation of lens crystallins with 5mM ascorbic acid. In contrast, fructose-lysine, glucosepane crosslinks, glyoxal hydroimidazolones, metal-catalyzed oxidation (allysine), and H(2)O(2)-dependent modifications (2-aminoapidic acid and methionine sulfoxide) are markedly elevated in skin, but relatively suppressed in the aging lens. In both tissues ornithine is the dominant modification, implicating arginine residues as the principal target of the Maillard reaction in vivo. Diabetes (here mostly type 2 studied) increases significantly fructose-lysine and glucosepane in both tissues (P<0.001) but has surprisingly little effect on the absolute level of most other advanced glycation end products. However, diabetes strengthens the Spearman correlation coefficients for age-related accumulation of hydrogen peroxide-mediated modifications in the lens. Overall, the data suggest that oxoaldehyde stress involving methylglyoxal from either glucose or ascorbate is predominant in the aging noncataractous lens, whereas aging skin collagen undergoes combined attack by nonoxidative glucose-mediated modifications, as well as those from metal-catalyzed oxidation and H(2)O(2).",
+    "authors": [
+      "Fan Xingjun",
+      "Sell David R",
+      "Zhang Jianye",
+      "Nemet Ina",
+      "Theves Mathilde",
+      "Lu Jie",
+      "Strauch Christopher",
+      "Halushka Marc K",
+      "Monnier Vincent M"
+    ],
+    "journal": "Free radical biology & medicine",
+    "year": "2010",
+    "doi": "10.1016/j.freeradbiomed.2010.06.003",
+    "mesh_terms": [
+      "Aerobiosis",
+      "Aging",
+      "Anaerobiosis",
+      "Chromatography, Liquid",
+      "Diabetes Mellitus",
+      "Diabetic Retinopathy",
+      "Gas Chromatography-Mass Spectrometry",
+      "Glycation End Products, Advanced",
+      "Humans",
+      "Lens, Crystalline",
+      "Oxidants",
+      "Oxidative Stress",
+      "Protein Carbonylation",
+      "Signal Transduction",
+      "Skin"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "18952522",
+    "title": "TRC4149 a novel advanced glycation end product breaker improves hemodynamic status in diabetic spontaneously hypertensive rats.",
+    "abstract": "Advanced Glycation Endproducts (AGEs), implicated as one of the major causes of diabetic complications, either directly or via receptor mediated actions, trigger downstream events in the conduit vessels, microvascular bed as well as myocardium leading to microvascular and cardiac dysfunction. The aim of this study was to characterise the activity profile of TRC4149, a novel AGE breaker compound, to determine its ability to reduce the burden of AGEs in vitro and in vivo and to evaluate whether the reduced AGE burden could translate into improvement in hemodynamic function in a model of Streptozotocin induced diabetic Spontaneously Hypertensive Rats (SHR). AGEs were prepared in vitro by incubating BSA and lysozyme with glucose or ribose while AGE-LDL was generated by copper catalyzed LDL oxidation. TRC4149 was evaluated using in vitro assays to determine its capacity to reduce the burden of AGEs and to test its antioxidant activity. To study the effect of TRC4149 on hemodynamic function, diabetic SHR implanted with telemetry transmitter were treated with TRC4149 (20 mg/kg i.p., b.i.d.) or vehicle for 14 weeks. Losartan was administered once per week and blood pressure was monitored telemetrically throughout the treatment period. Cardiac indices of systolic and diastolic function were assessed terminally using MacLab system. AGE load in aorta was determined immunohistochemically and VCAM expression was quantitated by real time PCR analysis. TRC4149 was able to break preformed AGEs as well as reduce further AGE accumulation in vitro in a dose dependent manner. It also demonstrated a potent free radical scavenging activity. In diabetic SHR, treatment with TRC4149 retarded the decline in response to losartan over the study period, and also improved cardiac function as evidenced by an improved dP/dtmax/min, left ventricular systolic pressure and decreased left ventricular diastolic pressure as compared to untreated group. AGE load as well as VCAM expression in aorta was also reduced upon treatment. TRC4149, a novel AGE-breaker compound, by virtue of reducing AGE load preserved endothelial and cardiac function in diabetic SHR, a model that recapitulates the microvascular and cardiac dysfunction associated with hypertension along with long-term diabetes.",
+    "authors": [
+      "Pathak P",
+      "Gupta R",
+      "Chaudhari A",
+      "Shiwalkar A",
+      "Dubey A",
+      "Mandhare A B",
+      "Gupta R C",
+      "Joshi D",
+      "Chauthaiwale V"
+    ],
+    "journal": "European journal of medical research",
+    "year": "2008",
+    "doi": "",
+    "mesh_terms": [
+      "Animals",
+      "Antioxidants",
+      "Blood Pressure",
+      "Collagen",
+      "Endothelium, Vascular",
+      "Enzyme-Linked Immunosorbent Assay",
+      "Glycation End Products, Advanced",
+      "Hemodynamics",
+      "Hydrazines",
+      "Male",
+      "Models, Biological",
+      "Models, Chemical",
+      "Rats",
+      "Rats, Inbred SHR",
+      "Rats, Wistar",
+      "Spectrometry, Fluorescence",
+      "Sulfonamides"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "32401813",
+    "title": "Collagen methionine sulfoxide and glucuronidine/LW-1 are markers of coronary artery disease in long-term survivors with type 1 diabetes. The Dialong study.",
+    "abstract": "Type 1 diabetes is a risk factor for coronary heart disease. The underlying mechanism behind the accelerated atherosclerosis formation is not fully understood but may be related to the formation of oxidation products and advanced glycation end-products (AGEs). We aimed to examine the associations between the collagen oxidation product methionine sulfoxide; the collagen AGEs methylglyoxal hydroimidazolone (MG-H1), glucosepane, pentosidine, glucuronidine/LW-1; and serum receptors for AGE (RAGE) with measures of coronary artery disease in patients with long-term type 1 diabetes. In this cross-sectional study, 99 participants with type 1 diabetes of ≥ 45-year duration and 63 controls without diabetes had either established coronary heart disease (CHD) or underwent Computed Tomography Coronary Angiography (CTCA) measuring total, calcified and soft/mixed plaque volume. Skin collagen methionine sulfoxide and AGEs were measured by liquid chromatography-mass spectrometry and serum sRAGE/esRAGE by ELISA. In the diabetes group, low levels of methionine sulfoxide (adjusted for age, sex and mean HbA1c) were associated with normal coronary arteries, OR 0.48 (95% CI 0.27-0.88). Glucuronidine/LW-1 was associated with established CHD, OR 2.0 (1.16-3.49). MG-H1 and glucuronidine/LW-1 correlated with calcified plaque volume (r = 0.23-0.28, p<0.05), while pentosidine correlated with soft/mixed plaque volume (r = 0.29, p = 0.008), also in the adjusted analysis. Low levels of collagen-bound methionine sulfoxide were associated with normal coronary arteries while glucuronidine/LW-1 was positively associated with established CHD in long-term type 1 diabetes, suggesting a role for metabolic and oxidative stress in the formation of atherosclerosis in diabetes.",
+    "authors": [
+      "Holte Kristine B",
+      "Svanteson Mona",
+      "Hanssen Kristian F",
+      "Sveen Kari Anne",
+      "Seljeflot Ingebjørg",
+      "Solheim Svein",
+      "Sell David R",
+      "Monnier Vincent M",
+      "Berg Tore Julsrud"
+    ],
+    "journal": "PloS one",
+    "year": "2020",
+    "doi": "10.1371/journal.pone.0233174",
+    "mesh_terms": [
+      "Aged",
+      "Biomarkers",
+      "Collagen",
+      "Coronary Artery Disease",
+      "Cross-Sectional Studies",
+      "Diabetes Complications",
+      "Diabetes Mellitus, Type 1",
+      "Female",
+      "Glucuronides",
+      "Humans",
+      "Male",
+      "Methionine",
+      "Middle Aged",
+      "Receptor for Advanced Glycation End Products"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "21811778",
+    "title": "Theoretical studies on models of lysine-arginine cross-links derived from α-oxoaldehydes: a new mechanism for glucosepane formation.",
+    "abstract": "Availability and high reactivity of α-oxoaldehydes have been approved by experimental techniques not only in vivo systems but also in foodstuffs. In this article we re-examine the mechanism of glucosepane formation by using computational model chemistry. Density functional theory has been applied to propose a new mechanism for glucosepane formation through reaction of α-oxoaldehydes with methyl amine (MA) and methyl guanidine (MGU) models of lysine and arginine residues respectively. This non enzymatic process can be described in three main steps: (1) Schiff base formation from methyl amine, methyl glyoxal (MGO) (2) addition of methyl guanidine and (3) addition of glyceraldehyde. We show that this process is thermodynamically possible and presents a rate-determining step with a reasonable free energy barrier equal to 37.8 kcal mol(-1) in water solvent. Comparisons were done with the mechanism formation of GODIC (glyoxal-derived imidazolium cross-link) and MODIC (methyl glyoxal-derived imidazolium cross-link), two other important cross-links in vivo.",
+    "authors": [
+      "Nasiri Rasoul",
+      "Zahedi Mansour",
+      "Jamet Hélène",
+      "Moosavi-Movahedi Ali Akbar"
+    ],
+    "journal": "Journal of molecular modeling",
+    "year": "2012",
+    "doi": "10.1007/s00894-011-1161-x",
+    "mesh_terms": [
+      "Aldehydes",
+      "Arginine",
+      "Cross-Linking Reagents",
+      "Glycation End Products, Advanced",
+      "Ketoses",
+      "Lysine",
+      "Maillard Reaction",
+      "Methylamines",
+      "Methylguanidine",
+      "Models, Molecular",
+      "Models, Theoretical",
+      "Proteins",
+      "Thermodynamics"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "15677510",
+    "title": "Paradoxical effects of green tea (Camellia sinensis) and antioxidant vitamins in diabetic rats: improved retinopathy and renal mitochondrial defects but deterioration of collagen matrix glycoxidation and cross-linking.",
+    "abstract": "We tested the hypothesis that green tea prevents diabetes-related tissue dysfunctions attributable to oxidation. Diabetic rats were treated daily with tap water, vitamins C and E, or fresh Japanese green tea extract. After 12 months, body weights were decreased, whereas glycated lysine in aorta, tendon, and plasma were increased by diabetes (P < 0.001) but unaffected by treatment. Erythrocyte glutathione and plasma hydroperoxides were improved by the vitamins (P < 0.05) and green tea (P < 0.001). Retinal superoxide production, acellular capillaries, and pericyte ghosts were increased by diabetes (P < 0.001) and improved by green tea and the vitamins (P variable). Lens crystallin fluorescence at 370/440 nm was ameliorated by green tea (P < 0.05) but not the vitamins. Marginal effects on nephropathy parameters were noted. However, suppressed renal mitochondrial NADH-linked ADP-dependent and dinitrophenol-dependent respiration and complex III activity were improved by green tea (P variable). Green tea also suppressed the methylglyoxal hydroimidazolone immunostaining of a 28-kDa mitochondrial protein. Surprising, glycoxidation in tendon, aorta, and plasma was either worsened or not significantly improved by the vitamins and green tea. Glucosepane cross-links were increased by diabetes (P < 0.001), and green tea worsened total cross-linking. In conclusion, green tea and antioxidant vitamins improved several diabetes-related cellular dysfunctions but worsened matrix glycoxidation in selected tissues, suggesting that antioxidant treatment tilts the balance from oxidative to carbonyl stress in the extracellular compartment.",
+    "authors": [
+      "Mustata Georgian T",
+      "Rosca Mariana",
+      "Biemel Klaus M",
+      "Reihl Oliver",
+      "Smith Mark A",
+      "Viswanathan Ashwini",
+      "Strauch Christopher",
+      "Du Yunpeng",
+      "Tang Jie",
+      "Kern Timothy S",
+      "Lederer Markus O",
+      "Brownlee Michael",
+      "Weiss Miriam F",
+      "Monnier Vincent M"
+    ],
+    "journal": "Diabetes",
+    "year": "2005",
+    "doi": "10.2337/diabetes.54.2.517",
+    "mesh_terms": [
+      "Animals",
+      "Antioxidants",
+      "Ascorbic Acid",
+      "Blood Glucose",
+      "Body Weight",
+      "Camellia sinensis",
+      "Collagen",
+      "Cross-Linking Reagents",
+      "Diabetes Mellitus, Experimental",
+      "Diabetic Nephropathies",
+      "Diabetic Retinopathy",
+      "Feeding Behavior",
+      "Glycation End Products, Advanced",
+      "In Vitro Techniques",
+      "Male",
+      "Mitochondria",
+      "Oxygen Consumption",
+      "Phytotherapy",
+      "Rats",
+      "Rats, Inbred Lew",
+      "Tea",
+      "Vitamin E"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "33707127",
+    "title": "Protein glycation - biomarkers of metabolic dysfunction and early-stage decline in health in the era of precision medicine.",
+    "abstract": "Protein glycation provides a biomarker in widespread clinical use, glycated hemoglobin HbA<sub>1c</sub> (A1C). It is a biomarker for diagnosis of diabetes and prediabetes and of medium-term glycemic control in patients with established diabetes. A1C is an early-stage glycation adduct of hemoglobin with glucose; a fructosamine derivative. Glucose is an amino group-directed glycating agent, modifying N-terminal and lysine sidechain amino groups. A similar fructosamine derivative of serum albumin, glycated albumin (GA), finds use as a biomarker of glycemic control, particularly where there is interference in use of A1C. Later stage adducts, advanced glycation endproducts (AGEs), are formed by the degradation of fructosamines and by the reaction of reactive dicarbonyl metabolites, such as methylglyoxal. Dicarbonyls are arginine-directed glycating agents forming mainly hydroimidazolone AGEs. Glucosepane and pentosidine, an intense fluorophore, are AGE covalent crosslinks. Cellular proteolysis of glycated proteins forms glycated amino acids, which are released into plasma and excreted in urine. Development of diagnostic algorithms by artificial intelligence machine learning is enhancing the applications of glycation biomarkers. Investigational glycation biomarkers are in development for: (i) healthy aging; (ii) risk prediction of vascular complications of diabetes; (iii) diagnosis of autism; and (iv) diagnosis and classification of early-stage arthritis. Protein glycation biomarkers are influenced by heritability, aging, decline in metabolic, vascular, renal and skeletal health, and other factors. They are applicable to populations of differing ethnicities, bridging the gap between genotype and phenotype. They are thereby likely to find continued and expanding clinical use, including in the current era of developing precision medicine, reporting on multiple pathogenic processes and supporting a precision medicine approach.",
+    "authors": [
+      "Rabbani Naila",
+      "Thornalley Paul J"
+    ],
+    "journal": "Redox biology",
+    "year": "2021",
+    "doi": "10.1016/j.redox.2021.101920",
+    "mesh_terms": [
+      "Artificial Intelligence",
+      "Biomarkers",
+      "Glycation End Products, Advanced",
+      "Glycosylation",
+      "Humans",
+      "Precision Medicine",
+      "Pyruvaldehyde"
+    ],
+    "keywords": [
+      "Chronic kidney disease",
+      "Diabetes",
+      "Fructosamine",
+      "Glycated hemoglobin",
+      "Machine learning",
+      "Methylglyoxal"
+    ]
+  },
+  {
+    "pmid": "40063978",
+    "title": "Optimization for Simultaneous Determination of a Panel of Advanced Glycation End Products as Biomarkers for Metabolic Diseases.",
+    "abstract": "Both dietary and endogenous reactive carbonyl species, such as methylglyoxal (MGO) and glyoxal (GO), react with proteins to generate advanced glycation end products (AGEs), which contribute to metabolic diseases. However, accurately determining individual AGEs in biological samples remains challenging due to the lack of standardized methods. In this study, we optimized and detailed procedures for AGE digestion using enzyme cocktails and separation and detection via high-resolution LC-MS/MS. For the first time, we observed that enzyme backgrounds contained higher levels of methylglyoxal-derived hydroimidazolone 1 (MG-H1) and glucosepane than mouse plasma by 1.4-3 times (e.g., 1512.55 ± 18.89 nM in enzymes vs 496.95 ± 90.91 nM in plasma for MG-H1). Using this optimized method, we quantified fructosyl-lysine and nine AGEs in the plasma, kidneys, and urine of mice. MGO-derived AGEs increased significantly in the plasma and kidneys after MGO treatment. Additionally, both MGO- and GO-derived AGEs were elevated in high-fat-diet (HF)-fed mice compared to low-fat-diet (LF)-fed controls, with further increases in HF-fed mice supplemented with MGO (HFM). This optimized method provides accurate AGE quantification, enabling insights into their role as biomarkers for metabolic syndrome and advancing the understanding of dietary and metabolic contributions to AGE formation.",
+    "authors": [
+      "Wang Weixin",
+      "Zhu Yingdong",
+      "Sang Shengmin"
+    ],
+    "journal": "Journal of agricultural and food chemistry",
+    "year": "2025",
+    "doi": "10.1021/acs.jafc.4c11382",
+    "mesh_terms": [
+      "Glycation End Products, Advanced",
+      "Animals",
+      "Biomarkers",
+      "Mice",
+      "Pyruvaldehyde",
+      "Male",
+      "Tandem Mass Spectrometry",
+      "Metabolic Diseases",
+      "Mice, Inbred C57BL",
+      "Humans",
+      "Glyoxal",
+      "Kidney",
+      "Chromatography, Liquid"
+    ],
+    "keywords": [
+      "LC-MS/MS",
+      "advanced glycation end products",
+      "biomarkers",
+      "enzymatic hydrolysis",
+      "quantification"
+    ]
+  },
+  {
+    "pmid": "12757388",
+    "title": "Site-specific quantitative evaluation of the protein glycation product N6-(2,3-dihydroxy-5,6-dioxohexyl)-L-lysinate by LC-(ESI)MS peptide mapping: evidence for its key role in AGE formation.",
+    "abstract": "Advanced glycation end products (AGEs) contribute to various pathologies associated with the general aging process and long-term complications of diabetes. Involvement of alpha-dicarbonyl intermediates in the formation of such compounds is firmly established. We now report on the first unequivocal identification of the dideoxyosone N(6)-(2,3-dihydroxy-5,6-dioxohexyl)-l-lysinate (4) on lysozyme via its quinoxaline derivative N(6)-(2,3-dihydroxy-4-quinoxalin-2-ylbutyl)-l-lysinate (6), formed by reaction of 4 with o-phenylenediamine (OPD). For accurate quantification of the total content of 6 as well as of glucosepane 5 by LC-(ESI)MS, (13)C(6)-labeled reference compounds were independently synthesized; 5 so far is the only established follow-up product of 4. With an overall lysine derivatization quota of 5%, compound 4 is shown to be a quantitatively important Maillard intermediate of which only about 8 per thousand are transformed into the cross-link 5. Hence, the major follow-up products of the highly reactive intermediate 4 are yet unknown. The site-specific quantitative evaluation of aminoketose 1 and quinoxaline 6 by LC-(ESI)MS peptide mapping shows that all lysine moieties in lysozyme are in fact modified by these compounds. If an arginine side chain is adjacent to the lysine moiety, transformation of 1 into 4 seems to be favored. The efficient formation and high reactivity of 4 clearly points to its potential as exogenous or endogenous glycotoxin.",
+    "authors": [
+      "Biemel Klaus M",
+      "Lederer Markus O"
+    ],
+    "journal": "Bioconjugate chemistry",
+    "year": "2003",
+    "doi": "10.1021/bc025653e",
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Binding Sites",
+      "Drug Evaluation, Preclinical",
+      "Gas Chromatography-Mass Spectrometry",
+      "Glycation End Products, Advanced",
+      "Molecular Sequence Data",
+      "Peptide Fragments",
+      "Peptide Mapping",
+      "Spectrometry, Mass, Electrospray Ionization"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "22335775",
+    "title": "Comparative DFT study to determine if α-oxoaldehydes are precursors for pentosidine formation.",
+    "abstract": "We report a comprehensive density functional theory (DFT) study of the mechanism of pentosidine formation. This work is a continuation of our earlier studies in which we proposed pathways for formation of glucosepane (J. Mol. Model. 2011, pp 1-15, DOI 10.1007/s00894-011-1161-x), GODIC (glyoxal-derived imidazolium cross-link), and MODIC (methyl glyoxal-derived imidazolium cross-link; J. Phys. Chem. 2011, 115, pp 13542-13555). Here we show that formation of pentosidine via reaction of α-oxoaldehydes with lysine and arginine in aqueous solution is possible thermodynamically and kinetically, in good agreement with the available experimental evidence. Five pathways, A-E, were characterized, as in our previous GODIC and MODIC work. In pathways A and B, a Schiff base is first formed from lysine and methyl glyoxal (MGO), and this is followed by addition of arginine and glyoxal (GO). By contrast, in pathways C, D, and E, addition of arginine to MGO occurs first, resulting in the formation of imidazolone, which then reacts with lysine and GO to give pentosidine. Our calculations show that the reaction process is highly exergonic and that the three pathways A, C, and E are competitive. These results serve to underline the potentially important role that α-oxoaldehydes play as precursors in pentosidine formation in the complex field of glycation.",
+    "authors": [
+      "Nasiri Rasoul",
+      "Field Martin J",
+      "Zahedi Mansour",
+      "Moosavi-Movahedi Ali Akbar"
+    ],
+    "journal": "The journal of physical chemistry. A",
+    "year": "2012",
+    "doi": "10.1021/jp2104165",
+    "mesh_terms": [
+      "Arginine",
+      "Glycosylation",
+      "Glyoxal",
+      "Imidazoles",
+      "Kinetics",
+      "Lysine",
+      "Molecular Structure",
+      "Pyruvaldehyde",
+      "Quantum Theory",
+      "Schiff Bases",
+      "Thermodynamics",
+      "Water"
+    ],
+    "keywords": []
+  },
+  {
+    "pmid": "14705917",
+    "title": "Spiro cross-links: representatives of a new class of glycoxidation products.",
+    "abstract": "Covalently cross-linked proteins are among the major modifications caused by the advanced Maillard reaction. So far, the chemical nature of these aggregates is largely unknown. Investigations are reported on the isolation of 6-[2-[[(4S)-4-amino-4-carboxybutyl]amino]-6,7-dihydroxy-6,7-dihydroimidazo[4,5-b]azepin-4(5H)-yl]-L-norleucine (10) and N-acetyl-6-[(6R,7R)-2-[[4-(acetylamino)-4-carboxybutyl]amino]-6,7,8a-trihydroxy-6,7,8,8a-tetrahydroimidazo[4,5-b]azepin-4(5H)-yl]-L-norleucine (12) formed by oxidation of the major Maillard cross-link glucosepane 1. Independent synthesis and unequivocal structural characterization are given for 10 and 12. Spiro cross-links, representing a new class of glycoxidation products, were obtained by dehydrogenation of the amino imidazolinimine compounds N6-[2-[[(4S)-4-ammonio-5-oxido-5-oxopentyl]amino]-5-[(2S,3R)-2,3,4-trihydroxybutyl]-3,5-dihydro-4H-imidazol-4-ylidene]-L-lysinate (DOGDIC 2) and N6-[2-[[(4S)-4-ammonio-5-oxido-5-oxopentyl]amino]-5-[(2S)-2,3-dihydroxypropyl]-3,5-dihydro-4H-imidazol-4-ylidene]-L-lysinate (DOPDIC 3). These new oxidation products were synthesized, and their unambiguous structural elucidation proved the formation of the spiro imidazolimine structures N6-[(7R,8S)-2-[[(4S)-4-ammonio-5-oxido-5-oxopentyl]amino]-8-hydroxy-7-(hydroxymethyl)-6-oxa-1,3-diazaspiro[4.4]non-1-en-4-ylidene]-L-lysinate (16), N6-(8R,9S)-2-[(4S)-4-ammonio-5-oxido-5-oxopentyl]amino]-8,9-dihydroxy-6-oxa-1,3-diazaspiro[4.5]dec-1-en-4-ylidene)-L-lysinate (19), and N6-[(8S)-2-[(4-amino-4-carboxybutyl)amino]-8-hydroxy-6-oxa-1,3-diazaspiro[4.4]non-1-en-4-ylidene]-L-lysinate (18), respectively. It was shown that reaction of the imidazolinone 15 led to the formation of spiro imidazolones, structurally analogous to 16 and 19.",
+    "authors": [
+      "Reihl Oliver",
+      "Biemel Klaus M",
+      "Eipper Wolfgang",
+      "Lederer Markus O",
+      "Schwack Wolfgang"
+    ],
+    "journal": "Journal of agricultural and food chemistry",
+    "year": "2003",
+    "doi": "10.1021/jf034292+",
+    "mesh_terms": [
+      "Azepines",
+      "Cross-Linking Reagents",
+      "Food Analysis",
+      "Glycation End Products, Advanced",
+      "Imidazoles",
+      "Imines",
+      "Lysine",
+      "Maillard Reaction",
+      "Oxidation-Reduction",
+      "Spiro Compounds"
+    ],
+    "keywords": []
+  }
+]

@@ -1,0 +1,2795 @@
+[
+  {
+    "pathway_id": "hsa00010",
+    "name": "Glycolysis / Gluconeogenesis - Homo sapiens (human)",
+    "description": "Glycolysis is the process of converting glucose into pyruvate and generating small amounts of ATP (energy) and NADH (reducing power). It is a central pathway that produces important precursor metabolites: six-carbon compounds of glucose-6P and fructose-6P and three-carbon compounds of glycerone-P, glyceraldehyde-3P, glycerate-3P, phosphoenolpyruvate, and pyruvate [MD:M00001]. Acetyl-CoA, another important precursor metabolite, is produced by oxidative decarboxylation of pyruvate [MD:M00307]. When the enzyme genes of this pathway are examined in completely sequenced genomes, the reaction steps of three-carbon compounds from glycerone-P to pyruvate form a conserved core module [MD:M00002], which is found in almost all organisms and which sometimes contains operon structures in bacterial genomes. Gluconeogenesis is a synthesis pathway of glucose from noncarbohydrate precursors. It is essentially a reversal of glycolysis with minor variations of alternative paths [MD:M00003].",
+    "organism": "Homo sapiens (human) [GN:hsa]",
+    "genes": [
+      {
+        "gene_id": "124",
+        "description": "ADH1A; alcohol dehydrogenase 1A",
+        "ec_number": "1.1.1.1"
+      },
+      {
+        "gene_id": "125",
+        "description": "ADH1B; all-trans-retinol dehydrogenase",
+        "ec_number": "1.1.1.1"
+      },
+      {
+        "gene_id": "126",
+        "description": "ADH1C; alcohol dehydrogenase 1C",
+        "ec_number": "1.1.1.1"
+      },
+      {
+        "gene_id": "127",
+        "description": "ADH4; all-trans-retinol dehydrogenase",
+        "ec_number": "1.1.1.1"
+      },
+      {
+        "gene_id": "128",
+        "description": "ADH5; alcohol dehydrogenase class-3",
+        "ec_number": "1.1.1.284 1.1.1.1"
+      },
+      {
+        "gene_id": "130",
+        "description": "ADH6; alcohol dehydrogenase 6 isoform 2",
+        "ec_number": "1.1.1.1"
+      },
+      {
+        "gene_id": "130589",
+        "description": "GALM; galactose mutarotase",
+        "ec_number": "5.1.3.3"
+      },
+      {
+        "gene_id": "131",
+        "description": "ADH7; all-trans-retinol dehydrogenase",
+        "ec_number": "1.1.1.1"
+      },
+      {
+        "gene_id": "160287",
+        "description": "LDHAL6A; L-lactate dehydrogenase A-like 6A",
+        "ec_number": "1.1.1.27"
+      },
+      {
+        "gene_id": "1737",
+        "description": "DLAT; dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex, mitochondrial isoform 2 precursor",
+        "ec_number": "2.3.1.12"
+      },
+      {
+        "gene_id": "1738",
+        "description": "DLD; dihydrolipoyl dehydrogenase, mitochondrial isoform 1 precursor",
+        "ec_number": "1.8.1.4"
+      },
+      {
+        "gene_id": "2023",
+        "description": "ENO1; alpha-enolase isoform 1",
+        "ec_number": "4.2.1.11"
+      },
+      {
+        "gene_id": "2026",
+        "description": "ENO2; gamma-enolase",
+        "ec_number": "4.2.1.11"
+      },
+      {
+        "gene_id": "2027",
+        "description": "ENO3; beta-enolase isoform 1",
+        "ec_number": "4.2.1.11"
+      },
+      {
+        "gene_id": "217",
+        "description": "ALDH2; aldehyde dehydrogenase, mitochondrial isoform 1 precursor",
+        "ec_number": "1.2.1.3"
+      },
+      {
+        "gene_id": "218",
+        "description": "ALDH3A1; aldehyde dehydrogenase, dimeric NADP-preferring isoform 1",
+        "ec_number": "1.2.1.5"
+      },
+      {
+        "gene_id": "219",
+        "description": "ALDH1B1; aldehyde dehydrogenase X, mitochondrial precursor",
+        "ec_number": "1.2.1.3"
+      },
+      {
+        "gene_id": "2203",
+        "description": "FBP1; fructose-1,6-bisphosphatase 1",
+        "ec_number": "3.1.3.11"
+      },
+      {
+        "gene_id": "221",
+        "description": "ALDH3B1; aldehyde dehydrogenase family 3 member B1 isoform a",
+        "ec_number": "1.2.1.5"
+      },
+      {
+        "gene_id": "222",
+        "description": "ALDH3B2; aldehyde dehydrogenase family 3 member B2 isoform a",
+        "ec_number": "1.2.1.5"
+      },
+      {
+        "gene_id": "223",
+        "description": "ALDH9A1; 4-trimethylaminobutyraldehyde dehydrogenase isoform 1 precursor",
+        "ec_number": "1.2.1.47 1.2.1.3"
+      },
+      {
+        "gene_id": "224",
+        "description": "ALDH3A2; aldehyde dehydrogenase family 3 member A2 isoform 2",
+        "ec_number": "1.2.1.3"
+      },
+      {
+        "gene_id": "226",
+        "description": "ALDOA; fructose-bisphosphate aldolase A isoform 1",
+        "ec_number": "4.1.2.13"
+      },
+      {
+        "gene_id": "229",
+        "description": "ALDOB; fructose-bisphosphate aldolase B",
+        "ec_number": "4.1.2.13"
+      },
+      {
+        "gene_id": "230",
+        "description": "ALDOC; fructose-bisphosphate aldolase C",
+        "ec_number": "4.1.2.13"
+      },
+      {
+        "gene_id": "2538",
+        "description": "G6PC1; glucose-6-phosphatase catalytic subunit 1 isoform 1",
+        "ec_number": "3.1.3.9"
+      },
+      {
+        "gene_id": "2597",
+        "description": "GAPDH; glyceraldehyde-3-phosphate dehydrogenase isoform 1",
+        "ec_number": "1.2.1.12"
+      },
+      {
+        "gene_id": "26330",
+        "description": "GAPDHS; glyceraldehyde-3-phosphate dehydrogenase, testis-specific",
+        "ec_number": "1.2.1.12"
+      },
+      {
+        "gene_id": "2645",
+        "description": "GCK; hexokinase-4 isoform 1",
+        "ec_number": "2.7.1.2"
+      },
+      {
+        "gene_id": "2821",
+        "description": "GPI; glucose-6-phosphate isomerase isoform 2",
+        "ec_number": "5.3.1.9"
+      },
+      {
+        "gene_id": "3098",
+        "description": "HK1; hexokinase-1 isoform HKI",
+        "ec_number": "2.7.1.1"
+      },
+      {
+        "gene_id": "3099",
+        "description": "HK2; hexokinase-2 isoform 1",
+        "ec_number": "2.7.1.1"
+      },
+      {
+        "gene_id": "3101",
+        "description": "HK3; hexokinase-3",
+        "ec_number": "2.7.1.1"
+      },
+      {
+        "gene_id": "387712",
+        "description": "ENO4; enolase 4",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3939",
+        "description": "LDHA; L-lactate dehydrogenase A chain isoform 1",
+        "ec_number": "1.1.1.27"
+      },
+      {
+        "gene_id": "3945",
+        "description": "LDHB; L-lactate dehydrogenase B chain isoform LDHB",
+        "ec_number": "1.1.1.27"
+      },
+      {
+        "gene_id": "3948",
+        "description": "LDHC; L-lactate dehydrogenase C chain",
+        "ec_number": "1.1.1.27"
+      },
+      {
+        "gene_id": "441531",
+        "description": "PGAM4; phosphoglycerate mutase 4",
+        "ec_number": "5.4.2.11"
+      },
+      {
+        "gene_id": "501",
+        "description": "ALDH7A1; alpha-aminoadipic semialdehyde dehydrogenase isoform 1 precursor",
+        "ec_number": "1.2.1.31 1.2.1.8 1.2.1.3"
+      },
+      {
+        "gene_id": "5105",
+        "description": "PCK1; phosphoenolpyruvate carboxykinase, cytosolic",
+        "ec_number": "4.1.1.32"
+      },
+      {
+        "gene_id": "5106",
+        "description": "PCK2; phosphoenolpyruvate carboxykinase",
+        "ec_number": "4.1.1.32"
+      },
+      {
+        "gene_id": "5160",
+        "description": "PDHA1; pyruvate dehydrogenase E1 component subunit alpha, somatic form, mitochondrial isoform 1 precursor",
+        "ec_number": "1.2.4.1"
+      },
+      {
+        "gene_id": "5161",
+        "description": "PDHA2; pyruvate dehydrogenase E1 component subunit alpha, testis-specific form, mitochondrial precursor",
+        "ec_number": "1.2.4.1"
+      },
+      {
+        "gene_id": "5162",
+        "description": "PDHB; pyruvate dehydrogenase E1 component subunit beta, mitochondrial isoform 1 precursor",
+        "ec_number": "1.2.4.1"
+      },
+      {
+        "gene_id": "5211",
+        "description": "PFKL; ATP-dependent 6-phosphofructokinase, liver type isoform b",
+        "ec_number": "2.7.1.11"
+      },
+      {
+        "gene_id": "5213",
+        "description": "PFKM; ATP-dependent 6-phosphofructokinase, muscle type isoform 2",
+        "ec_number": "2.7.1.11"
+      },
+      {
+        "gene_id": "5214",
+        "description": "PFKP; ATP-dependent 6-phosphofructokinase, platelet type isoform 1",
+        "ec_number": "2.7.1.11"
+      },
+      {
+        "gene_id": "5223",
+        "description": "PGAM1; phosphoglycerate mutase 1 isoform 1",
+        "ec_number": "5.4.2.11"
+      },
+      {
+        "gene_id": "5224",
+        "description": "PGAM2; phosphoglycerate mutase 2",
+        "ec_number": "5.4.2.11"
+      },
+      {
+        "gene_id": "5230",
+        "description": "PGK1; phosphoglycerate kinase 1",
+        "ec_number": "2.7.2.3"
+      },
+      {
+        "gene_id": "5232",
+        "description": "PGK2; phosphoglycerate kinase 2",
+        "ec_number": "2.7.2.3"
+      },
+      {
+        "gene_id": "5236",
+        "description": "PGM1; phosphoglucomutase-1 isoform 1",
+        "ec_number": "5.4.2.2"
+      },
+      {
+        "gene_id": "5313",
+        "description": "PKLR; pyruvate kinase PKLR isoform 1",
+        "ec_number": "2.7.1.40"
+      },
+      {
+        "gene_id": "5315",
+        "description": "PKM; pyruvate kinase PKM isoform a",
+        "ec_number": "2.7.1.40"
+      },
+      {
+        "gene_id": "55276",
+        "description": "PGM2; phosphopentomutase",
+        "ec_number": "5.4.2.2 5.4.2.7"
+      },
+      {
+        "gene_id": "55902",
+        "description": "ACSS2; acetyl-coenzyme A synthetase, cytoplasmic isoform 1",
+        "ec_number": "6.2.1.1"
+      },
+      {
+        "gene_id": "57818",
+        "description": "G6PC2; glucose-6-phosphatase 2 isoform 1",
+        "ec_number": "3.1.3.9"
+      },
+      {
+        "gene_id": "669",
+        "description": "BPGM; bisphosphoglycerate mutase",
+        "ec_number": "5.4.2.4 5.4.2.11"
+      },
+      {
+        "gene_id": "7167",
+        "description": "TPI1; triosephosphate isomerase isoform 1",
+        "ec_number": "5.3.1.1"
+      },
+      {
+        "gene_id": "80201",
+        "description": "HKDC1; hexokinase HKDC1",
+        "ec_number": "2.7.1.1"
+      },
+      {
+        "gene_id": "83440",
+        "description": "ADPGK; ADP-dependent glucokinase isoform 4 precursor",
+        "ec_number": "2.7.1.147"
+      },
+      {
+        "gene_id": "84532",
+        "description": "ACSS1; acetyl-coenzyme A synthetase 2-like, mitochondrial isoform 1 precursor",
+        "ec_number": "6.2.1.1"
+      },
+      {
+        "gene_id": "8789",
+        "description": "FBP2; fructose-1,6-bisphosphatase isozyme 2",
+        "ec_number": "3.1.3.11"
+      },
+      {
+        "gene_id": "92483",
+        "description": "LDHAL6B; L-lactate dehydrogenase A-like 6B",
+        "ec_number": "1.1.1.27"
+      },
+      {
+        "gene_id": "92579",
+        "description": "G6PC3; glucose-6-phosphatase 3 isoform 1",
+        "ec_number": "3.1.3.9"
+      },
+      {
+        "gene_id": "9562",
+        "description": "MINPP1; multiple inositol polyphosphate phosphatase 1 isoform 1 precursor",
+        "ec_number": "3.1.3.62 3.1.3.80"
+      }
+    ],
+    "compounds": [
+      {
+        "compound_id": "C00024",
+        "name": "Acetyl-CoA"
+      },
+      {
+        "compound_id": "C00031",
+        "name": "D-Glucose"
+      },
+      {
+        "compound_id": "C00033",
+        "name": "Acetate"
+      },
+      {
+        "compound_id": "C00036",
+        "name": "Oxaloacetate"
+      },
+      {
+        "compound_id": "C00068",
+        "name": "Thiamin diphosphate"
+      },
+      {
+        "compound_id": "C00074",
+        "name": "Phosphoenolpyruvate"
+      },
+      {
+        "compound_id": "C00084",
+        "name": "Acetaldehyde"
+      },
+      {
+        "compound_id": "C00085",
+        "name": "D-Fructose 6-phosphate"
+      },
+      {
+        "compound_id": "C00103",
+        "name": "D-Glucose 1-phosphate"
+      },
+      {
+        "compound_id": "C00111",
+        "name": "Glycerone phosphate"
+      },
+      {
+        "compound_id": "C00118",
+        "name": "D-Glyceraldehyde 3-phosphate"
+      },
+      {
+        "compound_id": "C00186",
+        "name": "(S)-Lactate"
+      },
+      {
+        "compound_id": "C00197",
+        "name": "3-Phospho-D-glycerate"
+      },
+      {
+        "compound_id": "C00221",
+        "name": "beta-D-Glucose"
+      },
+      {
+        "compound_id": "C00236",
+        "name": "3-Phospho-D-glyceroyl phosphate"
+      },
+      {
+        "compound_id": "C00267",
+        "name": "alpha-D-Glucose"
+      },
+      {
+        "compound_id": "C00354",
+        "name": "D-Fructose 1,6-bisphosphate"
+      },
+      {
+        "compound_id": "C00469",
+        "name": "Ethanol"
+      },
+      {
+        "compound_id": "C00631",
+        "name": "2-Phospho-D-glycerate"
+      },
+      {
+        "compound_id": "C00668",
+        "name": "alpha-D-Glucose 6-phosphate"
+      },
+      {
+        "compound_id": "C01159",
+        "name": "2,3-Bisphospho-D-glycerate"
+      },
+      {
+        "compound_id": "C01172",
+        "name": "beta-D-Glucose 6-phosphate"
+      },
+      {
+        "compound_id": "C01451",
+        "name": "Salicin"
+      },
+      {
+        "compound_id": "C05125",
+        "name": "2-(alpha-Hydroxyethyl)thiamine diphosphate"
+      },
+      {
+        "compound_id": "C06186",
+        "name": "Arbutin"
+      },
+      {
+        "compound_id": "C06187",
+        "name": "Arbutin 6-phosphate"
+      },
+      {
+        "compound_id": "C06188",
+        "name": "Salicin 6-phosphate"
+      },
+      {
+        "compound_id": "C15972",
+        "name": "Enzyme N6-(lipoyl)lysine"
+      },
+      {
+        "compound_id": "C15973",
+        "name": "Enzyme N6-(dihydrolipoyl)lysine"
+      },
+      {
+        "compound_id": "C16255",
+        "name": "[Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine"
+      }
+    ],
+    "enzymes": [],
+    "relevance": "Glucose metabolism — source of glycation substrates"
+  },
+  {
+    "pathway_id": "hsa04933",
+    "name": "AGE-RAGE signaling pathway in diabetic complications - Homo sapiens (human)",
+    "description": "Advanced glycation end products (AGEs) are a complex group of compounds produced through the non-enzymatic glycation and oxidation of proteins, lipids and nucleic acids, primarily due to aging and under certain pathologic condition such as huperglycemia. Some of the best chemically characterized AGEs include N-epsilon-carboxy-methyl-lysine (CML), N-epsilon-carboxy-ethyl-lysine (CEL), and Imidazolone. The major receptor for AGEs, known as receptor for advanced glycation end products (RAGE or AGER), belongs to the immunoglobulin superfamily and has been described as a pattern recognition receptor. AGE/RAGE signaling elicits activation of multiple intracellular signal pathways involving NADPH oxidase, protein kinase C, and MAPKs, then resulting in NF-kappaB activity. NF-kappa B promotes the expression of pro-inflammatory cytokines such as IL-1, IL-6 and TNF-alpha and a variety of atherosclerosis-related genes, including VCAM-1, tissue factor, VEGF, and RAGE. In addition, JAK-STAT-mediated and PI3K-Akt-dependent pathways are induced via RAGE, which in turn participate in cell proliferation and apoptosis respectively. Hypoxia-mediated induction of Egr-1 was also shown to require the AGE-RAGE interaction. The results of these signal transductions have been reported to be the possible mechanism that initates diabetic complications.",
+    "organism": "Homo sapiens (human) [GN:hsa]",
+    "genes": [
+      {
+        "gene_id": "1019",
+        "description": "CDK4; cyclin-dependent kinase 4",
+        "ec_number": "2.7.11.22"
+      },
+      {
+        "gene_id": "1027",
+        "description": "CDKN1B; cyclin-dependent kinase inhibitor 1B",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "110117499",
+        "description": "P3R3URF-PIK3R3; LOC110117498-PIK3R3 readthrough",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "113026",
+        "description": "PLCD3; 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-3",
+        "ec_number": "3.1.4.11"
+      },
+      {
+        "gene_id": "1277",
+        "description": "COL1A1; collagen alpha-1(I) chain preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1278",
+        "description": "COL1A2; collagen alpha-2(I) chain precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1281",
+        "description": "COL3A1; collagen alpha-1(III) chain preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1282",
+        "description": "COL4A1; collagen alpha-1(IV) chain isoform 1 preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1284",
+        "description": "COL4A2; collagen alpha-2(IV) chain preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1285",
+        "description": "COL4A3; collagen alpha-3(IV) chain precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1286",
+        "description": "COL4A4; collagen alpha-4(IV) chain precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1287",
+        "description": "COL4A5; collagen alpha-5(IV) chain isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1288",
+        "description": "COL4A6; collagen alpha-6(IV) chain isoform A precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1432",
+        "description": "MAPK14; mitogen-activated protein kinase 14 isoform 2",
+        "ec_number": "2.7.11.24"
+      },
+      {
+        "gene_id": "1536",
+        "description": "CYBB; NADPH oxidase 2",
+        "ec_number": "1.-.-.-"
+      },
+      {
+        "gene_id": "1729",
+        "description": "DIAPH1; protein diaphanous homolog 1 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "177",
+        "description": "AGER; advanced glycosylation end product-specific receptor isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "183",
+        "description": "AGT; angiotensinogen precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "185",
+        "description": "AGTR1; type-1 angiotensin II receptor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1906",
+        "description": "EDN1; endothelin-1 isoform 1 preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1958",
+        "description": "EGR1; early growth response protein 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "207",
+        "description": "AKT1; RAC-alpha serine/threonine-protein kinase",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "gene_id": "208",
+        "description": "AKT2; RAC-beta serine/threonine-protein kinase isoform 1",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "gene_id": "2152",
+        "description": "F3; tissue factor isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "2277",
+        "description": "VEGFD; vascular endothelial growth factor D preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "2308",
+        "description": "FOXO1; forkhead box protein O1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "23236",
+        "description": "PLCB1; 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-1 isoform a",
+        "ec_number": "3.1.4.11"
+      },
+      {
+        "gene_id": "2335",
+        "description": "FN1; fibronectin isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "27035",
+        "description": "NOX1; NADPH oxidase 1 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3265",
+        "description": "HRAS; GTPase HRas isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3383",
+        "description": "ICAM1; intercellular adhesion molecule 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3552",
+        "description": "IL1A; interleukin-1 alpha precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3553",
+        "description": "IL1B; interleukin-1 beta proprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3569",
+        "description": "IL6; interleukin-6 isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3576",
+        "description": "CXCL8; interleukin-8 isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3717",
+        "description": "JAK2; tyrosine-protein kinase JAK2 isoform a",
+        "ec_number": "2.7.10.2"
+      },
+      {
+        "gene_id": "3725",
+        "description": "JUN; transcription factor Jun",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3845",
+        "description": "KRAS; GTPase KRas isoform a",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "4087",
+        "description": "SMAD2; mothers against decapentaplegic homolog 2 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "4088",
+        "description": "SMAD3; mothers against decapentaplegic homolog 3 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "4089",
+        "description": "SMAD4; mothers against decapentaplegic homolog 4 isoform a",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "4313",
+        "description": "MMP2; 72 kDa type IV collagenase isoform 1 preproprotein",
+        "ec_number": "3.4.24.24"
+      },
+      {
+        "gene_id": "4772",
+        "description": "NFATC1; nuclear factor of activated T-cells, cytoplasmic 1 isoform F",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "4790",
+        "description": "NFKB1; nuclear factor NF-kappa-B p105 subunit isoform 2 proprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "4846",
+        "description": "NOS3; nitric oxide synthase 3 isoform 1",
+        "ec_number": "1.14.13.39"
+      },
+      {
+        "gene_id": "4893",
+        "description": "NRAS; GTPase NRas",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "50507",
+        "description": "NOX4; NADPH oxidase 4 isoform a",
+        "ec_number": "1.6.3.-"
+      },
+      {
+        "gene_id": "5054",
+        "description": "SERPINE1; plasminogen activator inhibitor 1 isoform 2 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "51196",
+        "description": "PLCE1; 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase epsilon-1 isoform 1",
+        "ec_number": "3.1.4.11"
+      },
+      {
+        "gene_id": "5290",
+        "description": "PIK3CA; phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform",
+        "ec_number": "2.7.1.153"
+      },
+      {
+        "gene_id": "5291",
+        "description": "PIK3CB; phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform isoform 1",
+        "ec_number": "2.7.1.153"
+      },
+      {
+        "gene_id": "5292",
+        "description": "PIM1; serine/threonine-protein kinase pim-1 isoform 2",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "gene_id": "5293",
+        "description": "PIK3CD; phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform isoform 1",
+        "ec_number": "2.7.1.153"
+      },
+      {
+        "gene_id": "5295",
+        "description": "PIK3R1; phosphatidylinositol 3-kinase regulatory subunit alpha isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5296",
+        "description": "PIK3R2; phosphatidylinositol 3-kinase regulatory subunit beta",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5330",
+        "description": "PLCB2; 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-2 isoform 1",
+        "ec_number": "3.1.4.11"
+      },
+      {
+        "gene_id": "5331",
+        "description": "PLCB3; 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-3 isoform 1",
+        "ec_number": "3.1.4.11"
+      },
+      {
+        "gene_id": "5332",
+        "description": "PLCB4; 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-4 isoform b",
+        "ec_number": "3.1.4.11"
+      },
+      {
+        "gene_id": "5333",
+        "description": "PLCD1; 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1 isoform 2",
+        "ec_number": "3.1.4.11"
+      },
+      {
+        "gene_id": "5335",
+        "description": "PLCG1; 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1 isoform b",
+        "ec_number": "3.1.4.11"
+      },
+      {
+        "gene_id": "5336",
+        "description": "PLCG2; 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-2",
+        "ec_number": "3.1.4.11"
+      },
+      {
+        "gene_id": "5578",
+        "description": "PRKCA; protein kinase C alpha type",
+        "ec_number": "2.7.11.13"
+      },
+      {
+        "gene_id": "5579",
+        "description": "PRKCB; protein kinase C beta type isoform 1",
+        "ec_number": "2.7.11.13"
+      },
+      {
+        "gene_id": "5580",
+        "description": "PRKCD; protein kinase C delta type isoform c",
+        "ec_number": "2.7.11.13"
+      },
+      {
+        "gene_id": "5581",
+        "description": "PRKCE; protein kinase C epsilon type",
+        "ec_number": "2.7.11.13"
+      },
+      {
+        "gene_id": "5590",
+        "description": "PRKCZ; protein kinase C zeta type isoform 1",
+        "ec_number": "2.7.11.13"
+      },
+      {
+        "gene_id": "5594",
+        "description": "MAPK1; mitogen-activated protein kinase 1",
+        "ec_number": "2.7.11.24"
+      },
+      {
+        "gene_id": "5595",
+        "description": "MAPK3; mitogen-activated protein kinase 3 isoform 1",
+        "ec_number": "2.7.11.24"
+      },
+      {
+        "gene_id": "5599",
+        "description": "MAPK8; mitogen-activated protein kinase 8 isoform alpha2",
+        "ec_number": "2.7.11.24"
+      },
+      {
+        "gene_id": "5600",
+        "description": "MAPK11; mitogen-activated protein kinase 11",
+        "ec_number": "2.7.11.24"
+      },
+      {
+        "gene_id": "5601",
+        "description": "MAPK9; mitogen-activated protein kinase 9 isoform alpha2",
+        "ec_number": "2.7.11.24"
+      },
+      {
+        "gene_id": "5602",
+        "description": "MAPK10; mitogen-activated protein kinase 10 isoform 1",
+        "ec_number": "2.7.11.24"
+      },
+      {
+        "gene_id": "5603",
+        "description": "MAPK13; mitogen-activated protein kinase 13",
+        "ec_number": "2.7.11.24"
+      },
+      {
+        "gene_id": "581",
+        "description": "BAX; apoptosis regulator BAX isoform alpha",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5879",
+        "description": "RAC1; ras-related C3 botulinum toxin substrate 1 isoform Rac1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "595",
+        "description": "CCND1; G1/S-specific cyclin-D1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "596",
+        "description": "BCL2; apoptosis regulator Bcl-2 isoform alpha",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5970",
+        "description": "RELA; transcription factor p65 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "6300",
+        "description": "MAPK12; mitogen-activated protein kinase 12 isoform 1",
+        "ec_number": "2.7.11.24"
+      },
+      {
+        "gene_id": "6347",
+        "description": "CCL2; C-C motif chemokine 2 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "6401",
+        "description": "SELE; E-selectin precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "6772",
+        "description": "STAT1; signal transducer and activator of transcription 1-alpha/beta isoform alpha",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "6774",
+        "description": "STAT3; signal transducer and activator of transcription 3 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "6776",
+        "description": "STAT5A; signal transducer and activator of transcription 5A isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "6777",
+        "description": "STAT5B; signal transducer and activator of transcription 5B",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7040",
+        "description": "TGFB1; transforming growth factor beta-1 proprotein preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7042",
+        "description": "TGFB2; transforming growth factor beta-2 proprotein isoform 2 preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7043",
+        "description": "TGFB3; transforming growth factor beta-3 proprotein isoform 1 preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7046",
+        "description": "TGFBR1; TGF-beta receptor type-1 isoform 1 precursor",
+        "ec_number": "2.7.11.30"
+      },
+      {
+        "gene_id": "7048",
+        "description": "TGFBR2; TGF-beta receptor type-2 isoform B precursor",
+        "ec_number": "2.7.11.30"
+      },
+      {
+        "gene_id": "7056",
+        "description": "THBD; thrombomodulin precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7124",
+        "description": "TNF; tumor necrosis factor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7412",
+        "description": "VCAM1; vascular cell adhesion protein 1 isoform a precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7422",
+        "description": "VEGFA; vascular endothelial growth factor A, long form isoform b",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7423",
+        "description": "VEGFB; vascular endothelial growth factor B isoform VEGFB-186 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7424",
+        "description": "VEGFC; vascular endothelial growth factor C preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "836",
+        "description": "CASP3; caspase-3 isoform a preproprotein",
+        "ec_number": "3.4.22.56"
+      },
+      {
+        "gene_id": "84812",
+        "description": "PLCD4; 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-4",
+        "ec_number": "3.1.4.11"
+      },
+      {
+        "gene_id": "8503",
+        "description": "PIK3R3; phosphatidylinositol 3-kinase regulatory subunit gamma isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "998",
+        "description": "CDC42; cell division control protein 42 homolog isoform 1 precursor",
+        "ec_number": ""
+      }
+    ],
+    "compounds": [
+      {
+        "compound_id": "C00076",
+        "name": "Calcium cation"
+      },
+      {
+        "compound_id": "C00165",
+        "name": "Diacylglycerol"
+      },
+      {
+        "compound_id": "C00195",
+        "name": "N-Acylsphingosine"
+      },
+      {
+        "compound_id": "C01245",
+        "name": "D-myo-Inositol 1,4,5-trisphosphate"
+      },
+      {
+        "compound_id": "C21011",
+        "name": "[Protein]-N(epsilon)-(carboxymethyl)lysine"
+      },
+      {
+        "compound_id": "C21012",
+        "name": "[Protein]-N(epsilon)-(carboxyethyl)lysine"
+      },
+      {
+        "compound_id": "C21013",
+        "name": "[Protein]-pyrraline"
+      },
+      {
+        "compound_id": "C21014",
+        "name": "[Protein]-pentosidine"
+      }
+    ],
+    "enzymes": [],
+    "relevance": "Primary pathway for AGE-mediated damage signaling"
+  },
+  {
+    "pathway_id": "hsa00220",
+    "name": "Arginine biosynthesis - Homo sapiens (human)",
+    "description": "",
+    "organism": "Homo sapiens (human) [GN:hsa]",
+    "genes": [
+      {
+        "gene_id": "1373",
+        "description": "CPS1; carbamoyl-phosphate synthase",
+        "ec_number": "6.3.4.16"
+      },
+      {
+        "gene_id": "137362",
+        "description": "GOT1L1; putative aspartate aminotransferase, cytoplasmic 2",
+        "ec_number": "2.6.1.1"
+      },
+      {
+        "gene_id": "162417",
+        "description": "NAGS; N-acetylglutamate synthase, mitochondrial",
+        "ec_number": "2.3.1.1"
+      },
+      {
+        "gene_id": "27165",
+        "description": "GLS2; glutaminase liver isoform, mitochondrial isoform 1 precursor",
+        "ec_number": "3.5.1.2"
+      },
+      {
+        "gene_id": "2744",
+        "description": "GLS; glutaminase kidney isoform, mitochondrial isoform 1 precursor",
+        "ec_number": "3.5.1.2"
+      },
+      {
+        "gene_id": "2746",
+        "description": "GLUD1; glutamate dehydrogenase 1, mitochondrial isoform a precursor",
+        "ec_number": "1.4.1.3"
+      },
+      {
+        "gene_id": "2747",
+        "description": "GLUD2; glutamate dehydrogenase 2, mitochondrial precursor",
+        "ec_number": "1.4.1.3"
+      },
+      {
+        "gene_id": "2752",
+        "description": "GLUL; glutamine synthetase",
+        "ec_number": "6.3.1.2"
+      },
+      {
+        "gene_id": "2805",
+        "description": "GOT1; aspartate aminotransferase, cytoplasmic",
+        "ec_number": "2.6.1.1"
+      },
+      {
+        "gene_id": "2806",
+        "description": "GOT2; aspartate aminotransferase, mitochondrial isoform 1 precursor",
+        "ec_number": "2.6.1.1"
+      },
+      {
+        "gene_id": "2875",
+        "description": "GPT; alanine aminotransferase 1",
+        "ec_number": "2.6.1.2"
+      },
+      {
+        "gene_id": "383",
+        "description": "ARG1; arginase-1 isoform 2",
+        "ec_number": "3.5.3.1"
+      },
+      {
+        "gene_id": "384",
+        "description": "ARG2; arginase-2, mitochondrial precursor",
+        "ec_number": "3.5.3.1"
+      },
+      {
+        "gene_id": "435",
+        "description": "ASL; argininosuccinate lyase isoform 1",
+        "ec_number": "4.3.2.1"
+      },
+      {
+        "gene_id": "445",
+        "description": "ASS1; argininosuccinate synthase",
+        "ec_number": "6.3.4.5"
+      },
+      {
+        "gene_id": "4842",
+        "description": "NOS1; nitric oxide synthase 1 isoform 1",
+        "ec_number": "1.14.13.39"
+      },
+      {
+        "gene_id": "4843",
+        "description": "NOS2; nitric oxide synthase, inducible",
+        "ec_number": "1.14.13.39"
+      },
+      {
+        "gene_id": "4846",
+        "description": "NOS3; nitric oxide synthase 3 isoform 1",
+        "ec_number": "1.14.13.39"
+      },
+      {
+        "gene_id": "5009",
+        "description": "OTC; ornithine transcarbamylase, mitochondrial precursor",
+        "ec_number": "2.1.3.3"
+      },
+      {
+        "gene_id": "790",
+        "description": "CAD; multifunctional protein CAD isoform 1",
+        "ec_number": "6.3.5.5 2.1.3.2 3.5.2.3"
+      },
+      {
+        "gene_id": "84706",
+        "description": "GPT2; alanine aminotransferase 2 isoform 1",
+        "ec_number": "2.6.1.2"
+      },
+      {
+        "gene_id": "95",
+        "description": "ACY1; aminoacylase-1 isoform a",
+        "ec_number": "3.5.1.14"
+      }
+    ],
+    "compounds": [
+      {
+        "compound_id": "C00014",
+        "name": "Ammonia"
+      },
+      {
+        "compound_id": "C00025",
+        "name": "L-Glutamate"
+      },
+      {
+        "compound_id": "C00026",
+        "name": "2-Oxoglutarate"
+      },
+      {
+        "compound_id": "C00049",
+        "name": "L-Aspartate"
+      },
+      {
+        "compound_id": "C00062",
+        "name": "L-Arginine"
+      },
+      {
+        "compound_id": "C00064",
+        "name": "L-Glutamine"
+      },
+      {
+        "compound_id": "C00077",
+        "name": "L-Ornithine"
+      },
+      {
+        "compound_id": "C00086",
+        "name": "Urea"
+      },
+      {
+        "compound_id": "C00122",
+        "name": "Fumarate"
+      },
+      {
+        "compound_id": "C00169",
+        "name": "Carbamoyl phosphate"
+      },
+      {
+        "compound_id": "C00288",
+        "name": "HCO3-"
+      },
+      {
+        "compound_id": "C00327",
+        "name": "L-Citrulline"
+      },
+      {
+        "compound_id": "C00437",
+        "name": "N-Acetylornithine"
+      },
+      {
+        "compound_id": "C00624",
+        "name": "N-Acetyl-L-glutamate"
+      },
+      {
+        "compound_id": "C01010",
+        "name": "Urea-1-carboxylate"
+      },
+      {
+        "compound_id": "C01250",
+        "name": "N-Acetyl-L-glutamate 5-semialdehyde"
+      },
+      {
+        "compound_id": "C03406",
+        "name": "N-(L-Arginino)succinate"
+      },
+      {
+        "compound_id": "C04133",
+        "name": "N-Acetyl-L-glutamate 5-phosphate"
+      },
+      {
+        "compound_id": "C15532",
+        "name": "N-Acetyl-L-citrulline"
+      },
+      {
+        "compound_id": "C20948",
+        "name": "LysW-L-glutamate"
+      },
+      {
+        "compound_id": "C20949",
+        "name": "LysW-L-glutamyl 5-phosphate"
+      },
+      {
+        "compound_id": "C20950",
+        "name": "LysW-L-glutamate 5-semialdehyde"
+      },
+      {
+        "compound_id": "C20951",
+        "name": "LysW-L-ornithine"
+      }
+    ],
+    "enzymes": [],
+    "relevance": "Arginine is one of the two amino acids crosslinked by glucosepane"
+  },
+  {
+    "pathway_id": "hsa00310",
+    "name": "Lysine degradation - Homo sapiens (human)",
+    "description": "",
+    "organism": "Homo sapiens (human) [GN:hsa]",
+    "genes": [
+      {
+        "gene_id": "107303344",
+        "description": "SETDB2-PHF11; SETDB2-PHF11 protein",
+        "ec_number": "2.1.1.355"
+      },
+      {
+        "gene_id": "10919",
+        "description": "EHMT2; histone-lysine N-methyltransferase EHMT2 isoform a",
+        "ec_number": "2.1.1.355"
+      },
+      {
+        "gene_id": "11105",
+        "description": "PRDM7; histone-lysine N-methyltransferase PRDM7",
+        "ec_number": "2.1.1.354"
+      },
+      {
+        "gene_id": "123688",
+        "description": "HYKK; hydroxylysine kinase isoform 1",
+        "ec_number": "2.7.1.81"
+      },
+      {
+        "gene_id": "150572",
+        "description": "SMYD1; histone-lysine N-methyltransferase SMYD1 isoform 1",
+        "ec_number": "2.1.1.354 2.1.1.357"
+      },
+      {
+        "gene_id": "1738",
+        "description": "DLD; dihydrolipoyl dehydrogenase, mitochondrial isoform 1 precursor",
+        "ec_number": "1.8.1.4"
+      },
+      {
+        "gene_id": "1743",
+        "description": "DLST; dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex, mitochondrial isoform 1 precursor",
+        "ec_number": "2.3.1.61"
+      },
+      {
+        "gene_id": "1892",
+        "description": "ECHS1; enoyl-CoA hydratase, mitochondrial",
+        "ec_number": "4.2.1.17"
+      },
+      {
+        "gene_id": "1962",
+        "description": "EHHADH; peroxisomal bifunctional enzyme isoform 1",
+        "ec_number": "4.2.1.17 1.1.1.35 5.3.3.8"
+      },
+      {
+        "gene_id": "2122",
+        "description": "MECOM; histone-lysine N-methyltransferase MECOM isoform f",
+        "ec_number": "2.1.1.367"
+      },
+      {
+        "gene_id": "2145",
+        "description": "EZH1; histone-lysine N-methyltransferase EZH1 isoform 1",
+        "ec_number": "2.1.1.356"
+      },
+      {
+        "gene_id": "2146",
+        "description": "EZH2; histone-lysine N-methyltransferase EZH2 isoform c",
+        "ec_number": "2.1.1.356"
+      },
+      {
+        "gene_id": "217",
+        "description": "ALDH2; aldehyde dehydrogenase, mitochondrial isoform 1 precursor",
+        "ec_number": "1.2.1.3"
+      },
+      {
+        "gene_id": "219",
+        "description": "ALDH1B1; aldehyde dehydrogenase X, mitochondrial precursor",
+        "ec_number": "1.2.1.3"
+      },
+      {
+        "gene_id": "223",
+        "description": "ALDH9A1; 4-trimethylaminobutyraldehyde dehydrogenase isoform 1 precursor",
+        "ec_number": "1.2.1.47 1.2.1.3"
+      },
+      {
+        "gene_id": "224",
+        "description": "ALDH3A2; aldehyde dehydrogenase family 3 member A2 isoform 2",
+        "ec_number": "1.2.1.3"
+      },
+      {
+        "gene_id": "23067",
+        "description": "SETD1B; histone-lysine N-methyltransferase SETD1B",
+        "ec_number": "2.1.1.354"
+      },
+      {
+        "gene_id": "23127",
+        "description": "COLGALT2; procollagen galactosyltransferase 2 isoform 1precursor",
+        "ec_number": "2.4.1.50"
+      },
+      {
+        "gene_id": "2639",
+        "description": "GCDH; glutaryl-CoA dehydrogenase, mitochondrial isoform a precursor",
+        "ec_number": "1.3.8.6"
+      },
+      {
+        "gene_id": "29072",
+        "description": "SETD2; histone-lysine N-methyltransferase SETD2 isoform 1",
+        "ec_number": "2.1.1.359"
+      },
+      {
+        "gene_id": "3030",
+        "description": "HADHA; trifunctional enzyme subunit alpha, mitochondrial precursor",
+        "ec_number": "4.2.1.17 1.1.1.211"
+      },
+      {
+        "gene_id": "3033",
+        "description": "HADH; hydroxyacyl-coenzyme A dehydrogenase, mitochondrial isoform 2 precursor",
+        "ec_number": "1.1.1.35"
+      },
+      {
+        "gene_id": "38",
+        "description": "ACAT1; acetyl-CoA acetyltransferase, mitochondrial isoform b precursor",
+        "ec_number": "2.3.1.9"
+      },
+      {
+        "gene_id": "387893",
+        "description": "KMT5A; N-lysine methyltransferase KMT5A isoform 4",
+        "ec_number": "2.1.1.361"
+      },
+      {
+        "gene_id": "39",
+        "description": "ACAT2; acetyl-CoA acetyltransferase, cytosolic isoform 1",
+        "ec_number": "2.3.1.9"
+      },
+      {
+        "gene_id": "4297",
+        "description": "KMT2A; histone-lysine N-methyltransferase 2A isoform 2 precursor",
+        "ec_number": "2.1.1.354"
+      },
+      {
+        "gene_id": "501",
+        "description": "ALDH7A1; alpha-aminoadipic semialdehyde dehydrogenase isoform 1 precursor",
+        "ec_number": "1.2.1.31 1.2.1.8 1.2.1.3"
+      },
+      {
+        "gene_id": "51111",
+        "description": "KMT5B; histone-lysine N-methyltransferase KMT5B isoform 1",
+        "ec_number": "2.1.1.362"
+      },
+      {
+        "gene_id": "51166",
+        "description": "AADAT; kynurenine/alpha-aminoadipate aminotransferase, mitochondrial isoform b",
+        "ec_number": "2.6.1.7 2.6.1.39"
+      },
+      {
+        "gene_id": "51268",
+        "description": "PIPOX; peroxisomal sarcosine oxidase",
+        "ec_number": "1.5.3.1 1.5.3.7"
+      },
+      {
+        "gene_id": "5351",
+        "description": "PLOD1; procollagen-lysine,2-oxoglutarate 5-dioxygenase 1 isoform 2 precursor",
+        "ec_number": "1.14.11.4"
+      },
+      {
+        "gene_id": "5352",
+        "description": "PLOD2; procollagen-lysine,2-oxoglutarate 5-dioxygenase 2 isoform 2 precursor",
+        "ec_number": "1.14.11.4"
+      },
+      {
+        "gene_id": "54904",
+        "description": "NSD3; histone-lysine N-methyltransferase NSD3 isoform long",
+        "ec_number": "2.1.1.370 2.1.1.371"
+      },
+      {
+        "gene_id": "55217",
+        "description": "TMLHE; trimethyllysine dioxygenase, mitochondrial isoform 1 precursor",
+        "ec_number": "1.14.11.8"
+      },
+      {
+        "gene_id": "55526",
+        "description": "DHTKD1; 2-oxoadipate dehydrogenase complex component E1",
+        "ec_number": "1.2.4.-"
+      },
+      {
+        "gene_id": "55870",
+        "description": "ASH1L; histone-lysine N-methyltransferase ASH1L isoform 1",
+        "ec_number": "2.1.1.354"
+      },
+      {
+        "gene_id": "55904",
+        "description": "KMT2E; inactive histone-lysine N-methyltransferase 2E isoform a",
+        "ec_number": "2.1.1.354"
+      },
+      {
+        "gene_id": "56950",
+        "description": "SMYD2; N-lysine methyltransferase SMYD2",
+        "ec_number": "2.1.1.354 2.1.1.357"
+      },
+      {
+        "gene_id": "56979",
+        "description": "PRDM9; histone-lysine N-methyltransferase PRDM9 isoform PRDM9 B",
+        "ec_number": "2.1.1.354"
+      },
+      {
+        "gene_id": "58508",
+        "description": "KMT2C; histone-lysine N-methyltransferase 2C",
+        "ec_number": "2.1.1.354"
+      },
+      {
+        "gene_id": "63976",
+        "description": "PRDM16; histone-lysine N-methyltransferase PRDM16 isoform 1",
+        "ec_number": "2.1.1.367"
+      },
+      {
+        "gene_id": "6419",
+        "description": "SETMAR; histone-lysine N-methyltransferase SETMAR isoform 1",
+        "ec_number": "2.1.1.357"
+      },
+      {
+        "gene_id": "64324",
+        "description": "NSD1; histone-lysine N-methyltransferase, H3 lysine-36 specific isoform b",
+        "ec_number": "2.1.1.357"
+      },
+      {
+        "gene_id": "64754",
+        "description": "SMYD3; histone-lysine N-methyltransferase SMYD3 isoform 1",
+        "ec_number": "2.1.1.354 2.1.1.357"
+      },
+      {
+        "gene_id": "6839",
+        "description": "SUV39H1; histone-lysine N-methyltransferase SUV39H1 isoform 2",
+        "ec_number": "2.1.1.355"
+      },
+      {
+        "gene_id": "7468",
+        "description": "NSD2; histone-lysine N-methyltransferase NSD2 isoform 1",
+        "ec_number": "2.1.1.357"
+      },
+      {
+        "gene_id": "7799",
+        "description": "PRDM2; PR domain zinc finger protein 2 isoform a",
+        "ec_number": "2.1.1.355"
+      },
+      {
+        "gene_id": "79709",
+        "description": "COLGALT1; procollagen galactosyltransferase 1 precursor",
+        "ec_number": "2.4.1.50"
+      },
+      {
+        "gene_id": "79723",
+        "description": "SUV39H2; histone-lysine N-methyltransferase SUV39H2 isoform 1",
+        "ec_number": "2.1.1.355"
+      },
+      {
+        "gene_id": "79813",
+        "description": "EHMT1; histone-lysine N-methyltransferase EHMT1 isoform 1",
+        "ec_number": "2.1.1.355"
+      },
+      {
+        "gene_id": "79823",
+        "description": "CAMKMT; calmodulin-lysine N-methyltransferase",
+        "ec_number": "2.1.1.60"
+      },
+      {
+        "gene_id": "8085",
+        "description": "KMT2D; histone-lysine N-methyltransferase 2D",
+        "ec_number": "2.1.1.354"
+      },
+      {
+        "gene_id": "80854",
+        "description": "SETD7; histone-lysine N-methyltransferase SETD7 isoform 1",
+        "ec_number": "2.1.1.364"
+      },
+      {
+        "gene_id": "83852",
+        "description": "SETDB2; histone-lysine N-methyltransferase SETDB2 isoform a",
+        "ec_number": "2.1.1.355"
+      },
+      {
+        "gene_id": "8424",
+        "description": "BBOX1; gamma-butyrobetaine dioxygenase",
+        "ec_number": "1.14.11.1"
+      },
+      {
+        "gene_id": "84444",
+        "description": "DOT1L; histone-lysine N-methyltransferase, H3 lysine-79 specific isoform 1",
+        "ec_number": "2.1.1.360"
+      },
+      {
+        "gene_id": "84787",
+        "description": "KMT5C; histone-lysine N-methyltransferase KMT5C isoform 1",
+        "ec_number": "2.1.1.362"
+      },
+      {
+        "gene_id": "85007",
+        "description": "PHYKPL; 5-phosphohydroxy-L-lysine phospho-lyase isoform 2",
+        "ec_number": "4.2.3.134"
+      },
+      {
+        "gene_id": "8985",
+        "description": "PLOD3; multifunctional procollagen lysine hydroxylase and glycosyltransferase LH3 precursor",
+        "ec_number": "1.14.11.4 2.4.1.50 2.4.1.66"
+      },
+      {
+        "gene_id": "93166",
+        "description": "PRDM6; putative histone-lysine N-methyltransferase PRDM6",
+        "ec_number": "2.1.1.361"
+      },
+      {
+        "gene_id": "9739",
+        "description": "SETD1A; histone-lysine N-methyltransferase SETD1A",
+        "ec_number": "2.1.1.354"
+      },
+      {
+        "gene_id": "9757",
+        "description": "KMT2B; histone-lysine N-methyltransferase 2B",
+        "ec_number": "2.1.1.354"
+      },
+      {
+        "gene_id": "9869",
+        "description": "SETDB1; histone-lysine N-methyltransferase SETDB1 isoform 1",
+        "ec_number": "2.1.1.366"
+      }
+    ],
+    "compounds": [
+      {
+        "compound_id": "C00026",
+        "name": "2-Oxoglutarate"
+      },
+      {
+        "compound_id": "C00037",
+        "name": "Glycine"
+      },
+      {
+        "compound_id": "C00042",
+        "name": "Succinate"
+      },
+      {
+        "compound_id": "C00047",
+        "name": "L-Lysine"
+      },
+      {
+        "compound_id": "C00068",
+        "name": "Thiamin diphosphate"
+      },
+      {
+        "compound_id": "C00136",
+        "name": "Butanoyl-CoA"
+      },
+      {
+        "compound_id": "C00164",
+        "name": "Acetoacetate"
+      },
+      {
+        "compound_id": "C00322",
+        "name": "2-Oxoadipate"
+      },
+      {
+        "compound_id": "C00332",
+        "name": "Acetoacetyl-CoA"
+      },
+      {
+        "compound_id": "C00408",
+        "name": "L-Pipecolate"
+      },
+      {
+        "compound_id": "C00431",
+        "name": "5-Aminopentanoate"
+      },
+      {
+        "compound_id": "C00449",
+        "name": "N6-(L-1,3-Dicarboxypropyl)-L-lysine"
+      },
+      {
+        "compound_id": "C00450",
+        "name": "(S)-2,3,4,5-Tetrahydropyridine-2-carboxylate"
+      },
+      {
+        "compound_id": "C00487",
+        "name": "Carnitine"
+      },
+      {
+        "compound_id": "C00489",
+        "name": "Glutarate"
+      },
+      {
+        "compound_id": "C00527",
+        "name": "Glutaryl-CoA"
+      },
+      {
+        "compound_id": "C00739",
+        "name": "D-Lysine"
+      },
+      {
+        "compound_id": "C00877",
+        "name": "Crotonoyl-CoA"
+      },
+      {
+        "compound_id": "C00956",
+        "name": "L-2-Aminoadipate"
+      },
+      {
+        "compound_id": "C00990",
+        "name": "5-Aminopentanamide"
+      },
+      {
+        "compound_id": "C01087",
+        "name": "(R)-2-Hydroxyglutarate"
+      },
+      {
+        "compound_id": "C01142",
+        "name": "(3S)-3,6-Diaminohexanoate"
+      },
+      {
+        "compound_id": "C01144",
+        "name": "(S)-3-Hydroxybutanoyl-CoA"
+      },
+      {
+        "compound_id": "C01149",
+        "name": "4-Trimethylammoniobutanal"
+      },
+      {
+        "compound_id": "C01181",
+        "name": "4-Trimethylammoniobutanoate"
+      },
+      {
+        "compound_id": "C01186",
+        "name": "(3S,5S)-3,5-Diaminohexanoate"
+      },
+      {
+        "compound_id": "C01211",
+        "name": "Procollagen 5-hydroxy-L-lysine"
+      },
+      {
+        "compound_id": "C01259",
+        "name": "(3S)-3-Hydroxy-N6,N6,N6-trimethyl-L-lysine"
+      },
+      {
+        "compound_id": "C01672",
+        "name": "Cadaverine"
+      },
+      {
+        "compound_id": "C02188",
+        "name": "Protein lysine"
+      },
+      {
+        "compound_id": "C02727",
+        "name": "N6-Acetyl-L-lysine"
+      },
+      {
+        "compound_id": "C03087",
+        "name": "5-Acetamidopentanoate"
+      },
+      {
+        "compound_id": "C03196",
+        "name": "(S)-2-Hydroxyglutarate"
+      },
+      {
+        "compound_id": "C03239",
+        "name": "6-Amino-2-oxohexanoate"
+      },
+      {
+        "compound_id": "C03273",
+        "name": "5-Oxopentanoate"
+      },
+      {
+        "compound_id": "C03366",
+        "name": "5-Phosphooxy-L-lysine"
+      },
+      {
+        "compound_id": "C03656",
+        "name": "(S)-5-Amino-3-oxohexanoic acid"
+      },
+      {
+        "compound_id": "C03793",
+        "name": "N6,N6,N6-Trimethyl-L-lysine"
+      },
+      {
+        "compound_id": "C04020",
+        "name": "D-Lysopine"
+      },
+      {
+        "compound_id": "C04076",
+        "name": "L-2-Aminoadipate 6-semialdehyde"
+      },
+      {
+        "compound_id": "C04092",
+        "name": "Delta1-Piperideine-2-carboxylate"
+      },
+      {
+        "compound_id": "C04487",
+        "name": "5-(D-Galactosyloxy)-L-lysine-procollagen"
+      },
+      {
+        "compound_id": "C05161",
+        "name": "(2R,5S)-2,5-Diaminohexanoate"
+      },
+      {
+        "compound_id": "C05231",
+        "name": "L-3-Aminobutyryl-CoA"
+      },
+      {
+        "compound_id": "C05544",
+        "name": "Protein N6-methyl-L-lysine"
+      },
+      {
+        "compound_id": "C05545",
+        "name": "Protein N6,N6-dimethyl-L-lysine"
+      },
+      {
+        "compound_id": "C05546",
+        "name": "Protein N6,N6,N6-trimethyl-L-lysine"
+      },
+      {
+        "compound_id": "C05548",
+        "name": "6-Acetamido-2-oxohexanoate"
+      },
+      {
+        "compound_id": "C05825",
+        "name": "2-Amino-5-oxohexanoate"
+      },
+      {
+        "compound_id": "C06157",
+        "name": "[Dihydrolipoyllysine-residue succinyltransferase] S-glutaryldihydrolipoyllysine"
+      },
+      {
+        "compound_id": "C12455",
+        "name": "5-Aminopentanal"
+      },
+      {
+        "compound_id": "C15972",
+        "name": "Enzyme N6-(lipoyl)lysine"
+      },
+      {
+        "compound_id": "C15973",
+        "name": "Enzyme N6-(dihydrolipoyl)lysine"
+      },
+      {
+        "compound_id": "C16741",
+        "name": "L-Hydroxylysine"
+      },
+      {
+        "compound_id": "C22667",
+        "name": "4-Carboxy-1-hydroxybutyryl-ThPP"
+      }
+    ],
+    "enzymes": [],
+    "relevance": "Lysine is the other amino acid crosslinked by glucosepane"
+  },
+  {
+    "pathway_id": "hsa04510",
+    "name": "Focal adhesion - Homo sapiens (human)",
+    "description": "Cell-matrix adhesions play essential roles in important biological processes including cell motility, cell proliferation, cell differentiation, regulation of gene expression and cell survival. At the cell-extracellular matrix contact points, specialized structures are formed and termed focal adhesions, where bundles of actin filaments are anchored to transmembrane receptors of the integrin family through a multi-molecular complex of junctional plaque proteins. Some of the constituents of focal adhesions participate in the structural link between membrane receptors and the actin cytoskeleton, while others are signalling molecules, including different protein kinases and phosphatases, their substrates, and various adapter proteins. Integrin signaling is dependent upon the non-receptor tyrosine kinase activities of the FAK and src proteins as well as the adaptor protein functions of FAK, src and Shc to initiate downstream signaling events. These signalling events culminate in reorganization of the actin cytoskeleton; a prerequisite for changes in cell shape and motility, and gene expression. Similar morphological alterations and modulation of gene expression are initiated by the binding of growth factors to their respective receptors, emphasizing the considerable crosstalk between adhesion- and growth factor-mediated signalling.",
+    "organism": "Homo sapiens (human) [GN:hsa]",
+    "genes": [
+      {
+        "gene_id": "10298",
+        "description": "PAK4; serine/threonine-protein kinase PAK 4 isoform 1",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "gene_id": "10319",
+        "description": "LAMC3; laminin subunit gamma-3 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "103910",
+        "description": "MYL12B; myosin regulatory light chain 12B",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "10398",
+        "description": "MYL9; myosin regulatory light polypeptide 9 isoform a",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "10451",
+        "description": "VAV3; guanine nucleotide exchange factor VAV3 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "10627",
+        "description": "MYL12A; myosin regulatory light chain 12A isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "106821730",
+        "description": "BUB1B-PAK6; serine/threonine-protein kinase PAK 6",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "gene_id": "1101",
+        "description": "CHAD; chondroadherin precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "110117499",
+        "description": "P3R3URF-PIK3R3; LOC110117498-PIK3R3 readthrough",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1277",
+        "description": "COL1A1; collagen alpha-1(I) chain preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1278",
+        "description": "COL1A2; collagen alpha-2(I) chain precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1280",
+        "description": "COL2A1; collagen alpha-1(II) chain isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1282",
+        "description": "COL4A1; collagen alpha-1(IV) chain isoform 1 preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1284",
+        "description": "COL4A2; collagen alpha-2(IV) chain preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1285",
+        "description": "COL4A3; collagen alpha-3(IV) chain precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1286",
+        "description": "COL4A4; collagen alpha-4(IV) chain precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1287",
+        "description": "COL4A5; collagen alpha-5(IV) chain isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1288",
+        "description": "COL4A6; collagen alpha-6(IV) chain isoform A precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1291",
+        "description": "COL6A1; collagen alpha-1(VI) chain precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1292",
+        "description": "COL6A2; collagen alpha-2(VI) chain isoform 2C2 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1293",
+        "description": "COL6A3; collagen alpha-3(VI) chain isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1297",
+        "description": "COL9A1; collagen alpha-1(IX) chain isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1298",
+        "description": "COL9A2; collagen alpha-2(IX) chain precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1299",
+        "description": "COL9A3; collagen alpha-3(IX) chain precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1311",
+        "description": "COMP; cartilage oligomeric matrix protein precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "131873",
+        "description": "COL6A6; collagen alpha-6(VI) chain precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1398",
+        "description": "CRK; adapter molecule crk isoform a",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1399",
+        "description": "CRKL; crk-like protein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1499",
+        "description": "CTNNB1; catenin beta-1 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1729",
+        "description": "DIAPH1; protein diaphanous homolog 1 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1793",
+        "description": "DOCK1; dedicator of cytokinesis protein 1 isoform 2",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1950",
+        "description": "EGF; pro-epidermal growth factor isoform 1 preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "1956",
+        "description": "EGFR; epidermal growth factor receptor isoform a precursor",
+        "ec_number": "2.7.10.1"
+      },
+      {
+        "gene_id": "2002",
+        "description": "ELK1; ETS domain-containing protein Elk-1 isoform a",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "2012",
+        "description": "EMP1; epithelial membrane protein 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "2013",
+        "description": "EMP2; epithelial membrane protein 2",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "2064",
+        "description": "ERBB2; receptor tyrosine-protein kinase erbB-2 isoform a precursor",
+        "ec_number": "2.7.10.1"
+      },
+      {
+        "gene_id": "207",
+        "description": "AKT1; RAC-alpha serine/threonine-protein kinase",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "gene_id": "208",
+        "description": "AKT2; RAC-beta serine/threonine-protein kinase isoform 1",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "gene_id": "2277",
+        "description": "VEGFD; vascular endothelial growth factor D preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "22798",
+        "description": "LAMB4; laminin subunit beta-4 isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "22801",
+        "description": "ITGA11; integrin alpha-11 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "2316",
+        "description": "FLNA; filamin-A isoform 2",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "2317",
+        "description": "FLNB; filamin-B isoform 2",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "2321",
+        "description": "FLT1; vascular endothelial growth factor receptor 1 isoform 1 precursor",
+        "ec_number": "2.7.10.1"
+      },
+      {
+        "gene_id": "2324",
+        "description": "FLT4; vascular endothelial growth factor receptor 3 isoform 1 precursor",
+        "ec_number": "2.7.10.1"
+      },
+      {
+        "gene_id": "2335",
+        "description": "FN1; fibronectin isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "23396",
+        "description": "PIP5K1C; phosphatidylinositol 4-phosphate 5-kinase type-1 gamma isoform 2",
+        "ec_number": "2.7.1.68"
+      },
+      {
+        "gene_id": "2534",
+        "description": "FYN; tyrosine-protein kinase Fyn isoform a",
+        "ec_number": "2.7.10.2"
+      },
+      {
+        "gene_id": "256076",
+        "description": "COL6A5; collagen alpha-5(VI) chain isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "25759",
+        "description": "SHC2; SHC-transforming protein 2 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "284217",
+        "description": "LAMA1; laminin subunit alpha-1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "2885",
+        "description": "GRB2; growth factor receptor-bound protein 2 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "2889",
+        "description": "RAPGEF1; rap guanine nucleotide exchange factor 1 isoform a",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "2909",
+        "description": "ARHGAP35; rho GTPase-activating protein 35",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "2932",
+        "description": "GSK3B; glycogen synthase kinase-3 beta isoform 2",
+        "ec_number": "2.7.11.26"
+      },
+      {
+        "gene_id": "29780",
+        "description": "PARVB; beta-parvin isoform b",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "29895",
+        "description": "MYL11; myosin regulatory light chain 11",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3082",
+        "description": "HGF; hepatocyte growth factor isoform 1 preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3265",
+        "description": "HRAS; GTPase HRas isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "329",
+        "description": "BIRC2; baculoviral IAP repeat-containing protein 2 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "330",
+        "description": "BIRC3; baculoviral IAP repeat-containing protein 3",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "331",
+        "description": "XIAP; E3 ubiquitin-protein ligase XIAP",
+        "ec_number": "2.3.2.27"
+      },
+      {
+        "gene_id": "3371",
+        "description": "TNC; tenascin isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3381",
+        "description": "IBSP; integrin-binding sialoprotein precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "340156",
+        "description": "MYLK4; myosin light chain kinase family member 4 isoform 1",
+        "ec_number": "2.7.11.18"
+      },
+      {
+        "gene_id": "3479",
+        "description": "IGF1; insulin-like growth factor 1 isoform 3 preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3480",
+        "description": "IGF1R; insulin-like growth factor 1 receptor isoform 1 precursor",
+        "ec_number": "2.7.10.1"
+      },
+      {
+        "gene_id": "3611",
+        "description": "ILK; scaffold protein ILK isoform 1",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "gene_id": "3655",
+        "description": "ITGA6; integrin alpha-6 isoform 6 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3672",
+        "description": "ITGA1; integrin alpha-1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3673",
+        "description": "ITGA2; integrin alpha-2 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3674",
+        "description": "ITGA2B; integrin alpha-IIb preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3675",
+        "description": "ITGA3; integrin alpha-3 preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3676",
+        "description": "ITGA4; integrin alpha-4 isoform 1 preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3678",
+        "description": "ITGA5; integrin alpha-5 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3679",
+        "description": "ITGA7; integrin alpha-7 isoform 7 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3680",
+        "description": "ITGA9; integrin alpha-9 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3685",
+        "description": "ITGAV; integrin alpha-V isoform 1 preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3688",
+        "description": "ITGB1; integrin beta-1 isoform 1A precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3690",
+        "description": "ITGB3; integrin beta-3 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3691",
+        "description": "ITGB4; integrin beta-4 isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3693",
+        "description": "ITGB5; integrin beta-5 isoform a precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3694",
+        "description": "ITGB6; integrin beta-6 isoform a precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3695",
+        "description": "ITGB7; integrin beta-7 isoform a precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3696",
+        "description": "ITGB8; integrin beta-8 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3725",
+        "description": "JUN; transcription factor Jun",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3791",
+        "description": "KDR; vascular endothelial growth factor receptor 2 precursor",
+        "ec_number": "2.7.10.1"
+      },
+      {
+        "gene_id": "387",
+        "description": "RHOA; transforming protein RhoA isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3908",
+        "description": "LAMA2; laminin subunit alpha-2 isoform a precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3909",
+        "description": "LAMA3; laminin subunit alpha-3 isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3910",
+        "description": "LAMA4; laminin subunit alpha-4 isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3911",
+        "description": "LAMA5; laminin subunit alpha-5 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3912",
+        "description": "LAMB1; laminin subunit beta-1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3913",
+        "description": "LAMB2; laminin subunit beta-2 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3914",
+        "description": "LAMB3; laminin subunit beta-3 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3915",
+        "description": "LAMC1; laminin subunit gamma-1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "3918",
+        "description": "LAMC2; laminin subunit gamma-2 isoform a precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "394",
+        "description": "ARHGAP5; rho GTPase-activating protein 5 isoform a",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "399694",
+        "description": "SHC4; SHC-transforming protein 4",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "4233",
+        "description": "MET; hepatocyte growth factor receptor isoform b preproprotein",
+        "ec_number": "2.7.10.1"
+      },
+      {
+        "gene_id": "4633",
+        "description": "MYL2; myosin regulatory light chain 2, ventricular/cardiac muscle isoform isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "4636",
+        "description": "MYL5; myosin light chain 5 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "4638",
+        "description": "MYLK; myosin light chain kinase, smooth muscle isoform 1",
+        "ec_number": "2.7.11.18"
+      },
+      {
+        "gene_id": "4659",
+        "description": "PPP1R12A; protein phosphatase 1 regulatory subunit 12A isoform a",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "4660",
+        "description": "PPP1R12B; protein phosphatase 1 regulatory subunit 12B isoform a",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5058",
+        "description": "PAK1; serine/threonine-protein kinase PAK 1 isoform 2",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "gene_id": "5062",
+        "description": "PAK2; serine/threonine-protein kinase PAK 2",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "gene_id": "5063",
+        "description": "PAK3; serine/threonine-protein kinase PAK 3 isoform d",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "gene_id": "5154",
+        "description": "PDGFA; platelet-derived growth factor subunit A isoform 1 preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5155",
+        "description": "PDGFB; platelet-derived growth factor subunit B isoform 1 preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5156",
+        "description": "PDGFRA; platelet-derived growth factor receptor alpha isoform 1 precursor",
+        "ec_number": "2.7.10.1"
+      },
+      {
+        "gene_id": "5159",
+        "description": "PDGFRB; platelet-derived growth factor receptor beta isoform 1 precursor",
+        "ec_number": "2.7.10.1"
+      },
+      {
+        "gene_id": "5170",
+        "description": "PDPK1; 3-phosphoinositide-dependent protein kinase 1 isoform 1",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "gene_id": "5228",
+        "description": "PGF; placenta growth factor isoform 2 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5290",
+        "description": "PIK3CA; phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform",
+        "ec_number": "2.7.1.153"
+      },
+      {
+        "gene_id": "5291",
+        "description": "PIK3CB; phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform isoform 1",
+        "ec_number": "2.7.1.153"
+      },
+      {
+        "gene_id": "5293",
+        "description": "PIK3CD; phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform isoform 1",
+        "ec_number": "2.7.1.153"
+      },
+      {
+        "gene_id": "5295",
+        "description": "PIK3R1; phosphatidylinositol 3-kinase regulatory subunit alpha isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5296",
+        "description": "PIK3R2; phosphatidylinositol 3-kinase regulatory subunit beta",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "53358",
+        "description": "SHC3; SHC-transforming protein 3",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "54776",
+        "description": "PPP1R12C; protein phosphatase 1 regulatory subunit 12C isoform a",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5499",
+        "description": "PPP1CA; serine/threonine-protein phosphatase PP1-alpha catalytic subunit isoform 1",
+        "ec_number": "3.1.3.16"
+      },
+      {
+        "gene_id": "5500",
+        "description": "PPP1CB; serine/threonine-protein phosphatase PP1-beta catalytic subunit isoform 1",
+        "ec_number": "3.1.3.16"
+      },
+      {
+        "gene_id": "5501",
+        "description": "PPP1CC; serine/threonine-protein phosphatase PP1-gamma catalytic subunit isoform 1",
+        "ec_number": "3.1.3.16"
+      },
+      {
+        "gene_id": "55742",
+        "description": "PARVA; alpha-parvin",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5578",
+        "description": "PRKCA; protein kinase C alpha type",
+        "ec_number": "2.7.11.13"
+      },
+      {
+        "gene_id": "5579",
+        "description": "PRKCB; protein kinase C beta type isoform 1",
+        "ec_number": "2.7.11.13"
+      },
+      {
+        "gene_id": "5582",
+        "description": "PRKCG; protein kinase C gamma type isoform 2",
+        "ec_number": "2.7.11.13"
+      },
+      {
+        "gene_id": "5594",
+        "description": "MAPK1; mitogen-activated protein kinase 1",
+        "ec_number": "2.7.11.24"
+      },
+      {
+        "gene_id": "5595",
+        "description": "MAPK3; mitogen-activated protein kinase 3 isoform 1",
+        "ec_number": "2.7.11.24"
+      },
+      {
+        "gene_id": "5599",
+        "description": "MAPK8; mitogen-activated protein kinase 8 isoform alpha2",
+        "ec_number": "2.7.11.24"
+      },
+      {
+        "gene_id": "5601",
+        "description": "MAPK9; mitogen-activated protein kinase 9 isoform alpha2",
+        "ec_number": "2.7.11.24"
+      },
+      {
+        "gene_id": "5602",
+        "description": "MAPK10; mitogen-activated protein kinase 10 isoform 1",
+        "ec_number": "2.7.11.24"
+      },
+      {
+        "gene_id": "56034",
+        "description": "PDGFC; platelet-derived growth factor C precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5604",
+        "description": "MAP2K1; dual specificity mitogen-activated protein kinase kinase 1 isoform 1",
+        "ec_number": "2.7.12.2"
+      },
+      {
+        "gene_id": "5649",
+        "description": "RELN; reelin isoform a precursor",
+        "ec_number": "3.4.21.-"
+      },
+      {
+        "gene_id": "56924",
+        "description": "PAK6; serine/threonine-protein kinase PAK 6 isoform 1",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "gene_id": "57144",
+        "description": "PAK5; serine/threonine-protein kinase PAK 5",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "gene_id": "572",
+        "description": "BAD; bcl2-associated agonist of cell death",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5728",
+        "description": "PTEN; phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN isoform PTEN",
+        "ec_number": "3.1.3.16 3.1.3.48 3.1.3.67"
+      },
+      {
+        "gene_id": "5747",
+        "description": "PTK2; focal adhesion kinase 1 isoform 1",
+        "ec_number": "2.7.10.2"
+      },
+      {
+        "gene_id": "5829",
+        "description": "PXN; paxillin isoform 2",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "58498",
+        "description": "MYL7; myosin regulatory light chain 2, atrial isoform",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5879",
+        "description": "RAC1; ras-related C3 botulinum toxin substrate 1 isoform Rac1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5880",
+        "description": "RAC2; ras-related C3 botulinum toxin substrate 2",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5881",
+        "description": "RAC3; ras-related C3 botulinum toxin substrate 3 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5894",
+        "description": "RAF1; RAF proto-oncogene serine/threonine-protein kinase isoform b",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "gene_id": "5906",
+        "description": "RAP1A; ras-related protein Rap-1A precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5908",
+        "description": "RAP1B; ras-related protein Rap-1b isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "5923",
+        "description": "RASGRF1; ras-specific guanine nucleotide-releasing factor 1 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "595",
+        "description": "CCND1; G1/S-specific cyclin-D1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "596",
+        "description": "BCL2; apoptosis regulator Bcl-2 isoform alpha",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "60",
+        "description": "ACTB; actin, cytoplasmic 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "6093",
+        "description": "ROCK1; rho-associated protein kinase 1",
+        "ec_number": "2.7.11.39"
+      },
+      {
+        "gene_id": "63923",
+        "description": "TNN; tenascin-N precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "64098",
+        "description": "PARVG; gamma-parvin",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "6464",
+        "description": "SHC1; SHC-transforming protein 1 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "6654",
+        "description": "SOS1; son of sevenless homolog 1 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "6655",
+        "description": "SOS2; son of sevenless homolog 2 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "6696",
+        "description": "SPP1; osteopontin isoform OPN-a precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "6714",
+        "description": "SRC; proto-oncogene tyrosine-protein kinase Src",
+        "ec_number": "2.7.10.2"
+      },
+      {
+        "gene_id": "673",
+        "description": "BRAF; serine/threonine-protein kinase B-raf isoform 1",
+        "ec_number": "2.7.11.1"
+      },
+      {
+        "gene_id": "7057",
+        "description": "THBS1; thrombospondin-1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7058",
+        "description": "THBS2; thrombospondin-2 isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7059",
+        "description": "THBS3; thrombospondin-3 isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7060",
+        "description": "THBS4; thrombospondin-4 isoform a precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7094",
+        "description": "TLN1; talin-1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "71",
+        "description": "ACTG1; actin, cytoplasmic 2",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7143",
+        "description": "TNR; tenascin-R isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7148",
+        "description": "TNXB; tenascin-X isoform 3 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7408",
+        "description": "VASP; vasodilator-stimulated phosphoprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7409",
+        "description": "VAV1; proto-oncogene vav isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7410",
+        "description": "VAV2; guanine nucleotide exchange factor VAV2 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7414",
+        "description": "VCL; vinculin isoform meta-VCL",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7422",
+        "description": "VEGFA; vascular endothelial growth factor A, long form isoform b",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7423",
+        "description": "VEGFB; vascular endothelial growth factor B isoform VEGFB-186 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7424",
+        "description": "VEGFC; vascular endothelial growth factor C preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7448",
+        "description": "VTN; vitronectin precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7450",
+        "description": "VWF; von Willebrand factor preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "7791",
+        "description": "ZYX; zyxin isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "80310",
+        "description": "PDGFD; platelet-derived growth factor D isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "81",
+        "description": "ACTN4; alpha-actinin-4 isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "824",
+        "description": "CAPN2; calpain-2 catalytic subunit isoform 1",
+        "ec_number": "3.4.22.53"
+      },
+      {
+        "gene_id": "83660",
+        "description": "TLN2; talin-2",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "8394",
+        "description": "PIP5K1A; phosphatidylinositol 4-phosphate 5-kinase type-1 alpha isoform 1",
+        "ec_number": "2.7.1.68"
+      },
+      {
+        "gene_id": "8395",
+        "description": "PIP5K1B; phosphatidylinositol 4-phosphate 5-kinase type-1 beta isoform 2",
+        "ec_number": "2.7.1.68"
+      },
+      {
+        "gene_id": "8503",
+        "description": "PIK3R3; phosphatidylinositol 3-kinase regulatory subunit gamma isoform 1",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "8515",
+        "description": "ITGA10; integrin alpha-10 isoform 1 precursor",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "8516",
+        "description": "ITGA8; integrin alpha-8 isoform 1 preproprotein",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "85366",
+        "description": "MYLK2; myosin light chain kinase 2, skeletal/cardiac muscle",
+        "ec_number": "2.7.11.18"
+      },
+      {
+        "gene_id": "857",
+        "description": "CAV1; caveolin-1 isoform alpha",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "858",
+        "description": "CAV2; caveolin-2 isoform a",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "859",
+        "description": "CAV3; caveolin-3",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "87",
+        "description": "ACTN1; alpha-actinin-1 isoform b",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "894",
+        "description": "CCND2; G1/S-specific cyclin-D2",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "896",
+        "description": "CCND3; G1/S-specific cyclin-D3 isoform 2",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "91807",
+        "description": "MYLK3; myosin light chain kinase 3 isoform 1",
+        "ec_number": "2.7.11.18"
+      },
+      {
+        "gene_id": "93408",
+        "description": "MYL10; myosin regulatory light chain 10",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "9475",
+        "description": "ROCK2; rho-associated protein kinase 2 isoform 1",
+        "ec_number": "2.7.11.39"
+      },
+      {
+        "gene_id": "9564",
+        "description": "BCAR1; breast cancer anti-estrogen resistance protein 1 isoform 6",
+        "ec_number": ""
+      },
+      {
+        "gene_id": "998",
+        "description": "CDC42; cell division control protein 42 homolog isoform 1 precursor",
+        "ec_number": ""
+      }
+    ],
+    "compounds": [
+      {
+        "compound_id": "C05981",
+        "name": "Phosphatidylinositol-3,4,5-trisphosphate"
+      }
+    ],
+    "enzymes": [],
+    "relevance": "ECM-cell interactions disrupted by crosslinking"
+  }
+]

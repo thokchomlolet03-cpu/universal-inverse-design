@@ -1,0 +1,1434 @@
+{
+  "32975399": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "23787467": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "tissue:skin",
+        "type": "TISSUE",
+        "name": "Skin"
+      }
+    ],
+    "causal_edges": []
+  },
+  "19415980": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "26472902": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "15677467": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "tissue:skin",
+        "type": "TISSUE",
+        "name": "Skin"
+      },
+      {
+        "entity_id": "tissue:kidneys",
+        "type": "TISSUE",
+        "name": "Renal"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      },
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:skin",
+        "context": "glucosepane accumulation impacts Skin",
+        "status": "PROVEN"
+      },
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:kidneys",
+        "context": "glucosepane accumulation impacts Renal",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "40944124": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "27092586": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "29929535": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "33543010": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "29477239": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "tissue:kidneys",
+        "type": "TISSUE",
+        "name": "Kidney"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:kidneys",
+        "context": "glucosepane accumulation impacts Kidney",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "27535267": {
+    "entities": [],
+    "causal_edges": []
+  },
+  "26049074": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "16706655": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "mol:elastin",
+        "type": "MOLECULE",
+        "name": "Elastin"
+      },
+      {
+        "entity_id": "tissue:kidneys",
+        "type": "TISSUE",
+        "name": "Kidney"
+      },
+      {
+        "entity_id": "tissue:heart",
+        "type": "TISSUE",
+        "name": "Heart"
+      },
+      {
+        "entity_id": "mol:alagebrium",
+        "type": "MOLECULE",
+        "name": "Alagebrium (ALT-711)"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      },
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:kidneys",
+        "context": "glucosepane accumulation impacts Kidney",
+        "status": "PROVEN"
+      },
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:heart",
+        "context": "glucosepane accumulation impacts Heart",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "25600701": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "tissue:arteries",
+        "type": "TISSUE",
+        "name": "Artery"
+      },
+      {
+        "entity_id": "tissue:skin",
+        "type": "TISSUE",
+        "name": "Skin"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      },
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:arteries",
+        "context": "glucosepane accumulation impacts Artery",
+        "status": "PROVEN"
+      },
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:skin",
+        "context": "glucosepane accumulation impacts Skin",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "21820400": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "14977384": {
+    "entities": [
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": []
+  },
+  "34302851": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "36410375": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "25187362": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "tissue:skin",
+        "type": "TISSUE",
+        "name": "Skin"
+      }
+    ],
+    "causal_edges": []
+  },
+  "16706654": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "tissue:skin",
+        "type": "TISSUE",
+        "name": "Skin"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:skin",
+        "context": "glucosepane accumulation impacts Skin",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "40813757": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "17278974": {
+    "entities": [
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "tissue:arteries",
+        "type": "TISSUE",
+        "name": "Artery"
+      },
+      {
+        "entity_id": "tissue:heart",
+        "type": "TISSUE",
+        "name": "Heart"
+      },
+      {
+        "entity_id": "mol:alagebrium",
+        "type": "MOLECULE",
+        "name": "Alagebrium (ALT-711)"
+      }
+    ],
+    "causal_edges": []
+  },
+  "27535261": {
+    "entities": [
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": []
+  },
+  "29873266": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "20607325": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "42035904": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "32540391": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "14641061": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "16037276": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "tissue:kidneys",
+        "type": "TISSUE",
+        "name": "Renal"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      },
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:kidneys",
+        "context": "glucosepane accumulation impacts Renal",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "23153673": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "tissue:skin",
+        "type": "TISSUE",
+        "name": "Skin"
+      }
+    ],
+    "causal_edges": []
+  },
+  "10706607": {
+    "entities": [
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "mol:alagebrium",
+        "type": "MOLECULE",
+        "name": "Alagebrium (ALT-711)"
+      },
+      {
+        "entity_id": "mol:aminoguanidine",
+        "type": "MOLECULE",
+        "name": "Aminoguanidine"
+      }
+    ],
+    "causal_edges": []
+  },
+  "11978796": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "17584071": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "33320391": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "23279611": {
+    "entities": [
+      {
+        "entity_id": "mol:alagebrium",
+        "type": "MOLECULE",
+        "name": "Alagebrium (ALT-711)"
+      },
+      {
+        "entity_id": "mol:aminoguanidine",
+        "type": "MOLECULE",
+        "name": "Aminoguanidine"
+      }
+    ],
+    "causal_edges": []
+  },
+  "33472415": {
+    "entities": [
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": []
+  },
+  "36976186": {
+    "entities": [
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": []
+  },
+  "32532588": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "tissue:kidneys",
+        "type": "TISSUE",
+        "name": "Kidney"
+      }
+    ],
+    "causal_edges": []
+  },
+  "37871726": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "29718545": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "22156473": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "tissue:skin",
+        "type": "TISSUE",
+        "name": "Skin"
+      }
+    ],
+    "causal_edges": []
+  },
+  "35798196": {
+    "entities": [
+      {
+        "entity_id": "tissue:kidneys",
+        "type": "TISSUE",
+        "name": "Kidney"
+      }
+    ],
+    "causal_edges": []
+  },
+  "29620898": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "18448799": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "tissue:skin",
+        "type": "TISSUE",
+        "name": "Skin"
+      },
+      {
+        "entity_id": "tissue:kidneys",
+        "type": "TISSUE",
+        "name": "Kidney"
+      },
+      {
+        "entity_id": "mol:aminoguanidine",
+        "type": "MOLECULE",
+        "name": "Aminoguanidine"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:skin",
+        "context": "glucosepane accumulation impacts Skin",
+        "status": "PROVEN"
+      },
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:kidneys",
+        "context": "glucosepane accumulation impacts Kidney",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "24060753": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "16297344": {
+    "entities": [
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "tissue:arteries",
+        "type": "TISSUE",
+        "name": "Arterial"
+      }
+    ],
+    "causal_edges": []
+  },
+  "35058313": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "tissue:kidneys",
+        "type": "TISSUE",
+        "name": "Kidney"
+      }
+    ],
+    "causal_edges": []
+  },
+  "29575566": {
+    "entities": [
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": []
+  },
+  "25791570": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "tissue:kidneys",
+        "type": "TISSUE",
+        "name": "Kidney"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      },
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:kidneys",
+        "context": "glucosepane accumulation impacts Kidney",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "41503150": {
+    "entities": [
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": []
+  },
+  "27342131": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "tissue:arteries",
+        "type": "TISSUE",
+        "name": "Artery"
+      },
+      {
+        "entity_id": "tissue:skin",
+        "type": "TISSUE",
+        "name": "Skin"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:arteries",
+        "context": "glucosepane accumulation impacts Artery",
+        "status": "PROVEN"
+      },
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:skin",
+        "context": "glucosepane accumulation impacts Skin",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "27648753": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "31229674": {
+    "entities": [
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": []
+  },
+  "34314247": {
+    "entities": [
+      {
+        "entity_id": "protein:fructosamine_3_kinase",
+        "type": "PROTEIN",
+        "name": "Fructosamine-3-kinase",
+        "organism_source": "Homo sapiens"
+      }
+    ],
+    "causal_edges": []
+  },
+  "11279247": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "18500835": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "9628264": {
+    "entities": [
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": []
+  },
+  "26341632": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "tissue:arteries",
+        "type": "TISSUE",
+        "name": "Artery"
+      },
+      {
+        "entity_id": "tissue:skin",
+        "type": "TISSUE",
+        "name": "Skin"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      },
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:arteries",
+        "context": "glucosepane accumulation impacts Artery",
+        "status": "PROVEN"
+      },
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:skin",
+        "context": "glucosepane accumulation impacts Skin",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "42334941": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "41154455": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "33095927": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "tissue:skin",
+        "type": "TISSUE",
+        "name": "Skin"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:skin",
+        "context": "glucosepane accumulation impacts Skin",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "34279786": {
+    "entities": [
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "mol:alagebrium",
+        "type": "MOLECULE",
+        "name": "Alagebrium (ALT-711)"
+      },
+      {
+        "entity_id": "mol:aminoguanidine",
+        "type": "MOLECULE",
+        "name": "Aminoguanidine"
+      }
+    ],
+    "causal_edges": []
+  },
+  "19760059": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "21897744": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "31827677": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "tissue:kidneys",
+        "type": "TISSUE",
+        "name": "Kidney"
+      }
+    ],
+    "causal_edges": []
+  },
+  "29254633": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "20541005": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "tissue:skin",
+        "type": "TISSUE",
+        "name": "Skin"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      },
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CAUSES_DAMAGE",
+        "target_id": "tissue:skin",
+        "context": "glucosepane accumulation impacts Skin",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "18952522": {
+    "entities": [
+      {
+        "entity_id": "tissue:arteries",
+        "type": "TISSUE",
+        "name": "Aorta"
+      },
+      {
+        "entity_id": "tissue:heart",
+        "type": "TISSUE",
+        "name": "Myocardium"
+      }
+    ],
+    "causal_edges": []
+  },
+  "32401813": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "tissue:arteries",
+        "type": "TISSUE",
+        "name": "Artery"
+      },
+      {
+        "entity_id": "tissue:skin",
+        "type": "TISSUE",
+        "name": "Skin"
+      },
+      {
+        "entity_id": "tissue:heart",
+        "type": "TISSUE",
+        "name": "Heart"
+      }
+    ],
+    "causal_edges": []
+  },
+  "21811778": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "15677510": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "mol:collagen",
+        "type": "MOLECULE",
+        "name": "Collagen"
+      },
+      {
+        "entity_id": "tissue:arteries",
+        "type": "TISSUE",
+        "name": "Aorta"
+      },
+      {
+        "entity_id": "tissue:kidneys",
+        "type": "TISSUE",
+        "name": "Renal"
+      }
+    ],
+    "causal_edges": [
+      {
+        "source_id": "mol:glucosepane",
+        "edge_type": "CROSSLINKS",
+        "target_id": "mol:collagen",
+        "context": "glucosepane crosslinks collagen matrix",
+        "status": "PROVEN"
+      }
+    ]
+  },
+  "33707127": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "tissue:kidneys",
+        "type": "TISSUE",
+        "name": "Renal"
+      }
+    ],
+    "causal_edges": []
+  },
+  "40063978": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      },
+      {
+        "entity_id": "tissue:kidneys",
+        "type": "TISSUE",
+        "name": "Kidney"
+      }
+    ],
+    "causal_edges": []
+  },
+  "12757388": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "22335775": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  },
+  "14705917": {
+    "entities": [
+      {
+        "entity_id": "mol:glucosepane",
+        "type": "MOLECULE",
+        "name": "Glucosepane"
+      }
+    ],
+    "causal_edges": []
+  }
+}
