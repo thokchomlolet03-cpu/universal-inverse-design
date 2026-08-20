@@ -26,6 +26,7 @@ from uid_engine.analysis.gap_detector import NegativeSpaceDetector
 from uid_engine.analysis.reporter import GapReporter
 from uid_engine.analysis.visualizer import export_interactive_html
 from uid_engine.analysis.design_spec import compile_all_specs_for_target
+from uid_engine.generative.orchestrator import orchestrate_discovery_for_target
 from uid_engine.chains.registry import CausalChainRegistry, ChainValidationError
 from uid_engine.ingest.pubmed import ingest_pubmed, load_papers
 from uid_engine.ingest.uniprot import ingest_uniprot, load_proteins
@@ -467,6 +468,29 @@ def cmd_generate_specs(target: str = "glucosepane", output_dir: str | Path | Non
     ))
 
 
+def cmd_generate_candidates(
+    target: str = "glucosepane",
+    num_variants: int = 8,
+    min_plddt: float = 80.0,
+    output_dir: str | Path | None = None,
+):
+    """Execute autonomous de novo generative discovery and close the epistemic graph loop."""
+    print_banner()
+    candidates = orchestrate_discovery_for_target(
+        target=target,
+        num_variants_per_spec=num_variants,
+        min_plddt=min_plddt,
+        output_dir=output_dir,
+    )
+    console.print(Panel.fit(
+        f"[bold green]Generative Discovery Complete![/bold green]\n\n"
+        f"Target: [bold]{target}[/bold]\n"
+        f"Passing Candidates Injected into Graph: [bold]{len(candidates)}[/bold]\n"
+        f"[dim]Run 'uid visualize' to view updated graph with HYPOTHESIZED candidate nodes.[/dim]",
+        border_style="magenta",
+    ))
+
+
 def cmd_pipeline(target: str = "glucosepane", chain=None, max_papers=None, output_dir=None):
     """Run the full pipeline: ingest → build → detect → report."""
     print_banner()
@@ -670,6 +694,26 @@ examples:
     add_target(p_specs)
     add_output(p_specs)
 
+    # generate-candidates
+    p_cands = subparsers.add_parser(
+        "generate-candidates",
+        help="Run generative inverse folding loop (ESM-3 + ProteinMPNN) and inject into graph",
+    )
+    add_target(p_cands)
+    add_output(p_cands)
+    p_cands.add_argument(
+        "--num-variants", "-v",
+        type=int,
+        default=8,
+        help="Number of sequence variants per design spec (default: 8)",
+    )
+    p_cands.add_argument(
+        "--min-plddt",
+        type=float,
+        default=80.0,
+        help="Minimum pLDDT threshold for passing candidates (default: 80.0)",
+    )
+
     # pipeline
     p_pipeline = subparsers.add_parser(
         "pipeline",
@@ -720,6 +764,14 @@ examples:
 
     elif args.command == "generate-specs":
         cmd_generate_specs(target=args.target, output_dir=getattr(args, "output", None))
+
+    elif args.command == "generate-candidates":
+        cmd_generate_candidates(
+            target=args.target,
+            num_variants=getattr(args, "num_variants", 8),
+            min_plddt=getattr(args, "min_plddt", 80.0),
+            output_dir=getattr(args, "output", None),
+        )
 
     elif args.command == "pipeline":
         if getattr(args, "dry_run", False):

@@ -1,0 +1,38 @@
+{
+  "candidate_id": "CAND-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY-v03",
+  "target_spec_id": "SPEC-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY",
+  "target_domain": "Glucosepane",
+  "causal_gap_id": "req:in_vivo_delivery",
+  "sequence": "GYLFTPGAQPTVGPLLDDHAQMGNIRKAGLAKRIAGDQPGPSEAALVQKSKPVHDANRMLDFPNKPRSVRAEMVGFAFKRSTLRVSQHGIQTSRVKSFHPVESLIHPETSRDTCIKGATDDSQTFEAVRFIPFKISRDFELILHPQFEERDRLPDDIFVLERDDDALEVLFRTITLIHDAVISGAKANLEVRPKSDLSIHTVEKKPVDDKNNAAILEDFFIFYSKKVHLKYSANEPLERF",
+  "length": 240,
+  "predicted_plddt": 92.14,
+  "predicted_ptm": 0.936,
+  "sc_rmsd": 1.22,
+  "catalytic_residues": {
+    "H54": "H",
+    "D112": "D",
+    "S198": "S"
+  },
+  "biophysical_properties": {
+    "molecular_weight": 27073.48,
+    "isoelectric_point": 6.83,
+    "net_charge_ph74": -1.16,
+    "gravy_score": -0.43,
+    "aromaticity": 0.079,
+    "instability_index": 31.97
+  },
+  "screening_result": {
+    "passed": true,
+    "gate_1_plddt": true,
+    "gate_2_sc_rmsd": true,
+    "gate_3_catalytic_retention": true,
+    "gate_4_biophysical_solubility": true,
+    "mean_plddt": 92.14,
+    "sc_rmsd": 1.22,
+    "gravy_score": -0.43,
+    "failure_reasons": []
+  },
+  "pdb_path": "/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY-v03.pdb",
+  "fasta_path": "/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY-v03.fasta",
+  "generation_model": "ESM-3 + ProteinMPNN"
+}

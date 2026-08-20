@@ -6,6 +6,7 @@ a mock data loader for Phase A testing before real API data is available.
 """
 
 import networkx as nx
+from typing import Optional
 from rich.console import Console
 
 from uid_engine.graph.schema import (
@@ -88,6 +89,16 @@ class EpistemicGraph:
             (source, self.graph.edges[source, node_id])
             for source in self.graph.predecessors(node_id)
         ]
+
+    def has_edge(self, source_id: str, target_id: str) -> bool:
+        """Check if a directed edge exists between two nodes."""
+        return self.graph.has_edge(source_id, target_id)
+
+    def get_edge(self, source_id: str, target_id: str) -> Optional[dict]:
+        """Return edge data dictionary between two nodes, or None if no edge exists."""
+        if self.graph.has_edge(source_id, target_id):
+            return dict(self.graph.edges[source_id, target_id])
+        return None
 
     # ─── Statistics ──────────────────────────────────────────────────────────
 

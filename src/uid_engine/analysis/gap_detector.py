@@ -220,10 +220,22 @@ class NegativeSpaceDetector:
         # Determine downstream impact
         downstream = self._get_downstream_impact(causal_node)
 
+        priority = causal_node.priority
+        # Topological state transition: If a de novo designed candidate exists in the graph
+        # with HYPOTHESIZED status, transition from unaddressed void to pending synthesis
+        has_candidate = any(
+            "candidate" in c.get("entity_id", "").lower() or "cand-" in c.get("entity_id", "").lower()
+            for c in candidates
+        )
+        if has_candidate:
+            gap_type = "CANDIDATE_PENDING_SYNTHESIS"
+            if priority == GapPriority.CRITICAL:
+                priority = GapPriority.LOW
+
         return EpistemicGap(
             gap_id=f"gap:{causal_node.node_id}",
             description=causal_node.description,
-            priority=causal_node.priority,
+            priority=priority,
             causal_node_id=causal_node.node_id,
             gap_type=gap_type,
             closest_candidates=candidates,

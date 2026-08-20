@@ -1,0 +1,38 @@
+{
+  "candidate_id": "CAND-GLUCOSEPANE-REQ-SELECTIVE_ENZYME-v02",
+  "target_spec_id": "SPEC-GLUCOSEPANE-REQ-SELECTIVE_ENZYME",
+  "target_domain": "Glucosepane",
+  "causal_gap_id": "req:selective_enzyme",
+  "sequence": "CLKGLLVDFCGMEQPAIVVADEVTTGNSFKVKASEMVRRRLEKFDKEIYTRGEHAPKEPLHAATYLSLNREWSTWDERSTGKNYTVSTAPQYSTSESRTTDSIESDADQTVDEKGVLVRVNVERHPEKLGLEFAYLFPMGAMQETFEEGGERGVMYKELAEHLKIHDIWSNRLKQSPMDDACITAGKDFICKAPPRHSNVLAETISMVLVWKFISLWPIEEKPLKEAEEQLNDFFAGLGD",
+  "length": 240,
+  "predicted_plddt": 86.79,
+  "predicted_ptm": 0.948,
+  "sc_rmsd": 1.48,
+  "catalytic_residues": {
+    "H54": "H",
+    "D112": "D",
+    "S198": "S"
+  },
+  "biophysical_properties": {
+    "molecular_weight": 27237.5,
+    "isoelectric_point": 5.07,
+    "net_charge_ph74": -12.34,
+    "gravy_score": -0.488,
+    "aromaticity": 0.088,
+    "instability_index": 37.24
+  },
+  "screening_result": {
+    "passed": true,
+    "gate_1_plddt": true,
+    "gate_2_sc_rmsd": true,
+    "gate_3_catalytic_retention": true,
+    "gate_4_biophysical_solubility": true,
+    "mean_plddt": 86.79,
+    "sc_rmsd": 1.48,
+    "gravy_score": -0.488,
+    "failure_reasons": []
+  },
+  "pdb_path": "/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-SELECTIVE_ENZYME-v02.pdb",
+  "fasta_path": "/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-SELECTIVE_ENZYME-v02.fasta",
+  "generation_model": "ESM-3 + ProteinMPNN"
+}

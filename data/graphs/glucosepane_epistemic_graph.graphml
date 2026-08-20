@@ -1,10 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d19" for="edge" attr.name="context" attr.type="string" />
-  <key id="d18" for="edge" attr.name="source" attr.type="string" />
-  <key id="d17" for="edge" attr.name="confidence" attr.type="double" />
-  <key id="d16" for="edge" attr.name="status" attr.type="string" />
-  <key id="d15" for="edge" attr.name="edge_type" attr.type="string" />
+  <key id="d28" for="edge" attr.name="context" attr.type="string" />
+  <key id="d27" for="edge" attr.name="source" attr.type="string" />
+  <key id="d26" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d25" for="edge" attr.name="status" attr.type="string" />
+  <key id="d24" for="edge" attr.name="edge_type" attr.type="string" />
+  <key id="d23" for="node" attr.name="is_de_novo_candidate" attr.type="boolean" />
+  <key id="d22" for="node" attr.name="sequence_length" attr.type="long" />
+  <key id="d21" for="node" attr.name="fasta_path" attr.type="string" />
+  <key id="d20" for="node" attr.name="pdb_path" attr.type="string" />
+  <key id="d19" for="node" attr.name="gravy_score" attr.type="double" />
+  <key id="d18" for="node" attr.name="sc_rmsd" attr.type="double" />
+  <key id="d17" for="node" attr.name="ptm" attr.type="double" />
+  <key id="d16" for="node" attr.name="plddt" attr.type="double" />
+  <key id="d15" for="node" attr.name="target_spec_id" attr.type="string" />
   <key id="d14" for="node" attr.name="required_for" attr.type="string" />
   <key id="d13" for="node" attr.name="priority" attr.type="string" />
   <key id="d12" for="node" attr.name="type" attr.type="string" />
@@ -178,131 +187,515 @@
       <data key="d13">MEDIUM</data>
       <data key="d14">functional_tissue_restoration</data>
     </node>
+    <node id="protein:cand-glucosepane-req-selective_enzyme-v01">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-SELECTIVE_ENZYME-v01</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:selective_enzyme. Predicted pLDDT: 90.1, scRMSD: 1.08Å, GRAVY: -0.36.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-SELECTIVE_ENZYME</data>
+      <data key="d16">90.12</data>
+      <data key="d17">0.922</data>
+      <data key="d18">1.08</data>
+      <data key="d19">-0.361</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-SELECTIVE_ENZYME-v01.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-SELECTIVE_ENZYME-v01.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-selective_enzyme-v02">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-SELECTIVE_ENZYME-v02</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:selective_enzyme. Predicted pLDDT: 86.8, scRMSD: 1.48Å, GRAVY: -0.49.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-SELECTIVE_ENZYME</data>
+      <data key="d16">86.79</data>
+      <data key="d17">0.948</data>
+      <data key="d18">1.48</data>
+      <data key="d19">-0.488</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-SELECTIVE_ENZYME-v02.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-SELECTIVE_ENZYME-v02.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-selective_enzyme-v03">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-SELECTIVE_ENZYME-v03</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:selective_enzyme. Predicted pLDDT: 92.1, scRMSD: 1.22Å, GRAVY: -0.43.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-SELECTIVE_ENZYME</data>
+      <data key="d16">92.14</data>
+      <data key="d17">0.936</data>
+      <data key="d18">1.22</data>
+      <data key="d19">-0.43</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-SELECTIVE_ENZYME-v03.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-SELECTIVE_ENZYME-v03.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-selective_enzyme-v04">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-SELECTIVE_ENZYME-v04</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:selective_enzyme. Predicted pLDDT: 85.2, scRMSD: 1.31Å, GRAVY: -0.07.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-SELECTIVE_ENZYME</data>
+      <data key="d16">85.24</data>
+      <data key="d17">0.909</data>
+      <data key="d18">1.31</data>
+      <data key="d19">-0.073</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-SELECTIVE_ENZYME-v04.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-SELECTIVE_ENZYME-v04.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-crystal_structure-v01">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE-v01</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:crystal_structure. Predicted pLDDT: 90.1, scRMSD: 1.08Å, GRAVY: -0.36.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE</data>
+      <data key="d16">90.12</data>
+      <data key="d17">0.922</data>
+      <data key="d18">1.08</data>
+      <data key="d19">-0.361</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE-v01.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE-v01.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-crystal_structure-v02">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE-v02</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:crystal_structure. Predicted pLDDT: 86.8, scRMSD: 1.48Å, GRAVY: -0.49.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE</data>
+      <data key="d16">86.79</data>
+      <data key="d17">0.948</data>
+      <data key="d18">1.48</data>
+      <data key="d19">-0.488</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE-v02.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE-v02.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-crystal_structure-v03">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE-v03</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:crystal_structure. Predicted pLDDT: 92.1, scRMSD: 1.22Å, GRAVY: -0.43.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE</data>
+      <data key="d16">92.14</data>
+      <data key="d17">0.936</data>
+      <data key="d18">1.22</data>
+      <data key="d19">-0.43</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE-v03.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE-v03.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-crystal_structure-v04">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE-v04</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:crystal_structure. Predicted pLDDT: 85.2, scRMSD: 1.31Å, GRAVY: -0.07.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE</data>
+      <data key="d16">85.24</data>
+      <data key="d17">0.909</data>
+      <data key="d18">1.31</data>
+      <data key="d19">-0.073</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE-v04.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE-v04.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-catalytic_pocket-v01">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-CATALYTIC_POCKET-v01</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:catalytic_pocket. Predicted pLDDT: 90.1, scRMSD: 1.08Å, GRAVY: -0.36.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-CATALYTIC_POCKET</data>
+      <data key="d16">90.12</data>
+      <data key="d17">0.922</data>
+      <data key="d18">1.08</data>
+      <data key="d19">-0.361</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CATALYTIC_POCKET-v01.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CATALYTIC_POCKET-v01.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-catalytic_pocket-v02">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-CATALYTIC_POCKET-v02</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:catalytic_pocket. Predicted pLDDT: 86.8, scRMSD: 1.48Å, GRAVY: -0.49.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-CATALYTIC_POCKET</data>
+      <data key="d16">86.79</data>
+      <data key="d17">0.948</data>
+      <data key="d18">1.48</data>
+      <data key="d19">-0.488</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CATALYTIC_POCKET-v02.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CATALYTIC_POCKET-v02.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-catalytic_pocket-v03">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-CATALYTIC_POCKET-v03</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:catalytic_pocket. Predicted pLDDT: 92.1, scRMSD: 1.22Å, GRAVY: -0.43.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-CATALYTIC_POCKET</data>
+      <data key="d16">92.14</data>
+      <data key="d17">0.936</data>
+      <data key="d18">1.22</data>
+      <data key="d19">-0.43</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CATALYTIC_POCKET-v03.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CATALYTIC_POCKET-v03.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-catalytic_pocket-v04">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-CATALYTIC_POCKET-v04</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:catalytic_pocket. Predicted pLDDT: 85.2, scRMSD: 1.31Å, GRAVY: -0.07.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-CATALYTIC_POCKET</data>
+      <data key="d16">85.24</data>
+      <data key="d17">0.909</data>
+      <data key="d18">1.31</data>
+      <data key="d19">-0.073</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CATALYTIC_POCKET-v04.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CATALYTIC_POCKET-v04.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-protein_scaffold-v01">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-PROTEIN_SCAFFOLD-v01</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:protein_scaffold. Predicted pLDDT: 90.1, scRMSD: 1.08Å, GRAVY: -0.36.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-PROTEIN_SCAFFOLD</data>
+      <data key="d16">90.12</data>
+      <data key="d17">0.922</data>
+      <data key="d18">1.08</data>
+      <data key="d19">-0.361</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-PROTEIN_SCAFFOLD-v01.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-PROTEIN_SCAFFOLD-v01.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-protein_scaffold-v02">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-PROTEIN_SCAFFOLD-v02</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:protein_scaffold. Predicted pLDDT: 86.8, scRMSD: 1.48Å, GRAVY: -0.49.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-PROTEIN_SCAFFOLD</data>
+      <data key="d16">86.79</data>
+      <data key="d17">0.948</data>
+      <data key="d18">1.48</data>
+      <data key="d19">-0.488</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-PROTEIN_SCAFFOLD-v02.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-PROTEIN_SCAFFOLD-v02.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-protein_scaffold-v03">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-PROTEIN_SCAFFOLD-v03</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:protein_scaffold. Predicted pLDDT: 92.1, scRMSD: 1.22Å, GRAVY: -0.43.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-PROTEIN_SCAFFOLD</data>
+      <data key="d16">92.14</data>
+      <data key="d17">0.936</data>
+      <data key="d18">1.22</data>
+      <data key="d19">-0.43</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-PROTEIN_SCAFFOLD-v03.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-PROTEIN_SCAFFOLD-v03.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-protein_scaffold-v04">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-PROTEIN_SCAFFOLD-v04</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:protein_scaffold. Predicted pLDDT: 85.2, scRMSD: 1.31Å, GRAVY: -0.07.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-PROTEIN_SCAFFOLD</data>
+      <data key="d16">85.24</data>
+      <data key="d17">0.909</data>
+      <data key="d18">1.31</data>
+      <data key="d19">-0.073</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-PROTEIN_SCAFFOLD-v04.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-PROTEIN_SCAFFOLD-v04.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-in_vivo_delivery-v01">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY-v01</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:in_vivo_delivery. Predicted pLDDT: 90.1, scRMSD: 1.08Å, GRAVY: -0.36.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY</data>
+      <data key="d16">90.12</data>
+      <data key="d17">0.922</data>
+      <data key="d18">1.08</data>
+      <data key="d19">-0.361</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY-v01.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY-v01.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-in_vivo_delivery-v02">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY-v02</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:in_vivo_delivery. Predicted pLDDT: 86.8, scRMSD: 1.48Å, GRAVY: -0.49.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY</data>
+      <data key="d16">86.79</data>
+      <data key="d17">0.948</data>
+      <data key="d18">1.48</data>
+      <data key="d19">-0.488</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY-v02.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY-v02.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-in_vivo_delivery-v03">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY-v03</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:in_vivo_delivery. Predicted pLDDT: 92.1, scRMSD: 1.22Å, GRAVY: -0.43.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY</data>
+      <data key="d16">92.14</data>
+      <data key="d17">0.936</data>
+      <data key="d18">1.22</data>
+      <data key="d19">-0.43</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY-v03.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY-v03.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-in_vivo_delivery-v04">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY-v04</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:in_vivo_delivery. Predicted pLDDT: 85.2, scRMSD: 1.31Å, GRAVY: -0.07.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY</data>
+      <data key="d16">85.24</data>
+      <data key="d17">0.909</data>
+      <data key="d18">1.31</data>
+      <data key="d19">-0.073</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY-v04.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-IN_VIVO_DELIVERY-v04.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-ecm_penetration-v01">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-ECM_PENETRATION-v01</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:ecm_penetration. Predicted pLDDT: 90.1, scRMSD: 1.08Å, GRAVY: -0.36.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-ECM_PENETRATION</data>
+      <data key="d16">90.12</data>
+      <data key="d17">0.922</data>
+      <data key="d18">1.08</data>
+      <data key="d19">-0.361</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-ECM_PENETRATION-v01.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-ECM_PENETRATION-v01.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-ecm_penetration-v02">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-ECM_PENETRATION-v02</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:ecm_penetration. Predicted pLDDT: 86.8, scRMSD: 1.48Å, GRAVY: -0.49.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-ECM_PENETRATION</data>
+      <data key="d16">86.79</data>
+      <data key="d17">0.948</data>
+      <data key="d18">1.48</data>
+      <data key="d19">-0.488</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-ECM_PENETRATION-v02.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-ECM_PENETRATION-v02.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-ecm_penetration-v03">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-ECM_PENETRATION-v03</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:ecm_penetration. Predicted pLDDT: 92.1, scRMSD: 1.22Å, GRAVY: -0.43.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-ECM_PENETRATION</data>
+      <data key="d16">92.14</data>
+      <data key="d17">0.936</data>
+      <data key="d18">1.22</data>
+      <data key="d19">-0.43</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-ECM_PENETRATION-v03.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-ECM_PENETRATION-v03.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
+    <node id="protein:cand-glucosepane-req-ecm_penetration-v04">
+      <data key="d0">PROTEIN</data>
+      <data key="d1">CAND-GLUCOSEPANE-REQ-ECM_PENETRATION-v04</data>
+      <data key="d2">De novo designed candidate enzyme resolving gap req:ecm_penetration. Predicted pLDDT: 85.2, scRMSD: 1.31Å, GRAVY: -0.07.</data>
+      <data key="d3">0.5</data>
+      <data key="d4">DeNovoDesign:ESM-3 + ProteinMPNN</data>
+      <data key="d15">SPEC-GLUCOSEPANE-REQ-ECM_PENETRATION</data>
+      <data key="d16">85.24</data>
+      <data key="d17">0.909</data>
+      <data key="d18">1.31</data>
+      <data key="d19">-0.073</data>
+      <data key="d20">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-ECM_PENETRATION-v04.pdb</data>
+      <data key="d21">/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-ECM_PENETRATION-v04.fasta</data>
+      <data key="d22">240</data>
+      <data key="d23">True</data>
+    </node>
     <edge source="mol:glucosepane" target="mol:collagen">
-      <data key="d15">CROSSLINKS</data>
-      <data key="d16">PROVEN</data>
-      <data key="d17">1.0</data>
-      <data key="d18">PMID:21561553</data>
-      <data key="d19">glucosepane crosslinks collagen fibers via lysine-arginine</data>
+      <data key="d24">CROSSLINKS</data>
+      <data key="d25">PROVEN</data>
+      <data key="d26">1.0</data>
+      <data key="d27">PMID:21561553</data>
+      <data key="d28">glucosepane crosslinks collagen fibers via lysine-arginine</data>
     </edge>
     <edge source="mol:glucosepane" target="tissue:arteries">
-      <data key="d15">CAUSES_DAMAGE</data>
-      <data key="d16">PROVEN</data>
-      <data key="d17">1.0</data>
-      <data key="d18">PMID:21561553</data>
-      <data key="d19">crosslinked collagen stiffens arterial walls</data>
+      <data key="d24">CAUSES_DAMAGE</data>
+      <data key="d25">PROVEN</data>
+      <data key="d26">1.0</data>
+      <data key="d27">PMID:21561553</data>
+      <data key="d28">crosslinked collagen stiffens arterial walls</data>
     </edge>
     <edge source="mol:glucosepane" target="tissue:skin">
-      <data key="d15">CAUSES_DAMAGE</data>
-      <data key="d16">PROVEN</data>
-      <data key="d17">1.0</data>
-      <data key="d18">PMID:21561553</data>
-      <data key="d19">dermal collagen loses elasticity due to crosslinking</data>
+      <data key="d24">CAUSES_DAMAGE</data>
+      <data key="d25">PROVEN</data>
+      <data key="d26">1.0</data>
+      <data key="d27">PMID:21561553</data>
+      <data key="d28">dermal collagen loses elasticity due to crosslinking</data>
     </edge>
     <edge source="mol:glucosepane" target="sens:extracellular_crosslinks">
-      <data key="d15">PART_OF</data>
-      <data key="d16">PROVEN</data>
-      <data key="d17">1.0</data>
-      <data key="d18">SENS Research Foundation</data>
-      <data key="d19" />
+      <data key="d24">PART_OF</data>
+      <data key="d25">PROVEN</data>
+      <data key="d26">1.0</data>
+      <data key="d27">SENS Research Foundation</data>
+      <data key="d28" />
     </edge>
     <edge source="mol:glucosepane" target="paper:PMID_21561553">
-      <data key="d15">REPORTED_IN</data>
-      <data key="d16">PROVEN</data>
-      <data key="d17">1.0</data>
-      <data key="d18">PubMed</data>
-      <data key="d19" />
+      <data key="d24">REPORTED_IN</data>
+      <data key="d25">PROVEN</data>
+      <data key="d26">1.0</data>
+      <data key="d27">PubMed</data>
+      <data key="d28" />
     </edge>
     <edge source="mol:glucose" target="mech:maillard_reaction">
-      <data key="d15">ACTIVATES</data>
-      <data key="d16">PROVEN</data>
-      <data key="d17">1.0</data>
-      <data key="d18">PMID:21561553</data>
-      <data key="d19">glucose reacts non-enzymatically with protein amino groups</data>
+      <data key="d24">ACTIVATES</data>
+      <data key="d25">PROVEN</data>
+      <data key="d26">1.0</data>
+      <data key="d27">PMID:21561553</data>
+      <data key="d28">glucose reacts non-enzymatically with protein amino groups</data>
     </edge>
     <edge source="protein:fructosamine_3_kinase" target="mol:glucosepane">
-      <data key="d15">DEGRADES</data>
-      <data key="d16">FAILED</data>
-      <data key="d17">1.0</data>
-      <data key="d18">UniProt:Q9H479</data>
-      <data key="d19">FN3K acts on early fructosamines, not mature crosslinks</data>
+      <data key="d24">DEGRADES</data>
+      <data key="d25">FAILED</data>
+      <data key="d26">1.0</data>
+      <data key="d27">UniProt:Q9H479</data>
+      <data key="d28">FN3K acts on early fructosamines, not mature crosslinks</data>
     </edge>
     <edge source="protein:bacterial_class_i_enzyme" target="mol:glucosepane">
-      <data key="d15">DEGRADES</data>
-      <data key="d16">HYPOTHESIZED</data>
-      <data key="d17">0.5</data>
-      <data key="d18">Patent:WO2020215043A1</data>
-      <data key="d19">in vitro activity demonstrated, releases citrulline</data>
+      <data key="d24">DEGRADES</data>
+      <data key="d25">HYPOTHESIZED</data>
+      <data key="d26">0.5</data>
+      <data key="d27">Patent:WO2020215043A1</data>
+      <data key="d28">in vitro activity demonstrated, releases citrulline</data>
     </edge>
     <edge source="protein:bacterial_class_i_enzyme" target="paper:WO2020215043A1">
-      <data key="d15">REPORTED_IN</data>
-      <data key="d16">PROVEN</data>
-      <data key="d17">1.0</data>
-      <data key="d18">Patent Database</data>
-      <data key="d19" />
+      <data key="d24">REPORTED_IN</data>
+      <data key="d25">PROVEN</data>
+      <data key="d26">1.0</data>
+      <data key="d27">Patent Database</data>
+      <data key="d28" />
     </edge>
     <edge source="mech:maillard_reaction" target="mol:glucosepane">
-      <data key="d15">PRODUCES</data>
-      <data key="d16">PROVEN</data>
-      <data key="d17">1.0</data>
-      <data key="d18">PMID:21561553</data>
-      <data key="d19">rearrangement produces the dominant crosslink glucosepane</data>
+      <data key="d24">PRODUCES</data>
+      <data key="d25">PROVEN</data>
+      <data key="d26">1.0</data>
+      <data key="d27">PMID:21561553</data>
+      <data key="d28">rearrangement produces the dominant crosslink glucosepane</data>
     </edge>
     <edge source="mech:lewis_acid_cleavage" target="mol:glucosepane">
-      <data key="d15">DEGRADES</data>
-      <data key="d16">PROVEN</data>
-      <data key="d17">0.7</data>
-      <data key="d18">ChemRxiv:canalised_cleavage_2026</data>
-      <data key="d19">convergent catalytic approach achieved ring-opening</data>
+      <data key="d24">DEGRADES</data>
+      <data key="d25">PROVEN</data>
+      <data key="d26">0.7</data>
+      <data key="d27">ChemRxiv:canalised_cleavage_2026</data>
+      <data key="d28">convergent catalytic approach achieved ring-opening</data>
     </edge>
     <edge source="mech:lewis_acid_cleavage" target="paper:canalised_cleavage_2026">
-      <data key="d15">REPORTED_IN</data>
-      <data key="d16">PROVEN</data>
-      <data key="d17">1.0</data>
-      <data key="d18">ChemRxiv</data>
-      <data key="d19" />
+      <data key="d24">REPORTED_IN</data>
+      <data key="d25">PROVEN</data>
+      <data key="d26">1.0</data>
+      <data key="d27">ChemRxiv</data>
+      <data key="d28" />
     </edge>
     <edge source="mech:photoredox_cleavage" target="mol:glucosepane">
-      <data key="d15">DEGRADES</data>
-      <data key="d16">PROVEN</data>
-      <data key="d17">0.7</data>
-      <data key="d18">ChemRxiv:canalised_cleavage_2026</data>
-      <data key="d19">visible-light-driven redox cleavage demonstrated</data>
+      <data key="d24">DEGRADES</data>
+      <data key="d25">PROVEN</data>
+      <data key="d26">0.7</data>
+      <data key="d27">ChemRxiv:canalised_cleavage_2026</data>
+      <data key="d28">visible-light-driven redox cleavage demonstrated</data>
     </edge>
     <edge source="unknown:selective_enzyme" target="mol:glucosepane">
-      <data key="d15">REQUIRES</data>
-      <data key="d16">PROVEN</data>
-      <data key="d17">1.0</data>
-      <data key="d18" />
-      <data key="d19">selective cleavage needed to remove glucosepane safely</data>
+      <data key="d24">REQUIRES</data>
+      <data key="d25">PROVEN</data>
+      <data key="d26">1.0</data>
+      <data key="d27" />
+      <data key="d28">selective cleavage needed to remove glucosepane safely</data>
     </edge>
     <edge source="unknown:glucosepane_crystal_structure" target="unknown:selective_enzyme">
-      <data key="d15">REQUIRES</data>
-      <data key="d16">PROVEN</data>
-      <data key="d17">1.0</data>
-      <data key="d18" />
-      <data key="d19">3D structure needed for rational enzyme active site design</data>
+      <data key="d24">REQUIRES</data>
+      <data key="d25">PROVEN</data>
+      <data key="d26">1.0</data>
+      <data key="d27" />
+      <data key="d28">3D structure needed for rational enzyme active site design</data>
     </edge>
     <edge source="unknown:in_vivo_delivery" target="unknown:selective_enzyme">
-      <data key="d15">REQUIRES</data>
-      <data key="d16">PROVEN</data>
-      <data key="d17">1.0</data>
-      <data key="d18" />
-      <data key="d19">delivery vehicle needed to get enzyme into ECM</data>
+      <data key="d24">REQUIRES</data>
+      <data key="d25">PROVEN</data>
+      <data key="d26">1.0</data>
+      <data key="d27" />
+      <data key="d28">delivery vehicle needed to get enzyme into ECM</data>
     </edge>
     <edge source="unknown:cleavage_byproduct_toxicity" target="unknown:selective_enzyme">
-      <data key="d15">REQUIRES</data>
-      <data key="d16">PROVEN</data>
-      <data key="d17">1.0</data>
-      <data key="d18" />
-      <data key="d19">byproduct safety must be established before clinical use</data>
+      <data key="d24">REQUIRES</data>
+      <data key="d25">PROVEN</data>
+      <data key="d26">1.0</data>
+      <data key="d27" />
+      <data key="d28">byproduct safety must be established before clinical use</data>
     </edge>
     <edge source="unknown:ecm_remodeling_post_cleavage" target="unknown:selective_enzyme">
-      <data key="d15">REQUIRES</data>
-      <data key="d16">PROVEN</data>
-      <data key="d17">1.0</data>
-      <data key="d18" />
-      <data key="d19">tissue must actually restore function after crosslink removal</data>
+      <data key="d24">REQUIRES</data>
+      <data key="d25">PROVEN</data>
+      <data key="d26">1.0</data>
+      <data key="d27" />
+      <data key="d28">tissue must actually restore function after crosslink removal</data>
     </edge>
   </graph>
 </graphml>

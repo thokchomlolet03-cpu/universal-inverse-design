@@ -1,0 +1,38 @@
+{
+  "candidate_id": "CAND-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE-v01",
+  "target_spec_id": "SPEC-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE",
+  "target_domain": "Glucosepane",
+  "causal_gap_id": "req:crystal_structure",
+  "sequence": "KAEDPMWRGADIADKLDLSASFQNVQRRTKSPLVGLSKTLFADEADREKGGDEHVKKNPNGVKLMTSDAQEDVTQKGYIECLELWGDVLRARKSGAGVLVTAFMLEKRHIVDTEIDYTEKKNPLSLAQAYTSEATVRIAPPRILETGDLPDEVKHLRDQLDDAKDYTACMDRVLISSDRHGIPMVRGQTEDIGEEYHSTLAVSVYTNIDGAGVESIGVVLFNEVLLPALITNVADLMCRT",
+  "length": 240,
+  "predicted_plddt": 90.12,
+  "predicted_ptm": 0.922,
+  "sc_rmsd": 1.08,
+  "catalytic_residues": {
+    "H54": "H",
+    "D112": "D",
+    "S198": "S"
+  },
+  "biophysical_properties": {
+    "molecular_weight": 26530.72,
+    "isoelectric_point": 4.91,
+    "net_charge_ph74": -12.36,
+    "gravy_score": -0.361,
+    "aromaticity": 0.05,
+    "instability_index": 29.59
+  },
+  "screening_result": {
+    "passed": true,
+    "gate_1_plddt": true,
+    "gate_2_sc_rmsd": true,
+    "gate_3_catalytic_retention": true,
+    "gate_4_biophysical_solubility": true,
+    "mean_plddt": 90.12,
+    "sc_rmsd": 1.08,
+    "gravy_score": -0.361,
+    "failure_reasons": []
+  },
+  "pdb_path": "/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE-v01.pdb",
+  "fasta_path": "/Users/lolet/Universal Inverse Design/data/candidates/glucosepane/CAND-GLUCOSEPANE-REQ-CRYSTAL_STRUCTURE-v01.fasta",
+  "generation_model": "ESM-3 + ProteinMPNN"
+}
