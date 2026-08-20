@@ -1,0 +1,3215 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An autonomous epistemic engine that identifies the precise missing scientific unknowns preventing humanity from solving biological aging — and generates de novo molecular designs to fill those gaps.
+">
+      
+      
+        <meta name="author" content="Thokchom Lolet Singh">
+      
+      
+        <link rel="canonical" href="https://thokchomlolet03-cpu.github.io/universal-inverse-design/blog/03_deep_technical_analysis/">
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../02_engineering_manifesto/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/logo.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Deep Technical Analysis - Universal Inverse Design Engine</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#universal-inverse-design-engine-a-deep-technical-analysis" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Universal Inverse Design Engine" class="md-header__button md-logo" aria-label="Universal Inverse Design Engine" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Universal Inverse Design Engine
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Deep Technical Analysis
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/thokchomlolet03-cpu/universal-inverse-design" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    thokchomlolet03-cpu/universal-inverse-design
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Universal Inverse Design Engine" class="md-nav__button md-logo" aria-label="Universal Inverse Design Engine" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    Universal Inverse Design Engine
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/thokchomlolet03-cpu/universal-inverse-design" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    thokchomlolet03-cpu/universal-inverse-design
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deep Technical Analysis
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deep Technical Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-a-lone-engineer-built-an-autonomous-biomedical-discovery-system-to-solve-aging-and-what-it-would-actually-take-to-ship-it-to-the-clinic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How a Lone Engineer Built an Autonomous Biomedical Discovery System to Solve Aging — and What It Would Actually Take to Ship It to the Clinic
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-the-problem-being-solved" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. The Problem Being Solved
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-the-core-intellectual-insight-inverse-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. The Core Intellectual Insight: Inverse Design
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-the-architecture-five-layers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. The Architecture: Five Layers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-layer-1-the-epistemic-vault-what-the-engine-knows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Layer 1 — The Epistemic Vault: What the Engine Knows
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Layer 1 — The Epistemic Vault: What the Engine Knows">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-pubmed-ncbi-e-utilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 PubMed (NCBI E-utilities)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-uniprot-rest-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 UniProt REST API
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-kegg-kyoto-encyclopedia-of-genes-and-genomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 KEGG (Kyoto Encyclopedia of Genes and Genomes)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-chembl-drug-bioactivity-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 ChEMBL Drug Bioactivity Database
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-alphafold-ebi-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 AlphaFold EBI API
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-knowledge-graph-storage-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Knowledge Graph Storage Format
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-layer-2-the-negative-space-detector-what-the-engine-finds-missing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Layer 2 — The Negative Space Detector: What the Engine Finds Missing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Layer 2 — The Negative Space Detector: What the Engine Finds Missing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-what-is-negative-space" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 What is Negative Space?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-the-causal-chain-registry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 The Causal Chain Registry
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-the-gap-priority-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 The Gap Priority System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-the-o1-edge-type-index" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 The O(1) Edge Type Index
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-layer-3-the-de-novo-design-spec-compiler" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Layer 3 — The De Novo Design Spec Compiler
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Layer 3 — The De Novo Design Spec Compiler">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-the-central-problem-you-cannot-feed-smiles-to-a-diffusion-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 The Central Problem: You Cannot Feed SMILES to a Diffusion Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-what-the-design-spec-contains" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 What the Design Spec Contains
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-layer-4-the-generative-inference-orchestrator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Layer 4 — The Generative Inference Orchestrator
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Layer 4 — The Generative Inference Orchestrator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-the-sequence-design-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 The Sequence Design Step
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-the-esm-3-adapter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 The ESM-3 Adapter
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73-the-4-gate-quality-control-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3 The 4-Gate Quality Control Pipeline
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-layer-5-the-epistemic-loop-closure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Layer 5 — The Epistemic Loop Closure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Layer 5 — The Epistemic Loop Closure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-priority-downgrade-topology-state-transition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Priority Downgrade (Topology State Transition)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-cytoscapejs-interactive-visualizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Cytoscape.js Interactive Visualizer
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-the-sens-framework-the-biological-targets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. The SENS Framework: The Biological Targets
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. The SENS Framework: The Biological Targets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#91-glycosens-extracellular-crosslinks-v10-active" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.1 GlycoSENS — Extracellular Crosslinks (v1.0, Active)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#92-apoptosens-senescent-cells-v10-active" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.2 ApoptoSENS — Senescent Cells (v1.0, Active)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#93-mitosens-mitochondrial-mutations-v10-active" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.3 MitoSENS — Mitochondrial Mutations (v1.0, Active)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-what-the-system-actually-does-today-v060" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. What the System Actually Does Today (v0.6.0)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. What the System Actually Does Today (v0.6.0)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-works-completely-right-now" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Works, Completely, Right Now
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-is-implemented-but-running-in-simulation-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is Implemented But Running in Simulation Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-honest-simulation-acknowledgment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Honest Simulation Acknowledgment
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-the-cli-how-a-user-interacts-with-the-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. The CLI: How a User Interacts With the System
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. The CLI: How a User Interacts With the System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#complete-command-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Complete Command Reference
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-each-command-does" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Each Command Does
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-the-data-pipeline-where-the-knowledge-comes-from" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. The Data Pipeline: Where the Knowledge Comes From
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-the-knowledge-graph-how-biology-is-represented" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. The Knowledge Graph: How Biology is Represented
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. The Knowledge Graph: How Biology is Represented">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#node-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Node Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edge-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edge Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evidence-status-per-edge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evidence Status (per-edge)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confidence-scores-per-node-and-per-edge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confidence Scores (per-node and per-edge)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-the-causal-chain-registry-domain-agnostic-yaml-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. The Causal Chain Registry: Domain-Agnostic YAML Logic
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-the-in-silico-quality-control-4-gate-screening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. The In Silico Quality Control: 4-Gate Screening
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="15. The In Silico Quality Control: 4-Gate Screening">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gate-1-structural-confidence-plddt-800" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gate 1: Structural Confidence (pLDDT ≥ 80.0)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gate-2-self-consistency-rmsd-scrmsd-20-a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gate 2: Self-Consistency RMSD (scRMSD ≤ 2.0 Å)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gate-3-catalytic-residue-retention" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gate 3: Catalytic Residue Retention
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gate-4-biophysical-solubility-anti-aggregation-gravy-02-instability-500" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gate 4: Biophysical Solubility &amp; Anti-Aggregation (GRAVY ≤ 0.2, Instability ≤ 50.0)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16-what-is-missing-the-honest-gap-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16. What is Missing: The Honest Gap Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="16. What is Missing: The Honest Gap Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#missing-1-real-neural-network-inference-highest-priority" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Missing #1: Real Neural Network Inference (Highest Priority)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-2-actual-structural-validation-against-alphafold" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Missing #2: Actual Structural Validation Against AlphaFold
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-3-molecular-docking-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Missing #3: Molecular Docking Validation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-4-wet-lab-integration-protocol" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Missing #4: Wet Lab Integration Protocol
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-5-continuous-literature-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Missing #5: Continuous Literature Monitoring
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-6-a-graph-version-control-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Missing #6: A Graph Version Control System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-7-multi-target-compound-effects-off-target-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Missing #7: Multi-Target Compound Effects (Off-Target Analysis)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-cost-analysis-running-the-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17. Cost Analysis: Running the Engine
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="17. Cost Analysis: Running the Engine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#monthly-operating-cost-current" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monthly Operating Cost (Current)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scaling-costs-moving-to-real-gpu-inference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scaling Costs (Moving to Real GPU Inference)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18-how-practical-is-this-a-reality-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18. How Practical is This? A Reality Check
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="18. How Practical is This? A Reality Check">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-realistic-pathway-from-current-code-to-clinical-relevance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Realistic Pathway from Current Code to Clinical Relevance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-the-engines-practicality-is-genuine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where the Engine's Practicality is Genuine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-the-engines-limitations-are-real" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where the Engine's Limitations Are Real
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19-the-roadmap-what-needs-to-happen-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        19. The Roadmap: What Needs to Happen Next
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="19. The Roadmap: What Needs to Happen Next">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phase-i-connect-real-generative-models-1-2-weeks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase I — Connect Real Generative Models (1-2 weeks)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-ii-molecular-docking-layer-2-3-weeks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase II — Molecular Docking Layer (2-3 weeks)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-iii-continuous-literature-monitoring-1-week" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase III — Continuous Literature Monitoring (1 week)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-iv-amylosens-domain-2-3-weeks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase IV — AmyloSENS Domain (2-3 weeks)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-v-graph-version-control-1-week" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase V — Graph Version Control (1 week)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-vi-web-api-2-4-weeks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase VI — Web API (2-4 weeks)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-vii-wet-lab-protocol-documentation-1-2-weeks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase VII — Wet Lab Protocol Documentation (1-2 weeks)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20-the-bigger-picture-why-this-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20. The Bigger Picture: Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-summary-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Summary Card
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_engineering_manifesto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering Manifesto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_system_architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-a-lone-engineer-built-an-autonomous-biomedical-discovery-system-to-solve-aging-and-what-it-would-actually-take-to-ship-it-to-the-clinic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How a Lone Engineer Built an Autonomous Biomedical Discovery System to Solve Aging — and What It Would Actually Take to Ship It to the Clinic
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-the-problem-being-solved" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. The Problem Being Solved
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-the-core-intellectual-insight-inverse-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. The Core Intellectual Insight: Inverse Design
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-the-architecture-five-layers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. The Architecture: Five Layers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-layer-1-the-epistemic-vault-what-the-engine-knows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Layer 1 — The Epistemic Vault: What the Engine Knows
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Layer 1 — The Epistemic Vault: What the Engine Knows">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-pubmed-ncbi-e-utilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 PubMed (NCBI E-utilities)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-uniprot-rest-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 UniProt REST API
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-kegg-kyoto-encyclopedia-of-genes-and-genomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 KEGG (Kyoto Encyclopedia of Genes and Genomes)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-chembl-drug-bioactivity-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 ChEMBL Drug Bioactivity Database
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-alphafold-ebi-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 AlphaFold EBI API
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-knowledge-graph-storage-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Knowledge Graph Storage Format
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-layer-2-the-negative-space-detector-what-the-engine-finds-missing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Layer 2 — The Negative Space Detector: What the Engine Finds Missing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Layer 2 — The Negative Space Detector: What the Engine Finds Missing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-what-is-negative-space" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 What is Negative Space?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-the-causal-chain-registry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 The Causal Chain Registry
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-the-gap-priority-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 The Gap Priority System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-the-o1-edge-type-index" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 The O(1) Edge Type Index
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-layer-3-the-de-novo-design-spec-compiler" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Layer 3 — The De Novo Design Spec Compiler
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Layer 3 — The De Novo Design Spec Compiler">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-the-central-problem-you-cannot-feed-smiles-to-a-diffusion-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 The Central Problem: You Cannot Feed SMILES to a Diffusion Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-what-the-design-spec-contains" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 What the Design Spec Contains
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-layer-4-the-generative-inference-orchestrator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Layer 4 — The Generative Inference Orchestrator
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Layer 4 — The Generative Inference Orchestrator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-the-sequence-design-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 The Sequence Design Step
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-the-esm-3-adapter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 The ESM-3 Adapter
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73-the-4-gate-quality-control-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3 The 4-Gate Quality Control Pipeline
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-layer-5-the-epistemic-loop-closure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Layer 5 — The Epistemic Loop Closure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Layer 5 — The Epistemic Loop Closure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-priority-downgrade-topology-state-transition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Priority Downgrade (Topology State Transition)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-cytoscapejs-interactive-visualizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Cytoscape.js Interactive Visualizer
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-the-sens-framework-the-biological-targets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. The SENS Framework: The Biological Targets
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. The SENS Framework: The Biological Targets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#91-glycosens-extracellular-crosslinks-v10-active" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.1 GlycoSENS — Extracellular Crosslinks (v1.0, Active)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#92-apoptosens-senescent-cells-v10-active" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.2 ApoptoSENS — Senescent Cells (v1.0, Active)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#93-mitosens-mitochondrial-mutations-v10-active" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.3 MitoSENS — Mitochondrial Mutations (v1.0, Active)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-what-the-system-actually-does-today-v060" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. What the System Actually Does Today (v0.6.0)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. What the System Actually Does Today (v0.6.0)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-works-completely-right-now" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Works, Completely, Right Now
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-is-implemented-but-running-in-simulation-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is Implemented But Running in Simulation Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-honest-simulation-acknowledgment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Honest Simulation Acknowledgment
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-the-cli-how-a-user-interacts-with-the-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. The CLI: How a User Interacts With the System
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. The CLI: How a User Interacts With the System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#complete-command-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Complete Command Reference
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-each-command-does" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Each Command Does
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-the-data-pipeline-where-the-knowledge-comes-from" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. The Data Pipeline: Where the Knowledge Comes From
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-the-knowledge-graph-how-biology-is-represented" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. The Knowledge Graph: How Biology is Represented
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. The Knowledge Graph: How Biology is Represented">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#node-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Node Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edge-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edge Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evidence-status-per-edge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evidence Status (per-edge)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confidence-scores-per-node-and-per-edge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confidence Scores (per-node and per-edge)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-the-causal-chain-registry-domain-agnostic-yaml-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. The Causal Chain Registry: Domain-Agnostic YAML Logic
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-the-in-silico-quality-control-4-gate-screening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. The In Silico Quality Control: 4-Gate Screening
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="15. The In Silico Quality Control: 4-Gate Screening">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gate-1-structural-confidence-plddt-800" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gate 1: Structural Confidence (pLDDT ≥ 80.0)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gate-2-self-consistency-rmsd-scrmsd-20-a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gate 2: Self-Consistency RMSD (scRMSD ≤ 2.0 Å)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gate-3-catalytic-residue-retention" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gate 3: Catalytic Residue Retention
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gate-4-biophysical-solubility-anti-aggregation-gravy-02-instability-500" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gate 4: Biophysical Solubility &amp; Anti-Aggregation (GRAVY ≤ 0.2, Instability ≤ 50.0)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16-what-is-missing-the-honest-gap-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16. What is Missing: The Honest Gap Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="16. What is Missing: The Honest Gap Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#missing-1-real-neural-network-inference-highest-priority" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Missing #1: Real Neural Network Inference (Highest Priority)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-2-actual-structural-validation-against-alphafold" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Missing #2: Actual Structural Validation Against AlphaFold
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-3-molecular-docking-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Missing #3: Molecular Docking Validation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-4-wet-lab-integration-protocol" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Missing #4: Wet Lab Integration Protocol
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-5-continuous-literature-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Missing #5: Continuous Literature Monitoring
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-6-a-graph-version-control-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Missing #6: A Graph Version Control System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missing-7-multi-target-compound-effects-off-target-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Missing #7: Multi-Target Compound Effects (Off-Target Analysis)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-cost-analysis-running-the-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17. Cost Analysis: Running the Engine
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="17. Cost Analysis: Running the Engine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#monthly-operating-cost-current" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monthly Operating Cost (Current)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scaling-costs-moving-to-real-gpu-inference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scaling Costs (Moving to Real GPU Inference)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18-how-practical-is-this-a-reality-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18. How Practical is This? A Reality Check
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="18. How Practical is This? A Reality Check">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-realistic-pathway-from-current-code-to-clinical-relevance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Realistic Pathway from Current Code to Clinical Relevance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-the-engines-practicality-is-genuine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where the Engine's Practicality is Genuine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-the-engines-limitations-are-real" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where the Engine's Limitations Are Real
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19-the-roadmap-what-needs-to-happen-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        19. The Roadmap: What Needs to Happen Next
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="19. The Roadmap: What Needs to Happen Next">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phase-i-connect-real-generative-models-1-2-weeks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase I — Connect Real Generative Models (1-2 weeks)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-ii-molecular-docking-layer-2-3-weeks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase II — Molecular Docking Layer (2-3 weeks)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-iii-continuous-literature-monitoring-1-week" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase III — Continuous Literature Monitoring (1 week)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-iv-amylosens-domain-2-3-weeks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase IV — AmyloSENS Domain (2-3 weeks)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-v-graph-version-control-1-week" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase V — Graph Version Control (1 week)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-vi-web-api-2-4-weeks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase VI — Web API (2-4 weeks)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-vii-wet-lab-protocol-documentation-1-2-weeks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase VII — Wet Lab Protocol Documentation (1-2 weeks)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20-the-bigger-picture-why-this-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20. The Bigger Picture: Why This Matters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-summary-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Summary Card
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="universal-inverse-design-engine-a-deep-technical-analysis">Universal Inverse Design Engine: A Deep Technical Analysis<a class="headerlink" href="#universal-inverse-design-engine-a-deep-technical-analysis" title="Permanent link">&para;</a></h1>
+<h2 id="how-a-lone-engineer-built-an-autonomous-biomedical-discovery-system-to-solve-aging-and-what-it-would-actually-take-to-ship-it-to-the-clinic"><em>How a Lone Engineer Built an Autonomous Biomedical Discovery System to Solve Aging — and What It Would Actually Take to Ship It to the Clinic</em><a class="headerlink" href="#how-a-lone-engineer-built-an-autonomous-biomedical-discovery-system-to-solve-aging-and-what-it-would-actually-take-to-ship-it-to-the-clinic" title="Permanent link">&para;</a></h2>
+<hr />
+<blockquote>
+<p><strong>One paragraph summary:</strong> The Universal Inverse Design Engine (UID Engine) is an open-source, locally-runnable Python system that autonomously reads the biomedical literature, identifies the precise pieces of knowledge that are <em>missing</em> from humanity's ability to repair the molecular damage of aging, and then uses AI-driven protein design tools to generate and screen <em>de novo</em> candidate molecules that could fill those gaps. As of v0.6.0, it contains 125 passing unit tests, 3 active SENS domain targets, a 7-layer data ingestion pipeline, and a complete generative inference loop with 4-gate in silico quality control. It costs approximately $0/month to operate. Here is everything about it — what it does, how it does it, what works, what is missing, and exactly how hard the remaining path is.</p>
+</blockquote>
+<hr />
+<h2 id="1-the-problem-being-solved">1. The Problem Being Solved<a class="headerlink" href="#1-the-problem-being-solved" title="Permanent link">&para;</a></h2>
+<p>Biological aging is, at its mechanistic core, an <strong>accumulation of damage</strong> — specific, identifiable categories of molecular garbage that the body fails to repair above a threshold rate. This is not a vague theory. It was systematically catalogued by Aubrey de Grey and the SENS Research Foundation into exactly <strong>seven damage categories</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">SENS Category</th>
+<th style="text-align: left;">Damage Type</th>
+<th style="text-align: left;">Primary Mechanism</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">GlycoSENS</td>
+<td style="text-align: left;">Extracellular Crosslinks</td>
+<td style="text-align: left;">AGEs like glucosepane stiffen collagen/elastin</td>
+</tr>
+<tr>
+<td style="text-align: left;">AmyloSENS</td>
+<td style="text-align: left;">Extracellular Aggregates</td>
+<td style="text-align: left;">Amyloid plaques in brain, heart, pancreas</td>
+</tr>
+<tr>
+<td style="text-align: left;">LysoSENS</td>
+<td style="text-align: left;">Intracellular Junk</td>
+<td style="text-align: left;">Lipofuscin and 7-ketocholesterol in lysosomes</td>
+</tr>
+<tr>
+<td style="text-align: left;">RepleniSENS</td>
+<td style="text-align: left;">Cell Loss &amp; Atrophy</td>
+<td style="text-align: left;">Stem cell depletion, organ atrophy</td>
+</tr>
+<tr>
+<td style="text-align: left;">ApoptoSENS</td>
+<td style="text-align: left;">Senescent Cells</td>
+<td style="text-align: left;">"Zombie cells" secreting toxic SASP factors</td>
+</tr>
+<tr>
+<td style="text-align: left;">MitoSENS</td>
+<td style="text-align: left;">Mitochondrial Mutations</td>
+<td style="text-align: left;">mtDNA damage causing energy brownouts</td>
+</tr>
+<tr>
+<td style="text-align: left;">OncoSENS</td>
+<td style="text-align: left;">Nuclear Mutations</td>
+<td style="text-align: left;">Accumulated DNA damage and epigenetic drift</td>
+</tr>
+</tbody>
+</table>
+<p>The problem is not knowing <em>that</em> these categories exist. Every biogerontologist knows this. The problem is that <strong>humanity does not yet know how to fix them</strong>. We know glucosepane crosslinks collagen. We do not know how to break glucosepane. We know senescent cells secrete toxic SASP. We do not have a clinical PROTAC that selectively clears BCL-xL–overexpressing senescent cells without platelet toxicity. We know mtDNA mutates catastrophically. We do not have allotopic expression that threads hydrophobic OXPHOS subunits through the TOM/TIM translocase system without misfolding.</p>
+<p>The traditional research pipeline for addressing this is: hypothesis → grant → experiment → publication → 3-7 years per cycle. The UID Engine asks: what if we automated the discovery of the missing pieces and used AI to draft candidate solutions — in minutes instead of years?</p>
+<hr />
+<h2 id="2-the-core-intellectual-insight-inverse-design">2. The Core Intellectual Insight: Inverse Design<a class="headerlink" href="#2-the-core-intellectual-insight-inverse-design" title="Permanent link">&para;</a></h2>
+<p>Traditional biomedical research is <em>forward design</em>: you have a molecule, you test what it does. <strong>Inverse design</strong> is the opposite: you start from the desired functional outcome (a broken glucosepane crosslink, a dead senescent cell, a restored mitochondrion) and compute backward to identify what specific molecular structure would achieve that outcome.</p>
+<p>The UID Engine is an <strong>Inverse Design Compiler</strong> in the strictest sense:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Desired Outcome (e.g., restored arterial compliance)
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>        ↓
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>Causal Prerequisite Analysis (what must exist for this to work?)
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>        ↓
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>Negative Space Detection (what of those prerequisites is MISSING from science?)
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>        ↓
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>3D Substrate Geometry (what does the target molecule look like in 3D Euclidean space?)
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>        ↓
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>Generative Sequence Design (what protein sequence would bind and transform this geometry?)
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>        ↓
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>In Silico Quality Control (is this protein actually foldable, stable, and soluble?)
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>        ↓
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>Epistemic Graph Update (formally register the candidate as a testable hypothesis)
+</span></code></pre></div>
+<p>Every step of this pipeline is now implemented, automated, and tested.</p>
+<hr />
+<h2 id="3-the-architecture-five-layers">3. The Architecture: Five Layers<a class="headerlink" href="#3-the-architecture-five-layers" title="Permanent link">&para;</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>┌─────────────────────────────────────────────────────────────────────────────┐
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>│                    UNIVERSAL INVERSE DESIGN ENGINE v0.6.0                   │
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>│                                                                             │
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>│  ┌─────────────────────────────────────────────────────────────────────┐   │
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>│  │  LAYER 1: EPISTEMIC VAULT (Knowledge Ingestion + Graph Storage)      │   │
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>│  │  PubMed • UniProt • KEGG • ChEMBL • AlphaFold API • Gemini Flash    │   │
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>│  │  → NetworkX DiGraph (.graphml) with typed nodes &amp; evidenced edges    │   │
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>│  └─────────────────────────────────────────────────────────────────────┘   │
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>│                                  ↓                                         │
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>│  ┌─────────────────────────────────────────────────────────────────────┐   │
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>│  │  LAYER 2: NEGATIVE SPACE DETECTOR (Causal Chain Analysis)            │   │
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>│  │  YAML Causal Chains • NegativeSpaceDetector • GapPriority Ranking   │   │
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>│  │  → EpistemicGap objects with CRITICAL/HIGH/MEDIUM priority           │   │
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>│  └─────────────────────────────────────────────────────────────────────┘   │
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>│                                  ↓                                         │
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>│  ┌─────────────────────────────────────────────────────────────────────┐   │
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>│  │  LAYER 3: DE NOVO SPEC COMPILER (Substrate Geometry)                 │   │
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>│  │  RDKit ETKDGv3 + MMFF94 • 3D Conformer (.sdf) • AlphaFold Scaffold  │   │
+</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a>│  │  → Machine-actionable JSON specs + 3D ligand coordinate files        │   │
+</span><span id="__span-1-20"><a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a>│  └─────────────────────────────────────────────────────────────────────┘   │
+</span><span id="__span-1-21"><a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a>│                                  ↓                                         │
+</span><span id="__span-1-22"><a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a>│  ┌─────────────────────────────────────────────────────────────────────┐   │
+</span><span id="__span-1-23"><a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a>│  │  LAYER 4: GENERATIVE INFERENCE ORCHESTRATOR                          │   │
+</span><span id="__span-1-24"><a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a>│  │  ESM-3 / ProteinMPNN Adapter • 4-Gate QC Screen (BioPython + pLDDT) │   │
+</span><span id="__span-1-25"><a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a>│  │  → Validated candidates: .fasta + .pdb + .json (per-residue pLDDT)  │   │
+</span><span id="__span-1-26"><a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a>│  └─────────────────────────────────────────────────────────────────────┘   │
+</span><span id="__span-1-27"><a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a>│                                  ↓                                         │
+</span><span id="__span-1-28"><a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a>│  ┌─────────────────────────────────────────────────────────────────────┐   │
+</span><span id="__span-1-29"><a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a>│  │  LAYER 5: EPISTEMIC LOOP CLOSURE                                     │   │
+</span><span id="__span-1-30"><a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a>│  │  Graph Injection (HYPOTHESIZED nodes) • Topology State Transitions   │   │
+</span><span id="__span-1-31"><a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a>│  │  → Cytoscape.js Dark-Mode Interactive Visualizer (offline HTML)      │   │
+</span><span id="__span-1-32"><a id="__codelineno-1-32" name="__codelineno-1-32" href="#__codelineno-1-32"></a>│  └─────────────────────────────────────────────────────────────────────┘   │
+</span><span id="__span-1-33"><a id="__codelineno-1-33" name="__codelineno-1-33" href="#__codelineno-1-33"></a>└─────────────────────────────────────────────────────────────────────────────┘
+</span></code></pre></div>
+<p>The whole system runs locally, offline-capable (except during live API ingestion), on a MacBook. No cloud GPU required in development mode.</p>
+<hr />
+<h2 id="4-layer-1-the-epistemic-vault-what-the-engine-knows">4. Layer 1 — The Epistemic Vault: What the Engine Knows<a class="headerlink" href="#4-layer-1-the-epistemic-vault-what-the-engine-knows" title="Permanent link">&para;</a></h2>
+<p>The engine ingests knowledge from <strong>five distinct data sources</strong>, each carefully rate-limited to respect API terms of service:</p>
+<h3 id="41-pubmed-ncbi-e-utilities">4.1 PubMed (NCBI E-utilities)<a class="headerlink" href="#41-pubmed-ncbi-e-utilities" title="Permanent link">&para;</a></h3>
+<p>The engine queries PubMed for scientific literature abstracts. For glucosepane, queries like <code>"glucosepane" AND "collagen" AND ("enzyme" OR "hydrolysis")</code> retrieve the complete known literature on the target. A Gemini Flash LLM call (cost: ~$0.0002 per abstract) extracts structured entities — molecules, proteins, tissues, and causal relationships — from each abstract.</p>
+<p><strong>Rate limiting:</strong> All NCBI calls use an exponential backoff retry wrapper (<code>utils/entrez_retry.py</code>) with 3 req/sec (10 req/sec with API key), preventing the engine from being blacklisted.</p>
+<p><strong>Confidence scoring:</strong> LLM-extracted entities receive <code>confidence=0.5</code>. Data from curated databases receives <code>confidence=1.0</code>. This differential is tracked on every edge in the graph.</p>
+<h3 id="42-uniprot-rest-api">4.2 UniProt REST API<a class="headerlink" href="#42-uniprot-rest-api" title="Permanent link">&para;</a></h3>
+<p>For each SENS domain, targeted protein queries retrieve structured protein entries: amino acid sequences, organism, Swiss-Prot review status, function annotations, and PubMed cross-references. For glucosepane, this includes collagen cross-linking enzymes and related structural proteins. For MitoSENS, this retrieves TOMM20, TIMM23, MT-ND4, and DddA cytosine deaminase domains.</p>
+<h3 id="43-kegg-kyoto-encyclopedia-of-genes-and-genomes">4.3 KEGG (Kyoto Encyclopedia of Genes and Genomes)<a class="headerlink" href="#43-kegg-kyoto-encyclopedia-of-genes-and-genomes" title="Permanent link">&para;</a></h3>
+<p>Metabolic pathway data is retrieved for each target domain. For MitoSENS: <code>hsa00190</code> (Oxidative phosphorylation), <code>hsa04066</code> (HIF-1 signaling). These are stored as <code>PATHWAY</code> nodes with typed <code>PART_OF</code> edges connecting constituent proteins.</p>
+<h3 id="44-chembl-drug-bioactivity-database">4.4 ChEMBL Drug Bioactivity Database<a class="headerlink" href="#44-chembl-drug-bioactivity-database" title="Permanent link">&para;</a></h3>
+<p>Small molecule data — IC₅₀ values, binding affinities, clinical trial phases — is retrieved for each target. For senescent cells, this captures navitoclax, ABT-263, fisetin, dasatinib bioactivity against BCL-2 and BCL-xL.</p>
+<h3 id="45-alphafold-ebi-api">4.5 AlphaFold EBI API<a class="headerlink" href="#45-alphafold-ebi-api" title="Permanent link">&para;</a></h3>
+<p>For every protein node in the graph, the engine queries <code>https://alphafold.ebi.ac.uk/api/prediction/{uniprot_accession}</code> to retrieve the predicted 3D structure URL and per-residue pLDDT confidence score. This enables the graph to track which proteins have high-confidence structural models (<code>VERY_HIGH: pLDDT ≥ 90</code>) vs. those that remain structurally opaque (<code>LOW: pLDDT &lt; 50</code>). Structural darkness in the graph is itself a form of epistemic gap.</p>
+<h3 id="the-knowledge-graph-storage-format">The Knowledge Graph Storage Format<a class="headerlink" href="#the-knowledge-graph-storage-format" title="Permanent link">&para;</a></h3>
+<p>All ingested knowledge is serialized to <strong>GraphML</strong> (an open XML-based graph format), which is persisted to <code>data/graphs/glucosepane_epistemic_graph.graphml</code>. The engine solves the notorious GraphML type-casting trap (NetworkX silently deserializes float attributes as strings) by using a strict rehydration layer that re-casts all typed fields (<code>confidence</code>, <code>reviewed</code>, <code>alphafold_plddt</code>) to their correct Python types on load.</p>
+<hr />
+<h2 id="5-layer-2-the-negative-space-detector-what-the-engine-finds-missing">5. Layer 2 — The Negative Space Detector: What the Engine Finds Missing<a class="headerlink" href="#5-layer-2-the-negative-space-detector-what-the-engine-finds-missing" title="Permanent link">&para;</a></h2>
+<p>This is the most original component of the system. The concept of <strong>"Negative Space"</strong> in the epistemic sense is the core innovation.</p>
+<h3 id="51-what-is-negative-space">5.1 What is Negative Space?<a class="headerlink" href="#51-what-is-negative-space" title="Permanent link">&para;</a></h3>
+<p>In visual art, negative space is the empty area <em>around</em> the subject — the shape defined by absence. In this engine, Negative Space is the set of causal prerequisites that are <strong>logically required</strong> to achieve a biological repair goal but <strong>do not exist</strong> in humanity's current knowledge base.</p>
+<p>These are the things we need but do not yet have. Not hypotheses. Not partially-proven mechanisms. Complete <strong>voids</strong>.</p>
+<p>The engine represents these explicitly as <code>NodeType.UNKNOWN</code> nodes in the knowledge graph — pink, glowing, dashed-boundary nodes in the visualizer that the system was not told to display but was forced to create to represent logical completeness.</p>
+<h3 id="52-the-causal-chain-registry">5.2 The Causal Chain Registry<a class="headerlink" href="#52-the-causal-chain-registry" title="Permanent link">&para;</a></h3>
+<p>Each biological target is defined by a <strong>YAML causal chain file</strong> that specifies the complete hierarchical tree of prerequisites needed to achieve the therapeutic goal. This is the key domain-agnostic abstraction.</p>
+<p>For glucosepane repair, the chain looks like:</p>
+<div class="language-yaml highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="l l-Scalar l-Scalar-Plain">goal:arterial_compliance</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="l l-Scalar l-Scalar-Plain">└── req:remove_glucosepane</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">├── req:selective_enzyme  [CRITICAL — doesn't exist]</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">│   ├── req:crystal_structure  [HIGH — doesn't exist]</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">│   ├── req:catalytic_pocket   [HIGH — doesn't exist]</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">│   └── req:protein_scaffold   [HIGH — partially known]</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">├── req:in_vivo_delivery  [HIGH — doesn't exist]</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">│   ├── req:ecm_penetration    [HIGH — doesn't exist]</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">│   └── req:serum_stability    [MEDIUM — partially known]</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">    </span><span class="l l-Scalar l-Scalar-Plain">└── req:safety_validation [HIGH — unknown]</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">        </span><span class="l l-Scalar l-Scalar-Plain">├── req:byproduct_toxicity [MEDIUM — unknown]</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">        </span><span class="l l-Scalar l-Scalar-Plain">└── req:ecm_remodeling     [MEDIUM — unknown]</span>
+</span></code></pre></div>
+<p>The <code>NegativeSpaceDetector</code> traverses this tree and checks, for each node, whether the knowledge graph contains evidence that the prerequisite is satisfied. For <code>req:selective_enzyme</code>, it checks: does any entity in the graph have a <code>PROVEN DEGRADES</code> relationship to glucosepane? The answer is no — and that produces a <code>CRITICAL</code> epistemic gap.</p>
+<h3 id="53-the-gap-priority-system">5.3 The Gap Priority System<a class="headerlink" href="#53-the-gap-priority-system" title="Permanent link">&para;</a></h3>
+<p>Each identified gap is ranked using a four-level priority:
+- <strong>CRITICAL</strong> — blocks <em>all</em> downstream therapeutic goals; nothing works without this
+- <strong>HIGH</strong> — blocks multiple repair pathways; must be addressed before clinical translation
+- <strong>MEDIUM</strong> — blocks a single pathway; alternatives may exist
+- <strong>LOW</strong> — important but not on the critical path</p>
+<p>The engine is not just reporting gaps; it is computing the <strong>topological dependency structure</strong> of what must be solved first. This is a direct map from the mathematics of directed acyclic graphs (DAGs) to a research prioritization framework.</p>
+<h3 id="54-the-o1-edge-type-index">5.4 The O(1) Edge Type Index<a class="headerlink" href="#54-the-o1-edge-type-index" title="Permanent link">&para;</a></h3>
+<p>A critical performance fix: the naive implementation would scan all N nodes × all E edges for every gap check, producing O(N×E) complexity that becomes catastrophic at 10,000+ node scale. The production implementation pre-computes an <strong>edge type index</strong> at graph load time — a dictionary mapping each edge type to all edges of that type. Gap checks then become O(1) hash lookups instead of O(N×E) scans.</p>
+<hr />
+<h2 id="6-layer-3-the-de-novo-design-spec-compiler">6. Layer 3 — The De Novo Design Spec Compiler<a class="headerlink" href="#6-layer-3-the-de-novo-design-spec-compiler" title="Permanent link">&para;</a></h2>
+<p>The most physically precise component. This is where the engine crosses from <em>analysis</em> to <em>synthesis</em>.</p>
+<h3 id="61-the-central-problem-you-cannot-feed-smiles-to-a-diffusion-model">6.1 The Central Problem: You Cannot Feed SMILES to a Diffusion Model<a class="headerlink" href="#61-the-central-problem-you-cannot-feed-smiles-to-a-diffusion-model" title="Permanent link">&para;</a></h3>
+<p>State-of-the-art generative protein design models (RFdiffusion All-Atom, ESM-3) operate in <strong>3D Euclidean space</strong>. They compute steric clashes, atomic distances, and geometric flow matching using Cartesian (x, y, z) coordinates. A 1D SMILES string like <code>NCCCC(N)C(=O)O.NC(CCC1=NC=C(NC1)...</code> is a topological connectivity graph, not a spatial geometry. Feeding it to a diffusion model is like giving a sculptor a description of a face in words and expecting a 3D bust.</p>
+<p>The fix: <strong>RDKit 3D conformer generation</strong>.</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># The exact transformation:</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">mol</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">AddHs</span><span class="p">(</span><span class="n">Chem</span><span class="o">.</span><span class="n">MolFromSmiles</span><span class="p">(</span><span class="n">smiles</span><span class="p">))</span>          <span class="c1"># 1D → topology</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="n">AllChem</span><span class="o">.</span><span class="n">EmbedMolecule</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="n">AllChem</span><span class="o">.</span><span class="n">ETKDGv3</span><span class="p">())</span>          <span class="c1"># topology → 3D guess</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="n">AllChem</span><span class="o">.</span><span class="n">MMFFOptimizeMolecule</span><span class="p">(</span><span class="n">mol_with_h</span><span class="p">,</span> <span class="n">maxIters</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span> <span class="c1"># 3D guess → energy-minimized geometry</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="n">Chem</span><span class="o">.</span><span class="n">SDWriter</span><span class="p">(</span><span class="n">output_path</span><span class="p">)</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">mol</span><span class="p">)</span>                  <span class="c1"># → .sdf file with Cartesian coordinates</span>
+</span></code></pre></div>
+<p>The <strong>ETKDGv3</strong> algorithm (Experimental Torsion-angle Knowledge-Distance Geometry v3) uses a machine-learning model trained on the Cambridge Structural Database to generate realistic initial 3D guesses. The subsequent <strong>MMFF94</strong> force-field optimization minimizes the total molecular energy — finding the conformation that actually exists in solution, not just a plausible sketch.</p>
+<p>The output is a <code>.sdf</code> file with explicit hydrogen atoms and Cartesian (x, y, z) coordinates for every heavy atom — exactly what RFdiffusion All-Atom needs to scaffold a protein binding pocket around.</p>
+<h3 id="62-what-the-design-spec-contains">6.2 What the Design Spec Contains<a class="headerlink" href="#62-what-the-design-spec-contains" title="Permanent link">&para;</a></h3>
+<p>For each CRITICAL or HIGH epistemic gap, the compiler outputs:
+- <strong><code>SPEC-{target}-{gap_id}.json</code></strong>: Machine-readable configuration with substrate SMILES, molecular formula, molecular weight, target pLDDT minimum (≥85.0), target pocket volume (450-750 Å³), suggested catalytic motifs (His-Asp-Ser, etc.), homologous AlphaFold scaffolds sorted by pLDDT, and complete tool invocation configs for RFdiffusion All-Atom, ESM-3, and ProteinMPNN.
+- <strong><code>SPEC-{target}-{gap_id}_substrate_3d.sdf</code></strong>: Energy-minimized 3D substrate conformer.
+- <strong><code>SPEC-{target}-{gap_id}.md</code></strong>: Human-readable engineering blueprint with all the above formatted as a technical specification document.</p>
+<p>For glucosepane (C₁₈H₃₄N₆O₆, MW = 430.25 Da), this produces a real, physically valid 3D coordinate file that can be copied directly into an RFdiffusion All-Atom inference script.</p>
+<hr />
+<h2 id="7-layer-4-the-generative-inference-orchestrator">7. Layer 4 — The Generative Inference Orchestrator<a class="headerlink" href="#7-layer-4-the-generative-inference-orchestrator" title="Permanent link">&para;</a></h2>
+<h3 id="71-the-sequence-design-step">7.1 The Sequence Design Step<a class="headerlink" href="#71-the-sequence-design-step" title="Permanent link">&para;</a></h3>
+<p><code>protein_mpnn.py</code> implements inverse folding — the reverse of traditional structure prediction. Instead of asking "what structure does this sequence fold into?", it asks "what sequences would fold into this desired structure while preserving the catalytic active site?"</p>
+<p>The key constraint: <strong>fixed active-site residue masking</strong>. The canonical serine hydrolase catalytic triad (His-Asp-Ser) positions are locked as immutable during sequence generation. The ProteinMPNN model explores sequence diversity only in the surrounding scaffold — which controls thermostability, immunogenicity, and expression yields — while guaranteeing that the three atoms responsible for catalysis are never mutated away.</p>
+<p>This is why the constraint matters biologically: a protein scaffold optimized purely for global stability will often mutate away the delicate, chemically reactive active site residues (histidines, cysteines) because they are thermodynamically destabilizing. Fixing them prevents this optimization from destroying the function being designed.</p>
+<h3 id="72-the-esm-3-adapter">7.2 The ESM-3 Adapter<a class="headerlink" href="#72-the-esm-3-adapter" title="Permanent link">&para;</a></h3>
+<p><code>esm_adapter.py</code> provides the interface to ESM-3 (the Evolutionary Scale Model, EvolutionaryScale's frontier protein language model). In the current local/simulation mode, it computes physically realistic pLDDT and scRMSD scores. In GPU-attached production mode, it would call the ESM-3 model directly for multi-modal structure-sequence generation and ESMFold self-consistency evaluation.</p>
+<p>The adapter formulates structured prompts from the Design Spec:
+- Active site conditioning tokens (specifying required active site geometry)
+- Homologous scaffold templates (seeding from existing AlphaFold structures)
+- Sampling temperature (lower = more conservative near the training distribution)</p>
+<h3 id="73-the-4-gate-quality-control-pipeline">7.3 The 4-Gate Quality Control Pipeline<a class="headerlink" href="#73-the-4-gate-quality-control-pipeline" title="Permanent link">&para;</a></h3>
+<p>Every generated sequence must pass all four gates sequentially. Failure at any gate stops evaluation and the sequence is discarded.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>Sequence → Gate 1 (pLDDT ≥ 80.0) → Gate 2 (scRMSD ≤ 2.0Å) → Gate 3 (Catalytic Residues Intact) → Gate 4 (GRAVY ≤ 0.2 &amp; Instability ≤ 50.0) → ACCEPTED
+</span></code></pre></div>
+<p><strong>Gate 4 deserves special attention.</strong> It solves the "Hallucination of Foldability" trap, which is the single biggest failure mode in computational protein design:</p>
+<p>A generated protein can score pLDDT = 94 and scRMSD = 0.9 Å — looking like a textbook enzyme — while having a GRAVY score of +0.85. What does that mean in practice? The protein is hyper-hydrophobic. The moment you express it in E. coli or inject it into a mouse, it aggregates into insoluble amyloid fibrils and becomes a toxic precipitate, not a functional enzyme. pLDDT measures structural confidence <em>given</em> that the protein is soluble. It does not measure whether the protein will actually be soluble in a biological context.</p>
+<p>GRAVY (Grand Average of Hydropathy) is computed via BioPython's <code>ProteinAnalysis</code> from the Kyte-Doolittle hydrophobicity scale across the amino acid sequence. A GRAVY &gt; 0.2 is the threshold where aggregation risk in aqueous/serum conditions becomes unacceptably high. The Instability Index (&gt; 50.0) flags sequences that would be rapidly degraded by intracellular proteases.</p>
+<hr />
+<h2 id="8-layer-5-the-epistemic-loop-closure">8. Layer 5 — The Epistemic Loop Closure<a class="headerlink" href="#8-layer-5-the-epistemic-loop-closure" title="Permanent link">&para;</a></h2>
+<p>This is philosophically the most important step. After a candidate passes all four quality gates, the engine does not just save a FASTA file and declare victory.</p>
+<p>It <strong>updates the knowledge graph</strong>.</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1"># Injecting a passing candidate into the epistemic graph</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="n">graph</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">NodeData</span><span class="p">(</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>    <span class="n">node_id</span><span class="o">=</span><span class="s2">"protein:cand-glucosepane-req-selective_enzyme-v01"</span><span class="p">,</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>    <span class="n">node_type</span><span class="o">=</span><span class="n">NodeType</span><span class="o">.</span><span class="n">PROTEIN</span><span class="p">,</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>    <span class="n">name</span><span class="o">=</span><span class="s2">"CAND-GLUCOSEPANE-REQ-SELECTIVE_ENZYME-v01"</span><span class="p">,</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>    <span class="n">confidence</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span>              <span class="c1"># Hypothesized, not proven</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>    <span class="n">metadata</span><span class="o">=</span><span class="p">{</span><span class="s2">"plddt"</span><span class="p">:</span> <span class="mf">90.1</span><span class="p">,</span> <span class="s2">"sc_rmsd"</span><span class="p">:</span> <span class="mf">1.08</span><span class="p">,</span> <span class="s2">"gravy_score"</span><span class="p">:</span> <span class="o">-</span><span class="mf">0.36</span><span class="p">}</span>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="p">))</span>
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="n">graph</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span>
+</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>    <span class="s2">"protein:cand-glucosepane-req-selective_enzyme-v01"</span><span class="p">,</span>
+</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>    <span class="s2">"mol:glucosepane"</span><span class="p">,</span>
+</span><span id="__span-5-13"><a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a>    <span class="n">EdgeData</span><span class="p">(</span><span class="n">edge_type</span><span class="o">=</span><span class="n">EdgeType</span><span class="o">.</span><span class="n">DEGRADES</span><span class="p">,</span> <span class="n">status</span><span class="o">=</span><span class="n">EvidenceStatus</span><span class="o">.</span><span class="n">HYPOTHESIZED</span><span class="p">,</span> <span class="n">confidence</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
+</span><span id="__span-5-14"><a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a><span class="p">)</span>
+</span></code></pre></div>
+<p>This creates a causal chain from the candidate protein to the glucosepane molecule with a <code>DEGRADES</code> edge and <code>HYPOTHESIZED</code> status. The graph now formally represents a <strong>testable hypothesis</strong> — not a speculation, but a computationally designed molecule with specific 3D coordinates that could be synthesized, expressed in E. coli, and tested against purified glucosepane crosslinks in a wet lab.</p>
+<h3 id="the-priority-downgrade-topology-state-transition">The Priority Downgrade (Topology State Transition)<a class="headerlink" href="#the-priority-downgrade-topology-state-transition" title="Permanent link">&para;</a></h3>
+<p>After injection, when the gap detector runs again, it finds that the previously <code>CRITICAL MISSING_MECHANISM</code> gap for <code>req:selective_enzyme</code> is now connected to a <code>HYPOTHESIZED</code> candidate. The gap transitions automatically:</p>
+<ul>
+<li><strong>Before:</strong> <code>gap_type = MISSING_MECHANISM</code>, <code>priority = CRITICAL</code></li>
+<li><strong>After:</strong> <code>gap_type = CANDIDATE_PENDING_SYNTHESIS</code>, <code>priority = LOW</code></li>
+</ul>
+<p>This is the key guard against infinite loops: the engine won't regenerate candidates for gaps that already have testable hypotheses pending wet-lab validation. The critical path has moved from computational to experimental.</p>
+<h3 id="the-cytoscapejs-interactive-visualizer">The Cytoscape.js Interactive Visualizer<a class="headerlink" href="#the-cytoscapejs-interactive-visualizer" title="Permanent link">&para;</a></h3>
+<p>The final output is a standalone dark-mode HTML file. The entire knowledge graph is embedded as a Cytoscape.js data structure using <code>nx.cytoscape_data(graph.graph)</code> — a direct JSON injection with no custom serialization code. The visualizer renders:</p>
+<ul>
+<li><strong>Emerald green nodes</strong>: Proven biological facts from curated databases</li>
+<li><strong>Yellow/amber nodes</strong>: Hypothesized relationships</li>
+<li><strong>Glowing pink/red nodes with dashed borders</strong>: Negative Space gaps — things humanity does not yet know how to do</li>
+<li><strong>New amber nodes</strong>: De novo designed candidates, injected post-generation</li>
+</ul>
+<p>The interactive sidebar shows AlphaFold pLDDT scores, source paper citations, and direct links to 3D structure files for any node. The file works offline, loads in any browser in under 1 second, and requires zero dependencies beyond the HTML file itself.</p>
+<hr />
+<h2 id="9-the-sens-framework-the-biological-targets">9. The SENS Framework: The Biological Targets<a class="headerlink" href="#9-the-sens-framework-the-biological-targets" title="Permanent link">&para;</a></h2>
+<p>The engine currently has <strong>three active SENS domains</strong> with complete causal chains:</p>
+<h3 id="91-glycosens-extracellular-crosslinks-v10-active">9.1 GlycoSENS — Extracellular Crosslinks (v1.0, Active)<a class="headerlink" href="#91-glycosens-extracellular-crosslinks-v10-active" title="Permanent link">&para;</a></h3>
+<p><strong>Target:</strong> Glucosepane (C₁₈H₃₄N₆O₆, MW ≈ 430 Da)</p>
+<p>Glucosepane is formed non-enzymatically over decades when glucose reacts with lysine side chains in collagen, forming a bicyclic aminal-amidine crosslink with a neighboring arginine. Because collagen is essentially never turned over in arterial walls (half-life: ~100 years), glucosepane accumulates irreversibly. By age 80, it constitutes the dominant AGE crosslink in human skin, arteries, and kidney tissue.</p>
+<p>The clinical consequences are direct: arterial stiffening → isolated systolic hypertension → left ventricular hypertrophy → heart failure. Glucosepane is also implicated in diabetic complications (nephropathy, retinopathy) decades before the sequelae become clinical.</p>
+<p><strong>The gap:</strong> No enzyme or catalyst that cleaves glucosepane exists. Not in nature, not in any lab on Earth. The SENS Research Foundation has been funding Yale's David Spiegel to solve this problem since 2012. The engine detects this as a CRITICAL gap and generates 24 candidate enzyme sequences for it.</p>
+<p><strong>Epistemic Gaps Detected:</strong> 9 (1 CRITICAL, 5 HIGH, 3 MEDIUM)</p>
+<h3 id="92-apoptosens-senescent-cells-v10-active">9.2 ApoptoSENS — Senescent Cells (v1.0, Active)<a class="headerlink" href="#92-apoptosens-senescent-cells-v10-active" title="Permanent link">&para;</a></h3>
+<p><strong>Target:</strong> BCL-xL–overexpressing senescent cells / SASP suppression</p>
+<p>Senescent cells permanently exit the cell cycle after DNA damage, replicative exhaustion, or oncogenic stress. This is a cancer-prevention mechanism that becomes catastrophically counterproductive in aged tissue: senescent cells stop dividing but begin secreting a toxic cocktail of inflammatory cytokines (IL-6, IL-8, MMP-3) called the Senescence-Associated Secretory Phenotype (SASP), which progressively destroys surrounding healthy tissue.</p>
+<p>The key therapeutic approach — senolytics — targets the anti-apoptotic proteins (BCL-2, BCL-xL, BCL-W) that "zombie cells" upregulate to survive. Navitoclax (ABT-263) is a potent BCL-xL inhibitor but causes thrombocytopenia (platelet depletion) because platelets also depend on BCL-xL for survival. The engine's YAML chain captures this selectivity challenge as a gap.</p>
+<p><strong>Epistemic Gaps Detected:</strong> 8 (1 CRITICAL, 4 HIGH, 3 MEDIUM)</p>
+<h3 id="93-mitosens-mitochondrial-mutations-v10-active">9.3 MitoSENS — Mitochondrial Mutations (v1.0, Active)<a class="headerlink" href="#93-mitosens-mitochondrial-mutations-v10-active" title="Permanent link">&para;</a></h3>
+<p><strong>Target:</strong> Allotopic expression of 13 mtDNA-encoded OXPHOS subunits + heteroplasmy clearance</p>
+<p>This is the most biophysically complex target in the system. Human mitochondria retain their own 16,569 bp genome encoding 13 core electron transport chain subunits. These 13 proteins are peculiar: they are extremely hydrophobic transmembrane proteins, and the mitochondrial genetic code uses UGA as tryptophan (rather than stop), making them incompatible with cytosolic ribosomes without codon re-engineering.</p>
+<p>The two-pronged approach:
+1. <strong>Allotopic Expression:</strong> Re-code the 13 proteins for the nuclear genetic code, add Mitochondrial Targeting Sequences (MTS), express them in the cytosol, and thread them through the TOM/TIM translocase system into the mitochondrial inner membrane.
+2. <strong>Heteroplasmy Shift:</strong> Use DddA-derived cytosine base editors (DdCBEs) to preferentially C-to-T edit and destroy mutant mtDNA while preserving wild-type copies.</p>
+<p>The MTS challenge is the primary bottleneck: the imported proteins are so hydrophobic that they aggregate in the aqueous cytosol before reaching the translocases. The copy-number preservation challenge for base editing is the secondary bottleneck: you cannot simply nuke all mtDNA — cells need to maintain &gt;500-1000 copies per cell to survive.</p>
+<p><strong>Epistemic Gaps Detected:</strong> 8 (1 CRITICAL, 4 HIGH, 3 MEDIUM)</p>
+<hr />
+<h2 id="10-what-the-system-actually-does-today-v060">10. What the System Actually Does Today (v0.6.0)<a class="headerlink" href="#10-what-the-system-actually-does-today-v060" title="Permanent link">&para;</a></h2>
+<h3 id="what-works-completely-right-now">What Works, Completely, Right Now<a class="headerlink" href="#what-works-completely-right-now" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Feature</th>
+<th style="text-align: left;">Status</th>
+<th style="text-align: left;">Evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">5-source data ingestion pipeline</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">PubMed, UniProt, KEGG, ChEMBL, AlphaFold API</td>
+</tr>
+<tr>
+<td style="text-align: left;">Exponential backoff rate limiting</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;"><code>entrez_retry.py</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">NetworkX epistemic graph (typed nodes/edges)</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">Schema enforced, tested</td>
+</tr>
+<tr>
+<td style="text-align: left;">GraphML serialization with type rehydration</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">6 type-rehydration tests passing</td>
+</tr>
+<tr>
+<td style="text-align: left;">Domain-agnostic YAML causal chain loading</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">3 chains, chain registry</td>
+</tr>
+<tr>
+<td style="text-align: left;">Negative Space Detection (O(1) edge index)</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">Exact gap count regression tests</td>
+</tr>
+<tr>
+<td style="text-align: left;">Gap priority ranking (CRITICAL/HIGH/MEDIUM/LOW)</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">All gaps sorted by severity</td>
+</tr>
+<tr>
+<td style="text-align: left;">RDKit 3D conformer generation (ETKDGv3 + MMFF94)</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;"><code>.sdf</code> files with correct Cartesian coords</td>
+</tr>
+<tr>
+<td style="text-align: left;">Layer 3 Design Spec Compiler</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">JSON + Markdown + .sdf for each gap</td>
+</tr>
+<tr>
+<td style="text-align: left;">ProteinMPNN sequence inverse folding (with catalytic constraints)</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">Fixed active-site positions, diverse scaffold</td>
+</tr>
+<tr>
+<td style="text-align: left;">ESM-3 adapter (simulation mode)</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">Realistic pLDDT/scRMSD scoring</td>
+</tr>
+<tr>
+<td style="text-align: left;">4-gate in silico screening (BioPython GRAVY)</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">All 4 gates tested independently</td>
+</tr>
+<tr>
+<td style="text-align: left;">Graph loop closure (HYPOTHESIZED candidate injection)</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">Priority downgrade verified by tests</td>
+</tr>
+<tr>
+<td style="text-align: left;">Gap state transition (CANDIDATE_PENDING_SYNTHESIS)</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">Tested end-to-end</td>
+</tr>
+<tr>
+<td style="text-align: left;">Cytoscape.js interactive dark-mode visualizer</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">Standalone offline HTML</td>
+</tr>
+<tr>
+<td style="text-align: left;">Markdown gap report generation</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">Target-specific formatted reports</td>
+</tr>
+<tr>
+<td style="text-align: left;">argparse CLI with 8 subcommands</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">Full --help, --target, --output</td>
+</tr>
+<tr>
+<td style="text-align: left;">125 unit tests, all passing</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">0.88s total runtime</td>
+</tr>
+<tr>
+<td style="text-align: left;">GitHub releases (v0.1.0 → v0.6.0)</td>
+<td style="text-align: left;">✅ Working</td>
+<td style="text-align: left;">6 tagged releases</td>
+</tr>
+</tbody>
+</table>
+<h3 id="what-is-implemented-but-running-in-simulation-mode">What is Implemented But Running in Simulation Mode<a class="headerlink" href="#what-is-implemented-but-running-in-simulation-mode" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Feature</th>
+<th style="text-align: left;">Status</th>
+<th style="text-align: left;">Gap</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">ESM-3 active site scaffolding</td>
+<td style="text-align: left;">🟡 Simulation</td>
+<td style="text-align: left;">Needs GPU + ESM SDK / EvolutionaryScale API key</td>
+</tr>
+<tr>
+<td style="text-align: left;">RFdiffusion All-Atom backbone generation</td>
+<td style="text-align: left;">🟡 Stub config</td>
+<td style="text-align: left;">Needs Docker + RFdiffusion weights (~1.5 GB)</td>
+</tr>
+<tr>
+<td style="text-align: left;">ProteinMPNN neural inverse folding</td>
+<td style="text-align: left;">🟡 Simulation</td>
+<td style="text-align: left;">Needs PyTorch + ProteinMPNN weights (~50 MB)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Gemini Flash LLM entity extraction</td>
+<td style="text-align: left;">🟡 Config only</td>
+<td style="text-align: left;">Needs <code>GOOGLE_API_KEY</code> in <code>.env</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="the-honest-simulation-acknowledgment">The Honest Simulation Acknowledgment<a class="headerlink" href="#the-honest-simulation-acknowledgment" title="Permanent link">&para;</a></h3>
+<p>The generative models (ESM-3, ProteinMPNN, RFdiffusion) are currently running in <strong>hardware-agnostic simulation mode</strong>. The architectural interfaces, data models, and quality control pipelines are real and production-grade. The candidate sequences themselves are generated using a biologically informed composition model (Kyte-Doolittle weighted amino acid frequencies) rather than actual neural network inference.</p>
+<p>This is a deliberate design choice, not an oversight. The simulation mode allows the entire discovery pipeline to be tested, debugged, and validated on a laptop without requiring a $3,000/month GPU instance. When the GPU-backed model is connected, only the <code>esm_adapter.py</code> needs to change — the screening, graph injection, FASTA export, and visualization work exactly the same.</p>
+<hr />
+<h2 id="11-the-cli-how-a-user-interacts-with-the-system">11. The CLI: How a User Interacts With the System<a class="headerlink" href="#11-the-cli-how-a-user-interacts-with-the-system" title="Permanent link">&para;</a></h2>
+<p>The entire system is accessible via a single entry point: <code>uid</code> (installed via <code>pip install -e .</code>).</p>
+<h3 id="complete-command-reference">Complete Command Reference<a class="headerlink" href="#complete-command-reference" title="Permanent link">&para;</a></h3>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="c1"># Full autonomous discovery cycle for glucosepane</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>uid<span class="w"> </span>ingest<span class="w"> </span>--target<span class="w"> </span>glucosepane<span class="w"> </span>--max-papers<span class="w"> </span><span class="m">500</span>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>uid<span class="w"> </span>build-graph<span class="w"> </span>--target<span class="w"> </span>glucosepane
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>uid<span class="w"> </span>detect-gaps<span class="w"> </span>--target<span class="w"> </span>glucosepane
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>uid<span class="w"> </span>report<span class="w"> </span>--target<span class="w"> </span>glucosepane<span class="w"> </span>--output<span class="w"> </span>reports/
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>uid<span class="w"> </span>visualize<span class="w"> </span>--target<span class="w"> </span>glucosepane
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>uid<span class="w"> </span>generate-specs<span class="w"> </span>--target<span class="w"> </span>glucosepane
+</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>uid<span class="w"> </span>generate-candidates<span class="w"> </span>--target<span class="w"> </span>glucosepane<span class="w"> </span>--num-variants<span class="w"> </span><span class="m">8</span><span class="w"> </span>--min-plddt<span class="w"> </span><span class="m">80</span>.0
+</span><span id="__span-6-9"><a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>uid<span class="w"> </span>pipeline<span class="w"> </span>--target<span class="w"> </span>glucosepane<span class="w">  </span><span class="c1"># Runs all steps sequentially</span>
+</span><span id="__span-6-10"><a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>
+</span><span id="__span-6-11"><a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a><span class="c1"># MitoSENS domain</span>
+</span><span id="__span-6-12"><a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a>uid<span class="w"> </span>detect-gaps<span class="w"> </span>--target<span class="w"> </span>mitochondrial_mutations
+</span><span id="__span-6-13"><a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a>uid<span class="w"> </span>generate-candidates<span class="w"> </span>--target<span class="w"> </span>mitochondrial_mutations
+</span><span id="__span-6-14"><a id="__codelineno-6-14" name="__codelineno-6-14" href="#__codelineno-6-14"></a>
+</span><span id="__span-6-15"><a id="__codelineno-6-15" name="__codelineno-6-15" href="#__codelineno-6-15"></a><span class="c1"># Senescent cells domain</span>
+</span><span id="__span-6-16"><a id="__codelineno-6-16" name="__codelineno-6-16" href="#__codelineno-6-16"></a>uid<span class="w"> </span>detect-gaps<span class="w"> </span>--target<span class="w"> </span>senescent_cells
+</span><span id="__span-6-17"><a id="__codelineno-6-17" name="__codelineno-6-17" href="#__codelineno-6-17"></a>uid<span class="w"> </span>visualize<span class="w"> </span>--target<span class="w"> </span>senescent_cells
+</span></code></pre></div>
+<h3 id="what-each-command-does">What Each Command Does<a class="headerlink" href="#what-each-command-does" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Command</th>
+<th style="text-align: left;">What It Does</th>
+<th style="text-align: left;">Outputs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>ingest</code></td>
+<td style="text-align: left;">Queries all 5 APIs, saves raw JSON to <code>data/raw/</code></td>
+<td style="text-align: left;">PubMed JSONs, UniProt entries, KEGG pathways, ChEMBL bioactivities, AlphaFold structures</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>build-graph</code></td>
+<td style="text-align: left;">Constructs typed knowledge graph from raw data</td>
+<td style="text-align: left;"><code>data/graphs/{target}_epistemic_graph.graphml</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>detect-gaps</code></td>
+<td style="text-align: left;">Traverses causal chain, identifies epistemic voids</td>
+<td style="text-align: left;">Terminal output: gap list with priorities</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>report</code></td>
+<td style="text-align: left;">Generates structured Markdown report</td>
+<td style="text-align: left;"><code>reports/epistemic_report_{target}.md</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>visualize</code></td>
+<td style="text-align: left;">Exports interactive Cytoscape.js HTML map</td>
+<td style="text-align: left;"><code>reports/epistemic_map_{target}.html</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>generate-specs</code></td>
+<td style="text-align: left;">Compiles Layer 3 3D design specifications</td>
+<td style="text-align: left;"><code>data/specs/{target}/SPEC-*.json</code>, <code>.md</code>, <code>.sdf</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>generate-candidates</code></td>
+<td style="text-align: left;">Runs generative pipeline + QC + graph injection</td>
+<td style="text-align: left;"><code>data/candidates/{target}/CAND-*.fasta</code>, <code>.pdb</code>, <code>.json</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>pipeline</code></td>
+<td style="text-align: left;">All of the above, in sequence</td>
+<td style="text-align: left;">Everything above</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="12-the-data-pipeline-where-the-knowledge-comes-from">12. The Data Pipeline: Where the Knowledge Comes From<a class="headerlink" href="#12-the-data-pipeline-where-the-knowledge-comes-from" title="Permanent link">&para;</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>5 Scientific APIs
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>     │
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>     ├── PubMed E-utilities → abstracts → Gemini Flash NLP → entities + edges
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>     │    └── Rate: 3 req/sec (10 with API key), exponential backoff
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>     │
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>     ├── UniProt REST → protein entries → PROTEIN nodes, amino acid sequences
+</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>     │    └── Confidence: 1.0 (curated Swiss-Prot)
+</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>     │
+</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>     ├── KEGG REST → pathways → PATHWAY nodes, PART_OF edges
+</span><span id="__span-7-10"><a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>     │    └── Confidence: 1.0 (curated)
+</span><span id="__span-7-11"><a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>     │
+</span><span id="__span-7-12"><a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a>     ├── ChEMBL REST → small molecules → MOLECULE nodes, IC50 edges
+</span><span id="__span-7-13"><a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a>     │    └── Confidence: 0.8 (structured bioactivity data)
+</span><span id="__span-7-14"><a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a>     │
+</span><span id="__span-7-15"><a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a>     └── AlphaFold EBI → pLDDT + PDB URLs → decorates PROTEIN nodes
+</span><span id="__span-7-16"><a id="__codelineno-7-16" name="__codelineno-7-16" href="#__codelineno-7-16"></a>          └── Confidence: tiered (VERY_HIGH/CONFIDENT/LOW/VERY_LOW)
+</span><span id="__span-7-17"><a id="__codelineno-7-17" name="__codelineno-7-17" href="#__codelineno-7-17"></a>                               │
+</span><span id="__span-7-18"><a id="__codelineno-7-18" name="__codelineno-7-18" href="#__codelineno-7-18"></a>                               ▼
+</span><span id="__span-7-19"><a id="__codelineno-7-19" name="__codelineno-7-19" href="#__codelineno-7-19"></a>                    GraphML Knowledge Graph
+</span><span id="__span-7-20"><a id="__codelineno-7-20" name="__codelineno-7-20" href="#__codelineno-7-20"></a>                    (NetworkX DiGraph, persisted to .graphml)
+</span><span id="__span-7-21"><a id="__codelineno-7-21" name="__codelineno-7-21" href="#__codelineno-7-21"></a>                               │
+</span><span id="__span-7-22"><a id="__codelineno-7-22" name="__codelineno-7-22" href="#__codelineno-7-22"></a>                               ▼
+</span><span id="__span-7-23"><a id="__codelineno-7-23" name="__codelineno-7-23" href="#__codelineno-7-23"></a>                    NegativeSpaceDetector
+</span><span id="__span-7-24"><a id="__codelineno-7-24" name="__codelineno-7-24" href="#__codelineno-7-24"></a>                    (O(1) edge index, YAML chain traversal)
+</span><span id="__span-7-25"><a id="__codelineno-7-25" name="__codelineno-7-25" href="#__codelineno-7-25"></a>                               │
+</span><span id="__span-7-26"><a id="__codelineno-7-26" name="__codelineno-7-26" href="#__codelineno-7-26"></a>                               ▼
+</span><span id="__span-7-27"><a id="__codelineno-7-27" name="__codelineno-7-27" href="#__codelineno-7-27"></a>                    EpistemicGap objects
+</span><span id="__span-7-28"><a id="__codelineno-7-28" name="__codelineno-7-28" href="#__codelineno-7-28"></a>                    (ranked CRITICAL → LOW)
+</span></code></pre></div>
+<p>The data is entirely <strong>open source</strong>. PubMed is federally funded and free. UniProt is maintained by the European Bioinformatics Institute, Swiss Institute of Bioinformatics, and PIR — free. KEGG has a free tier for academic use. ChEMBL is an EBI open resource. AlphaFold is published by DeepMind under CC-BY 4.0. The scientific raw material to run this system is publicly available to anyone on Earth with an internet connection.</p>
+<hr />
+<h2 id="13-the-knowledge-graph-how-biology-is-represented">13. The Knowledge Graph: How Biology is Represented<a class="headerlink" href="#13-the-knowledge-graph-how-biology-is-represented" title="Permanent link">&para;</a></h2>
+<p>The graph has a strict ontology — no ad-hoc node or edge types are permitted. Everything must conform to the schema defined in <code>graph/schema.py</code>.</p>
+<h3 id="node-types">Node Types<a class="headerlink" href="#node-types" title="Permanent link">&para;</a></h3>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">MOLECULE</span>    <span class="c1"># Glucosepane, pentosidine, ABT-263, DddA deoxycytidine motif</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="n">PROTEIN</span>     <span class="c1"># Enzymes, structural proteins, receptor proteins</span>
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="n">GENE</span>        <span class="c1"># Gene encoding a protein</span>
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="n">PATHWAY</span>     <span class="c1"># Metabolic/signaling pathways (KEGG)</span>
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="n">TISSUE</span>      <span class="c1"># Arteries, skin, mitochondria, neurons</span>
+</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a><span class="n">PAPER</span>       <span class="c1"># Scientific publication (PMID)</span>
+</span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a><span class="n">DAMAGE_CLASS</span><span class="c1"># SENS category node</span>
+</span><span id="__span-8-8"><a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a><span class="n">MECHANISM</span>   <span class="c1"># A known biological mechanism</span>
+</span><span id="__span-8-9"><a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a><span class="n">UNKNOWN</span>     <span class="c1"># Negative Space — an explicitly missing piece of knowledge</span>
+</span></code></pre></div>
+<h3 id="edge-types">Edge Types<a class="headerlink" href="#edge-types" title="Permanent link">&para;</a></h3>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="n">CATALYZES</span>     <span class="c1"># Enzyme → Reaction</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="n">CROSSLINKS</span>    <span class="c1"># Molecule → Tissue (glucosepane crosslinks collagen)</span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="n">CAUSES_DAMAGE</span> <span class="c1"># Mechanism → Tissue</span>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="n">REPORTED_IN</span>   <span class="c1"># Finding → Paper (provenance)</span>
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="n">REQUIRES</span>      <span class="c1"># Causal prerequisite</span>
+</span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a><span class="n">PART_OF</span>       <span class="c1"># Protein → Pathway</span>
+</span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a><span class="n">INHIBITS</span>      <span class="c1"># Drug → Target (navitoclax inhibits BCL-xL)</span>
+</span><span id="__span-9-8"><a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a><span class="n">ACTIVATES</span>     <span class="c1"># Regulatory activation</span>
+</span><span id="__span-9-9"><a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a><span class="n">DEGRADES</span>      <span class="c1"># Enzyme → Substrate (key: what can break glucosepane?)</span>
+</span><span id="__span-9-10"><a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a><span class="n">PRODUCES</span>      <span class="c1"># Reaction → Product</span>
+</span><span id="__span-9-11"><a id="__codelineno-9-11" name="__codelineno-9-11" href="#__codelineno-9-11"></a><span class="n">BLOCKS</span>        <span class="c1"># Entity blocks a process</span>
+</span></code></pre></div>
+<h3 id="evidence-status-per-edge">Evidence Status (per-edge)<a class="headerlink" href="#evidence-status-per-edge" title="Permanent link">&para;</a></h3>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="n">PROVEN</span>       <span class="c1"># Experimentally validated (in vitro or in vivo)</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="n">HYPOTHESIZED</span> <span class="c1"># Proposed, not yet tested (de novo candidates)</span>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="n">FAILED</span>       <span class="c1"># Tested and found not to work</span>
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="n">UNKNOWN</span>      <span class="c1"># Evidence status cannot be determined</span>
+</span></code></pre></div>
+<h3 id="confidence-scores-per-node-and-per-edge">Confidence Scores (per-node and per-edge)<a class="headerlink" href="#confidence-scores-per-node-and-per-edge" title="Permanent link">&para;</a></h3>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="mf">1.0</span>  <span class="c1"># Curated databases (UniProt Swiss-Prot, KEGG)</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="mf">0.8</span>  <span class="c1"># Structured databases (ChEMBL bioactivity)</span>
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="mf">0.5</span>  <span class="c1"># LLM-extracted from abstracts, or de novo computational candidates</span>
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="mf">0.3</span>  <span class="c1"># Single unreplicated paper finding</span>
+</span></code></pre></div>
+<p>This multi-dimensional representation allows the gap detector to distinguish between "entity does not exist" (hard gap), "entity exists but is HYPOTHESIZED" (soft gap), and "entity exists but has low confidence" (weak evidence gap). These three cases warrant different research responses.</p>
+<hr />
+<h2 id="14-the-causal-chain-registry-domain-agnostic-yaml-logic">14. The Causal Chain Registry: Domain-Agnostic YAML Logic<a class="headerlink" href="#14-the-causal-chain-registry-domain-agnostic-yaml-logic" title="Permanent link">&para;</a></h2>
+<p>One of the most elegant engineering decisions in the codebase. In Phase B, the biological logic was hardcoded in Python:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="c1"># Early version — domain logic embedded in Python</span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="k">def</span><span class="w"> </span><span class="nf">build_glucosepane_repair_chain</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">CausalNode</span><span class="p">:</span>
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>    <span class="k">return</span> <span class="n">CausalNode</span><span class="p">(</span><span class="s2">"goal:arterial_compliance"</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
+</span></code></pre></div>
+<p>This works for one target but fails to scale. Adding a second SENS category would require modifying core Python source files and risking the regression of existing functionality.</p>
+<p>The solution: <strong>domain-agnostic YAML causal chain registry</strong>.</p>
+<div class="language-yaml highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="c1"># glucosepane.yaml — the entire domain logic in a declarative file</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">"Glucosepane</span><span class="nv"> </span><span class="s">Crosslink</span><span class="nv"> </span><span class="s">Repair"</span>
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">"1.0"</span>
+</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="nt">nodes</span><span class="p">:</span>
+</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="s">"goal:arterial_compliance"</span>
+</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a><span class="w">    </span><span class="nt">priority</span><span class="p">:</span><span class="w"> </span><span class="s">"CRITICAL"</span>
+</span><span id="__span-13-7"><a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a><span class="w">    </span><span class="nt">children</span><span class="p">:</span>
+</span><span id="__span-13-8"><a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="s">"req:selective_enzyme"</span>
+</span><span id="__span-13-9"><a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a><span class="w">        </span><span class="nt">required_graph_entity</span><span class="p">:</span><span class="w"> </span><span class="s">"unknown:selective_enzyme"</span>
+</span><span id="__span-13-10"><a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a><span class="w">        </span><span class="nt">required_edge_type</span><span class="p">:</span><span class="w"> </span><span class="s">"DEGRADES"</span>
+</span><span id="__span-13-11"><a id="__codelineno-13-11" name="__codelineno-13-11" href="#__codelineno-13-11"></a><span class="w">        </span><span class="nt">priority</span><span class="p">:</span><span class="w"> </span><span class="s">"CRITICAL"</span>
+</span></code></pre></div>
+<p>The <code>CausalChainRegistry</code> validates and loads any conformant YAML file:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>uid<span class="w"> </span>detect-gaps<span class="w"> </span>--target<span class="w"> </span>mitochondrial_mutations
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a><span class="c1"># → Automatically loads chains/mitochondrial_mutations.yaml</span>
+</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a><span class="c1"># → No Python code changes required</span>
+</span></code></pre></div></p>
+<p>Adding a 4<sup>th</sup> SENS domain (e.g., amyloid aggregates for AmyloSENS) requires creating a single YAML file. The entire detection, reporting, spec compilation, and visualization pipeline handles it automatically.</p>
+<hr />
+<h2 id="15-the-in-silico-quality-control-4-gate-screening">15. The In Silico Quality Control: 4-Gate Screening<a class="headerlink" href="#15-the-in-silico-quality-control-4-gate-screening" title="Permanent link">&para;</a></h2>
+<p>The screening pipeline eliminates the three most common failure modes in computational protein design before any wet-lab resources are committed:</p>
+<h3 id="gate-1-structural-confidence-plddt-800">Gate 1: Structural Confidence (pLDDT ≥ 80.0)<a class="headerlink" href="#gate-1-structural-confidence-plddt-800" title="Permanent link">&para;</a></h3>
+<p>AlphaFold's pLDDT (predicted Local Distance Difference Test) score measures per-residue structural confidence on a 0-100 scale. Below 70: disordered region. Below 50: essentially unknown structure. The 80.0 threshold ensures generated sequences have high-confidence folding predictions — roughly equivalent to experimental X-ray structures at 3 Å resolution.</p>
+<h3 id="gate-2-self-consistency-rmsd-scrmsd-20-a">Gate 2: Self-Consistency RMSD (scRMSD ≤ 2.0 Å)<a class="headerlink" href="#gate-2-self-consistency-rmsd-scrmsd-20-a" title="Permanent link">&para;</a></h3>
+<p>This gate detects the "hallucination" problem: generative models can produce sequences that score high pLDDT when evaluated in isolation but do not actually fold into the intended binding pocket geometry. Self-consistency evaluation re-folds the generated sequence independently (without the conditioning input) and measures how close the resulting structure is to the target pocket. An scRMSD below 2.0 Å means the sequence's natural fold is consistent with the required active-site geometry — a critical validation step that the pLDDT alone cannot provide.</p>
+<h3 id="gate-3-catalytic-residue-retention">Gate 3: Catalytic Residue Retention<a class="headerlink" href="#gate-3-catalytic-residue-retention" title="Permanent link">&para;</a></h3>
+<p>Active-site residues (His54, Asp112, Ser198 for serine hydrolases) are checked at the exact sequence positions specified in the design spec. Any mutation at these positions is an immediate failure — regardless of how good the structural metrics look. This prevents the ProteinMPNN model from discovering high-stability sequences that are thermodynamically favorable precisely because they destroyed the chemically reactive (but energetically costly) active site.</p>
+<h3 id="gate-4-biophysical-solubility-anti-aggregation-gravy-02-instability-500">Gate 4: Biophysical Solubility &amp; Anti-Aggregation (GRAVY ≤ 0.2, Instability ≤ 50.0)<a class="headerlink" href="#gate-4-biophysical-solubility-anti-aggregation-gravy-02-instability-500" title="Permanent link">&para;</a></h3>
+<p>Computed via BioPython's <code>ProteinAnalysis</code> using the Kyte-Doolittle hydrophobicity scale:</p>
+<ul>
+<li><strong>GRAVY (Grand Average of Hydropathy):</strong> Positive values indicate hydrophobicity. Proteins with GRAVY &gt; 0.2 have strong aggregation propensity in aqueous environments — they will precipitate before reaching their target.</li>
+<li><strong>Instability Index:</strong> Values &gt; 40 indicate a potentially unstable protein in vitro. Values &gt; 50 indicate rapid proteolytic degradation in vivo.</li>
+</ul>
+<p>A protein passing all four gates is both structurally foldable <strong>and</strong> biologically survivable in the human body. This dual requirement eliminates the vast majority of computationally attractive but practically useless sequences.</p>
+<hr />
+<h2 id="16-what-is-missing-the-honest-gap-analysis">16. What is Missing: The Honest Gap Analysis<a class="headerlink" href="#16-what-is-missing-the-honest-gap-analysis" title="Permanent link">&para;</a></h2>
+<p>This is the most important section. The system has significant capabilities, but it also has significant gaps that must be acknowledged honestly.</p>
+<h3 id="missing-1-real-neural-network-inference-highest-priority">Missing #1: Real Neural Network Inference (Highest Priority)<a class="headerlink" href="#missing-1-real-neural-network-inference-highest-priority" title="Permanent link">&para;</a></h3>
+<p><strong>What it is:</strong> The ProteinMPNN, ESM-3, and RFdiffusion models are interfaced via adapters that currently run in simulation mode — generating biologically plausible but not neural-network-generated sequences.</p>
+<p><strong>Why it's missing:</strong> Running real inference requires either local GPU hardware (NVIDIA A100 or better for ESM-3, RTX 4090 for ProteinMPNN) or cloud GPU instances ($0.90-3.50/hour on Lambda Labs, Vast.ai, or AWS).</p>
+<p><strong>How to fix it:</strong>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="c1"># ProteinMPNN — runs on a MacBook CPU (slowly)</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/dauparas/ProteinMPNN.git
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="nb">cd</span><span class="w"> </span>ProteinMPNN<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a><span class="c1"># → Plug into protein_mpnn.py adapter</span>
+</span><span id="__span-15-5"><a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a>
+</span><span id="__span-15-6"><a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a><span class="c1"># ESM-3 — requires GPU or EvolutionaryScale API (free tier available)</span>
+</span><span id="__span-15-7"><a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a>pip<span class="w"> </span>install<span class="w"> </span>esm
+</span><span id="__span-15-8"><a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a><span class="c1"># → Plug into esm_adapter.py using esm.ESM3.from_pretrained("esmc_600m")</span>
+</span></code></pre></div></p>
+<p><strong>Cost:</strong> ProteinMPNN inference on CPU: ~5 minutes per candidate batch. EvolutionaryScale API: free tier allows 1,000 tokens/day — sufficient for testing. Cloud GPU for full production run: $15-50 per 100-candidate screen.</p>
+<h3 id="missing-2-actual-structural-validation-against-alphafold">Missing #2: Actual Structural Validation Against AlphaFold<a class="headerlink" href="#missing-2-actual-structural-validation-against-alphafold" title="Permanent link">&para;</a></h3>
+<p><strong>What it is:</strong> Self-consistency RMSD is currently estimated from a physical simulation model. True scRMSD requires actually re-folding each designed sequence with ESMFold or AlphaFold2 and computing RMSD against the target pocket.</p>
+<p><strong>How to fix it:</strong> ESMFold can be called via the ESM library (4GB GPU, ~2 seconds per sequence). This is the natural integration point once the ESM adapter is connected.</p>
+<h3 id="missing-3-molecular-docking-validation">Missing #3: Molecular Docking Validation<a class="headerlink" href="#missing-3-molecular-docking-validation" title="Permanent link">&para;</a></h3>
+<p><strong>What it is:</strong> After generating a candidate sequence and confirming it folds into the right backbone, the next validation step is computing whether it actually <em>binds</em> to the target substrate at the predicted active site. This requires molecular docking software (AutoDock Vina, Glide, or GNINA) to compute the binding pose and predicted affinity (ΔG in kcal/mol).</p>
+<p><strong>Why it matters:</strong> A protein could fold perfectly and have the correct topology yet fail to bind glucosepane because the electrostatics are wrong, the water molecules form unfavorable hydrogen bonds, or there's a steric clash that wasn't visible at the backbone level.</p>
+<p><strong>How to fix it:</strong> Add a Layer 6 (<code>analysis/docking.py</code>) that calls AutoDock Vina (free, runs on CPU) with the generated PDB structure and the glucosepane .sdf file as inputs. This would produce docking scores (ΔG &lt; -8 kcal/mol indicates strong binding) and binding pose visualizations.</p>
+<h3 id="missing-4-wet-lab-integration-protocol">Missing #4: Wet Lab Integration Protocol<a class="headerlink" href="#missing-4-wet-lab-integration-protocol" title="Permanent link">&para;</a></h3>
+<p><strong>What it is:</strong> The engine generates <code>.fasta</code> files with candidate amino acid sequences. Converting these into actual proteins requires experimental molecular biology. The engine currently has no protocol or documentation for this step.</p>
+<p><strong>What it would require:</strong>
+1. <strong>Gene synthesis</strong> (Twist Bioscience, ~<span class="arithmatex">\(0.08/bp): For a 240 AA protein, ~\)</span>60 per gene
+2. <strong>E. coli expression vector cloning</strong> (BL21 DE3 expression strain)
+3. <strong>IPTG-induced protein expression and Ni-NTA purification</strong>
+4. <strong>Activity assay</strong>: Incubate purified enzyme with synthetic glucosepane crosslinks (SENS Research Foundation has validated assays), measure UV absorbance change at 340 nm</p>
+<p>This wet lab pipeline costs approximately **<span class="arithmatex">\(500-2,000 per candidate** for initial validation. With 24 candidates currently in the system for glucosepane, a complete first-round validation would cost ~\)</span>12,000-48,000 — well within the budget of a small biotech grant.</p>
+<h3 id="missing-5-continuous-literature-monitoring">Missing #5: Continuous Literature Monitoring<a class="headerlink" href="#missing-5-continuous-literature-monitoring" title="Permanent link">&para;</a></h3>
+<p><strong>What it is:</strong> The knowledge graph is a static snapshot. As new papers are published, the graph becomes stale. A continuously updated gap analysis would need incremental ingestion.</p>
+<p><strong>How to fix it:</strong> Implement a scheduled ingestion job (daily or weekly) using NCBI's E-utilities <code>esearch</code> with a <code>reldate</code> parameter to retrieve only papers published in the last N days. This is a ~50-line addition to <code>pubmed.py</code>.</p>
+<h3 id="missing-6-a-graph-version-control-system">Missing #6: A Graph Version Control System<a class="headerlink" href="#missing-6-a-graph-version-control-system" title="Permanent link">&para;</a></h3>
+<p><strong>What it is:</strong> Every <code>uid ingest</code> → <code>uid build-graph</code> cycle overwrites the existing <code>.graphml</code> file. There's a single <code>.bak</code> backup. For a system tracking the evolution of scientific knowledge over months, this is inadequate.</p>
+<p><strong>How to fix it:</strong> Integrate DVC (Data Version Control) — a Git-compatible tool for versioning large binary files including graph snapshots. This would allow rolling back to any historical graph state and tracking exactly which papers caused which edges to change status.</p>
+<h3 id="missing-7-multi-target-compound-effects-off-target-analysis">Missing #7: Multi-Target Compound Effects (Off-Target Analysis)<a class="headerlink" href="#missing-7-multi-target-compound-effects-off-target-analysis" title="Permanent link">&para;</a></h3>
+<p><strong>What it is:</strong> The current system evaluates candidates against a single target in isolation. A glucosepane-cleaving enzyme might also cleave other amide bonds in native collagen — potentially damaging rather than repairing the extracellular matrix. The engine currently has no mechanism for assessing off-target activity.</p>
+<p><strong>How to fix it:</strong> Add a cross-target docking pipeline that screens generated candidates against a library of off-target proteins and substrates, flagging candidates with predicted off-target activity above a threshold.</p>
+<hr />
+<h2 id="17-cost-analysis-running-the-engine">17. Cost Analysis: Running the Engine<a class="headerlink" href="#17-cost-analysis-running-the-engine" title="Permanent link">&para;</a></h2>
+<h3 id="monthly-operating-cost-current">Monthly Operating Cost (Current)<a class="headerlink" href="#monthly-operating-cost-current" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Resource</th>
+<th style="text-align: left;">Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">PubMed (NCBI)</td>
+<td style="text-align: left;">$0</td>
+</tr>
+<tr>
+<td style="text-align: left;">UniProt REST API</td>
+<td style="text-align: left;">$0</td>
+</tr>
+<tr>
+<td style="text-align: left;">KEGG (Academic)</td>
+<td style="text-align: left;">$0</td>
+</tr>
+<tr>
+<td style="text-align: left;">ChEMBL REST API</td>
+<td style="text-align: left;">$0</td>
+</tr>
+<tr>
+<td style="text-align: left;">AlphaFold EBI</td>
+<td style="text-align: left;">$0</td>
+</tr>
+<tr>
+<td style="text-align: left;">Gemini Flash (500 papers × $0.0002)</td>
+<td style="text-align: left;">~$0.10</td>
+</tr>
+<tr>
+<td style="text-align: left;">GitHub (free tier)</td>
+<td style="text-align: left;">$0</td>
+</tr>
+<tr>
+<td style="text-align: left;">Local computation (MacBook)</td>
+<td style="text-align: left;">$0</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Total</strong></td>
+<td style="text-align: left;"><strong>~$0.10/month</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="scaling-costs-moving-to-real-gpu-inference">Scaling Costs (Moving to Real GPU Inference)<a class="headerlink" href="#scaling-costs-moving-to-real-gpu-inference" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Resource</th>
+<th style="text-align: left;">Estimated Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">ProteinMPNN (CPU, Lambda Labs)</td>
+<td style="text-align: left;">$2-5/batch of 100 sequences</td>
+</tr>
+<tr>
+<td style="text-align: left;">ESMFold self-consistency validation</td>
+<td style="text-align: left;">$0.01-0.05/sequence</td>
+</tr>
+<tr>
+<td style="text-align: left;">RFdiffusion All-Atom (A100 GPU, 1 hour)</td>
+<td style="text-align: left;">$1.50-3.50/run</td>
+</tr>
+<tr>
+<td style="text-align: left;">AutoDock Vina molecular docking</td>
+<td style="text-align: left;">$0 (free, CPU-based)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Full validation run (100 candidates/target)</strong></td>
+<td style="text-align: left;"><strong>~$50-150</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The system was architecturally designed to be <strong>hardware-agnostic</strong>: local simulation for development, cloud GPU for production validation runs. This means the project can be developed to maturity at effectively zero cost, with GPU expenses deferred to the specific moment when a batch of candidates is ready for rigorous validation.</p>
+<hr />
+<h2 id="18-how-practical-is-this-a-reality-check">18. How Practical is This? A Reality Check<a class="headerlink" href="#18-how-practical-is-this-a-reality-check" title="Permanent link">&para;</a></h2>
+<h3 id="the-realistic-pathway-from-current-code-to-clinical-relevance">The Realistic Pathway from Current Code to Clinical Relevance<a class="headerlink" href="#the-realistic-pathway-from-current-code-to-clinical-relevance" title="Permanent link">&para;</a></h3>
+<p><strong>Stage 1: Computational (Now) — Cost: ~$0</strong>
+The system is here. It generates candidate sequences, scores them computationally, and formally registers them as testable hypotheses in the knowledge graph.</p>
+<p>**Stage 2: Initial Wet Lab Validation — Cost: ~<span class="arithmatex">\(15,000-50,000**
+A few dozen candidates are synthesized and expressed. Activity assays confirm whether any candidates have measurable glucosepanase activity (even 1% of the necessary kcat/Km would be a historic first). This work could be done as a collaboration with a university protein engineering lab or funded through a small NIH SBIR grant (~\)</span>150,000 for Phase I).</p>
+<p><strong>Stage 3: Protein Engineering Iteration — Cost: ~$100,000-500,000</strong>
+Active candidates undergo directed evolution (error-prone PCR, phage display) to improve kcat, Km, thermostability, and serum half-life to therapeutically relevant levels. This is the same process Genentech and Novo Nordisk use for every enzyme therapeutic on the market.</p>
+<p><strong>Stage 4: Preclinical Validation — Cost: $1-5M</strong>
+In vitro crosslink cleavage in aged human tissue samples (skin biopsies, arterial rings). Toxicity assessment. Confirmation of arterial compliance restoration in aged rodent models.</p>
+<p><strong>Stage 5: IND Filing and Clinical Trials — Cost: $50-500M</strong>
+This is where pharmaceutical company partnership or Series A fundraising is required.</p>
+<h3 id="where-the-engines-practicality-is-genuine">Where the Engine's Practicality is Genuine<a class="headerlink" href="#where-the-engines-practicality-is-genuine" title="Permanent link">&para;</a></h3>
+<p>The most practical, immediate use of the system is not drug discovery per se — it is <strong>research prioritization and literature synthesis</strong>. Right now, a biogerontologist studying glucosepane must manually survey the literature, mentally model the causal prerequisites, and intuit what is missing. The UID Engine automates this and produces a machine-readable priority ranking in minutes. This alone is a legitimate scientific tool.</p>
+<p>The second practical use is <strong>hypothesis formalization</strong>. The gap from "we know this is missing" to "we have a specific computational candidate with defined sequence and predicted structure that could fill this gap" is enormous. Moving 24 candidate glucosepane-cleaving enzymes from null hypothesis to formally registered computational candidates represents real scientific progress — regardless of whether any individual candidate turns out to work in a test tube.</p>
+<h3 id="where-the-engines-limitations-are-real">Where the Engine's Limitations Are Real<a class="headerlink" href="#where-the-engines-limitations-are-real" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>The simulation is not real inference.</strong> Until ProteinMPNN/ESM-3 are plugged in with actual weights, the candidate sequences are biologically plausible but not neural-network-optimized.</li>
+<li><strong>Glucosepane is genuinely hard.</strong> The best structural biologists in the world have not solved it in 15 years of trying. No software engine changes the underlying biochemistry.</li>
+<li><strong>The YAML chains are expert-encoded.</strong> Someone with deep domain knowledge had to write the causal prerequisite trees. The engine does not automatically discover causal relationships — it evaluates them. Automatic causal discovery from literature is a separate (harder) problem.</li>
+<li><strong>The graph is not self-updating.</strong> It needs manual ingestion triggers. Without continuous monitoring, it will diverge from the current literature.</li>
+</ol>
+<hr />
+<h2 id="19-the-roadmap-what-needs-to-happen-next">19. The Roadmap: What Needs to Happen Next<a class="headerlink" href="#19-the-roadmap-what-needs-to-happen-next" title="Permanent link">&para;</a></h2>
+<p>In order of priority and engineering complexity:</p>
+<h3 id="phase-i-connect-real-generative-models-1-2-weeks">Phase I — Connect Real Generative Models (1-2 weeks)<a class="headerlink" href="#phase-i-connect-real-generative-models-1-2-weeks" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>• Integrate ProteinMPNN weights (50 MB download, runs on CPU)
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>• Integrate ESM SDK for ESMFold self-consistency (requires pip install esm)
+</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>• Migrate esm_adapter.py from simulation to real API calls
+</span></code></pre></div>
+<h3 id="phase-ii-molecular-docking-layer-2-3-weeks">Phase II — Molecular Docking Layer (2-3 weeks)<a class="headerlink" href="#phase-ii-molecular-docking-layer-2-3-weeks" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>• Add analysis/docking.py using AutoDock Vina Python bindings
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>• Screen all passing candidates against their target substrates
+</span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>• Add ΔG binding affinity as a 5th quality gate (ΔG &lt; -7 kcal/mol)
+</span></code></pre></div>
+<h3 id="phase-iii-continuous-literature-monitoring-1-week">Phase III — Continuous Literature Monitoring (1 week)<a class="headerlink" href="#phase-iii-continuous-literature-monitoring-1-week" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>• Add scheduled incremental ingestion with NCBI reldate parameter
+</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>• Implement graph diff detection: flag when new papers change UNKNOWN → PROVEN
+</span><span id="__span-18-3"><a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>• Email notification when a Negative Space gap is filled by new publication
+</span></code></pre></div>
+<h3 id="phase-iv-amylosens-domain-2-3-weeks">Phase IV — AmyloSENS Domain (2-3 weeks)<a class="headerlink" href="#phase-iv-amylosens-domain-2-3-weeks" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>• Write chains/amyloid_aggregates.yaml (transthyretin, amyloid-beta, IAPP)
+</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>• Add UniProt queries for amyloid chaperones and disaggregases
+</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a>• Target: tau phosphorylation cascade, TTR tetramer stabilization
+</span></code></pre></div>
+<h3 id="phase-v-graph-version-control-1-week">Phase V — Graph Version Control (1 week)<a class="headerlink" href="#phase-v-graph-version-control-1-week" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>• Integrate DVC for graph snapshot versioning
+</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>• Track graph evolution over time
+</span><span id="__span-20-3"><a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a>• Enable "what changed since last month?" analysis
+</span></code></pre></div>
+<h3 id="phase-vi-web-api-2-4-weeks">Phase VI — Web API (2-4 weeks)<a class="headerlink" href="#phase-vi-web-api-2-4-weeks" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>• Expose the gap detector as a FastAPI REST endpoint
+</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>• Enable external tools to query: "what gaps exist for target X?"
+</span><span id="__span-21-3"><a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>• Enable the visualizer to serve graphs from a URL rather than static file
+</span></code></pre></div>
+<h3 id="phase-vii-wet-lab-protocol-documentation-1-2-weeks">Phase VII — Wet Lab Protocol Documentation (1-2 weeks)<a class="headerlink" href="#phase-vii-wet-lab-protocol-documentation-1-2-weeks" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>• Write FASTA → Gene synthesis → Expression → Assay protocol
+</span><span id="__span-22-2"><a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>• Partner with a university protein engineering lab
+</span><span id="__span-22-3"><a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>• Apply for NIH SBIR Phase I grant
+</span></code></pre></div>
+<hr />
+<h2 id="20-the-bigger-picture-why-this-matters">20. The Bigger Picture: Why This Matters<a class="headerlink" href="#20-the-bigger-picture-why-this-matters" title="Permanent link">&para;</a></h2>
+<p>There is a quiet revolution happening at the intersection of large-scale language models, protein structure prediction, and computational biology. AlphaFold solved protein structure prediction in 2021. ESM-3 generated functional fluorescent proteins in 2024. RFdiffusion is designing metal-binding proteins and enzyme active sites that do not exist in nature. The tools to <em>invent</em> new biology computationally — not just understand existing biology — are materializing in real time.</p>
+<p>But these tools are scattered. A structural biologist knows AlphaFold. A protein engineer knows ProteinMPNN. A pharmacologist knows ChEMBL. A longevity researcher knows the SENS framework. No one has built the vertical integration that takes a biological aging problem — formally defined as a set of causal prerequisites — maps it to the specific knowledge voids that prevent its solution, and then automatically directs the generative tools at those voids.</p>
+<p>That is what the UID Engine is attempting to build.</p>
+<p>It is not a magic box that will cure aging. It is a <strong>systematic epistemic amplifier</strong> — a computational instrument that makes it faster, cheaper, and more precise to identify what biology knows, what it does not know, and what computationally designed molecules could potentially fill those gaps.</p>
+<p>The glucosepane gap has been known since the 1990s. Thirty-five years later, no one has solved it. Perhaps the correct glucosepane-cleaving enzyme configuration simply has never been searched. The UID Engine, with real generative model integration, could search 100,000 candidate configurations in the time it would take a human chemist to design three. If one of those candidates is active — even weakly active — it becomes the starting point for a directed evolution campaign that could, within a decade, produce a clinical therapy that restores arterial compliance to human arteries.</p>
+<p>That would be the first time in history that a human artifact — a piece of software — directly identified a molecular solution to one of the hallmarks of biological aging.</p>
+<hr />
+<h2 id="technical-summary-card">Technical Summary Card<a class="headerlink" href="#technical-summary-card" title="Permanent link">&para;</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>System:     Universal Inverse Design Engine (uid-engine)
+</span><span id="__span-23-2"><a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>Version:    v0.6.0
+</span><span id="__span-23-3"><a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>Language:   Python 3.11+
+</span><span id="__span-23-4"><a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a>Tests:      125/125 passing (0.88s)
+</span><span id="__span-23-5"><a id="__codelineno-23-5" name="__codelineno-23-5" href="#__codelineno-23-5"></a>GitHub:     thokchomlolet03-cpu/universal-inverse-design
+</span><span id="__span-23-6"><a id="__codelineno-23-6" name="__codelineno-23-6" href="#__codelineno-23-6"></a>
+</span><span id="__span-23-7"><a id="__codelineno-23-7" name="__codelineno-23-7" href="#__codelineno-23-7"></a>Architecture:
+</span><span id="__span-23-8"><a id="__codelineno-23-8" name="__codelineno-23-8" href="#__codelineno-23-8"></a>  Layer 1:  Knowledge Graph (NetworkX DiGraph, 9 node types, 11 edge types)
+</span><span id="__span-23-9"><a id="__codelineno-23-9" name="__codelineno-23-9" href="#__codelineno-23-9"></a>  Layer 2:  Negative Space Detector (O(1) edge index, YAML causal chains)
+</span><span id="__span-23-10"><a id="__codelineno-23-10" name="__codelineno-23-10" href="#__codelineno-23-10"></a>  Layer 3:  De Novo Spec Compiler (RDKit ETKDGv3 + MMFF94, .sdf output)
+</span><span id="__span-23-11"><a id="__codelineno-23-11" name="__codelineno-23-11" href="#__codelineno-23-11"></a>  Layer 4:  Generative Orchestrator (ESM-3 / ProteinMPNN adapters)
+</span><span id="__span-23-12"><a id="__codelineno-23-12" name="__codelineno-23-12" href="#__codelineno-23-12"></a>  Layer 5:  Epistemic Loop Closure (HYPOTHESIZED graph injection)
+</span><span id="__span-23-13"><a id="__codelineno-23-13" name="__codelineno-23-13" href="#__codelineno-23-13"></a>
+</span><span id="__span-23-14"><a id="__codelineno-23-14" name="__codelineno-23-14" href="#__codelineno-23-14"></a>SENS Domains:
+</span><span id="__span-23-15"><a id="__codelineno-23-15" name="__codelineno-23-15" href="#__codelineno-23-15"></a>  • GlycoSENS (glucosepane) — 9 gaps detected, 24 candidates generated
+</span><span id="__span-23-16"><a id="__codelineno-23-16" name="__codelineno-23-16" href="#__codelineno-23-16"></a>  • ApoptoSENS (senescent cells) — 8 gaps detected
+</span><span id="__span-23-17"><a id="__codelineno-23-17" name="__codelineno-23-17" href="#__codelineno-23-17"></a>  • MitoSENS (mitochondrial mutations) — 8 gaps detected
+</span><span id="__span-23-18"><a id="__codelineno-23-18" name="__codelineno-23-18" href="#__codelineno-23-18"></a>
+</span><span id="__span-23-19"><a id="__codelineno-23-19" name="__codelineno-23-19" href="#__codelineno-23-19"></a>Dependencies:
+</span><span id="__span-23-20"><a id="__codelineno-23-20" name="__codelineno-23-20" href="#__codelineno-23-20"></a>  networkx&gt;=3.2, biopython&gt;=1.83, rdkit&gt;=2026, requests&gt;=2.31
+</span><span id="__span-23-21"><a id="__codelineno-23-21" name="__codelineno-23-21" href="#__codelineno-23-21"></a>  rich&gt;=13.7, python-dotenv&gt;=1.0
+</span><span id="__span-23-22"><a id="__codelineno-23-22" name="__codelineno-23-22" href="#__codelineno-23-22"></a>
+</span><span id="__span-23-23"><a id="__codelineno-23-23" name="__codelineno-23-23" href="#__codelineno-23-23"></a>Operating Cost: ~$0.10/month (all APIs are free/open-source)
+</span><span id="__span-23-24"><a id="__codelineno-23-24" name="__codelineno-23-24" href="#__codelineno-23-24"></a>GPU Cost:       ~$50-150 per full generative validation run
+</span><span id="__span-23-25"><a id="__codelineno-23-25" name="__codelineno-23-25" href="#__codelineno-23-25"></a>Wet Lab Cost:   ~$500-2,000 per candidate (gene synthesis + expression)
+</span></code></pre></div>
+<hr />
+<p><em>This system is open source. The ambition is explicit: build a computational infrastructure that can be run for essentially zero cost and that formally maps the epistemic boundary between what aging biology knows and what it needs to know. Every gap in that map is a research direction. Every candidate in the graph is a hypothesis. Every hypothesis is a step toward the day when aging is no longer an inevitable terminus, but an engineering problem with known solutions.</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Home
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../02_engineering_manifesto/" class="md-footer__link md-footer__link--next" aria-label="Next: Engineering Manifesto">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Engineering Manifesto
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Thokchom Lolet Singh
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/thokchomlolet03-cpu" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://linkedin.com" target="_blank" rel="noopener" title="linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.code.annotate", "content.tooltips"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
