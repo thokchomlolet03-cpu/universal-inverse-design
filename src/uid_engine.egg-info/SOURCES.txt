@@ -19,3 +19,7 @@ src/uid_engine/graph/entities.py
 src/uid_engine/graph/schema.py
 src/uid_engine/graph/store.py
 src/uid_engine/ingest/__init__.py
+src/uid_engine/ingest/chembl.py
+src/uid_engine/ingest/kegg.py
+src/uid_engine/ingest/pubmed.py
+src/uid_engine/ingest/uniprot.py

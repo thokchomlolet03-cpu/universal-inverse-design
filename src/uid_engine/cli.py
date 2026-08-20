@@ -1,15 +1,17 @@
 """Command-line interface for the Universal Inverse Design Engine.
 
 Usage:
-    uid mock-test     Run the full pipeline with mock data (Phase A/B test)
-    uid ingest        Ingest data from all APIs for a target
-    uid build-graph   Build/update the knowledge graph from ingested data
-    uid detect-gaps   Run the negative space detector
-    uid report        Generate the epistemic gap report
-    uid pipeline      Run the full pipeline: ingest → build → detect → report
+    uid mock-test
+    uid ingest        --target glucosepane [--max-papers 500]
+    uid build-graph   --target glucosepane
+    uid detect-gaps   --target glucosepane [--chain chains/glucosepane.yaml]
+    uid report        --target glucosepane [--chain chains/glucosepane.yaml] [--output reports/]
+    uid pipeline      --target glucosepane [--chain chains/glucosepane.yaml] [--dry-run]
 """
 
+import argparse
 import sys
+from pathlib import Path
 
 from rich.console import Console
 from rich.panel import Panel
@@ -20,6 +22,7 @@ from uid_engine.graph.store import save_graph, load_graph
 from uid_engine.analysis.causal_chains import build_glucosepane_repair_chain
 from uid_engine.analysis.gap_detector import NegativeSpaceDetector
 from uid_engine.analysis.reporter import GapReporter
+from uid_engine.chains.registry import CausalChainRegistry, ChainValidationError
 from uid_engine.ingest.pubmed import ingest_pubmed, load_papers
 from uid_engine.ingest.uniprot import ingest_uniprot, load_proteins
 from uid_engine.ingest.kegg import ingest_kegg, load_pathways
@@ -67,13 +70,13 @@ def cmd_mock_test():
 
 # ─── Phase C: Real Data Ingestion ────────────────────────────────────────────────
 
-def cmd_ingest(target: str = "glucosepane"):
+def cmd_ingest(target: str = "glucosepane", max_papers: int | None = None):
     """Ingest data from all 4 APIs for a given target."""
     print_banner()
     console.print(f"\n[bold]Phase C: Data Ingestion — {target}[/bold]\n")
 
     # 1. PubMed
-    papers = ingest_pubmed(target)
+    papers = ingest_pubmed(target, max_results=max_papers)
 
     # 2. UniProt
     proteins = ingest_uniprot(target)
@@ -360,50 +363,50 @@ def _add_chembl_to_graph(graph: EpistemicGraph, target: str):
 
 # ─── Gap Detection & Reporting ───────────────────────────────────────────────────
 
-def cmd_detect_gaps():
+def cmd_detect_gaps(chain=None):
     """Run the Negative Space Detector on the current graph."""
     print_banner()
     graph = load_graph()
-    causal_chain = build_glucosepane_repair_chain()
+    causal_chain = chain or build_glucosepane_repair_chain()
     detector = NegativeSpaceDetector(graph)
     gaps = detector.detect_gaps(causal_chain)
     _print_gaps(gaps)
     return graph, gaps
 
 
-def cmd_report():
+def cmd_report(chain=None, output_dir=None):
     """Generate the epistemic gap report."""
     print_banner()
     graph = load_graph()
-    causal_chain = build_glucosepane_repair_chain()
+    causal_chain = chain or build_glucosepane_repair_chain()
     detector = NegativeSpaceDetector(graph)
     gaps = detector.detect_gaps(causal_chain)
     reporter = GapReporter(graph, gaps)
-    report_path = reporter.save_report()
+    report_path = reporter.save_report(output_dir=output_dir)
     _print_complete(len(gaps), report_path)
 
 
-def cmd_pipeline(target: str = "glucosepane"):
+def cmd_pipeline(target: str = "glucosepane", chain=None, max_papers=None, output_dir=None):
     """Run the full pipeline: ingest → build → detect → report."""
     print_banner()
     console.print(f"\n[bold]Full Pipeline: {target}[/bold]\n")
 
     # Step 1: Ingest
-    cmd_ingest(target)
+    cmd_ingest(target, max_papers=max_papers)
 
     # Step 2: Build graph
     cmd_build_graph(target)
 
     # Step 3: Detect gaps
     graph = load_graph()
-    causal_chain = build_glucosepane_repair_chain()
+    causal_chain = chain or build_glucosepane_repair_chain()
     detector = NegativeSpaceDetector(graph)
     gaps = detector.detect_gaps(causal_chain)
     _print_gaps(gaps)
 
     # Step 4: Generate report
     reporter = GapReporter(graph, gaps)
-    report_path = reporter.save_report()
+    report_path = reporter.save_report(output_dir=output_dir)
     _print_complete(len(gaps), report_path)
 
 
@@ -430,39 +433,203 @@ def _print_complete(gap_count, report_path):
     ))
 
 
+def _resolve_chain(chain_arg: str | None, target: str):
+    """Resolve a causal chain from a --chain flag or the bundled registry.
+
+    If --chain is an explicit file path, load it directly.
+    Otherwise, look up the target name in the bundled chains/ directory.
+    Falls back to the hardcoded Python chain for 'glucosepane' if no YAML found.
+    """
+    registry = CausalChainRegistry()
+
+    if chain_arg:
+        path = Path(chain_arg)
+        if not path.exists():
+            console.print(f"[red]Chain file not found: {chain_arg}[/red]")
+            sys.exit(1)
+        try:
+            return registry.load_from_path(path)
+        except ChainValidationError as e:
+            console.print(f"[red]Invalid chain file: {e}[/red]")
+            sys.exit(1)
+
+    # Try the bundled registry first
+    try:
+        return registry.load(target)
+    except FileNotFoundError:
+        # Graceful fallback: Python-built glucosepane chain (legacy)
+        if target == "glucosepane":
+            console.print(
+                "[yellow]No YAML chain found for 'glucosepane' in registry — "
+                "using built-in Python chain[/yellow]"
+            )
+            return build_glucosepane_repair_chain()
+        console.print(
+            f"[red]No chain found for target '{target}'. "
+            f"Create chains/{target}.yaml or use --chain to specify a custom chain.[/red]"
+        )
+        sys.exit(1)
+
+
 def main():
     """Main CLI entry point."""
     config.ensure_dirs()
-    if len(sys.argv) < 2:
-        print_banner()
-        console.print("\nUsage: uid <command> [target]\n")
-        console.print("Commands:")
-        console.print("  [cyan]mock-test[/cyan]      Run full pipeline with mock data")
-        console.print("  [cyan]ingest[/cyan]         Ingest data from PubMed, UniProt, KEGG, ChEMBL")
-        console.print("  [cyan]build-graph[/cyan]    Build knowledge graph from ingested data")
-        console.print("  [cyan]detect-gaps[/cyan]    Run the Negative Space Detector")
-        console.print("  [cyan]report[/cyan]         Generate epistemic gap report")
-        console.print("  [cyan]pipeline[/cyan]       Run full pipeline (ingest → build → detect → report)")
-        console.print("\n  Default target: glucosepane")
-        return
 
-    command = sys.argv[1]
-    target = sys.argv[2] if len(sys.argv) > 2 else "glucosepane"
+    parser = argparse.ArgumentParser(
+        prog="uid",
+        description="Universal Inverse Design Engine — Finding what humanity doesn't know",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+examples:
+  uid mock-test
+  uid ingest --target glucosepane --max-papers 500
+  uid build-graph --target glucosepane
+  uid detect-gaps --target glucosepane
+  uid detect-gaps --target senescent_cells --chain chains/senescent_cells.yaml
+  uid report --target glucosepane --output reports/
+  uid pipeline --target glucosepane --dry-run
+""",
+    )
 
-    if command == "mock-test":
+    subparsers = parser.add_subparsers(dest="command", metavar="<command>")
+    subparsers.required = True
+
+    # ── Shared arguments ──────────────────────────────────────────────────
+    def add_target(p):
+        p.add_argument(
+            "--target", "-t",
+            default="glucosepane",
+            metavar="NAME",
+            help="Research target (default: glucosepane)",
+        )
+
+    def add_chain(p):
+        p.add_argument(
+            "--chain", "-c",
+            default=None,
+            metavar="PATH",
+            help="Path to a YAML causal chain file (default: auto-detect from target)",
+        )
+
+    def add_output(p):
+        p.add_argument(
+            "--output", "-o",
+            default=None,
+            metavar="DIR",
+            help="Output directory for reports (default: reports/)",
+        )
+
+    # ── Subcommands ───────────────────────────────────────────────────────
+    # mock-test
+    p_mock = subparsers.add_parser(
+        "mock-test",
+        help="Run full pipeline with mock data (Phase A/B integration test)",
+    )
+
+    # ingest
+    p_ingest = subparsers.add_parser(
+        "ingest",
+        help="Ingest data from PubMed, UniProt, KEGG, and ChEMBL",
+    )
+    add_target(p_ingest)
+    p_ingest.add_argument(
+        "--max-papers", "-n",
+        type=int,
+        default=None,
+        metavar="N",
+        help="Maximum PubMed papers to retrieve (default: config.MAX_PAPERS)",
+    )
+    p_ingest.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Preview what would be ingested without making API calls",
+    )
+
+    # build-graph
+    p_build = subparsers.add_parser(
+        "build-graph",
+        help="Build / incrementally update the knowledge graph from ingested data",
+    )
+    add_target(p_build)
+
+    # detect-gaps
+    p_detect = subparsers.add_parser(
+        "detect-gaps",
+        help="Run the Negative Space Detector and print detected epistemic gaps",
+    )
+    add_target(p_detect)
+    add_chain(p_detect)
+
+    # report
+    p_report = subparsers.add_parser(
+        "report",
+        help="Generate a Markdown epistemic gap report",
+    )
+    add_target(p_report)
+    add_chain(p_report)
+    add_output(p_report)
+
+    # pipeline
+    p_pipeline = subparsers.add_parser(
+        "pipeline",
+        help="Run the full pipeline: ingest → build-graph → detect-gaps → report",
+    )
+    add_target(p_pipeline)
+    add_chain(p_pipeline)
+    add_output(p_pipeline)
+    p_pipeline.add_argument(
+        "--max-papers", "-n",
+        type=int,
+        default=None,
+        metavar="N",
+        help="Maximum PubMed papers to retrieve",
+    )
+    p_pipeline.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Preview the pipeline without making API calls or writing files",
+    )
+
+    args = parser.parse_args()
+
+    # ── Dispatch ──────────────────────────────────────────────────────────
+    if args.command == "mock-test":
         cmd_mock_test()
-    elif command == "ingest":
-        cmd_ingest(target)
-    elif command == "build-graph":
-        cmd_build_graph(target)
-    elif command == "detect-gaps":
-        cmd_detect_gaps()
-    elif command == "report":
-        cmd_report()
-    elif command == "pipeline":
-        cmd_pipeline(target)
-    else:
-        console.print(f"[red]Unknown command: {command}[/red]")
+
+    elif args.command == "ingest":
+        if getattr(args, "dry_run", False):
+            console.print(f"[dim]Dry run: would ingest '{args.target}' "
+                          f"(max_papers={args.max_papers or config.MAX_PAPERS})[/dim]")
+        else:
+            cmd_ingest(args.target, max_papers=getattr(args, "max_papers", None))
+
+    elif args.command == "build-graph":
+        cmd_build_graph(args.target)
+
+    elif args.command == "detect-gaps":
+        chain = _resolve_chain(getattr(args, "chain", None), args.target)
+        cmd_detect_gaps(chain=chain)
+
+    elif args.command == "report":
+        chain = _resolve_chain(getattr(args, "chain", None), args.target)
+        cmd_report(chain=chain, output_dir=getattr(args, "output", None))
+
+    elif args.command == "pipeline":
+        if getattr(args, "dry_run", False):
+            chain = _resolve_chain(getattr(args, "chain", None), args.target)
+            nodes = len([])
+            console.print(
+                f"[dim]Dry run: would run full pipeline for '{args.target}' "
+                f"using chain '{chain.node_id}'[/dim]"
+            )
+        else:
+            chain = _resolve_chain(getattr(args, "chain", None), args.target)
+            cmd_pipeline(
+                args.target,
+                chain=chain,
+                max_papers=getattr(args, "max_papers", None),
+                output_dir=getattr(args, "output", None),
+            )
 
 
 if __name__ == "__main__":

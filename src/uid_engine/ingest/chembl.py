@@ -15,6 +15,7 @@ import requests
 from rich.console import Console
 
 from uid_engine import config
+from uid_engine.utils.retry import retry_request
 
 console = Console()
 
@@ -68,8 +69,7 @@ def search_chembl_targets(query: str, limit: int = 25) -> list[dict]:
     params = {"q": query, "limit": limit}
 
     try:
-        response = requests.get(url, params=params, timeout=30)
-        response.raise_for_status()
+        response = retry_request("GET", url, params=params, timeout=30)
         data = response.json()
         targets = data.get("targets", [])
         return [_parse_target(t) for t in targets]
@@ -92,8 +92,7 @@ def search_chembl_compounds(query: str, limit: int = 25) -> list[dict]:
     params = {"q": query, "limit": limit}
 
     try:
-        response = requests.get(url, params=params, timeout=30)
-        response.raise_for_status()
+        response = retry_request("GET", url, params=params, timeout=30)
         data = response.json()
         molecules = data.get("molecules", [])
         return [_parse_compound(m) for m in molecules]
@@ -120,8 +119,7 @@ def fetch_bioactivity(target_chembl_id: str, limit: int = 100) -> list[dict]:
     }
 
     try:
-        response = requests.get(url, params=params, timeout=30)
-        response.raise_for_status()
+        response = retry_request("GET", url, params=params, timeout=30)
         data = response.json()
         activities = data.get("activities", [])
         return [_parse_activity(a) for a in activities]

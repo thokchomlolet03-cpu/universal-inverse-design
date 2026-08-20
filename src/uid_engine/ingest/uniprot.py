@@ -17,6 +17,7 @@ from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TaskProgressColumn
 
 from uid_engine import config
+from uid_engine.utils.retry import retry_request
 
 console = Console()
 
@@ -86,8 +87,7 @@ def search_uniprot(query: str, max_results: int = 50) -> list[dict]:
     }
 
     try:
-        response = requests.get(url, params=params, timeout=30)
-        response.raise_for_status()
+        response = retry_request("GET", url, params=params, timeout=30)
         data = response.json()
         return data.get("results", [])
     except requests.exceptions.RequestException as e:

@@ -15,6 +15,7 @@ import requests
 from rich.console import Console
 
 from uid_engine import config
+from uid_engine.utils.retry import retry_request
 
 console = Console()
 
@@ -64,16 +65,11 @@ def fetch_pathway_info(pathway_id: str) -> Optional[dict]:
         Dictionary with pathway metadata, or None on failure.
     """
     try:
-        # Get pathway description
         url = f"{BASE_URL}/get/{pathway_id}"
-        response = requests.get(url, timeout=30)
-        response.raise_for_status()
+        response = retry_request("GET", url, timeout=30)
         raw_text = response.text
-
-        # Parse the flat-file format
         pathway_data = _parse_kegg_flat(raw_text, pathway_id)
         return pathway_data
-
     except requests.exceptions.RequestException as e:
         console.print(f"[yellow]⚠ Failed to fetch pathway {pathway_id}: {e}[/yellow]")
         return None
@@ -90,9 +86,7 @@ def fetch_pathway_genes(pathway_id: str) -> list[dict]:
     """
     try:
         url = f"{BASE_URL}/link/genes/{pathway_id}"
-        response = requests.get(url, timeout=30)
-        response.raise_for_status()
-
+        response = retry_request("GET", url, timeout=30)
         genes = []
         for line in response.text.strip().split("\n"):
             if not line.strip():
@@ -101,9 +95,7 @@ def fetch_pathway_genes(pathway_id: str) -> list[dict]:
             if len(parts) >= 2:
                 gene_id = parts[1].strip()
                 genes.append({"kegg_gene_id": gene_id})
-
         return genes
-
     except requests.exceptions.RequestException as e:
         console.print(f"[yellow]⚠ Failed to fetch genes for {pathway_id}: {e}[/yellow]")
         return []
@@ -120,9 +112,7 @@ def fetch_pathway_compounds(pathway_id: str) -> list[dict]:
     """
     try:
         url = f"{BASE_URL}/link/compound/{pathway_id}"
-        response = requests.get(url, timeout=30)
-        response.raise_for_status()
-
+        response = retry_request("GET", url, timeout=30)
         compounds = []
         for line in response.text.strip().split("\n"):
             if not line.strip():
@@ -131,9 +121,7 @@ def fetch_pathway_compounds(pathway_id: str) -> list[dict]:
             if len(parts) >= 2:
                 compound_id = parts[1].strip()
                 compounds.append({"kegg_compound_id": compound_id})
-
         return compounds
-
     except requests.exceptions.RequestException as e:
         console.print(f"[yellow]⚠ Failed to fetch compounds for {pathway_id}: {e}[/yellow]")
         return []

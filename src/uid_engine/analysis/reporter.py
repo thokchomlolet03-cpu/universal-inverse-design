@@ -52,12 +52,24 @@ class GapReporter:
 
         return "\n\n".join(sections)
 
-    def save_report(self, target_name: str = "Glucosepane Crosslink Repair") -> Path:
-        """Generate and save the report to disk."""
+    def save_report(
+        self,
+        target_name: str = "Glucosepane Crosslink Repair",
+        output_dir: str | Path | None = None,
+    ) -> Path:
+        """Generate and save the report to disk.
+
+        Args:
+            target_name: Human-readable name for the report header.
+            output_dir: Directory to write the report into.
+                        Defaults to config.REPORTS_DIR.
+        """
         report = self.generate_report(target_name)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         filename = f"epistemic_gap_report_{timestamp}.md"
-        filepath = config.REPORTS_DIR / filename
+        out = Path(output_dir) if output_dir else config.REPORTS_DIR
+        out.mkdir(parents=True, exist_ok=True)
+        filepath = out / filename
         filepath.write_text(report, encoding="utf-8")
         console.print(f"[bold green]✓ Report saved to {filepath}[/bold green]")
         return filepath

@@ -18,6 +18,7 @@ from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TaskProgressColumn
 
 from uid_engine import config
+from uid_engine.utils.entrez_retry import entrez_fetch, entrez_search
 
 console = Console()
 
@@ -71,27 +72,22 @@ def search_pubmed(target: str, max_results: Optional[int] = None) -> list[str]:
 
     console.print(f"[cyan]Searching PubMed for '{target}' (max {max_results} results)...[/cyan]")
 
-    try:
-        handle = Entrez.esearch(
-            db="pubmed",
-            term=query,
-            retmax=max_results,
-            sort="relevance",
-            usehistory="y",
-        )
-        record = Entrez.read(handle)
-        handle.close()
-    except Exception as e:
-        console.print(f"[red]PubMed search failed: {e}[/red]")
+    record = entrez_search(
+        db="pubmed",
+        term=query,
+        retmax=max_results,
+        sort="relevance",
+        usehistory="y",
+    )
+    if record is None:
+        console.print("[red]PubMed search failed after retries — returning empty list[/red]")
         return []
 
     pmids = record.get("IdList", [])
     total_count = int(record.get("Count", 0))
-
     console.print(
         f"[green]Found {total_count} total papers, retrieving {len(pmids)}[/green]"
     )
-
     return pmids
 
 
@@ -129,18 +125,15 @@ def fetch_paper_details(pmids: list[str], batch_size: int = 50) -> list[dict]:
             end = min(start + batch_size, len(pmids))
             batch_pmids = pmids[start:end]
 
-            try:
-                handle = Entrez.efetch(
-                    db="pubmed",
-                    id=",".join(batch_pmids),
-                    rettype="xml",
-                    retmode="xml",
-                )
-                records = Entrez.read(handle)
-                handle.close()
-            except Exception as e:
-                console.print(f"[yellow]⚠ Batch {batch_idx + 1} failed: {e}[/yellow]")
-                time.sleep(rate_limit_delay * 2)
+            records = entrez_fetch(
+                db="pubmed",
+                id=",".join(batch_pmids),
+                rettype="xml",
+                retmode="xml",
+            )
+            if records is None:
+                console.print(f"[yellow]⚠ Batch {batch_idx + 1} skipped after retries[/yellow]")
+                progress.update(task, advance=len(batch_pmids))
                 continue
 
             # Parse each article in the batch
@@ -150,7 +143,8 @@ def fetch_paper_details(pmids: list[str], batch_size: int = 50) -> list[dict]:
                     papers.append(paper)
 
             progress.update(task, advance=len(batch_pmids))
-            time.sleep(rate_limit_delay)  # Rate limiting
+            # entrez_retry handles per-request delay; keep a small buffer for batch pacing
+            time.sleep(rate_limit_delay)
 
     console.print(f"[green]✓ Retrieved {len(papers)} papers with full metadata[/green]")
     return papers
