@@ -78,28 +78,34 @@ The unified system operates as a single, coordinated cognitive and generative en
 
 ```mermaid
 flowchart TD
-    subgraph Mangal ["PROJECT MANGAL (LIGHT)<br/>The Cognitive Cortex & Epistemic Compiler"]
+    %% Define main hemisphere containers
+    subgraph Mangal ["🧠 Project Mangal (Light) – Cognitive Cortex"]
         M1["1. Combinatorial Tensor Matrix<br/>10 Archetypes × 10 Elements × 10 Operations × 10 Scales = 10,000 Vectors"]
         M2["2. 3-Gate Multi-Layer Sieve<br/>• Gate 1: Fast O(1) Heuristic Purge<br/>• Gate 2: Anomaly / Leverage Scoring<br/>• Gate 3: Top-K Extraction"]
-        M3["3. Euclidean Vector Space Clusterer<br/>TF-IDF Cosine Clustering → Root-Cause Axiom"]
-        M4["4. Axiomatic Challenge Protocol<br/>4 Mutation Vectors: Invalidation | Expansion | Substitution | Symbiosis"]
-        M5["5. Autonomous Causal Chain Compiler<br/>Compiles schema-valid YAML causal specification"]
+        M3["3. Euclidean Vector Space Clusterer<br/>TF-IDF Cosine Clustering → Conceptual Paradigms"]
+        M4["4. Root-Cause Axiom Distiller<br/>Invariant Analysis Across Simulated Universes"]
+        M5["5. Axiomatic Challenge Protocol<br/>4 Mutation Vectors: Invalidation | Expansion | Substitution | Symbiosis"]
+        M6["6. Autonomous Causal Chain Compiler<br/>Compiles schema-valid YAML causal specification"]
         
-        M1 --> M2 --> M3 --> M4 --> M5
+        %% Interior Flow of Mangal Hemisphere
+        M1 --> M2 --> M3 --> M4 --> M5 --> M6
     end
 
-    subgraph UID ["UNIVERSAL INVERSE DESIGN ENGINE (UID)<br/>The Physical & Generative Laboratory"]
-        U6["6. Epistemic Ingestion Vault<br/>PubMed + UniProt + KEGG + ChEMBL + AlphaFold"]
-        U7["7. Negative Space Topological Detector<br/>O(1) Traversal → Detects CRITICAL / HIGH Gaps"]
-        U8["8. De Novo Design Spec Compiler<br/>RDKit ETKDGv3 ML + MMFF94 Energy Minimization"]
-        U9["9. Generative Inference Orchestrator<br/>ProteinMPNN (Masked Triad) + ESM-3 Adapter"]
-        U10["10. 4-Gate In Silico Biophysical QC<br/>pLDDT ≥ 80 | scRMSD ≤ 2.0 Å | Active Site | GRAVY ≤ 0.2"]
-        U11["11. Epistemic Loop Closure<br/>Knowledge Graph Injection → Gap Priority Downgrade"]
-        
-        U6 --> U7 --> U8 --> U9 --> U10 --> U11
-    end
+    %% Zero-Human-Touch Cybernetic Handoff
+    M6 ==>|Zero-Human-Touch YAML Handoff| U7
 
-    M5 ==>|Zero-Human-Touch Contract Handoff| U6
+    %% Define physical hemisphere containers
+    subgraph UID ["🔬 Universal Inverse Design Engine (UID) – Physical Laboratory"]
+        U7["7. Epistemic Ingestion Vault<br/>PubMed + UniProt + KEGG + ChEMBL + AlphaFold"]
+        U8["8. Negative Space Topological Detector<br/>O(1) Edge-Indexed Graph Traversal → Detects Gaps"]
+        U9["9. 3D De Novo Spec Compiler<br/>RDKit ETKDGv3 ML + MMFF94 Energy Minimization"]
+        U10["10. Generative Inference Orchestrator<br/>ProteinMPNN (Catalytic Triad Masking) + ESM-3"]
+        U11["11. 4-Gate In Silico Biophysical QC<br/>pLDDT ≥ 80 | scRMSD ≤ 2.0 Å | Active Site | GRAVY ≤ 0.2"]
+        U12["12. Epistemic Loop Closure<br/>Hypothesized Candidate Graph Injection → Gap Downgrade"]
+        
+        %% Interior Flow of UID Hemisphere
+        U7 --> U8 --> U9 --> U10 --> U11 --> U12
+    end
 ```
 
 ---
