@@ -29,6 +29,7 @@ from uid_engine.ingest.pubmed import ingest_pubmed, load_papers
 from uid_engine.ingest.uniprot import ingest_uniprot, load_proteins
 from uid_engine.ingest.kegg import ingest_kegg, load_pathways
 from uid_engine.ingest.chembl import ingest_chembl, load_chembl_data
+from uid_engine.ingest.alphafold import ingest_alphafold, load_alphafold_data
 from uid_engine.graph.entities import run_batch_extraction
 from uid_engine import config
 
@@ -89,11 +90,15 @@ def cmd_ingest(target: str = "glucosepane", max_papers: int | None = None):
     # 4. ChEMBL
     chembl = ingest_chembl(target)
 
+    # 5. AlphaFold (3D structures & pLDDT confidence for ingested proteins)
+    alphafold_models = ingest_alphafold(target)
+
     # Summary
     console.print(Panel.fit(
         f"[bold green]Ingestion complete![/bold green]\n\n"
         f"PubMed papers: [bold]{len(papers)}[/bold]\n"
         f"UniProt proteins: [bold]{len(proteins)}[/bold]\n"
+        f"AlphaFold structures: [bold]{len(alphafold_models)}[/bold]\n"
         f"KEGG pathways: [bold]{len(pathways)}[/bold]\n"
         f"ChEMBL targets: [bold]{len(chembl.get('targets', []))}[/bold]\n"
         f"ChEMBL compounds: [bold]{len(chembl.get('compounds', []))}[/bold]\n"
@@ -125,6 +130,7 @@ def cmd_build_graph(target: str = "glucosepane"):
     # Layer on new real data
     _add_papers_to_graph(graph, target)
     _add_proteins_to_graph(graph, target)
+    _add_alphafold_to_graph(graph, target)
     _add_pathways_to_graph(graph, target)
     _add_chembl_to_graph(graph, target)
 
@@ -278,6 +284,33 @@ def _add_proteins_to_graph(graph: EpistemicGraph, target: str):
         added += 1
 
     console.print(f"[green]  ✓ Added {added} proteins to graph[/green]")
+
+
+def _add_alphafold_to_graph(graph: EpistemicGraph, target: str):
+    """Enrich protein nodes with AlphaFold 3D structure predictions and pLDDT scores."""
+    try:
+        models = load_alphafold_data(target)
+    except FileNotFoundError:
+        console.print("[yellow]⚠ No AlphaFold data found. Run 'uid ingest' first.[/yellow]")
+        return
+
+    enriched = 0
+    for model in models:
+        acc = model.get("uniprot_accession", "")
+        if not acc:
+            continue
+
+        node_id = f"protein:{acc}"
+        if graph.has_node(node_id):
+            node_data = graph.get_node(node_id)
+            node_data["has_3d_structure"] = True
+            node_data["alphafold_plddt"] = float(model.get("mean_plddt", 0.0))
+            node_data["alphafold_confidence"] = model.get("confidence_category", "")
+            node_data["alphafold_pdb_url"] = model.get("pdb_url", "")
+            node_data["alphafold_entry_id"] = model.get("entry_id", "")
+            enriched += 1
+
+    console.print(f"[green]  ✓ Enriched {enriched} proteins with AlphaFold 3D structures[/green]")
 
 
 def _add_pathways_to_graph(graph: EpistemicGraph, target: str):

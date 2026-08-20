@@ -44,6 +44,9 @@ KEGG_BASE_URL = "https://rest.kegg.jp"
 # ChEMBL
 CHEMBL_BASE_URL = "https://www.ebi.ac.uk/chembl/api/data"
 
+# AlphaFold DB
+ALPHAFOLD_BASE_URL = "https://alphafold.ebi.ac.uk/api"
+
 # ─── LLM Configuration ──────────────────────────────────────────────────────────
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
