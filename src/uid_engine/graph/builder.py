@@ -41,9 +41,16 @@ class EpistemicGraph:
     # ─── Node Operations ────────────────────────────────────────────────────
 
     def add_node(self, node_data: NodeData) -> str:
-        """Add a typed node to the graph. Returns the node_id."""
+        """Add a typed node to the graph. Returns the node_id.
+
+        If a node with the same ID already exists, its attributes are
+        updated (NetworkX merge semantics) but the counter is NOT
+        incremented — preventing count drift.
+        """
+        is_new = node_data.node_id not in self.graph
         self.graph.add_node(node_data.node_id, **node_data.to_dict())
-        self._node_count += 1
+        if is_new:
+            self._node_count += 1
         return node_data.node_id
 
     def add_edge(self, source_id: str, target_id: str, edge_data: EdgeData) -> None:

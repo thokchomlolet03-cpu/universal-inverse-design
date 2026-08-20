@@ -11,18 +11,30 @@ from rich.console import Console
 
 from uid_engine import config
 from uid_engine.graph.builder import EpistemicGraph
+from uid_engine.graph.schema import SENS_DAMAGE_CATEGORIES
 from uid_engine.analysis.gap_detector import EpistemicGap, NegativeSpaceDetector
 from uid_engine.analysis.causal_chains import CausalNode
 
 console = Console()
 
+# Default target config — used when no target_config is passed
+_DEFAULT_TARGET_CONFIG = SENS_DAMAGE_CATEGORIES["extracellular_crosslinks"]
+
 
 class GapReporter:
     """Generates structured Markdown reports from detected epistemic gaps."""
 
-    def __init__(self, graph: EpistemicGraph, gaps: list[EpistemicGap]):
+    def __init__(
+        self,
+        graph: EpistemicGraph,
+        gaps: list[EpistemicGap],
+        target_config: dict | None = None,
+    ):
         self.graph = graph
         self.gaps = gaps
+        # Allow callers to pass a SENS_DAMAGE_CATEGORIES entry so reports
+        # stay accurate as the engine expands to new damage categories
+        self.target_config = target_config or _DEFAULT_TARGET_CONFIG
 
     def generate_report(self, target_name: str = "Glucosepane Crosslink Repair") -> str:
         """Generate a full Markdown report of all epistemic gaps."""
@@ -53,18 +65,22 @@ class GapReporter:
     # ─── Report Sections ────────────────────────────────────────────────────
 
     def _header(self, target_name: str, timestamp: str) -> str:
+        category_name = self.target_config.get("name", target_name)
+        description = self.target_config.get("description", "")
         return f"""# Epistemic Gap Report: {target_name}
 
 **Generated:** {timestamp}
 **Engine:** Universal Inverse Design Engine v0.1.0
-**Target:** SENS Damage Category — Extracellular Crosslinks (GlycoSENS)
+**Target:** SENS Damage Category — {category_name}
 
 ---
 
 > This report identifies what humanity **does not know** — the precise missing
 > scientific unknowns preventing us from solving {target_name.lower()}.
 > Each gap represents a concrete research target that, if solved, advances
-> humanity toward biological immortality."""
+> humanity toward biological immortality.
+>
+> **Target Background:** {description}"""
 
     def _executive_summary(self, stats: dict) -> str:
         critical = sum(1 for g in self.gaps if g.priority.value == "CRITICAL")

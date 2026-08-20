@@ -100,15 +100,24 @@ def cmd_ingest(target: str = "glucosepane"):
 # ─── Phase C: Build Graph from Real Data ─────────────────────────────────────────
 
 def cmd_build_graph(target: str = "glucosepane"):
-    """Build the knowledge graph from ingested real data."""
+    """Build the knowledge graph from ingested real data.
+
+    Loads the existing graph if one is already saved (incremental merge),
+    otherwise seeds from the mock graph which contains manually curated
+    SENS categories and core glucosepane facts.
+    """
     print_banner()
     console.print(f"\n[bold]Building Knowledge Graph from Real Data — {target}[/bold]\n")
 
-    # Start with the mock graph as foundation (it contains the SENS categories
-    # and core glucosepane facts that are manually curated)
-    graph = build_mock_glucosepane_graph()
+    # Incremental merge: load existing graph if it exists, otherwise seed from mock
+    try:
+        graph = load_graph()
+        console.print("[cyan]  ↺ Loaded existing graph for incremental merge[/cyan]")
+    except FileNotFoundError:
+        graph = build_mock_glucosepane_graph()
+        console.print("[cyan]  ⊕ Seeded from mock graph (first build)[/cyan]")
 
-    # Layer on real data
+    # Layer on new real data
     _add_papers_to_graph(graph, target)
     _add_proteins_to_graph(graph, target)
     _add_pathways_to_graph(graph, target)
@@ -423,6 +432,7 @@ def _print_complete(gap_count, report_path):
 
 def main():
     """Main CLI entry point."""
+    config.ensure_dirs()
     if len(sys.argv) < 2:
         print_banner()
         console.print("\nUsage: uid <command> [target]\n")

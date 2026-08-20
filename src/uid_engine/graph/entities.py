@@ -112,7 +112,12 @@ def _get_api_key() -> str:
 
 
 def extract_with_gemini(abstract: str, pmid: str = "") -> Optional[dict]:
-    """Call Google Gemini API with structured JSON output schema."""
+    """Call Google Gemini API with structured JSON output schema.
+
+    Uses API-level schema enforcement (response_schema) to guarantee
+    the LLM output conforms to EXTRACTION_JSON_SCHEMA. This prevents
+    malformed keys from crashing the graph builder.
+    """
     api_key = _get_api_key()
     if not api_key:
         return None
@@ -121,11 +126,14 @@ def extract_with_gemini(abstract: str, pmid: str = "") -> Optional[dict]:
         import google.generativeai as genai
         genai.configure(api_key=api_key)
         model = genai.GenerativeModel("gemini-1.5-flash")
-        
+
         prompt = f"{EXTRACTION_SYSTEM_PROMPT}\n\nAbstract (PMID: {pmid}):\n{abstract}"
         response = model.generate_content(
             prompt,
-            generation_config={"response_mime_type": "application/json"}
+            generation_config={
+                "response_mime_type": "application/json",
+                "response_schema": EXTRACTION_JSON_SCHEMA,
+            }
         )
         return json.loads(response.text)
     except Exception as e:
@@ -134,34 +142,36 @@ def extract_with_gemini(abstract: str, pmid: str = "") -> Optional[dict]:
 
 
 def extract_heuristic_fallback(abstract: str, pmid: str = "", title: str = "") -> dict:
-    """High-precision deterministic extractor used when no LLM API key is set."""
-    entities = []
-    causal_edges = []
+    """High-precision deterministic extractor used when no LLM API key is set.
+
+    Uses a seen-set to prevent duplicate entity_ids within a single
+    paper's extraction results (e.g., multiple tissue synonyms mapping
+    to the same tissue_id).
+    """
+    entities: list[dict] = []
+    causal_edges: list[dict] = []
+    seen_ids: set[str] = set()  # dedup guard
     text = (title + " " + abstract).lower()
+
+    def _add_entity(entity_id: str, etype: str, name: str, **extra: str) -> None:
+        """Add entity only if not already seen."""
+        if entity_id not in seen_ids:
+            seen_ids.add(entity_id)
+            ent = {"entity_id": entity_id, "type": etype, "name": name}
+            ent.update(extra)
+            entities.append(ent)
 
     # Core molecules
     if "glucosepane" in text:
-        entities.append({
-            "entity_id": "mol:glucosepane",
-            "type": "MOLECULE",
-            "name": "Glucosepane",
-        })
+        _add_entity("mol:glucosepane", "MOLECULE", "Glucosepane")
 
     if "collagen" in text:
-        entities.append({
-            "entity_id": "mol:collagen",
-            "type": "MOLECULE",
-            "name": "Collagen",
-        })
+        _add_entity("mol:collagen", "MOLECULE", "Collagen")
 
     if "elastin" in text:
-        entities.append({
-            "entity_id": "mol:elastin",
-            "type": "MOLECULE",
-            "name": "Elastin",
-        })
+        _add_entity("mol:elastin", "MOLECULE", "Elastin")
 
-    # Tissues
+    # Tissues — multiple synonyms can map to the same tissue_id
     for tissue_name, tissue_id in [
         ("artery", "tissue:arteries"),
         ("arterial", "tissue:arteries"),
@@ -174,16 +184,11 @@ def extract_heuristic_fallback(abstract: str, pmid: str = "", title: str = "") -
         ("myocardium", "tissue:heart"),
     ]:
         if tissue_name in text:
-            if not any(e["entity_id"] == tissue_id for e in entities):
-                entities.append({
-                    "entity_id": tissue_id,
-                    "type": "TISSUE",
-                    "name": tissue_name.capitalize(),
-                })
+            _add_entity(tissue_id, "TISSUE", tissue_name.capitalize())
 
     # Relationships
-    if any(e["entity_id"] == "mol:glucosepane" for e in entities):
-        if any(e["entity_id"] == "mol:collagen" for e in entities):
+    if "mol:glucosepane" in seen_ids:
+        if "mol:collagen" in seen_ids:
             if "crosslink" in text or "cross-link" in text or "crosslinking" in text:
                 causal_edges.append({
                     "source_id": "mol:glucosepane",
@@ -206,26 +211,14 @@ def extract_heuristic_fallback(abstract: str, pmid: str = "", title: str = "") -
 
     # Enzymes / Compounds mentioned
     if "fn3k" in text or "fructosamine-3-kinase" in text:
-        entities.append({
-            "entity_id": "protein:fructosamine_3_kinase",
-            "type": "PROTEIN",
-            "name": "Fructosamine-3-kinase",
-            "organism_source": "Homo sapiens",
-        })
+        _add_entity("protein:fructosamine_3_kinase", "PROTEIN",
+                    "Fructosamine-3-kinase", organism_source="Homo sapiens")
 
     if "alagebrium" in text or "alt-711" in text:
-        entities.append({
-            "entity_id": "mol:alagebrium",
-            "type": "MOLECULE",
-            "name": "Alagebrium (ALT-711)",
-        })
+        _add_entity("mol:alagebrium", "MOLECULE", "Alagebrium (ALT-711)")
 
     if "aminoguanidine" in text:
-        entities.append({
-            "entity_id": "mol:aminoguanidine",
-            "type": "MOLECULE",
-            "name": "Aminoguanidine",
-        })
+        _add_entity("mol:aminoguanidine", "MOLECULE", "Aminoguanidine")
 
     return {"entities": entities, "causal_edges": causal_edges}
 
@@ -253,8 +246,20 @@ def get_extractions_cache_path(target: str) -> Path:
     return config.RAW_DATA_DIR / f"extractions_{target}.json"
 
 
+# Rate limiting for LLM extraction — prevents Gemini 429 cascade failures
+_EXTRACTION_DELAY = 0.5  # seconds between API calls
+_BACKOFF_BASE = 2.0
+_MAX_CONSECUTIVE_FAILURES = 5
+
+
 def run_batch_extraction(papers: list[dict], target: str) -> dict[str, dict]:
-    """Run extraction across a list of papers, with disk caching."""
+    """Run extraction across a list of papers, with disk caching and rate limiting.
+
+    Implements per-call delay and exponential backoff on consecutive failures
+    to prevent Gemini API rate-limit cascade (429 Resource Exhausted).
+    """
+    import time
+
     cache_path = get_extractions_cache_path(target)
     cached_data = {}
     if cache_path.exists():
@@ -268,6 +273,8 @@ def run_batch_extraction(papers: list[dict], target: str) -> dict[str, dict]:
     console.print(f"[cyan]Extracting entities from {len(papers)} papers ({len(to_process)} new)...[/cyan]")
 
     if to_process:
+        consecutive_failures = 0
+
         with Progress(
             SpinnerColumn(),
             TextColumn("[progress.description]{task.description}"),
@@ -279,8 +286,26 @@ def run_batch_extraction(papers: list[dict], target: str) -> dict[str, dict]:
             for paper in to_process:
                 pmid = str(paper["pmid"])
                 res = extract_entities_from_abstract(paper)
+
+                # Track consecutive failures for backoff
+                if not res or (not res.get("entities") and not res.get("causal_edges")):
+                    consecutive_failures += 1
+                else:
+                    consecutive_failures = 0
+
                 cached_data[pmid] = res
                 progress.advance(task)
+
+                # Rate limiting with exponential backoff on consecutive failures
+                if consecutive_failures >= _MAX_CONSECUTIVE_FAILURES:
+                    wait = _BACKOFF_BASE ** min(consecutive_failures - _MAX_CONSECUTIVE_FAILURES + 1, 5)
+                    console.print(
+                        f"[yellow]⚠ {consecutive_failures} consecutive empty extractions — "
+                        f"backing off {wait:.0f}s[/yellow]"
+                    )
+                    time.sleep(wait)
+                else:
+                    time.sleep(_EXTRACTION_DELAY)
 
         # Save cache
         with open(cache_path, "w", encoding="utf-8") as f:

@@ -16,9 +16,17 @@ RAW_DATA_DIR = DATA_DIR / "raw"
 GRAPHS_DIR = DATA_DIR / "graphs"
 REPORTS_DIR = PROJECT_ROOT / os.getenv("REPORTS_DIR", "reports")
 
-# Ensure directories exist
-for d in [RAW_DATA_DIR, GRAPHS_DIR, REPORTS_DIR]:
-    d.mkdir(parents=True, exist_ok=True)
+# Ensure directories exist — call explicitly from CLI, not at import time
+def ensure_dirs():
+    """Create data/report directories if they don't exist.
+
+    Called by the CLI entry point. Separating this from import time
+    prevents directory creation side effects when config is imported
+    by tests or utility scripts.
+    """
+    for d in [RAW_DATA_DIR, GRAPHS_DIR, REPORTS_DIR]:
+        d.mkdir(parents=True, exist_ok=True)
+
 
 # ─── API Configuration ──────────────────────────────────────────────────────────
 

@@ -64,6 +64,21 @@ class NegativeSpaceDetector:
         self.graph = graph
         self.gaps: list[EpistemicGap] = []
 
+        # Pre-compute edge-type index for O(1) candidate lookups.
+        # Without this, _find_closest_candidates() does a full N×E scan
+        # per gap — acceptable at 327 nodes, catastrophic at 10K+.
+        self._edge_type_index: dict[str, list[tuple[str, str, dict]]] = {}
+        self._build_edge_index()
+
+    def _build_edge_index(self) -> None:
+        """Build a lookup table: edge_type → list of (source, target, edge_data)."""
+        self._edge_type_index.clear()
+        for u, v, data in self.graph.graph.edges(data=True):
+            etype = data.get("edge_type", "")
+            if etype not in self._edge_type_index:
+                self._edge_type_index[etype] = []
+            self._edge_type_index[etype].append((u, v, data))
+
     def detect_gaps(self, causal_root: CausalNode) -> list[EpistemicGap]:
         """Run the full negative space detection pipeline.
 
@@ -218,7 +233,11 @@ class NegativeSpaceDetector:
         )
 
     def _find_closest_candidates(self, causal_node: CausalNode) -> list[dict]:
-        """Find entities in the graph that are closest to satisfying this requirement."""
+        """Find entities in the graph that are closest to satisfying this requirement.
+
+        Uses the pre-computed edge-type index for O(1) lookup instead of
+        scanning all N nodes × all E edges per gap call.
+        """
         candidates = []
 
         if causal_node.required_graph_entity:
@@ -233,23 +252,22 @@ class NegativeSpaceDetector:
                     "source": node_data.get("source", ""),
                 })
 
-        # Also search for HYPOTHESIZED edges that could become candidates
+        # O(1) lookup via pre-computed index instead of O(N×E) full scan
         if causal_node.required_edge_type:
-            for node_id in self.graph.graph.nodes():
-                for target, edge_data in self.graph.get_successors(node_id):
-                    if (
-                        edge_data.get("edge_type") == causal_node.required_edge_type
-                        and edge_data.get("status") == EvidenceStatus.HYPOTHESIZED.value
-                    ):
-                        node_data = self.graph.get_node(node_id)
-                        candidates.append({
-                            "entity_id": node_id,
-                            "name": node_data.get("name", ""),
-                            "status": "HYPOTHESIZED (not yet proven)",
-                            "confidence": edge_data.get("confidence", 0),
-                            "source": edge_data.get("source", ""),
-                            "context": edge_data.get("context", ""),
-                        })
+            hypothesized_edges = self._edge_type_index.get(
+                causal_node.required_edge_type, []
+            )
+            for source_id, target_id, edge_data in hypothesized_edges:
+                if edge_data.get("status") == EvidenceStatus.HYPOTHESIZED.value:
+                    node_data = self.graph.get_node(source_id)
+                    candidates.append({
+                        "entity_id": source_id,
+                        "name": node_data.get("name", ""),
+                        "status": "HYPOTHESIZED (not yet proven)",
+                        "confidence": edge_data.get("confidence", 0),
+                        "source": edge_data.get("source", ""),
+                        "context": edge_data.get("context", ""),
+                    })
 
         return candidates
 
