@@ -118,6 +118,14 @@ uid visualize --target glucosepane
 
 <div class="grid cards" markdown>
 
+-   :material-lightbulb-on: **Project Mangal (Light)**
+
+    ---
+
+    *Project Mangal & Universal Inverse Design: The Architecture of an Autonomous Biomedical Discovery Compiler*
+
+    [:octicons-arrow-right-24: Read Unified Spec](blog/04_project_mangal_unified_architecture.md)
+
 -   :material-microscope: **Deep Technical Analysis**
 
     ---
