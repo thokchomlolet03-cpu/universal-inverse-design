@@ -88,6 +88,28 @@ SEARCH_QUERIES = {
             "label": "Major SASP effector cytokines & proteases",
         },
     ],
+    "mitochondrial_mutations": [
+        # Translocases & import machinery
+        {
+            "query": 'gene:TOMM20 OR gene:TOMM40 OR gene:TIMM23 AND organism_id:9606 AND reviewed:true',
+            "label": "Mitochondrial outer and inner membrane translocases (TOM/TIM)",
+        },
+        # Hydrophobic core subunits (targets for allotopic expression)
+        {
+            "query": 'gene:MT-ND4 OR gene:MT-ND6 OR gene:MT-ATP6 OR gene:MT-CYB AND organism_id:9606 AND reviewed:true',
+            "label": "Hydrophobic mtDNA-encoded OXPHOS core subunits",
+        },
+        # Mitochondrial transcription and copy number regulators
+        {
+            "query": 'gene:TFAM OR gene:PPARGC1A AND organism_id:9606 AND reviewed:true',
+            "label": "Mitochondrial biogenesis & copy number factors (TFAM, PGC-1alpha)",
+        },
+        # Base editor & nuclease enzymes
+        {
+            "query": 'DddA OR "cytosine deaminase" AND reviewed:true',
+            "label": "DddA bacterial interbacterial toxin (mitochondrial base editor domain)",
+        },
+    ],
 }
 
 

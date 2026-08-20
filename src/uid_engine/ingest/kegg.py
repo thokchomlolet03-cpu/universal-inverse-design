@@ -74,6 +74,23 @@ TARGET_PATHWAYS = {
             "relevance": "Master transcriptional regulator of pro-inflammatory SASP expression",
         },
     ],
+    "mitochondrial_mutations": [
+        {
+            "pathway_id": "hsa00190",
+            "name": "Oxidative phosphorylation",
+            "relevance": "Core mitochondrial ATP generation pathway damaged by mtDNA mutations",
+        },
+        {
+            "pathway_id": "hsa04066",
+            "name": "HIF-1 signaling pathway",
+            "relevance": "Hypoxia and mitochondrial metabolic reprogramming response",
+        },
+        {
+            "pathway_id": "hsa04714",
+            "name": "Thermogenesis",
+            "relevance": "Mitochondrial uncoupling and energy expenditure signaling",
+        },
+    ],
 }
 
 

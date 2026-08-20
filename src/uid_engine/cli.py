@@ -24,6 +24,8 @@ from uid_engine.graph.store import save_graph, load_graph
 from uid_engine.analysis.causal_chains import build_glucosepane_repair_chain
 from uid_engine.analysis.gap_detector import NegativeSpaceDetector
 from uid_engine.analysis.reporter import GapReporter
+from uid_engine.analysis.visualizer import export_interactive_html
+from uid_engine.analysis.design_spec import compile_all_specs_for_target
 from uid_engine.chains.registry import CausalChainRegistry, ChainValidationError
 from uid_engine.ingest.pubmed import ingest_pubmed, load_papers
 from uid_engine.ingest.uniprot import ingest_uniprot, load_proteins
@@ -434,6 +436,37 @@ def cmd_report(target: str = "glucosepane", chain=None, output_dir=None):
     _print_complete(len(gaps), report_path)
 
 
+def cmd_visualize(target: str = "glucosepane", output_path: str | Path | None = None):
+    """Generate an interactive HTML visualization of the knowledge graph."""
+    print_banner()
+    graph = load_graph()
+    sens_key = _TARGET_TO_SENS.get(target, target)
+    target_config = SENS_DAMAGE_CATEGORIES.get(sens_key)
+    target_name = target_config.get("name", target) if target_config else target
+
+    html_path = export_interactive_html(graph, output_path=output_path, target_name=target_name)
+    console.print(Panel.fit(
+        f"[bold green]Interactive Map Ready![/bold green]\n\n"
+        f"Target: [bold]{target_name}[/bold]\n"
+        f"File: [cyan]{html_path}[/cyan]\n"
+        f"[dim]Open this file in any web browser to explore the epistemic graph.[/dim]",
+        border_style="cyan",
+    ))
+
+
+def cmd_generate_specs(target: str = "glucosepane", output_dir: str | Path | None = None):
+    """Compile Layer 3 De Novo Design Specifications for critical epistemic gaps."""
+    print_banner()
+    specs = compile_all_specs_for_target(target, output_dir=output_dir)
+    console.print(Panel.fit(
+        f"[bold green]Layer 3 Compilation Complete![/bold green]\n\n"
+        f"Target: [bold]{target}[/bold]\n"
+        f"Compiled Specs: [bold]{len(specs)}[/bold]\n"
+        f"[dim]Specs include 3D .sdf conformers and RFdiffusion/ESM-3/ProteinMPNN configs.[/dim]",
+        border_style="green",
+    ))
+
+
 def cmd_pipeline(target: str = "glucosepane", chain=None, max_papers=None, output_dir=None):
     """Run the full pipeline: ingest → build → detect → report."""
     print_banner()
@@ -621,6 +654,22 @@ examples:
     add_chain(p_report)
     add_output(p_report)
 
+    # visualize
+    p_vis = subparsers.add_parser(
+        "visualize",
+        help="Export an interactive HTML Cytoscape map of the knowledge graph",
+    )
+    add_target(p_vis)
+    add_output(p_vis)
+
+    # generate-specs
+    p_specs = subparsers.add_parser(
+        "generate-specs",
+        help="Compile Layer 3 De Novo Design Specs (3D conformers & generative ML configs) for gaps",
+    )
+    add_target(p_specs)
+    add_output(p_specs)
+
     # pipeline
     p_pipeline = subparsers.add_parser(
         "pipeline",
@@ -665,6 +714,12 @@ examples:
     elif args.command == "report":
         chain = _resolve_chain(getattr(args, "chain", None), args.target)
         cmd_report(target=args.target, chain=chain, output_dir=getattr(args, "output", None))
+
+    elif args.command == "visualize":
+        cmd_visualize(target=args.target, output_path=getattr(args, "output", None))
+
+    elif args.command == "generate-specs":
+        cmd_generate_specs(target=args.target, output_dir=getattr(args, "output", None))
 
     elif args.command == "pipeline":
         if getattr(args, "dry_run", False):

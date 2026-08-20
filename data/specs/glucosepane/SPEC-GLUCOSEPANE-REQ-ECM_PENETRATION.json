@@ -1,0 +1,41 @@
+{
+  "spec_id": "SPEC-GLUCOSEPANE-REQ-ECM_PENETRATION",
+  "target_name": "Glucosepane",
+  "causal_gap_id": "req:ecm_penetration",
+  "gap_priority": "HIGH",
+  "gap_description": "Delivery vehicle capable of penetrating dense, crosslinked collagen matrix in aged arterial walls",
+  "substrate_name": "Glucosepane",
+  "substrate_smiles": "NCCCC(N)C(=O)O.NC(CCC1=NC=C(NC1)CCCC(N)C(=O)O)C(=O)O",
+  "substrate_3d_sdf_path": "/Users/lolet/Universal Inverse Design/data/specs/glucosepane/SPEC-GLUCOSEPANE-REQ-ECM_PENETRATION_substrate_3d.sdf",
+  "substrate_molecular_weight": 430.25,
+  "substrate_formula": "C18H34N6O6",
+  "target_plddt_minimum": 85.0,
+  "target_pocket_volume_angstrom3": "450 - 750 Å³",
+  "suggested_catalytic_motifs": [
+    "His-Asp-Ser",
+    "Glu-His-Asp",
+    "Cys-His-Glu"
+  ],
+  "homologous_scaffolds": [],
+  "rfdiffusion_all_atom_flags": {
+    "model": "RFdiffusion_AllAtom_v1",
+    "input_ligand_sdf": "/Users/lolet/Universal Inverse Design/data/specs/glucosepane/SPEC-GLUCOSEPANE-REQ-ECM_PENETRATION_substrate_3d.sdf",
+    "target_pocket_conditioning": true,
+    "num_designs": 100,
+    "diffusion_steps": 50,
+    "catalytic_site_clash_penalty": 2.5
+  },
+  "esm3_prompt_config": {
+    "model": "esmc-600m",
+    "task": "active_site_scaffolding",
+    "target_plddt_min": 85.0,
+    "sampling_temperature": 0.2,
+    "num_iterations": 3
+  },
+  "proteinmpnn_config": {
+    "model": "protein_mpnn_v48_020",
+    "sampling_temp": 0.1,
+    "backbone_noise": 0.02,
+    "num_sequences_per_target": 8
+  }
+}

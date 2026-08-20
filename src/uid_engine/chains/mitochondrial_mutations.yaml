@@ -1,0 +1,105 @@
+# mitochondrial_mutations.yaml — Mitochondrial Mutation Repair Causal Chain (MitoSENS)
+#
+# This causal chain maps the prerequisite conditions for overcoming mitochondrial DNA
+# (mtDNA) decay in aging: allotopic expression of the 13 hydrophobic OXPHOS proteins
+# from the nucleus, high-efficiency MTS translocation through TOM/TIM complexes,
+# and selective clearance of mutant mtDNA heteroplasmy via mitoTALENs / DdCBEs.
+#
+# Chain structure:
+#   goal:restore_mitochondrial_oxphos (CRITICAL)
+#   ├── req:allotopic_expression (CRITICAL)
+#   │   ├── req:nuclear_codon_optimization (HIGH)
+#   │   ├── req:hydrophobic_mts_engineering (HIGH)
+#   │   └── req:tom_tim_translocation (HIGH)
+#   ├── req:heteroplasmy_shift (HIGH)
+#   │   ├── req:mitotargeted_nucleases (HIGH)
+#   │   └── req:copy_number_homeostasis (MEDIUM)
+#   └── req:oxphos_functional_rescue (HIGH)
+#       ├── req:membrane_potential_recovery (MEDIUM)
+#       └── req:mtros_suppression (MEDIUM)
+
+name: "Mitochondrial Mutations & Bioenergetic Rescue (MitoSENS)"
+version: "1.0"
+target: "mitochondrial_mutations"
+goal: "Restore oxidative phosphorylation capacity and eliminate mutant mtDNA burden in aging human tissues"
+description: >
+  Mitochondrial DNA accumulates somatic deletions and point mutations at a rate
+  10-100x higher than nuclear DNA due to proximity to the electron transport chain
+  and lack of protective histones. This chain models the allotopic expression of all
+  13 respiratory chain subunits (Complex I, III, IV, V) and targeted heteroplasmy shifts.
+
+nodes:
+  - id: "goal:restore_mitochondrial_oxphos"
+    description: "Restore oxidative phosphorylation capacity and eliminate mutant mtDNA burden in aging human tissues"
+    priority: "CRITICAL"
+    children:
+
+      - id: "req:allotopic_expression"
+        description: >
+          Successful allotopic expression of all 13 mitochondrial-encoded electron
+          transport chain core subunits from the nuclear genome
+        required_graph_entity: "unknown:allotopic_expression_system"
+        required_edge_type: "PRODUCES"
+        required_status: "PROVEN"
+        priority: "CRITICAL"
+        children:
+
+          - id: "req:nuclear_codon_optimization"
+            description: >
+              Re-coding of mitochondrial genetic code (e.g., UGA = Trp in mtDNA vs stop in nucleus,
+              AUA = Met in mtDNA vs Ile in nucleus) for high-fidelity nuclear cytosolic translation
+            priority: "HIGH"
+
+          - id: "req:hydrophobic_mts_engineering"
+            description: >
+              Engineered high-efficiency Mitochondrial Targeting Sequences (MTS) and
+              3' UTR localization elements preventing cytosolic aggregation of extremely
+              hydrophobic transmembrane domains (e.g., ND4, ND6, CYTB, ATP6)
+            required_graph_entity: "unknown:hydrophobic_protein_mts"
+            priority: "HIGH"
+
+          - id: "req:tom_tim_translocation"
+            description: >
+              Efficient post- or co-translational translocation across the outer (TOM)
+              and inner (TIM23) mitochondrial membranes and functional assembly into native OXPHOS supercomplexes
+            required_graph_entity: "protein:tomm20"
+            required_status: "PROVEN"
+            priority: "HIGH"
+
+      - id: "req:heteroplasmy_shift"
+        description: >
+          Selective clearance of mutant mtDNA genomes below the 60-80% biochemical threshold of pathology
+        priority: "HIGH"
+        children:
+
+          - id: "req:mitotargeted_nucleases"
+            description: >
+              Engineered sequence-specific mitochondrial-targeted nucleases (mitoTALENs, mitoZFNs)
+              or programmable base editors (DdCBE / DddA-derived cytosine base editors) targeting mutant mtDNA
+            required_graph_entity: "unknown:mitochondrial_base_editor"
+            priority: "HIGH"
+
+          - id: "req:copy_number_homeostasis"
+            description: >
+              Stimulation of compensatory mitochondrial biogenesis (via TFAM/PGC-1alpha activation)
+              to maintain total mtDNA copy number homeostasis following mutant genome degradation
+            priority: "MEDIUM"
+
+      - id: "req:oxphos_functional_rescue"
+        description: >
+          Restoration of physiological cellular respiration, mitochondrial membrane potential,
+          and metabolic homeostasis in post-mitotic tissues
+        priority: "HIGH"
+        children:
+
+          - id: "req:membrane_potential_recovery"
+            description: >
+              In vivo verification that allotopically rescued mitochondria maintain resting
+              inner membrane potential (Delta-Psi_m > 140 mV) and baseline ATP generation
+            priority: "MEDIUM"
+
+          - id: "req:mtros_suppression"
+            description: >
+              Significant reduction of electron leak, pathological superoxide/ROS emission,
+              and suppression of retrograde inflammatory stress pathways
+            priority: "MEDIUM"
