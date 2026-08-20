@@ -1,2 +1,3 @@
 [console_scripts]
+mangal = mangal_engine.cli:main
 uid = uid_engine.cli:main

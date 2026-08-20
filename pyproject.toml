@@ -19,6 +19,7 @@ dev = [
 
 [project.scripts]
 uid = "uid_engine.cli:main"
+mangal = "mangal_engine.cli:main"
 
 [build-system]
 requires = ["setuptools>=68.0"]
