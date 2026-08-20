@@ -8,6 +8,23 @@
 
 ---
 
+## 🎙️ Audio Deep Dive: Podcast Discussion
+
+Listen to the comprehensive AI audio deep dive analyzing the architecture of Project Mangal, the 10,000-vector combinatorial interrogation tensor, and the Universal Inverse Design closed-loop discovery compiler:
+
+<iframe
+  style="border-radius:12px; margin-top: 1rem; margin-bottom: 1.5rem;"
+  src="https://open.spotify.com/embed/episode/6FH2SxNAeLlp4vmxSRWrPh?utm_source=generator&theme=0"
+  width="100%"
+  height="152"
+  frameBorder="0"
+  allowfullscreen=""
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy"
+></iframe>
+
+---
+
 ## 1. The Grand Problem: Biological Aging as an Epistemic Failure
 
 Biological aging is not an intractable mystery or an unavoidable law of physics. At its mechanistic foundation, it is an **accumulation of cellular and molecular damage** — specific, identifiable physical crosslinks, aggregates, senescent secretomes, and mitochondrial mutations that the human body fails to clear above a critical maintenance threshold.
