@@ -113,15 +113,38 @@ Project Mangal bypasses human cognitive blindspots by constructing an **$N$-Dime
 
 ### The 4D Hyper-Matrix ($10 \times 10 \times 10 \times 10 = 10,000$ Vectors)
 
-$$\text{Archetypes (W)} \times \text{Elements (X)} \times \text{Operations (Y)} \times \text{Scales (Z)} = \mathbf{10,000}\text{ Unique Vectors}$$
-
-```text
-[10 Archetypes] ──> [10 Core Elements] ──> [10 Operations] ──> [10 Scale Shifts]
-      (W)                 (X)                  (Y)                 (Z)
-                                                                    │
-                                                                    ▼
-                                                        1 of 10,000 Unique Inquiries
-```
+<div style="background:#090d16; border:1px solid #1e293b; border-radius:12px; padding:20px; margin:1.5rem 0; font-family:system-ui, -apple-system, sans-serif;">
+  <div style="text-align:center; margin-bottom:16px;">
+    <div style="font-size:1.1rem; font-weight:700; color:#38bdf8; letter-spacing:0.5px;">
+      $\text{Archetypes }(W) \times \text{Elements }(X) \times \text{Operations }(Y) \times \text{Scales }(Z) = 10{,}000\text{ Unique Vectors}$
+    </div>
+  </div>
+  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap:10px; align-items:center;">
+    <div style="background:#1e293b; border:1px solid #38bdf8; border-radius:8px; padding:12px; text-align:center;">
+      <div style="font-size:0.75rem; color:#94a3b8; font-weight:600;">AXIS W</div>
+      <div style="font-size:0.9rem; font-weight:700; color:#f8fafc; margin-top:2px;">10 Archetypes</div>
+      <div style="font-size:0.7rem; color:#38bdf8; margin-top:4px;">The Mindset</div>
+    </div>
+    <div style="background:#1e293b; border:1px solid #38bdf8; border-radius:8px; padding:12px; text-align:center;">
+      <div style="font-size:0.75rem; color:#94a3b8; font-weight:600;">AXIS X</div>
+      <div style="font-size:0.9rem; font-weight:700; color:#f8fafc; margin-top:2px;">10 Core Elements</div>
+      <div style="font-size:0.7rem; color:#38bdf8; margin-top:4px;">The Target</div>
+    </div>
+    <div style="background:#1e293b; border:1px solid #38bdf8; border-radius:8px; padding:12px; text-align:center;">
+      <div style="font-size:0.75rem; color:#94a3b8; font-weight:600;">AXIS Y</div>
+      <div style="font-size:0.9rem; font-weight:700; color:#f8fafc; margin-top:2px;">10 Operations</div>
+      <div style="font-size:0.7rem; color:#38bdf8; margin-top:4px;">The Mutation</div>
+    </div>
+    <div style="background:#1e293b; border:1px solid #38bdf8; border-radius:8px; padding:12px; text-align:center;">
+      <div style="font-size:0.75rem; color:#94a3b8; font-weight:600;">AXIS Z</div>
+      <div style="font-size:0.9rem; font-weight:700; color:#f8fafc; margin-top:2px;">10 Scale Shifts</div>
+      <div style="font-size:0.7rem; color:#38bdf8; margin-top:4px;">The Context</div>
+    </div>
+  </div>
+  <div style="margin-top:12px; text-align:center; background:#0f172a; border-radius:6px; padding:8px; border:1px dashed #334155; font-size:0.8rem; color:#cbd5e1;">
+    $\longrightarrow$ <strong>Combinatorial Output:</strong> 1 of 10,000 Unique Inquiries (Expandable to 100,000 via 5D Hyper-Matrix)
+  </div>
+</div>
 
 #### Axis W: The 10 Archetypal Lenses (The Mindset)
 1. **The Adversary (Cybersecurity/Military):** Assumes the biological system is under active, intelligent attack.
@@ -177,18 +200,47 @@ $$\text{Archetypes (W)} \times \text{Elements (X)} \times \text{Operations (Y)} 
 
 A human presented with 10,000 questions will experience immediate **semantic bleaching** (words lose all meaning). To prevent cognitive collapse and eliminate API latency, Project Mangal routes all 10,000 vectors through an automated **3-Gate Sieve**:
 
-```text
-[ 10,000 Combinatorial Tensor Coordinates ]
-                    │
-                    ▼  (Gate 1: Fast pure-Python O(1) heuristic compatibility purge)
-       [ ~6,500 Coherent Inquiries ]
-                    │
-                    ▼  (Gate 2: Anomaly & cognitive divergence scoring)
-      [ Ranked High-Impact Candidate Set ]
-                    │
-                    ▼  (Gate 3: Top-K extraction)
-       [ Top 20 High-Leverage Inquiries ]
-```
+<div style="background:#090d16; border:1px solid #1e293b; border-radius:14px; padding:22px; margin:2rem 0; font-family:system-ui, -apple-system, sans-serif;">
+  <div style="display:flex; flex-direction:column; gap:10px; max-width:640px; margin:0 auto;">
+    <div style="background:#1e293b; border:1px solid #334155; border-radius:8px; padding:10px 16px; display:flex; justify-content:space-between; align-items:center;">
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span style="background:#0284c7; color:#fff; font-weight:700; font-size:0.75rem; padding:3px 7px; border-radius:4px;">RAW</span>
+        <strong style="color:#f8fafc; font-size:0.9rem;">10,000 Combinatorial Tensor Coordinates</strong>
+      </div>
+      <span style="color:#94a3b8; font-size:0.75rem; font-family:monospace;">100% Total Volume</span>
+    </div>
+    <div style="padding-left:18px; border-left:2px solid #0284c7; margin-left:12px; font-size:0.8rem; color:#94a3b8;">
+      <strong style="color:#38bdf8;">Gate 1 — $O(1)$ Pure-Python Purge:</strong> Eliminates incompatible combinations in 0.002s
+    </div>
+    <div style="background:#1e293b; border:1px solid #334155; border-radius:8px; padding:10px 16px; margin-left:15px; margin-right:15px; display:flex; justify-content:space-between; align-items:center;">
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span style="background:#2563eb; color:#fff; font-weight:700; font-size:0.75rem; padding:3px 7px; border-radius:4px;">GATE 1</span>
+        <strong style="color:#f8fafc; font-size:0.9rem;">~6,500 Coherent Inquiries</strong>
+      </div>
+      <span style="color:#38bdf8; font-size:0.75rem; font-family:monospace;">~65% Retained</span>
+    </div>
+    <div style="padding-left:18px; border-left:2px solid #2563eb; margin-left:28px; font-size:0.8rem; color:#94a3b8;">
+      <strong style="color:#818cf8;">Gate 2 — Cognitive Divergence:</strong> Scores Anomaly & Leverage against default human research bias
+    </div>
+    <div style="background:#1e293b; border:1px solid #334155; border-radius:8px; padding:10px 16px; margin-left:30px; margin-right:30px; display:flex; justify-content:space-between; align-items:center;">
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span style="background:#7c3aed; color:#fff; font-weight:700; font-size:0.75rem; padding:3px 7px; border-radius:4px;">GATE 2</span>
+        <strong style="color:#f8fafc; font-size:0.9rem;">Ranked High-Impact Candidate Set</strong>
+      </div>
+      <span style="color:#a78bfa; font-size:0.75rem; font-family:monospace;">$S = 0.55A + 0.45L$</span>
+    </div>
+    <div style="padding-left:18px; border-left:2px solid #7c3aed; margin-left:44px; font-size:0.8rem; color:#94a3b8;">
+      <strong style="color:#34d399;">Gate 3 — Top-K Extraction:</strong> Extracts highest leverage density vectors for TF-IDF clustering
+    </div>
+    <div style="background:#064e3b; border:1px solid #059669; border-radius:8px; padding:12px 16px; margin-left:45px; margin-right:45px; display:flex; justify-content:space-between; align-items:center;">
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span style="background:#059669; color:#fff; font-weight:700; font-size:0.75rem; padding:3px 7px; border-radius:4px;">GATE 3</span>
+        <strong style="color:#ecfdf5; font-size:0.9rem;">Top 20 High-Leverage Inquiries</strong>
+      </div>
+      <span style="color:#6ee7b7; font-weight:700; font-size:0.75rem; font-family:monospace;">Top 0.2% Yield</span>
+    </div>
+  </div>
+</div>
 
 ### Gate 1: Pure-Python Heuristic Purge ($O(1)$)
 Rather than firing expensive LLM calls to check if a vector is logically possible, `dimensions.py` executes a rigid, pure-Python heuristic ruleset (`is_heuristic_compatible`):
@@ -215,7 +267,7 @@ Once high-leverage inquiries are answered by the evaluator, how do we extract th
 ### The TF-IDF Vector Clustering Solution
 In `clusterer.py`, all generated micro-solutions are converted into **normalized TF-IDF term vectors** in Euclidean vector space. A deterministic cosine clustering algorithm groups the answers into ~50 discrete conceptual paradigms:
 
-$$\text{sim}(\mathbf{u}, \mathbf{v}) = \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\|_2 \|\mathbf{v}\|_2}$$
+$$\text{Cosine Similarity}(\mathbf{u}, \mathbf{v}) = \frac{\mathbf{u} \cdot \mathbf{v}}{\Vert{}\mathbf{u}\Vert{} \Vert{}\mathbf{v}\Vert{}} = \frac{\sum_{i=1}^{n} u_i v_i}{\sqrt{\sum_{i=1}^{n} u_i^2} \sqrt{\sum_{i=1}^{n} v_i^2}}$$
 
 ### The Axiom Flashpoint
 In `axiom_distiller.py`, the system computes the **mathematical invariant** across all clusters: *What structural truth remained constant across all 10,000 simulated universes?*
@@ -229,15 +281,34 @@ Whatever cannot be mutated, inverted, or destroyed is the **Axiom (Root Cause)**
 
 Once the system isolates the root cause, it stops asking questions and begins executing the **Axiomatic Challenge Protocol** (`axiomatic_challenge.py`):
 
-```text
-                                [ DISTILLED ROOT CAUSE AXIOM ]
-                                               │
-             ┌──────────────────┬──────────────┴─────┬──────────────────┐
-             ▼                  ▼                    ▼                  ▼
-     [ Vector 1 ]          [ Vector 2 ]         [ Vector 3 ]       [ Vector 4 ]
-   Axiom Invalidation   Dimensional Expansion   Constraint Sub    Symbiotic Synth
-   (De novo catalyst)   (Precursor scavenger)  (Targeted PROTAC)  (ECM remodeling)
-```
+<div style="background:#090d16; border:1px solid #1e293b; border-radius:12px; padding:20px; margin:1.5rem 0; font-family:system-ui, -apple-system, sans-serif;">
+  <div style="background:#1e3a8a; border:1px solid #3b82f6; border-radius:8px; padding:10px 16px; text-align:center; max-width:400px; margin:0 auto 16px auto;">
+    <div style="font-size:0.75rem; color:#bfdbfe; font-weight:700;">ISOLATED INVARIANT</div>
+    <div style="font-size:0.95rem; font-weight:700; color:#ffffff;">Distilled Root Cause Axiom</div>
+  </div>
+  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:12px;">
+    <div style="background:#0f172a; border:1px solid #334155; border-left:4px solid #ef4444; border-radius:8px; padding:12px;">
+      <strong style="color:#f87171; font-size:0.85rem;">Vector 1: Axiom Invalidation</strong>
+      <div style="font-size:0.8rem; color:#cbd5e1; margin-top:4px;">Assume the axiom is false. Engineer <em>de novo</em> catalytic pockets for the transition state.</div>
+      <div style="font-size:0.75rem; color:#94a3b8; font-family:monospace; margin-top:6px;">req:selective_catalyst</div>
+    </div>
+    <div style="background:#0f172a; border:1px solid #334155; border-left:4px solid #f59e0b; border-radius:8px; padding:12px;">
+      <strong style="color:#fbbf24; font-size:0.85rem;">Vector 2: Dimensional Expansion</strong>
+      <div style="font-size:0.8rem; color:#cbd5e1; margin-top:4px;">Shift temporal variables to intercept reactive intermediate dicarbonyls upstream.</div>
+      <div style="font-size:0.75rem; color:#94a3b8; font-family:monospace; margin-top:6px;">req:precursor_scavenger</div>
+    </div>
+    <div style="background:#0f172a; border:1px solid #334155; border-left:4px solid #38bdf8; border-radius:8px; padding:12px;">
+      <strong style="color:#38bdf8; font-size:0.85rem;">Vector 3: Constraint Substitution</strong>
+      <div style="font-size:0.8rem; color:#cbd5e1; margin-top:4px;">Recruit endogenous cellular proteases via targeted molecular glues and PROTAC degraders.</div>
+      <div style="font-size:0.75rem; color:#94a3b8; font-family:monospace; margin-top:6px;">req:targeted_degrader</div>
+    </div>
+    <div style="background:#0f172a; border:1px solid #334155; border-left:4px solid #10b981; border-radius:8px; padding:12px;">
+      <strong style="color:#34d399; font-size:0.85rem;">Vector 4: Symbiotic Synthesis</strong>
+      <div style="font-size:0.8rem; color:#cbd5e1; margin-top:4px;">Stimulate selective chaperone-mediated ECM turnover to dilute crosslinked fibers <em>in situ</em>.</div>
+      <div style="font-size:0.75rem; color:#94a3b8; font-family:monospace; margin-top:6px;">req:ecm_remodeling_agent</div>
+    </div>
+  </div>
+</div>
 
 1. **Vector 1: Axiom Invalidation (Assume the Axiom is False):**
    - *Hypothesis:* If native enzymes cannot cleave the imidazole crosslink, engineer a *de novo* non-natural biocatalyst with a tailored catalytic pocket complementary to the transition state (`req:selective_catalyst`).
@@ -361,24 +432,44 @@ During ProteinMPNN inverse folding, catalytic active-site residues (such as a Se
 
 Every candidate sequence must pass four sequential biophysical gates:
 
-```text
-Sequence Input
-      │
-      ▼
-[ Gate 1: Mean pLDDT >= 80.0 ] ──(Fail)──> DISCARD
-      │ (Pass)
-      ▼
-[ Gate 2: Self-Consistency scRMSD <= 2.0 A ] ──(Fail)──> DISCARD
-      │ (Pass)
-      ▼
-[ Gate 3: Catalytic Residue Exact Match ] ──(Fail)──> DISCARD
-      │ (Pass)
-      ▼
-[ Gate 4: BioPython GRAVY <= 0.2 & Instability Index <= 50.0 ] ──(Fail)──> DISCARD
-      │ (Pass)
-      ▼
-CANDIDATE ACCEPTED & PREPARED FOR GRAPH INJECTION
-```
+<div style="background:#090d16; border:1px solid #1e293b; border-radius:12px; padding:20px; margin:1.5rem 0; font-family:system-ui, -apple-system, sans-serif;">
+  <div style="display:flex; flex-direction:column; gap:10px; max-width:600px; margin:0 auto;">
+    <div style="background:#1e293b; border-radius:6px; padding:8px 12px; text-align:center; font-size:0.85rem; color:#94a3b8;">
+      Candidate Sequence Input (.fasta)
+    </div>
+    <div style="display:grid; grid-template-columns: 1fr auto; gap:10px; align-items:center;">
+      <div style="background:#0f172a; border:1px solid #334155; border-left:4px solid #38bdf8; border-radius:6px; padding:10px 14px;">
+        <strong style="color:#38bdf8; font-size:0.85rem;">Gate 1: Mean pLDDT $\ge 80.0$</strong>
+        <div style="font-size:0.75rem; color:#94a3b8;">AlphaFold confidence threshold verifying rigid global folding</div>
+      </div>
+      <span style="background:#7f1d1d; color:#fecaca; font-size:0.7rem; padding:4px 8px; border-radius:4px; font-family:monospace;">FAIL $\rightarrow$ DISCARD</span>
+    </div>
+    <div style="display:grid; grid-template-columns: 1fr auto; gap:10px; align-items:center;">
+      <div style="background:#0f172a; border:1px solid #334155; border-left:4px solid #38bdf8; border-radius:6px; padding:10px 14px;">
+        <strong style="color:#38bdf8; font-size:0.85rem;">Gate 2: Self-Consistency scRMSD $\le 2.0\text{ \AA}$</strong>
+        <div style="font-size:0.75rem; color:#94a3b8;">ESMFold refolding matches generative backbone target coordinates</div>
+      </div>
+      <span style="background:#7f1d1d; color:#fecaca; font-size:0.7rem; padding:4px 8px; border-radius:4px; font-family:monospace;">FAIL $\rightarrow$ DISCARD</span>
+    </div>
+    <div style="display:grid; grid-template-columns: 1fr auto; gap:10px; align-items:center;">
+      <div style="background:#0f172a; border:1px solid #334155; border-left:4px solid #38bdf8; border-radius:6px; padding:10px 14px;">
+        <strong style="color:#38bdf8; font-size:0.85rem;">Gate 3: Active-Site Residue Exact Match</strong>
+        <div style="font-size:0.75rem; color:#94a3b8;">Protects catalytic triad (His-Asp-Ser) from inverse folding mutation</div>
+      </div>
+      <span style="background:#7f1d1d; color:#fecaca; font-size:0.7rem; padding:4px 8px; border-radius:4px; font-family:monospace;">FAIL $\rightarrow$ DISCARD</span>
+    </div>
+    <div style="display:grid; grid-template-columns: 1fr auto; gap:10px; align-items:center;">
+      <div style="background:#0f172a; border:1px solid #334155; border-left:4px solid #38bdf8; border-radius:6px; padding:10px 14px;">
+        <strong style="color:#38bdf8; font-size:0.85rem;">Gate 4: BioPython GRAVY $\le 0.2$ & Instability $\le 50.0$</strong>
+        <div style="font-size:0.75rem; color:#94a3b8;">Ensures hydrophilic aqueous solubility and prevents aggregation traps</div>
+      </div>
+      <span style="background:#7f1d1d; color:#fecaca; font-size:0.7rem; padding:4px 8px; border-radius:4px; font-family:monospace;">FAIL $\rightarrow$ DISCARD</span>
+    </div>
+    <div style="background:#064e3b; border:1px solid #059669; border-radius:8px; padding:12px; text-align:center; color:#ecfdf5; font-weight:700; font-size:0.9rem;">
+      ✓ CANDIDATE ACCEPTED & PREPARED FOR GRAPH INJECTION
+    </div>
+  </div>
+</div>
 
 #### Why Gate 4 Solves the "Hallucination of Foldability" Trap
 A generated sequence can have a stellar pLDDT of 95.0 and an scRMSD of 0.8 Å while possessing extreme hydrophobicity. In physiological serum, such a protein will instantly aggregate into toxic amyloid fibrils. Gate 4 uses BioPython's `ProteinAnalysis` to calculate the Kyte-Doolittle hydropathy (GRAVY) and the Boman instability index, ensuring candidates are water-soluble and stable.
@@ -401,31 +492,52 @@ This prevents infinite generative loops and shifts the bottleneck from computati
 
 The unified engine currently maintains active, production-verified causal chains across four SENS aging domains:
 
-```text
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                               FOUR ACTIVE SENS DOMAINS                                 │
-│                                                                                        │
-│  1. GlycoSENS (Extracellular Crosslinks)                                               │
-│     • Target: Glucosepane (C18H34N6O6, MW: 430.25 Da)                                  │
-│     • Gaps Detected: 9 (1 CRITICAL, 5 HIGH, 3 MEDIUM)                                  │
-│     • Output: 24 de novo catalytic hydrolase candidate sequences generated             │
-│                                                                                        │
-│  2. ApoptoSENS (Senescent Cells)                                                       │
-│     • Target: BCL-xL / BCL-2 anti-apoptotic survival axis                              │
-│     • Gaps Detected: 8 (1 CRITICAL, 4 HIGH, 3 MEDIUM)                                  │
-│     • Output: Thrombocytopenia-sparing PROTAC degrader design specs                    │
-│                                                                                        │
-│  3. MitoSENS (Mitochondrial Mutations)                                                 │
-│     • Target: Allotopic expression of 13 mtDNA OXPHOS subunits + DdCBE base editing    │
-│     • Gaps Detected: 8 (1 CRITICAL, 4 HIGH, 3 MEDIUM)                                  │
-│     • Output: MTS chaperone import & heteroplasmy-shift specifications                 │
-│                                                                                        │
-│  4. LysoSENS (Intracellular Junk) — NEW                                                │
-│     • Target: Lysosomal lipofuscin & 7-ketocholesterol aggregates                      │
-│     • Gaps Detected: 9 (1 CRITICAL, 5 HIGH, 3 MEDIUM)                                  │
-│     • Output: Autonomous chain compiled via `mangal compile-chain`                     │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-```
+<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:14px; margin:1.5rem 0; font-family:system-ui, -apple-system, sans-serif;">
+  <div style="background:#0f172a; border:1px solid #1e293b; border-top:4px solid #38bdf8; border-radius:10px; padding:16px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+      <strong style="color:#38bdf8; font-size:1rem;">1. GlycoSENS</strong>
+      <span style="background:#1e293b; color:#94a3b8; font-size:0.7rem; padding:2px 6px; border-radius:4px;">Crosslinks</span>
+    </div>
+    <div style="font-size:0.85rem; color:#cbd5e1; line-height:1.4;">
+      <strong>Target:</strong> Glucosepane ($C_{18}H_{34}N_6O_6$, MW: 430.25 Da)<br/>
+      <strong>Gaps Detected:</strong> 9 (1 CRITICAL, 5 HIGH, 3 MEDIUM)<br/>
+      <strong>Output:</strong> 24 <em>de novo</em> catalytic hydrolase candidate sequences generated
+    </div>
+  </div>
+  <div style="background:#0f172a; border:1px solid #1e293b; border-top:4px solid #a855f7; border-radius:10px; padding:16px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+      <strong style="color:#c084fc; font-size:1rem;">2. ApoptoSENS</strong>
+      <span style="background:#1e293b; color:#94a3b8; font-size:0.7rem; padding:2px 6px; border-radius:4px;">Senescent Cells</span>
+    </div>
+    <div style="font-size:0.85rem; color:#cbd5e1; line-height:1.4;">
+      <strong>Target:</strong> BCL-xL / BCL-2 anti-apoptotic survival axis<br/>
+      <strong>Gaps Detected:</strong> 8 (1 CRITICAL, 4 HIGH, 3 MEDIUM)<br/>
+      <strong>Output:</strong> Thrombocytopenia-sparing PROTAC degrader design specifications
+    </div>
+  </div>
+  <div style="background:#0f172a; border:1px solid #1e293b; border-top:4px solid #f59e0b; border-radius:10px; padding:16px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+      <strong style="color:#fbbf24; font-size:1rem;">3. MitoSENS</strong>
+      <span style="background:#1e293b; color:#94a3b8; font-size:0.7rem; padding:2px 6px; border-radius:4px;">mtDNA</span>
+    </div>
+    <div style="font-size:0.85rem; color:#cbd5e1; line-height:1.4;">
+      <strong>Target:</strong> 13 mtDNA OXPHOS subunits + DdCBE base editing<br/>
+      <strong>Gaps Detected:</strong> 8 (1 CRITICAL, 4 HIGH, 3 MEDIUM)<br/>
+      <strong>Output:</strong> MTS chaperone import & heteroplasmy-shift specifications
+    </div>
+  </div>
+  <div style="background:#0f172a; border:1px solid #1e293b; border-top:4px solid #10b981; border-radius:10px; padding:16px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+      <strong style="color:#34d399; font-size:1rem;">4. LysoSENS</strong>
+      <span style="background:#064e3b; color:#6ee7b7; font-size:0.7rem; padding:2px 6px; border-radius:4px; font-weight:700;">NEW</span>
+    </div>
+    <div style="font-size:0.85rem; color:#cbd5e1; line-height:1.4;">
+      <strong>Target:</strong> Lysosomal lipofuscin & 7-ketocholesterol aggregates<br/>
+      <strong>Gaps Detected:</strong> 9 (1 CRITICAL, 5 HIGH, 3 MEDIUM)<br/>
+      <strong>Output:</strong> Autonomous chain compiled via <code>mangal compile-chain</code>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -523,22 +635,49 @@ To maintain scientific integrity, we explicitly document the remaining technical
 
 ## 19. How Practical is This? The 5-Stage Clinical Translation Pathway
 
-```text
-[ Stage 1: Computational In Silico Generation (COMPLETE - v0.1.0/v0.6.0) ]
-                              │  Cost: ~$0.10 / target
-                              ▼
-[ Stage 2: Molecular Docking & Affinity Scoring (AutoDock Vina / GNINA) ]
-                              │  Cost: ~$0 (Local CPU)
-                              ▼
-[ Stage 3: Wet-Lab Gene Synthesis & E. Coli Expression (Twist Bioscience) ]
-                              │  Cost: ~$500–$2,000 / candidate
-                              ▼
-[ Stage 4: In Vitro Cleavage Assays (Spectrophotometric 340nm Kinetics) ]
-                              │  Cost: ~$15,000–$50,000 (NIH SBIR Phase I)
-                              ▼
-[ Stage 5: Ex Vivo Human Arterial Ring Compliance Testing ]
-                              │  Cost: ~$100,000–$500,000 (Preclinical)
-```
+<div style="background:#090d16; border:1px solid #1e293b; border-radius:12px; padding:20px; margin:1.5rem 0; font-family:system-ui, -apple-system, sans-serif;">
+  <div style="display:flex; flex-direction:column; gap:8px; max-width:650px; margin:0 auto;">
+    <div style="background:#064e3b; border:1px solid #059669; border-radius:8px; padding:12px 16px; display:flex; justify-content:space-between; align-items:center;">
+      <div>
+        <span style="background:#059669; color:#fff; font-size:0.7rem; padding:2px 6px; border-radius:4px; font-weight:700;">STAGE 1 • COMPLETE</span>
+        <strong style="color:#ecfdf5; font-size:0.9rem; display:block; margin-top:3px;">Computational In Silico Generation</strong>
+      </div>
+      <div style="text-align:right; font-family:monospace; font-size:0.8rem; color:#6ee7b7;">Cost: ~$0.10 / target</div>
+    </div>
+    <div style="text-align:center; color:#38bdf8; font-size:0.9rem;">↓</div>
+    <div style="background:#0f172a; border:1px solid #334155; border-radius:8px; padding:12px 16px; display:flex; justify-content:space-between; align-items:center;">
+      <div>
+        <span style="background:#1e3a8a; color:#93c5fd; font-size:0.7rem; padding:2px 6px; border-radius:4px; font-weight:700;">STAGE 2</span>
+        <strong style="color:#f8fafc; font-size:0.9rem; display:block; margin-top:3px;">Molecular Docking & Affinity Scoring (AutoDock / GNINA)</strong>
+      </div>
+      <div style="text-align:right; font-family:monospace; font-size:0.8rem; color:#94a3b8;">Cost: ~$0 (Local CPU)</div>
+    </div>
+    <div style="text-align:center; color:#38bdf8; font-size:0.9rem;">↓</div>
+    <div style="background:#0f172a; border:1px solid #334155; border-radius:8px; padding:12px 16px; display:flex; justify-content:space-between; align-items:center;">
+      <div>
+        <span style="background:#1e3a8a; color:#93c5fd; font-size:0.7rem; padding:2px 6px; border-radius:4px; font-weight:700;">STAGE 3</span>
+        <strong style="color:#f8fafc; font-size:0.9rem; display:block; margin-top:3px;">Wet-Lab Gene Synthesis & E. Coli Expression (Twist Bio)</strong>
+      </div>
+      <div style="text-align:right; font-family:monospace; font-size:0.8rem; color:#94a3b8;">Cost: ~$500–$2,000 / candidate</div>
+    </div>
+    <div style="text-align:center; color:#38bdf8; font-size:0.9rem;">↓</div>
+    <div style="background:#0f172a; border:1px solid #334155; border-radius:8px; padding:12px 16px; display:flex; justify-content:space-between; align-items:center;">
+      <div>
+        <span style="background:#1e3a8a; color:#93c5fd; font-size:0.7rem; padding:2px 6px; border-radius:4px; font-weight:700;">STAGE 4</span>
+        <strong style="color:#f8fafc; font-size:0.9rem; display:block; margin-top:3px;">In Vitro Cleavage Assays (Spectrophotometric 340nm Kinetics)</strong>
+      </div>
+      <div style="text-align:right; font-family:monospace; font-size:0.8rem; color:#94a3b8;">Cost: ~$15k–$50k (NIH SBIR)</div>
+    </div>
+    <div style="text-align:center; color:#38bdf8; font-size:0.9rem;">↓</div>
+    <div style="background:#0f172a; border:1px solid #334155; border-radius:8px; padding:12px 16px; display:flex; justify-content:space-between; align-items:center;">
+      <div>
+        <span style="background:#1e3a8a; color:#93c5fd; font-size:0.7rem; padding:2px 6px; border-radius:4px; font-weight:700;">STAGE 5</span>
+        <strong style="color:#f8fafc; font-size:0.9rem; display:block; margin-top:3px;">Ex Vivo Human Arterial Ring Compliance Testing</strong>
+      </div>
+      <div style="text-align:right; font-family:monospace; font-size:0.8rem; color:#94a3b8;">Cost: ~$100k–$500k (Preclinical)</div>
+    </div>
+  </div>
+</div>
 
 ---
 
