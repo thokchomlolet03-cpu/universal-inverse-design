@@ -52,6 +52,28 @@ TARGET_PATHWAYS = {
             "relevance": "ECM-cell interactions disrupted by crosslinking",
         },
     ],
+    "senescent_cells": [
+        {
+            "pathway_id": "hsa04218",
+            "name": "Cellular senescence",
+            "relevance": "Core signaling network establishing senescent cell arrest & SASP",
+        },
+        {
+            "pathway_id": "hsa04210",
+            "name": "Apoptosis",
+            "relevance": "Programmed cell death pathways circumvented by SCAPs",
+        },
+        {
+            "pathway_id": "hsa04115",
+            "name": "p53 signaling pathway",
+            "relevance": "Tumor suppressor and DNA damage response driving senescence",
+        },
+        {
+            "pathway_id": "hsa04064",
+            "name": "NF-kappa B signaling pathway",
+            "relevance": "Master transcriptional regulator of pro-inflammatory SASP expression",
+        },
+    ],
 }
 
 

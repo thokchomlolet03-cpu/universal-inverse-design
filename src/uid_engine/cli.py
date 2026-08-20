@@ -17,7 +17,9 @@ from rich.console import Console
 from rich.panel import Panel
 
 from uid_engine.graph.builder import build_mock_glucosepane_graph, EpistemicGraph
-from uid_engine.graph.schema import NodeData, NodeType, EdgeData, EdgeType, EvidenceStatus
+from uid_engine.graph.schema import (
+    NodeData, NodeType, EdgeData, EdgeType, EvidenceStatus, SENS_DAMAGE_CATEGORIES
+)
 from uid_engine.graph.store import save_graph, load_graph
 from uid_engine.analysis.causal_chains import build_glucosepane_repair_chain
 from uid_engine.analysis.gap_detector import NegativeSpaceDetector
@@ -374,15 +376,28 @@ def cmd_detect_gaps(chain=None):
     return graph, gaps
 
 
-def cmd_report(chain=None, output_dir=None):
+_TARGET_TO_SENS = {
+    "glucosepane": "extracellular_crosslinks",
+    "extracellular_crosslinks": "extracellular_crosslinks",
+    "senescent_cells": "senescent_cells",
+    "mitochondrial_mutations": "mitochondrial_mutations",
+}
+
+
+def cmd_report(target: str = "glucosepane", chain=None, output_dir=None):
     """Generate the epistemic gap report."""
     print_banner()
     graph = load_graph()
     causal_chain = chain or build_glucosepane_repair_chain()
     detector = NegativeSpaceDetector(graph)
     gaps = detector.detect_gaps(causal_chain)
-    reporter = GapReporter(graph, gaps)
-    report_path = reporter.save_report(output_dir=output_dir)
+
+    sens_key = _TARGET_TO_SENS.get(target, target)
+    target_config = SENS_DAMAGE_CATEGORIES.get(sens_key)
+    target_name = target_config.get("name", target) if target_config else target
+
+    reporter = GapReporter(graph, gaps, target_config=target_config)
+    report_path = reporter.save_report(target_name=target_name, output_dir=output_dir)
     _print_complete(len(gaps), report_path)
 
 
@@ -405,8 +420,12 @@ def cmd_pipeline(target: str = "glucosepane", chain=None, max_papers=None, outpu
     _print_gaps(gaps)
 
     # Step 4: Generate report
-    reporter = GapReporter(graph, gaps)
-    report_path = reporter.save_report(output_dir=output_dir)
+    sens_key = _TARGET_TO_SENS.get(target, target)
+    target_config = SENS_DAMAGE_CATEGORIES.get(sens_key)
+    target_name = target_config.get("name", target) if target_config else target
+
+    reporter = GapReporter(graph, gaps, target_config=target_config)
+    report_path = reporter.save_report(target_name=target_name, output_dir=output_dir)
     _print_complete(len(gaps), report_path)
 
 
@@ -612,7 +631,7 @@ examples:
 
     elif args.command == "report":
         chain = _resolve_chain(getattr(args, "chain", None), args.target)
-        cmd_report(chain=chain, output_dir=getattr(args, "output", None))
+        cmd_report(target=args.target, chain=chain, output_dir=getattr(args, "output", None))
 
     elif args.command == "pipeline":
         if getattr(args, "dry_run", False):

@@ -194,3 +194,45 @@ class TestYamlChainParity:
         gaps = detector.detect_gaps(yaml_chain)
 
         assert gaps[0].priority == GapPriority.CRITICAL
+
+
+class TestSenescentCellsChain:
+    """Tests for the senescent_cells YAML chain (Wave 3 proof)."""
+
+    def test_load_senescent_cells_chain(self):
+        registry = CausalChainRegistry(CHAINS_DIR)
+        chain = registry.load("senescent_cells")
+        assert chain is not None
+        assert chain.node_id == "goal:clear_senescent_cells"
+        assert chain.priority == GapPriority.CRITICAL
+
+    def test_senescent_cells_chain_structure(self):
+        registry = CausalChainRegistry(CHAINS_DIR)
+        chain = registry.load("senescent_cells")
+        all_nodes = flatten_chain(chain)
+
+        # 1 root + 3 level-1 reqs + 7 sub-reqs = 11 nodes total
+        assert len(all_nodes) == 11
+
+        node_ids = [n.node_id for n in all_nodes]
+        assert "req:selective_senolysis" in node_ids
+        assert "req:scap_inhibition" in node_ids
+        assert "req:sasp_neutralization" in node_ids
+        assert "req:tissue_regeneration" in node_ids
+
+    def test_senescent_cells_gap_detection_on_empty_graph(self):
+        """On an empty graph, all non-container leaf requirements and linked entities flag as gaps."""
+        from uid_engine.graph.builder import EpistemicGraph
+        empty_graph = EpistemicGraph()
+        registry = CausalChainRegistry(CHAINS_DIR)
+        chain = registry.load("senescent_cells")
+
+        detector = NegativeSpaceDetector(empty_graph)
+        gaps = detector.detect_gaps(chain)
+
+        # 8 gaps: 1 CRITICAL, 3 HIGH, 4 MEDIUM
+        assert len(gaps) == 8
+        assert gaps[0].priority == GapPriority.CRITICAL
+        assert gaps[0].causal_node_id == "req:selective_senolysis"
+
+

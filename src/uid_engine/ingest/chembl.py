@@ -52,6 +52,43 @@ TARGET_SEARCHES = {
             "label": "Aminoguanidine — AGE formation inhibitor",
         },
     ],
+    "senescent_cells": [
+        {
+            "search_type": "target",
+            "query": "Bcl-2",
+            "label": "Apoptosis regulator Bcl-2",
+        },
+        {
+            "search_type": "target",
+            "query": "Bcl-xL",
+            "label": "Bcl-like protein 1 (Bcl-xL)",
+        },
+        {
+            "search_type": "target",
+            "query": "Dipeptidyl peptidase 4",
+            "label": "Dipeptidyl peptidase 4 (DPP4 / CD26)",
+        },
+        {
+            "search_type": "compound",
+            "query": "navitoclax",
+            "label": "Navitoclax (ABT-263) — BCL-2/BCL-xL inhibitor",
+        },
+        {
+            "search_type": "compound",
+            "query": "dasatinib",
+            "label": "Dasatinib — Tyrosine kinase senolytic inhibitor",
+        },
+        {
+            "search_type": "compound",
+            "query": "quercetin",
+            "label": "Quercetin — Flavonoid senolytic",
+        },
+        {
+            "search_type": "compound",
+            "query": "fisetin",
+            "label": "Fisetin — Natural senolytic flavonoid",
+        },
+    ],
 }
 
 

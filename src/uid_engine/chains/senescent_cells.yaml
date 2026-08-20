@@ -1,0 +1,107 @@
+# senescent_cells.yaml — Senescent Cell Elimination Causal Chain (ApoptoSENS)
+#
+# This causal chain maps the prerequisite conditions for safely and selectively
+# clearing senescent cell burden and neutralizing the SASP (Senescence-Associated
+# Secretory Phenotype) to restore tissue regeneration in aging organisms.
+#
+# Chain structure:
+#   goal:clear_senescent_cells (CRITICAL)
+#   ├── req:selective_senolysis (CRITICAL)
+#   │   ├── req:scap_inhibition (HIGH)
+#   │   ├── req:senescence_biomarker_targeting (HIGH)
+#   │   └── req:platelet_safety (HIGH)
+#   ├── req:sasp_neutralization (HIGH)
+#   │   ├── req:nfkb_p38_inhibition (MEDIUM)
+#   │   └── req:fibrosis_prevention (MEDIUM)
+#   └── req:tissue_regeneration (HIGH)
+#       ├── req:immune_debris_clearance (MEDIUM)
+#       └── req:functional_rejuvenation (MEDIUM)
+
+name: "Senescent Cell Clearance (ApoptoSENS)"
+version: "1.0"
+target: "senescent_cells"
+goal: "Selectively eliminate senescent cell burden and neutralize SASP to restore youthful tissue homeostasis"
+description: >
+  Senescent cells accumulate with age across all human tissues. While permanently
+  arrested from cell division, they resist apoptosis via upregulated SCAP pathways
+  and continuously secrete destructive pro-inflammatory and matrix-degrading
+  molecules (SASP). This chain models the required biological prerequisites for
+  precision senolytic therapeutics.
+
+nodes:
+  - id: "goal:clear_senescent_cells"
+    description: "Selectively eliminate senescent cell burden and neutralize SASP to restore youthful tissue homeostasis"
+    priority: "CRITICAL"
+    children:
+
+      - id: "req:selective_senolysis"
+        description: >
+          Selectively trigger apoptosis in senescent cells via SCAP pathway
+          disruption without killing healthy non-senescent somatic or stem cells
+        required_graph_entity: "unknown:selective_senolytic_mechanism"
+        required_edge_type: "INHIBITS"
+        required_status: "PROVEN"
+        priority: "CRITICAL"
+        children:
+
+          - id: "req:scap_inhibition"
+            description: >
+              Small-molecule, peptide, or PROTAC disruption of core Senescent Cell
+              Anti-Apoptotic Pathways (BCL-2, BCL-xL, BCL-W, or FOXO4-p53 complex)
+              with nanomolar binding affinity
+            required_graph_entity: "protein:bcl_xl"
+            required_status: "PROVEN"
+            priority: "HIGH"
+
+          - id: "req:senescence_biomarker_targeting"
+            description: >
+              Validated surface marker or intracellular signature (e.g., CD26/DPP4,
+              uPAR, beta-galactosidase prodrug activation) providing high-fidelity
+              discrimination between senescent and quiescent cells
+            required_graph_entity: "unknown:senescent_surface_marker"
+            priority: "HIGH"
+
+          - id: "req:platelet_safety"
+            description: >
+              Delivery or degradation strategy that avoids on-target thrombocytopenia
+              (platelet toxicity) caused by systemic BCL-xL inhibition
+            required_graph_entity: "unknown:platelet_sparing_mechanism"
+            priority: "HIGH"
+
+      - id: "req:sasp_neutralization"
+        description: >
+          Suppression of the pro-inflammatory Senescence-Associated Secretory
+          Phenotype (IL-6, IL-8, MMPs, TGF-beta) to halt bystander tissue degradation
+        priority: "HIGH"
+        children:
+
+          - id: "req:nfkb_p38_inhibition"
+            description: >
+              Targeted inhibition of upstream master transcriptional drivers of SASP
+              including NF-kB, p38 MAPK, and cGAS-STING cytosolic DNA surveillance
+            priority: "MEDIUM"
+
+          - id: "req:fibrosis_prevention"
+            description: >
+              Prevention of senescent cell-induced paracrine fibroblast activation
+              and irreversible extracellular matrix fibrosis prior to clearance
+            priority: "MEDIUM"
+
+      - id: "req:tissue_regeneration"
+        description: >
+          Parenchymal tissue rejuvenation and restoration of physiological organ
+          function following senescent cell removal
+        priority: "HIGH"
+        children:
+
+          - id: "req:immune_debris_clearance"
+            description: >
+              Efficient macrophage and phagocytic clearance of apoptotic senescent
+              cell corpses without inducing sterile autoimmune inflammation
+            priority: "MEDIUM"
+
+          - id: "req:functional_rejuvenation"
+            description: >
+              In vivo verification that cleared tissues regain proliferative capacity,
+              stem cell niche activity, and youthful metabolic function
+            priority: "MEDIUM"

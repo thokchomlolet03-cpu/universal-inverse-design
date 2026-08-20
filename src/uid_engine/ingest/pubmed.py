@@ -42,8 +42,10 @@ SEARCH_QUERIES = {
         'OR ("GlycoSENS"[Title/Abstract])'
     ),
     "senescent_cells": (
-        '("senolytic"[Title/Abstract] OR "senescent cells"[Title/Abstract] '
-        'AND "clearance"[Title/Abstract])'
+        '("senolytic"[Title/Abstract] OR "senolytics"[Title/Abstract] OR "cellular senescence"[Title/Abstract] '
+        'OR "senescent cell"[Title/Abstract] OR "SASP"[Title/Abstract] OR "p16INK4a"[Title/Abstract]) '
+        'AND ("clearance" OR "apoptosis" OR "BCL-2" OR "BCL-xL" OR "dasatinib" OR "quercetin" OR "fisetin" '
+        'OR "navitoclax" OR "ABT-263" OR "FOXO4")'
     ),
     "mitochondrial_mutations": (
         '("allotopic expression"[Title/Abstract] OR "mitochondrial DNA mutation" '

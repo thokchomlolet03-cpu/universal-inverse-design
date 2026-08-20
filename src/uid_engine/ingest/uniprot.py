@@ -61,6 +61,33 @@ SEARCH_QUERIES = {
             "label": "RAGE receptors",
         },
     ],
+    "senescent_cells": [
+        # Anti-apoptotic proteins (SCAP targets)
+        {
+            "query": 'gene:BCL2 OR gene:BCL2L1 OR gene:BCL2L2 AND organism_id:9606 AND reviewed:true',
+            "label": "BCL-2 family anti-apoptotic proteins (BCL-2, BCL-xL, BCL-W)",
+        },
+        # Cell cycle inhibitors (senescence markers)
+        {
+            "query": 'gene:CDKN2A OR gene:CDKN1A AND organism_id:9606 AND reviewed:true',
+            "label": "Cell cycle arrest drivers (p16INK4a, p21CIP1)",
+        },
+        # FOXO4 regulator
+        {
+            "query": 'gene:FOXO4 AND organism_id:9606 AND reviewed:true',
+            "label": "Forkhead box protein O4 (FOXO4)",
+        },
+        # Surface markers
+        {
+            "query": 'gene:DPP4 OR gene:PLAUR AND organism_id:9606 AND reviewed:true',
+            "label": "Senescence surface markers (DPP4/CD26, uPAR)",
+        },
+        # Key SASP factors
+        {
+            "query": 'gene:IL6 OR gene:CXCL8 OR gene:MMP3 AND organism_id:9606 AND reviewed:true',
+            "label": "Major SASP effector cytokines & proteases",
+        },
+    ],
 }
 
 
