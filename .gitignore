@@ -35,3 +35,6 @@ Thumbs.db
 
 # Graph backups (generated artifacts)
 data/graphs/*.bak
+
+# MkDocs local build output (deployed via gh-pages branch by CI)
+site/
