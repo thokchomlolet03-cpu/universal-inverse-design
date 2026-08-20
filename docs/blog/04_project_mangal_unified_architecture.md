@@ -76,75 +76,30 @@ This is forward design: starting with known molecules and hoping one hits an unk
 
 The unified system operates as a single, coordinated cognitive and generative engine:
 
-```text
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                              PROJECT MANGAL (LIGHT)                                    │
-│                     The Cognitive Cortex & Epistemic Compiler                          │
-│                                                                                        │
-│  [1. Combinatorial Tensor Matrix]                                                      │
-│     10 Archetypes (W) x 10 Elements (X) x 10 Operations (Y) x 10 Scales (Z)            │
-│     = 10,000 Diagnostic Inquiry Vectors (Expandable to 100,000 via 5D Matrix)          │
-│                                │                                                       │
-│                                ▼                                                       │
-│  [2. 3-Gate Multi-Layer Sieve]                                                         │
-│     • Gate 1: Fast pure-Python O(1) heuristic compatibility & redundancy purge         │
-│     • Gate 2: Anomaly & cognitive divergence scoring (bypasses human bias)             │
-│     • Gate 3: Top-K high-leverage diagnostic inquiry extraction                        │
-│                                │                                                       │
-│                                ▼                                                       │
-│  [3. Euclidean Vector Space Clusterer & Axiom Distiller]                               │
-│     • Deterministic TF-IDF cosine clustering into ~50 conceptual solution paradigms    │
-│     • Invariant analysis across all clusters -> Distills the Root-Cause Axiom          │
-│                                │                                                       │
-│                                ▼                                                       │
-│  [4. Axiomatic Challenge Protocol]                                                     │
-│     • Vector 1: Axiom Invalidation (De novo catalytic pocket design)                    │
-│     • Vector 2: Dimensional Expansion (Upstream precursor interception)                │
-│     • Vector 3: Constraint Substitution (Targeted degradation/PROTACs)                 │
-│     • Vector 4: Symbiotic Synthesis (Orthogonal ECM remodeling)                        │
-│                                │                                                       │
-│                                ▼                                                       │
-│  [5. Autonomous Causal Chain Compiler (`chain_writer.py`)]                             │
-│     • Formulates hierarchical causal dependency tree                                   │
-│     • Compiles 100% schema-valid `src/uid_engine/chains/{target}.yaml`                 │
-│                                │                                                       │
-│                                ▼ (Zero-Human-Touch Contract Handoff)                   │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│                       UNIVERSAL INVERSE DESIGN ENGINE (UID)                            │
-│                       The Physical & Generative Laboratory                             │
-│                                                                                        │
-│  [6. Epistemic Ingestion Vault (`uid_engine/ingest/`)]                                 │
-│     • PubMed (NCBI) + UniProtKB + KEGG + ChEMBL + AlphaFold EBI API                    │
-│     • Rate-limited exponential backoff retry wrappers (`entrez_retry.py`)              │
-│                                │                                                       │
-│                                ▼                                                       │
-│  [7. Negative Space Topological Detector (`uid_engine/analysis/gap_detector.py`)]      │
-│     • O(1) edge-indexed graph traversal against the compiled YAML chain               │
-│     • Flags CRITICAL, HIGH, and MEDIUM epistemic voids (missing enzymes/structures)    │
-│                                │                                                       │
-│                                ▼                                                       │
-│  [8. De Novo Design Spec Compiler (`uid_engine/analysis/design_spec.py`)]              │
-│     • RDKit ETKDGv3 ML 3D conformer generation + MMFF94 force-field energy minimization│
-│     • Compiles machine-actionable JSON specs + 3D Cartesian coordinates (.sdf)         │
-│                                │                                                       │
-│                                ▼                                                       │
-│  [9. Generative Inference Orchestrator (`uid_engine/generative/orchestrator.py`)]      │
-│     • ProteinMPNN (fixed catalytic triad masking: His-Asp-Ser)                         │
-│     • ESM-3 active-site conditioned sequence backbones                                 │
-│                                │                                                       │
-│                                ▼                                                       │
-│  [10. 4-Gate In Silico Biophysical QC (`uid_engine/generative/screening.py`)]          │
-│     • Gate 1: Mean pLDDT >= 80.0                                                       │
-│     • Gate 2: Self-consistency scRMSD <= 2.0 A                                         │
-│     • Gate 3: Catalytic active-site residue exact match                                │
-│     • Gate 4: BioPython Kyte-Doolittle GRAVY <= 0.2 & Instability Index <= 50.0        │
-│                                │                                                       │
-│                                ▼                                                       │
-│  [11. Epistemic Loop Closure (`uid_engine/graph/`)]                                    │
-│     • Injects candidate into graph with NodeType.PROTEIN & EvidenceStatus.HYPOTHESIZED │
-│     • State transition: CRITICAL gap downgraded to CANDIDATE_PENDING_SYNTHESIS         │
-│     • Cytoscape.js interactive dark-mode visualizer generation                         │
-└────────────────────────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    subgraph Mangal ["PROJECT MANGAL (LIGHT)<br/>The Cognitive Cortex & Epistemic Compiler"]
+        M1["1. Combinatorial Tensor Matrix<br/>10 Archetypes × 10 Elements × 10 Operations × 10 Scales = 10,000 Vectors"]
+        M2["2. 3-Gate Multi-Layer Sieve<br/>• Gate 1: Fast O(1) Heuristic Purge<br/>• Gate 2: Anomaly / Leverage Scoring<br/>• Gate 3: Top-K Extraction"]
+        M3["3. Euclidean Vector Space Clusterer<br/>TF-IDF Cosine Clustering → Root-Cause Axiom"]
+        M4["4. Axiomatic Challenge Protocol<br/>4 Mutation Vectors: Invalidation | Expansion | Substitution | Symbiosis"]
+        M5["5. Autonomous Causal Chain Compiler<br/>Compiles schema-valid YAML causal specification"]
+        
+        M1 --> M2 --> M3 --> M4 --> M5
+    end
+
+    subgraph UID ["UNIVERSAL INVERSE DESIGN ENGINE (UID)<br/>The Physical & Generative Laboratory"]
+        U6["6. Epistemic Ingestion Vault<br/>PubMed + UniProt + KEGG + ChEMBL + AlphaFold"]
+        U7["7. Negative Space Topological Detector<br/>O(1) Traversal → Detects CRITICAL / HIGH Gaps"]
+        U8["8. De Novo Design Spec Compiler<br/>RDKit ETKDGv3 ML + MMFF94 Energy Minimization"]
+        U9["9. Generative Inference Orchestrator<br/>ProteinMPNN (Masked Triad) + ESM-3 Adapter"]
+        U10["10. 4-Gate In Silico Biophysical QC<br/>pLDDT ≥ 80 | scRMSD ≤ 2.0 Å | Active Site | GRAVY ≤ 0.2"]
+        U11["11. Epistemic Loop Closure<br/>Knowledge Graph Injection → Gap Priority Downgrade"]
+        
+        U6 --> U7 --> U8 --> U9 --> U10 --> U11
+    end
+
+    M5 ==>|Zero-Human-Touch Contract Handoff| U6
 ```
 
 ---
