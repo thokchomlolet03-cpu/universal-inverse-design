@@ -1,0 +1,1257 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An autonomous epistemic engine that identifies the precise missing scientific unknowns preventing humanity from solving biological aging — and generates de novo molecular designs to fill those gaps.
+">
+      
+      
+        <meta name="author" content="Thokchom Lolet Singh">
+      
+      
+        <link rel="canonical" href="https://thokchomlolet03-cpu.github.io/universal-inverse-design/blog/01_system_architecture/">
+      
+      
+        <link rel="prev" href="../02_engineering_manifesto/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/logo.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>System Architecture - Universal Inverse Design Engine</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-epistemic-conductor-system-architecture-and-mathematical-foundations-of-the-universal-inverse-design-engine" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Universal Inverse Design Engine" class="md-header__button md-logo" aria-label="Universal Inverse Design Engine" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Universal Inverse Design Engine
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              System Architecture
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/thokchomlolet03-cpu/universal-inverse-design" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    thokchomlolet03-cpu/universal-inverse-design
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Universal Inverse Design Engine" class="md-nav__button md-logo" aria-label="Universal Inverse Design Engine" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    Universal Inverse Design Engine
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/thokchomlolet03-cpu/universal-inverse-design" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    thokchomlolet03-cpu/universal-inverse-design
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_engineering_manifesto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering Manifesto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System Architecture
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-executive-summary-core-thesis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Executive Summary &amp; Core Thesis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-high-level-system-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. High-Level System Architecture
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-the-mathematical-ontology-graph-schema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. The Mathematical Ontology: Graph Schema
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. The Mathematical Ontology: Graph Schema">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-node-taxonomy-mathcalv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Node Taxonomy (\(\mathcal{V}\))
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-edge-taxonomy-mathcale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Edge Taxonomy (\(\mathcal{E}\))
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-confidence-decay-provenance-scoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Confidence Decay &amp; Provenance Scoring
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-the-extraction-engine-overcoming-the-regex-delusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. The Extraction Engine: Overcoming the Regex Delusion
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. The Extraction Engine: Overcoming the Regex Delusion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-schema-enforced-reasoning-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Schema-Enforced Reasoning Prompt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-negative-space-detection-formal-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Negative Space Detection: Formal Algorithm
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Negative Space Detection: Formal Algorithm">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-verification-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Verification Function
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-severity-scoring-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Severity Scoring Function
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-real-world-execution-trace-milestone-1-benchmark" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Real-World Execution Trace: Milestone 1 Benchmark
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Real-World Execution Trace: Milestone 1 Benchmark">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#knowledge-graph-distribution-327-nodes-174-edges" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Knowledge Graph Distribution (327 Nodes, 174 Edges)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#top-3-detected-negative-space-voids" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Top 3 Detected Negative Space Voids
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-scaling-horizon-from-in-memory-networkx-to-bigquery-c" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Scaling Horizon: From In-Memory NetworkX to BigQuery &amp; C++
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Conclusion
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-executive-summary-core-thesis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Executive Summary &amp; Core Thesis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-high-level-system-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. High-Level System Architecture
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-the-mathematical-ontology-graph-schema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. The Mathematical Ontology: Graph Schema
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. The Mathematical Ontology: Graph Schema">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-node-taxonomy-mathcalv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Node Taxonomy (\(\mathcal{V}\))
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-edge-taxonomy-mathcale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Edge Taxonomy (\(\mathcal{E}\))
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-confidence-decay-provenance-scoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Confidence Decay &amp; Provenance Scoring
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-the-extraction-engine-overcoming-the-regex-delusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. The Extraction Engine: Overcoming the Regex Delusion
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. The Extraction Engine: Overcoming the Regex Delusion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-schema-enforced-reasoning-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Schema-Enforced Reasoning Prompt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-negative-space-detection-formal-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Negative Space Detection: Formal Algorithm
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Negative Space Detection: Formal Algorithm">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-verification-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Verification Function
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-severity-scoring-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Severity Scoring Function
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-real-world-execution-trace-milestone-1-benchmark" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Real-World Execution Trace: Milestone 1 Benchmark
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Real-World Execution Trace: Milestone 1 Benchmark">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#knowledge-graph-distribution-327-nodes-174-edges" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Knowledge Graph Distribution (327 Nodes, 174 Edges)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#top-3-detected-negative-space-voids" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Top 3 Detected Negative Space Voids
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-scaling-horizon-from-in-memory-networkx-to-bigquery-c" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Scaling Horizon: From In-Memory NetworkX to BigQuery &amp; C++
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Conclusion
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="the-epistemic-conductor-system-architecture-and-mathematical-foundations-of-the-universal-inverse-design-engine">The Epistemic Conductor: System Architecture and Mathematical Foundations of the Universal Inverse Design Engine<a class="headerlink" href="#the-epistemic-conductor-system-architecture-and-mathematical-foundations-of-the-universal-inverse-design-engine" title="Permanent link">&para;</a></h1>
+<p><strong>Author:</strong> Thokchom Lolet Singh<br />
+<strong>Project:</strong> Universal Inverse Design Engine (<code>uid-engine</code>)<br />
+<strong>Version:</strong> v0.1.0 (Milestone 1 Specification)<br />
+<strong>Status:</strong> Operational / Active Implementation<br />
+<strong>Target:</strong> Benchmark 1 — Biological Immortality (SENS Category: GlycoSENS)</p>
+<hr />
+<h2 id="1-executive-summary-core-thesis">1. Executive Summary &amp; Core Thesis<a class="headerlink" href="#1-executive-summary-core-thesis" title="Permanent link">&para;</a></h2>
+<p>Contemporary drug discovery and biomedical research operate on an inefficient <strong>forward-search heuristic</strong>: scientists screen millions of candidate molecules or sequence thousands of genomes hoping to stumble upon a functional interaction. This methodology yields diminishing returns because biological systems are hyper-dimensional, non-linear, and constrained by evolutionary baggage.</p>
+<p>The <strong>Universal Inverse Design Engine</strong> replaces forward trial-and-error with <strong>Inverse Causal Mapping</strong>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>FORWARD SEARCH (Slow, Low-Probability):
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>[Random Library Screening] ──► [Candidate Testing] ──► [99% Clinical Failure]
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>INVERSE DESIGN (Deterministic, Goal-Driven):
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>[Desired Physiological State] ──► [Causal Chain Inversion] ──► [Negative Space / Gap Detection] ──► [Targeted Synthesis]
+</span></code></pre></div>
+<p>Instead of asking <em>"What do existing biological databases tell us?"</em>, the engine asks:</p>
+<blockquote>
+<p><strong>"What must exist for a specific physiological repair goal to be mathematically true, and where does current human knowledge have a topological hole?"</strong></p>
+</blockquote>
+<p>This document details the architectural blueprint, mathematical foundations, data ingestion pipelines, and topological traversal algorithms powering the <strong>Universal Inverse Design Engine (v0.1.0)</strong>.</p>
+<hr />
+<h2 id="2-high-level-system-architecture">2. High-Level System Architecture<a class="headerlink" href="#2-high-level-system-architecture" title="Permanent link">&para;</a></h2>
+<p>The engine is engineered as an <strong>Epistemic Conductor</strong>—a distributed, modular reasoning system that does not attempt to simulate quantum chemistry from scratch, but instead orchestrates structured ground-truth biological databases, reasoning models, and specialized structural prediction tools.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>┌────────────────────────────────────────────────────────────────────────────────────────┐
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>│                      UNIVERSAL INVERSE DESIGN ENGINE (v0.1.0)                          │
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>└────────────────────────────────────────────────────────────────────────────────────────┘
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a> ┌──────────────────────────────────────────────────────────────────────────────────────┐
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a> │                              1. HETEROGENEOUS INGESTION LAYER                         │
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a> │                                                                                      │
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a> │  ┌─────────────────┐  ┌──────────────────┐  ┌──────────────────┐  ┌────────────────┐ │
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a> │  │ PubMed E-Utils  │  │   UniProtKB      │  │  KEGG Pathways   │  │  ChEMBL API    │ │
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a> │  │ (76 Papers)     │  │ (190 Proteins)   │  │ (5 Pathways)     │  │ (529 Records)  │ │
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a> │  └────────┬────────┘  └────────┬─────────┘  └────────┬─────────┘  └────────┬───────┘ │
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a> └───────────┼────────────────────┼─────────────────────┼─────────────────────┼─────────┘
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>             │                    │                     │                     │
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>             ▼                    ▼                     ▼                     ▼
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a> ┌──────────────────────────────────────────────────────────────────────────────────────┐
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a> │                      2. REASONING &amp; EXTRACTION ENGINE (entities.py)                  │
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a> │                                                                                      │
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a> │   • LLM Zero-Shot Reasoning (Gemini Flash Schema-Guided)                             │
+</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a> │   • Strict Typological Guardrails (Entities, Provenance Quotes, Triplet Enums)       │
+</span><span id="__span-1-20"><a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a> │   • Three-State Causality Parser: [PROVEN | HYPOTHESIZED | FAILED]                   │
+</span><span id="__span-1-21"><a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a> └──────────────────────────────────────┬───────────────────────────────────────────────┘
+</span><span id="__span-1-22"><a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a>                                        │
+</span><span id="__span-1-23"><a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a>                                        ▼
+</span><span id="__span-1-24"><a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a> ┌──────────────────────────────────────────────────────────────────────────────────────┐
+</span><span id="__span-1-25"><a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a> │                    3. UNIFIED EPISTEMIC KNOWLEDGE GRAPH (builder.py)                 │
+</span><span id="__span-1-26"><a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a> │                                                                                      │
+</span><span id="__span-1-27"><a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a> │   • NetworkX In-Memory Directed Multigraph (327 Nodes, 174 Typed Edges)              │
+</span><span id="__span-1-28"><a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a> │   • Confidence Decay Matrix: Curated DB (1.0) ──► Struct (0.8) ──► LLM (0.5) ──► (0.3)│
+</span><span id="__span-1-29"><a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a> │   • Sanitized GraphML Serialization Boundary (store.py)                              │
+</span><span id="__span-1-30"><a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a> └──────────────────────────────────────┬───────────────────────────────────────────────┘
+</span><span id="__span-1-31"><a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a>                                        │
+</span><span id="__span-1-32"><a id="__codelineno-1-32" name="__codelineno-1-32" href="#__codelineno-1-32"></a>                                        ▼
+</span><span id="__span-1-33"><a id="__codelineno-1-33" name="__codelineno-1-33" href="#__codelineno-1-33"></a> ┌──────────────────────────────────────────────────────────────────────────────────────┐
+</span><span id="__span-1-34"><a id="__codelineno-1-34" name="__codelineno-1-34" href="#__codelineno-1-34"></a> │                    4. NEGATIVE SPACE DETECTOR (gap_detector.py)                      │
+</span><span id="__span-1-35"><a id="__codelineno-1-35" name="__codelineno-1-35" href="#__codelineno-1-35"></a> │                                                                                      │
+</span><span id="__span-1-36"><a id="__codelineno-1-36" name="__codelineno-1-36" href="#__codelineno-1-36"></a> │   • Target Causal Chain Decomposition (causal_chains.py)                             │
+</span><span id="__span-1-37"><a id="__codelineno-1-37" name="__codelineno-1-37" href="#__codelineno-1-37"></a> │   • Topological Hole &amp; Breakpoint Finder                                             │
+</span><span id="__span-1-38"><a id="__codelineno-1-38" name="__codelineno-1-38" href="#__codelineno-1-38"></a> │   • Severity Ranking: CRITICAL (4) ──► HIGH (3) ──► MEDIUM (2) ──► LOW (1)          │
+</span><span id="__span-1-39"><a id="__codelineno-1-39" name="__codelineno-1-39" href="#__codelineno-1-39"></a> └──────────────────────────────────────┬───────────────────────────────────────────────┘
+</span><span id="__span-1-40"><a id="__codelineno-1-40" name="__codelineno-1-40" href="#__codelineno-1-40"></a>                                        │
+</span><span id="__span-1-41"><a id="__codelineno-1-41" name="__codelineno-1-41" href="#__codelineno-1-41"></a>                                        ▼
+</span><span id="__span-1-42"><a id="__codelineno-1-42" name="__codelineno-1-42" href="#__codelineno-1-42"></a> ┌──────────────────────────────────────────────────────────────────────────────────────┐
+</span><span id="__span-1-43"><a id="__codelineno-1-43" name="__codelineno-1-43" href="#__codelineno-1-43"></a> │                     5. ACTIONABLE OUTPUT: EPISTEMIC GAP REPORT                       │
+</span><span id="__span-1-44"><a id="__codelineno-1-44" name="__codelineno-1-44" href="#__codelineno-1-44"></a> │                                                                                      │
+</span><span id="__span-1-45"><a id="__codelineno-1-45" name="__codelineno-1-45" href="#__codelineno-1-45"></a> │   • Markdown Research Roadmaps (reports/epistemic_gap_report_*.md)                   │
+</span><span id="__span-1-46"><a id="__codelineno-1-46" name="__codelineno-1-46" href="#__codelineno-1-46"></a> │   • Targeted In Silico &amp; Wet-Lab Dispatch Directives                                 │
+</span><span id="__span-1-47"><a id="__codelineno-1-47" name="__codelineno-1-47" href="#__codelineno-1-47"></a> └──────────────────────────────────────────────────────────────────────────────────────┘
+</span></code></pre></div>
+<hr />
+<h2 id="3-the-mathematical-ontology-graph-schema">3. The Mathematical Ontology: Graph Schema<a class="headerlink" href="#3-the-mathematical-ontology-graph-schema" title="Permanent link">&para;</a></h2>
+<p>The engine structures all biological phenomena into a typed directed graph <span class="arithmatex">\(\mathcal{G} = (\mathcal{V}, \mathcal{E}, \mathcal{W})\)</span>, where:</p>
+<ul>
+<li><span class="arithmatex">\(\mathcal{V}\)</span> is the set of typed nodes representing physical or conceptual entities.</li>
+<li><span class="arithmatex">\(\mathcal{E}\)</span> is the set of typed, directed causal edges representing biological relationships.</li>
+<li><span class="arithmatex">\(\mathcal{W}: \mathcal{E} \to [0, 1] \times \{\text{PROVEN}, \text{HYPOTHESIZED}, \text{FAILED}\}\)</span> assigns a tuple of confidence score <span class="arithmatex">\(c \in [0, 1]\)</span> and experimental validation state <span class="arithmatex">\(S\)</span>.</li>
+</ul>
+<h3 id="31-node-taxonomy-mathcalv">3.1 Node Taxonomy (<span class="arithmatex">\(\mathcal{V}\)</span>)<a class="headerlink" href="#31-node-taxonomy-mathcalv" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[\mathcal{V}_{\text{type}} \in \{\text{MOLECULE}, \text{PROTEIN}, \text{GENE}, \text{PATHWAY}, \text{TISSUE}, \text{PAPER}, \text{DAMAGE\_CLASS}, \text{MECHANISM}, \text{UNKNOWN}\}\]</div>
+<table>
+<thead>
+<tr>
+<th>Node Type</th>
+<th>Description</th>
+<th>Primary Key / Identifier</th>
+<th>Example Attributes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MOLECULE</code></td>
+<td>Small molecules, crosslinks, drugs</td>
+<td><code>mol:&lt;slug&gt;</code></td>
+<td>SMILES, Formula, MW, Max Phase</td>
+</tr>
+<tr>
+<td><code>PROTEIN</code></td>
+<td>Enzymes, structural proteins</td>
+<td><code>protein:&lt;accession&gt;</code></td>
+<td>UniProt Accession, EC Number, PDB IDs</td>
+</tr>
+<tr>
+<td><code>GENE</code></td>
+<td>Genetic loci, coding sequences</td>
+<td><code>gene:&lt;ensembl_id&gt;</code></td>
+<td>Chromosome, Organism, Gene Symbol</td>
+</tr>
+<tr>
+<td><code>PATHWAY</code></td>
+<td>Biochemical / signaling circuits</td>
+<td><code>pathway:&lt;kegg_id&gt;</code></td>
+<td>KEGG ID, Gene Count, Compound Count</td>
+</tr>
+<tr>
+<td><code>TISSUE</code></td>
+<td>Human organs and tissues</td>
+<td><code>tissue:&lt;slug&gt;</code></td>
+<td>Anatomy Term, Extracellular Composition</td>
+</tr>
+<tr>
+<td><code>PAPER</code></td>
+<td>Peer-reviewed publications</td>
+<td><code>paper:PMID_&lt;id&gt;</code></td>
+<td>PMID, Year, Journal, MeSH Terms, DOI</td>
+</tr>
+<tr>
+<td><code>DAMAGE_CLASS</code></td>
+<td>SENS 7 Damage Categories</td>
+<td><code>sens:&lt;category&gt;</code></td>
+<td>Classification Name, Primary Pathology</td>
+</tr>
+<tr>
+<td><code>MECHANISM</code></td>
+<td>Biochemical transformations</td>
+<td><code>mech:&lt;slug&gt;</code></td>
+<td>Reaction Class, Substrate, Byproducts</td>
+</tr>
+<tr>
+<td><code>UNKNOWN</code></td>
+<td><strong>Negative Space (Explicit Void)</strong></td>
+<td><code>unknown:&lt;slug&gt;</code></td>
+<td>Priority, Required Goal, Hypothesis</td>
+</tr>
+</tbody>
+</table>
+<h3 id="32-edge-taxonomy-mathcale">3.2 Edge Taxonomy (<span class="arithmatex">\(\mathcal{E}\)</span>)<a class="headerlink" href="#32-edge-taxonomy-mathcale" title="Permanent link">&para;</a></h3>
+<p>Every edge <span class="arithmatex">\(e = (u, v) \in \mathcal{E}\)</span> represents a directed assertion that <span class="arithmatex">\(u\)</span> influences or relates to <span class="arithmatex">\(v\)</span>:</p>
+<div class="arithmatex">\[\mathcal{E}_{\text{type}} \in \{\text{CATALYZES}, \text{CROSSLINKS}, \text{CAUSES\_DAMAGE}, \text{REPORTED\_IN}, \text{REQUIRES}, \text{PART\_OF}, \text{INHIBITS}, \text{ACTIVATES}, \text{DEGRADES}, \text{PRODUCES}, \text{BLOCKS}\}\]</div>
+<h3 id="33-confidence-decay-provenance-scoring">3.3 Confidence Decay &amp; Provenance Scoring<a class="headerlink" href="#33-confidence-decay-provenance-scoring" title="Permanent link">&para;</a></h3>
+<p>Edge weights <span class="arithmatex">\(c(e)\)</span> are assigned based on evidentiary provenance:</p>
+<div class="arithmatex">\[c(e) = \begin{cases} 
+1.0 &amp; \text{Curated Database (UniProt Swiss-Prot, KEGG verified)} \\
+0.8 &amp; \text{Structured Bioassay (ChEMBL } K_i, \text{IC}_{50} \text{ values)} \\
+0.5 &amp; \text{LLM-Extracted Literature Assertion (Single Abstract)} \\
+0.3 &amp; \text{Unreplicated Hypothesis / Computational Prediction}
+\end{cases}\]</div>
+<p>If an edge is flagged with status <span class="arithmatex">\(\text{FAILED}\)</span> (e.g., <em>Enzyme X was tested and failed to hydrolyze Glucosepane</em>), its effective traversal weight is zeroed for forward positive chains (<span class="arithmatex">\(c_{\text{eff}} = 0\)</span>), preventing false-positive causal propagation.</p>
+<hr />
+<h2 id="4-the-extraction-engine-overcoming-the-regex-delusion">4. The Extraction Engine: Overcoming the Regex Delusion<a class="headerlink" href="#4-the-extraction-engine-overcoming-the-regex-delusion" title="Permanent link">&para;</a></h2>
+<p>A foundational vulnerability in traditional bio-NLP systems is the <strong>Regex Delusion</strong>—the naive assumption that keyword co-occurrence equals biological causality.</p>
+<p>Consider the sentence:</p>
+<blockquote>
+<p><em>"Unlike bacterial collagenase, candidate enzyme Glyc-1 failed to hydrolyze the glucosepane amidine ring in vitro."</em></p>
+</blockquote>
+<ul>
+<li><strong>Naive Regex/Co-occurrence:</strong> Extracts <code>(Glyc-1) ──[CATALYZES]──► (Glucosepane)</code>. <strong>(False Positive / Hallucination)</strong></li>
+<li><strong>Engine Causality Parser:</strong> Identifies negative qualification, extracting:
+  <div class="language-json highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">{</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">  </span><span class="nt">"source_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"protein:glyc_1"</span><span class="p">,</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">  </span><span class="nt">"edge_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"DEGRADES"</span><span class="p">,</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">  </span><span class="nt">"target_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"mol:glucosepane"</span><span class="p">,</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">  </span><span class="nt">"context"</span><span class="p">:</span><span class="w"> </span><span class="s2">"candidate enzyme Glyc-1 failed to hydrolyze the glucosepane amidine ring"</span><span class="p">,</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">  </span><span class="nt">"status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"FAILED"</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="p">}</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="41-schema-enforced-reasoning-prompt">4.1 Schema-Enforced Reasoning Prompt<a class="headerlink" href="#41-schema-enforced-reasoning-prompt" title="Permanent link">&para;</a></h3>
+<p>The extraction pipeline passes PubMed abstracts into a structured reasoning block with a constrained JSON schema:</p>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">{</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">  </span><span class="nt">"system_instruction"</span><span class="p">:</span><span class="w"> </span><span class="s2">"You are a specialized biomedical entity and causality extractor. You must ONLY extract relationships explicitly proven in the text. Tag failures as FAILED. Output must strictly match JSON Schema."</span><span class="p">,</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">  </span><span class="nt">"json_schema"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"object"</span><span class="p">,</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="nt">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">      </span><span class="nt">"entities"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="p">,</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">        </span><span class="nt">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">          </span><span class="nt">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">            </span><span class="nt">"entity_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">            </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">,</span><span class="w"> </span><span class="nt">"enum"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"MOLECULE"</span><span class="p">,</span><span class="w"> </span><span class="s2">"PROTEIN"</span><span class="p">,</span><span class="w"> </span><span class="s2">"GENE"</span><span class="p">,</span><span class="w"> </span><span class="s2">"PATHWAY"</span><span class="p">,</span><span class="w"> </span><span class="s2">"TISSUE"</span><span class="p">,</span><span class="w"> </span><span class="s2">"MECHANISM"</span><span class="p">]</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">            </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w"> </span><span class="p">}</span>
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="w">          </span><span class="p">},</span>
+</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="w">          </span><span class="nt">"required"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"entity_id"</span><span class="p">,</span><span class="w"> </span><span class="s2">"type"</span><span class="p">,</span><span class="w"> </span><span class="s2">"name"</span><span class="p">]</span>
+</span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a><span class="w">        </span><span class="p">}</span>
+</span><span id="__span-3-16"><a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a><span class="w">      </span><span class="p">},</span>
+</span><span id="__span-3-17"><a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a><span class="w">      </span><span class="nt">"causal_edges"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-18"><a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a><span class="w">        </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"array"</span><span class="p">,</span>
+</span><span id="__span-3-19"><a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a><span class="w">        </span><span class="nt">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-20"><a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a><span class="w">          </span><span class="nt">"properties"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-21"><a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a><span class="w">            </span><span class="nt">"source_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-3-22"><a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a><span class="w">            </span><span class="nt">"edge_type"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">,</span><span class="w"> </span><span class="nt">"enum"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"CATALYZES"</span><span class="p">,</span><span class="w"> </span><span class="s2">"CROSSLINKS"</span><span class="p">,</span><span class="w"> </span><span class="s2">"CAUSES_DAMAGE"</span><span class="p">,</span><span class="w"> </span><span class="s2">"REQUIRES"</span><span class="p">,</span><span class="w"> </span><span class="s2">"PART_OF"</span><span class="p">,</span><span class="w"> </span><span class="s2">"INHIBITS"</span><span class="p">,</span><span class="w"> </span><span class="s2">"ACTIVATES"</span><span class="p">,</span><span class="w"> </span><span class="s2">"DEGRADES"</span><span class="p">,</span><span class="w"> </span><span class="s2">"PRODUCES"</span><span class="p">,</span><span class="w"> </span><span class="s2">"BLOCKS"</span><span class="p">]</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-3-23"><a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a><span class="w">            </span><span class="nt">"target_id"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-3-24"><a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a><span class="w">            </span><span class="nt">"context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-3-25"><a id="__codelineno-3-25" name="__codelineno-3-25" href="#__codelineno-3-25"></a><span class="w">            </span><span class="nt">"status"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">,</span><span class="w"> </span><span class="nt">"enum"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"PROVEN"</span><span class="p">,</span><span class="w"> </span><span class="s2">"HYPOTHESIZED"</span><span class="p">,</span><span class="w"> </span><span class="s2">"FAILED"</span><span class="p">]</span><span class="w"> </span><span class="p">}</span>
+</span><span id="__span-3-26"><a id="__codelineno-3-26" name="__codelineno-3-26" href="#__codelineno-3-26"></a><span class="w">          </span><span class="p">},</span>
+</span><span id="__span-3-27"><a id="__codelineno-3-27" name="__codelineno-3-27" href="#__codelineno-3-27"></a><span class="w">          </span><span class="nt">"required"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"source_id"</span><span class="p">,</span><span class="w"> </span><span class="s2">"edge_type"</span><span class="p">,</span><span class="w"> </span><span class="s2">"target_id"</span><span class="p">,</span><span class="w"> </span><span class="s2">"status"</span><span class="p">]</span>
+</span><span id="__span-3-28"><a id="__codelineno-3-28" name="__codelineno-3-28" href="#__codelineno-3-28"></a><span class="w">        </span><span class="p">}</span>
+</span><span id="__span-3-29"><a id="__codelineno-3-29" name="__codelineno-3-29" href="#__codelineno-3-29"></a><span class="w">      </span><span class="p">}</span>
+</span><span id="__span-3-30"><a id="__codelineno-3-30" name="__codelineno-3-30" href="#__codelineno-3-30"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-3-31"><a id="__codelineno-3-31" name="__codelineno-3-31" href="#__codelineno-3-31"></a><span class="w">  </span><span class="p">}</span>
+</span><span id="__span-3-32"><a id="__codelineno-3-32" name="__codelineno-3-32" href="#__codelineno-3-32"></a><span class="p">}</span>
+</span></code></pre></div>
+<hr />
+<h2 id="5-negative-space-detection-formal-algorithm">5. Negative Space Detection: Formal Algorithm<a class="headerlink" href="#5-negative-space-detection-formal-algorithm" title="Permanent link">&para;</a></h2>
+<p>The core algorithmic innovation of the engine is <strong>Negative Space Detection</strong>. </p>
+<p>Let a desired physiological outcome (e.g., <em>Restoration of youthful arterial compliance</em>) be formalized as a root goal node <span class="arithmatex">\(R\)</span>. We decompose <span class="arithmatex">\(R\)</span> recursively into an <strong>Inverse Causal Tree</strong> <span class="arithmatex">\(\mathcal{T} = (\mathcal{V}_{\mathcal{T}}, \mathcal{E}_{\mathcal{T}})\)</span>, where each directed edge <span class="arithmatex">\((u, v) \in \mathcal{E}_{\mathcal{T}}\)</span> represents a strict prerequisite condition: <em>"Condition <span class="arithmatex">\(u\)</span> requires prerequisite <span class="arithmatex">\(v\)</span>"</em>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>[Goal: Restore Arterial Compliance]
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>   └── [Req 1: Degrade Glucosepane Crosslinks]
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>         ├── [Req 1.1: Selective Cleavage Catalyst]
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>         │     ├── [Req 1.1.1: 3D Crystal Structure of Complex]
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>         │     ├── [Req 1.1.2: In Silico Sub-Nanomolar Active Pocket]
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>         │     └── [Req 1.1.3: Modifiable Protein Scaffold]
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>         ├── [Req 1.2: In Vivo ECM Delivery Vehicle]
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>         └── [Req 1.3: Byproduct Safety &amp; Non-Toxicity]
+</span></code></pre></div>
+<h3 id="51-verification-function">5.1 Verification Function<a class="headerlink" href="#51-verification-function" title="Permanent link">&para;</a></h3>
+<p>For each leaf or intermediate node <span class="arithmatex">\(n_i \in \mathcal{V}_{\mathcal{T}}\)</span>, the Negative Space Detector evaluates a mapping function <span class="arithmatex">\(\Psi: \mathcal{V}_{\mathcal{T}} \to \mathcal{P}(\mathcal{V}_{\mathcal{G}})\)</span>:</p>
+<div class="arithmatex">\[\Psi(n_i) = \left\{ v \in \mathcal{V}_{\mathcal{G}} \;\middle|\; \text{match}(v, n_i) \land \exists e \in \mathcal{E}_{\mathcal{G}} \text{ s.t. } \text{status}(e) = \text{PROVEN} \land c(e) \ge \theta \right\}\]</div>
+<p>An <strong>Epistemic Gap</strong> <span class="arithmatex">\(\Gamma(n_i)\)</span> is flagged whenever:</p>
+<div class="arithmatex">\[\Gamma(n_i) = \begin{cases} 
+\text{MISSING\_MECHANISM} &amp; \text{if } \Psi(n_i) = \emptyset \\
+\text{UNPROVEN\_HYPOTHESIS} &amp; \text{if } \exists v \in \mathcal{V}_{\mathcal{G}} \text{ but } \text{status}(e) \ne \text{PROVEN} \lor c(v) &lt; \theta \\
+\text{NULL} &amp; \text{if condition is experimentally satisfied}
+\end{cases}\]</div>
+<h3 id="52-severity-scoring-function">5.2 Severity Scoring Function<a class="headerlink" href="#52-severity-scoring-function" title="Permanent link">&para;</a></h3>
+<p>Every gap is ranked by its downstream propagation impact:</p>
+<div class="arithmatex">\[\text{Severity}(\Gamma) = \text{PriorityWeight}(n_i) \times \left(1 + \sum_{k \in \text{Ancestors}(n_i)} \frac{1}{\text{depth}(k)}\right)\]</div>
+<p>Where <code>CRITICAL</code> <span class="arithmatex">\(= 4\)</span>, <code>HIGH</code> <span class="arithmatex">\(= 3\)</span>, <code>MEDIUM</code> <span class="arithmatex">\(= 2\)</span>, <code>LOW</code> <span class="arithmatex">\(= 1\)</span>.</p>
+<hr />
+<h2 id="6-real-world-execution-trace-milestone-1-benchmark">6. Real-World Execution Trace: Milestone 1 Benchmark<a class="headerlink" href="#6-real-world-execution-trace-milestone-1-benchmark" title="Permanent link">&para;</a></h2>
+<p>When executed on the <strong>Glucosepane (GlycoSENS)</strong> benchmark, the engine ingested:
+- <strong>76 PubMed Papers</strong> (100% full-text abstracts from 1998 to 2026)
+- <strong>190 UniProt Reviewed Swiss-Prot Enzymes</strong> (73 with experimental PDB coordinates, 121 with EC catalytic classifications)
+- <strong>5 KEGG Metabolic Circuits</strong> (453 genes, 117 compounds)
+- <strong>32 ChEMBL Small Molecules &amp; 27 Targets</strong> (529 bioactivity data records)</p>
+<h3 id="knowledge-graph-distribution-327-nodes-174-edges">Knowledge Graph Distribution (327 Nodes, 174 Edges)<a class="headerlink" href="#knowledge-graph-distribution-327-nodes-174-edges" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>Node Distribution:
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>  ├── PROTEIN: 192
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>  ├── PAPER: 79
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>  ├── MOLECULE: 38
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>  ├── UNKNOWN (Gaps): 5
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>  ├── PATHWAY: 5
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>  ├── TISSUE: 4
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>  ├── MECHANISM: 3
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>  └── DAMAGE_CLASS: 1
+</span></code></pre></div>
+<h3 id="top-3-detected-negative-space-voids">Top 3 Detected Negative Space Voids<a class="headerlink" href="#top-3-detected-negative-space-voids" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Gap #1 (🔴 CRITICAL): Missing Selective Glucosepane Hydrolase</strong></li>
+<li><em>Status:</em> <code>MISSING_MECHANISM</code>.</li>
+<li>
+<p><em>Evidence:</em> No enzyme in Swiss-Prot has proven selective cleavage of the glucosepane imidazole ring without hydrolyzing native peptide bonds. Candidate bacterial Class I enzyme (Patent WO2020215043A1) remains unverified in vivo (Confidence: 0.5, Status: <code>UNPROVEN_HYPOTHESIS</code>).</p>
+</li>
+<li>
+<p><strong>Gap #2 (🟠 HIGH): Missing 3D Crystal Structure of Crosslinked Collagen</strong></p>
+</li>
+<li><em>Status:</em> <code>MISSING_MECHANISM</code>.</li>
+<li>
+<p><em>Evidence:</em> Zero PDB entries resolve glucosepane crosslinked within native triple-helix collagen fibers at <span class="arithmatex">\(&lt; 2.5\text{Å}\)</span> resolution.</p>
+</li>
+<li>
+<p><strong>Gap #5 (🟠 HIGH): Dense Arterial ECM Delivery Vector</strong></p>
+</li>
+<li><em>Status:</em> <code>MISSING_MECHANISM</code>.</li>
+<li><em>Evidence:</em> No nanocarrier formulation has demonstrated penetration of heavily fibrotic, calcified arterial media in aged human tissue.</li>
+</ol>
+<hr />
+<h2 id="7-scaling-horizon-from-in-memory-networkx-to-bigquery-c">7. Scaling Horizon: From In-Memory NetworkX to BigQuery &amp; C++<a class="headerlink" href="#7-scaling-horizon-from-in-memory-networkx-to-bigquery-c" title="Permanent link">&para;</a></h2>
+<p>Milestone 1 runs in-memory via NetworkX (<span class="arithmatex">\(O(V + E)\)</span> traversal), ideal for fast prototyping up to <span class="arithmatex">\(10^5\)</span> nodes. As the engine scales across all 7 SENS damage categories (<span class="arithmatex">\(&gt; 10^7\)</span> papers, <span class="arithmatex">\(&gt; 10^8\)</span> proteins), the architecture transitions across explicit scaling boundaries:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>┌─────────────────────────────────────────────────────────────────────────────────┐
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>│                           STORAGE &amp; COMPUTE ROADMAP                             │
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>├──────────────────────┬─────────────────────────────┬────────────────────────────┤
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>│ Dimension            │ Milestone 1 (Current)       │ Milestone 2+ (Production)  │
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>├──────────────────────┼─────────────────────────────┼────────────────────────────┤
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>│ Graph Engine         │ NetworkX (Python RAM)       │ Bare-Metal C++ / Custom DB │
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>│ Storage Layer        │ Sanitized GraphML + JSON    │ Google Cloud BigQuery      │
+</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>│ Ingestion Throughput │ Rate-limited REST (3 req/s) │ Distributed Async Workers  │
+</span><span id="__span-6-9"><a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>│ Entity Extraction    │ Gemini 1.5 Flash + Fallback │ Fine-tuned Bio-LoRA LLM    │
+</span><span id="__span-6-10"><a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>│ Target Scope         │ Glucosepane (GlycoSENS)     │ All 7 SENS Damage Classes  │
+</span><span id="__span-6-11"><a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>│ Downstream Action    │ Static Markdown Reports     │ Automated AlphaFold Dispatch│
+</span><span id="__span-6-12"><a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a>└──────────────────────┴─────────────────────────────┴────────────────────────────┘
+</span></code></pre></div>
+<hr />
+<h2 id="8-conclusion">8. Conclusion<a class="headerlink" href="#8-conclusion" title="Permanent link">&para;</a></h2>
+<p>The Universal Inverse Design Engine proves that <strong>biological aging can be modeled as a computable, finite graph traversal problem</strong>. By mapping what humanity does <em>not</em> know with mathematical rigor, the system cuts through the noise of millions of research papers to point compute, capital, and wet-lab resources directly at the true bottlenecks of human rejuvenation.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../02_engineering_manifesto/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Engineering Manifesto">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Engineering Manifesto
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Thokchom Lolet Singh
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/thokchomlolet03-cpu" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://linkedin.com" target="_blank" rel="noopener" title="linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.code.annotate", "content.tooltips"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
