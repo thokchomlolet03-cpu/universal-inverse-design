@@ -118,6 +118,14 @@ uid visualize --target glucosepane
 
 <div class="grid cards" markdown>
 
+-   :material-microscope: **Deep Technical Analysis**
+
+    ---
+
+    *Universal Inverse Design Engine: A Deep Technical Analysis of the Autonomous Biomedical Discovery System*
+
+    [:octicons-arrow-right-24: Read Full Analysis](blog/03_deep_technical_analysis.md)
+
 -   :material-file-document: **Engineering Manifesto**
 
     ---

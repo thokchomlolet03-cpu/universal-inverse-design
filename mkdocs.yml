@@ -112,5 +112,6 @@ plugins:
 
 nav:
   - Home: index.md
+  - Deep Technical Analysis: blog/03_deep_technical_analysis.md
   - Engineering Manifesto: blog/02_engineering_manifesto.md
   - System Architecture: blog/01_system_architecture.md
