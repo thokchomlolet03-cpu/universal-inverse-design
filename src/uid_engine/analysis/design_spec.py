@@ -28,8 +28,8 @@ console = Console()
 KNOWN_TARGET_SUBSTRATES = {
     "glucosepane": {
         "name": "Glucosepane",
-        "smiles": "NCCCC(N)C(=O)O.NC(CCC1=NC=C(NC1)CCCC(N)C(=O)O)C(=O)O",
-        "description": "Crosslink formed between lysine and arginine residues on collagen/elastin.",
+        "smiles": "O=C(O)[C@@H](N)CCCCNC1=NC2=C(N1)CC(O)[C@H](NCC[C@@H](N)C(=O)O)CN2",
+        "description": "Bicyclic 5,6,7,8-tetrahydroimidazo[4,5-d]azepine core crosslinking lysine and arginine residues.",
         "catalytic_goal": "Selective amidine/imidazole ring hydrolysis preserving native peptide backbone.",
     },
     "senescent_cells": {
