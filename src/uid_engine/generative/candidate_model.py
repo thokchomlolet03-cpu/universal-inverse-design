@@ -31,6 +31,10 @@ class ScreeningResult:
     mean_plddt: float
     sc_rmsd: float
     gravy_score: float
+    gate_5_docking: Optional[bool] = None
+    gate_6_selectivity: Optional[bool] = None
+    binding_energy_kcal_mol: Optional[float] = None
+    selectivity_ratio: Optional[float] = None
     failure_reasons: list[str] = field(default_factory=list)
 
 

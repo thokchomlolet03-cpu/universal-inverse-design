@@ -255,8 +255,20 @@ _HTML_TEMPLATE = """<!DOCTYPE html>
           style: { 'line-color': '#10b981', 'target-arrow-color': '#10b981' }
         },
         {
-          selector: 'edge[status = "HYPOTHESIZED"]',
+          selector: 'edge[status = "HYPOTHESIZED_IN_SILICO"], edge[status = "HYPOTHESIZED"]',
           style: { 'line-color': '#f59e0b', 'target-arrow-color': '#f59e0b', 'line-style': 'dashed' }
+        },
+        {
+          selector: 'edge[status = "SYNTHESIS_ORDERED"]',
+          style: { 'line-color': '#38bdf8', 'target-arrow-color': '#38bdf8', 'line-style': 'dashed' }
+        },
+        {
+          selector: 'edge[status = "ASSAY_VALIDATED"]',
+          style: { 'line-color': '#06b6d4', 'target-arrow-color': '#06b6d4' }
+        },
+        {
+          selector: 'edge[status = "ANIMAL_MODEL_TESTED"]',
+          style: { 'line-color': '#8b5cf6', 'target-arrow-color': '#8b5cf6' }
         },
         {
           selector: 'edge[status = "FAILED"]',

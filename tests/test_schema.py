@@ -60,14 +60,14 @@ class TestEdgeData:
     def test_to_dict_includes_status_as_string(self):
         ed = EdgeData(
             edge_type=EdgeType.CATALYZES,
-            status=EvidenceStatus.HYPOTHESIZED,
+            status=EvidenceStatus.HYPOTHESIZED_IN_SILICO,
             confidence=0.5,
             source="PMID:12345",
             context="enzyme showed weak activity",
         )
         d = ed.to_dict()
         assert d["edge_type"] == "CATALYZES"
-        assert d["status"] == "HYPOTHESIZED"
+        assert d["status"] == "HYPOTHESIZED_IN_SILICO"
         assert d["confidence"] == 0.5
 
     def test_default_status_is_proven(self):
@@ -85,7 +85,7 @@ class TestEnumCounts:
         assert len(EdgeType) == 11
 
     def test_evidence_status_count(self):
-        assert len(EvidenceStatus) == 4
+        assert len(EvidenceStatus) == 7
 
     def test_gap_priority_count(self):
         assert len(GapPriority) == 4

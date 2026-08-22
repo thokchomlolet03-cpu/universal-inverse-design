@@ -419,7 +419,7 @@ def build_mock_glucosepane_graph() -> EpistemicGraph:
     # Bacterial enzyme — candidate, in vitro only
     g.add_edge("protein:bacterial_class_i_enzyme", "mol:glucosepane", EdgeData(
         edge_type=EdgeType.DEGRADES,
-        status=EvidenceStatus.HYPOTHESIZED,
+        status=EvidenceStatus.HYPOTHESIZED_IN_SILICO,
         confidence=0.5,
         source="Patent:WO2020215043A1",
         context="in vitro activity demonstrated, releases citrulline",

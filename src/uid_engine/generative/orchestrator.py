@@ -183,7 +183,7 @@ def inject_candidate_into_graph(
             target_node,
             EdgeData(
                 edge_type=edge_type,
-                status=EvidenceStatus.HYPOTHESIZED,
+                status=EvidenceStatus.HYPOTHESIZED_IN_SILICO,
                 confidence=0.5,
                 source=f"DeNovoDesign:{candidate.generation_model}",
                 context=f"In silico designed candidate addressing {candidate.causal_gap_id}",

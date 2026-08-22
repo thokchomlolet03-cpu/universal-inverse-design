@@ -50,10 +50,13 @@ class EdgeType(str, Enum):
 class EvidenceStatus(str, Enum):
     """The experimental validation status of a causal relationship."""
 
-    PROVEN = "PROVEN"               # Experimentally validated (in vitro or in vivo)
-    HYPOTHESIZED = "HYPOTHESIZED"   # Proposed but not yet tested
-    FAILED = "FAILED"               # Tested and found to NOT work
-    UNKNOWN = "UNKNOWN"             # Status cannot be determined
+    PROVEN = "PROVEN"                                   # Experimentally validated (in vitro or in vivo peer-reviewed data)
+    HYPOTHESIZED_IN_SILICO = "HYPOTHESIZED_IN_SILICO"   # Computationally generated and passed all in silico QC gates
+    SYNTHESIS_ORDERED = "SYNTHESIS_ORDERED"             # Transferred to wet lab / gene synthesis pipeline
+    ASSAY_VALIDATED = "ASSAY_VALIDATED"                 # In vitro enzymatic activity / target cleavage confirmed
+    ANIMAL_MODEL_TESTED = "ANIMAL_MODEL_TESTED"         # In vivo safety and efficacy validated in mammalian model
+    FAILED = "FAILED"                                   # Tested and found to NOT work
+    UNKNOWN = "UNKNOWN"                                 # Status undetermined
 
 
 # ─── Gap Priority ────────────────────────────────────────────────────────────────

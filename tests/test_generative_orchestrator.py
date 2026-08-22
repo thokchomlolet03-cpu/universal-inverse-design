@@ -91,7 +91,7 @@ class TestGenerativeOrchestrator:
         assert graph.has_edge(node_id, "mol:glucosepane")
         edge_data = graph.get_edge(node_id, "mol:glucosepane")
         assert edge_data["edge_type"] == "DEGRADES"
-        assert edge_data["status"] == "HYPOTHESIZED"
+        assert edge_data["status"] == "HYPOTHESIZED_IN_SILICO"
 
     def test_gap_detector_state_transition_when_candidate_present(self):
         graph = build_mock_glucosepane_graph()

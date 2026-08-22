@@ -43,6 +43,8 @@ class EpistemicGap:
     downstream_impact: list[str]            # What other goals are blocked by this gap
     source_evidence: list[str]              # Papers/sources that define the boundary of knowledge
     suggested_directions: list[str]         # Potential research approaches
+    redundancy_index: float = 0.0           # Network redundancy risk (0.0 = bottleneck, 1.0 = highly buffered)
+    network_betweenness: float = 0.0        # Graph betweenness centrality score
 
     def severity_score(self) -> int:
         """Numerical severity: CRITICAL=4, HIGH=3, MEDIUM=2, LOW=1."""
@@ -269,13 +271,20 @@ class NegativeSpaceDetector:
             hypothesized_edges = self._edge_type_index.get(
                 causal_node.required_edge_type, []
             )
+            CANDIDATE_STATUSES = {
+                EvidenceStatus.HYPOTHESIZED_IN_SILICO.value,
+                EvidenceStatus.SYNTHESIS_ORDERED.value,
+                EvidenceStatus.ASSAY_VALIDATED.value,
+                EvidenceStatus.ANIMAL_MODEL_TESTED.value,
+            }
             for source_id, target_id, edge_data in hypothesized_edges:
-                if edge_data.get("status") == EvidenceStatus.HYPOTHESIZED.value:
+                edge_status = edge_data.get("status")
+                if edge_status in CANDIDATE_STATUSES:
                     node_data = self.graph.get_node(source_id)
                     candidates.append({
                         "entity_id": source_id,
                         "name": node_data.get("name", ""),
-                        "status": "HYPOTHESIZED (not yet proven)",
+                        "status": f"{edge_status} (candidate pending full empirical proof)",
                         "confidence": edge_data.get("confidence", 0),
                         "source": edge_data.get("source", ""),
                         "context": edge_data.get("context", ""),
