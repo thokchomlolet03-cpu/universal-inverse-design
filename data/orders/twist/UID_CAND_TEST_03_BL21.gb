@@ -1,0 +1,47 @@
+LOCUS       UID_CAND_TEST_03_BL21         816 bp    DNA     linear   SYN 22-AUG-2026
+DEFINITION  De novo designed glucosepane candidate for E. coli BL21(DE3) expression.
+ACCESSION   CAND-TEST-03
+VERSION     1.0
+KEYWORDS    UID-Engine; DeNovoDesign; SENS; TwistBioscience.
+SOURCE      Synthetic construct
+  ORGANISM  Synthetic construct
+            other sequences; artificial sequences.
+FEATURES             Location/Qualifiers
+     source          1..816
+                     /organism="Synthetic construct"
+                     /mol_type="other DNA"
+     misc_feature    1..6
+                     /label="NdeI Restriction Site"
+                     /note="CATATG (Contains Start Codon)"
+     tag             7..24
+                     /label="6xHis Tag"
+                     /note="N-terminal Ni-NTA IMAC affinity purification"
+     misc_feature    25..45
+                     /label="TEV Cleavage Site"
+                     /note="ENLYFQG recognition motif"
+     CDS             46..804
+                     /label="CAND-TEST-03 De Novo Payload"
+                     /translation="MKLLVTALLALLAHHASEDYKPNDVDYIEENLYFQGHISDAPSLVTEEQVALVKGKLVEVTKEEVDAAEELVSEVKKEVEEAEELVDEVKKAVEEAKKLVEAVKKAVEEAKKLVEEVKKAVEEAKKLVEDVKKAVEEAKKLVEAVKKAVEEAKKLVEEVKKAVEEAKKLVEAVKKAVEEAKKLVEAVKKAVEEAKKLVEEVKKAVEEAKKLVEAVKKAVEEAKKLVEAVKKAVEEAKKLVEAVKKAVEEAKKL"
+                     /codon_start=1
+     misc_feature    805..810
+                     /label="Tandem Dual Stop Codon"
+                     /note="TAATGA"
+     misc_feature    811..816
+                     /label="XhoI Restriction Site"
+                     /note="CTCGAG"
+ORIGIN
+        1 catatgcatc accatcacca tcacgaaaac ctgtattttc agggcatgaa actgctggtg
+       61 accgcgttac tggcgttact ggctcatcat gcgtctgaag attataaacc gaacgatgtg
+      121 gattatattg aagaaaacct gtattttcag ggtcatatta gcgatgcgcc gagcctggtg
+      181 accgaagaac aggtggcgct ggtgaaaggt aaactggtgg aagtgaccaa agaagaagtg
+      241 gatgcggcgg aagaactggt gagcgaagtg aaaatagaag tggaagaagc ggaagaactg
+      301 gtggatgaag tgaaaatagc ggtggaagaa gcgaaaatac tggtggaagc ggtgaaaata
+      361 gcggtggaag aagcgaaaat actggtggaa gaagtgaaaa tagcggtgga agaagcgaaa
+      421 atactggtgg aagatgtgaa aatagcggtg gaagaagcga aaatactggt ggaagcggtg
+      481 aaaatagcgg tggaagaagc gaaaatactg gtggaagaag tgaaaatagc ggtggaagaa
+      541 gcgaaaatac tggtggaagc ggtgaaaata gcggtggaag aagcgaaaat actggtggaa
+      601 gcggtgaaaa tagcggtgga agaagcgaaa atactggtgg aagaagtgaa aatagcggtg
+      661 gaagaagcga aaatactggt ggaagcggtg aaaatagcgg tggaagaagc gaaaatactg
+      721 gtggaagcgg tgaaaatagc ggtggaagaa gcgaaaatac tggtggaagc ggtgaaaata
+      781 gcggtggaag aagcgaaaat actgtaatga ctcgag
+//
